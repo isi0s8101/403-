@@ -1,0 +1,14 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS R06 mission militaire assignée à un plan
+PASS R06 navette réelle retirée au départ
+PASS R06 soldats et bâtisseur embarqués physiquement
+PASS S01 mission et identité sauvegardées en transit
+PASS R06 une seule livraison des renforts
+PASS R06 population embarquée et débarquée conservée
+PASS R06 stock porté conservé pendant le vol
+PASS R06 contrat repris après débarquement
+PASS R06 contrat repris après débarquement
+PASS R05 composition globale inclut les unités déjà acheminées
+PASS D09 colonie fondée à l'âge VII local
+EVOLUTION_LOGISTICS_RESULT checks=11 failures=0

@@ -1,0 +1,23 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS inventaire réel matérialisé sans vaisseau gratuit
+PASS route réelle autour de la planète
+PASS déplacement avec durée, sans téléportation
+PASS point dans la planète refusé sans mutation
+PASS carte orbitale sauvegardée
+PASS reprise des positions, chemins et délais déterministe
+PASS départ d'une sélection précise
+PASS seul le vaisseau choisi quitte l'orbite
+PASS arrivée physique et dégâts conservés
+PASS flotte importée pilotable sans nouvelle usine locale
+PASS attaque directe sur cible visible
+PASS station ennemie verrouille encore le débarquement
+PASS station détruite par les tirs réellement simulés
+PASS destruction lève le verrou orbital
+PASS lecture du trafic sans mutation de la campagne
+PASS placement d'un module, coût prélevé une seule fois
+PASS emplacement de la construction conservé en sauvegarde
+PASS module achevé à l'emplacement choisi
+PASS nouveau vaisseau envoyé automatiquement au ralliement
+PASS évolution du vaisseau appliquée sans soin gratuit
+ORBIT_TACTICAL_RESULT checks=20 failures=0

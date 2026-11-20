@@ -1,0 +1,1148 @@
+{
+	"engine": "4.7.2-stable (official)",
+	"models": [
+		{
+			"age": 1.0,
+			"bounds_min": [
+				-1.94000005722046,
+				-0.00999999791383743,
+				-1.66999995708466
+			],
+			"category": "building",
+			"family": "centre",
+			"file": "bld_centre_a01.scn",
+			"id": "bld_centre_a01",
+			"sha256": "ce266b5625e08fca1068351f86b83af450031ca782b927495bf97028cf795afe",
+			"size": [
+				3.88000011444092,
+				4.8600001335144,
+				3.68000030517578
+			],
+			"source_sha256": "6b238c67f4eb17703ec37a194b969fd97b314da77d5ddad865bdd36ff99d6a14",
+			"triangles": 1680.0
+		},
+		{
+			"age": 1.0,
+			"bounds_min": [
+				-1.94000005722046,
+				-0.00999999791383743,
+				-1.66999995708466
+			],
+			"category": "building",
+			"family": "maison",
+			"file": "bld_maison_a01.scn",
+			"id": "bld_maison_a01",
+			"sha256": "b5d1f6870b9fd5cd3ed37b341e4de01d50013cd9aaf189460b7c35f80a47ac02",
+			"size": [
+				3.88000011444092,
+				2.71499991416931,
+				3.68000030517578
+			],
+			"source_sha256": "e37c740cf60470dbfa2878a105239dffa56f6f895aa1910b938df17c4c66ff21",
+			"triangles": 1584.0
+		},
+		{
+			"age": 1.0,
+			"bounds_min": [
+				-1.94000005722046,
+				-0.00999999791383743,
+				-1.66999995708466
+			],
+			"category": "building",
+			"family": "caserne",
+			"file": "bld_caserne_a01.scn",
+			"id": "bld_caserne_a01",
+			"sha256": "5aeafc543f140bf22fbcb523484cee384bc02f9b48dead6dc1ee50df470a0dc2",
+			"size": [
+				3.88000011444092,
+				3.41499972343445,
+				3.68000030517578
+			],
+			"source_sha256": "0bc85a35dea69e42819c9b17e988c4bb162882b30b4538474c422de85b9bcc71",
+			"triangles": 1578.0
+		},
+		{
+			"age": 1.0,
+			"bounds_min": [
+				-1.94000005722046,
+				-0.00999999791383743,
+				-1.66999995708466
+			],
+			"category": "building",
+			"family": "entrepot",
+			"file": "bld_entrepot_a01.scn",
+			"id": "bld_entrepot_a01",
+			"sha256": "39dad4d715202e1d217cd4a526246fc77e7bd120f7be327b963619f921df7cf2",
+			"size": [
+				3.88000011444092,
+				3.30999970436096,
+				3.68000030517578
+			],
+			"source_sha256": "b852d6e627e84ae3bb02f4336ea8078f2d594b2e4d2b96f6cafdeec998060159",
+			"triangles": 2308.0
+		},
+		{
+			"age": 1.0,
+			"bounds_min": [
+				-1.94000005722046,
+				-0.00999999791383743,
+				-1.66999995708466
+			],
+			"category": "building",
+			"family": "atelier",
+			"file": "bld_atelier_a01.scn",
+			"id": "bld_atelier_a01",
+			"sha256": "09e548a8ad6b4ea36fb3668d3efd024bdd658f6f085eb34663d51c31a45522a5",
+			"size": [
+				3.88000011444092,
+				3.30999970436096,
+				3.68000030517578
+			],
+			"source_sha256": "46e661b8c96ecc7c1cbedd8631a03211d7fef9eed89b21643b54583e8911598d",
+			"triangles": 2176.0
+		},
+		{
+			"age": 1.0,
+			"bounds_min": [
+				-1.89999997615814,
+				-0.00999999791383743,
+				-1.60000002384186
+			],
+			"category": "building",
+			"family": "marche",
+			"file": "bld_marche_a01.scn",
+			"id": "bld_marche_a01",
+			"sha256": "36af9ec5ede35a35fd00ca94a668a04022790d51cbe9017752f824dc20768b50",
+			"size": [
+				3.79999995231628,
+				2.54500007629395,
+				3.6100001335144
+			],
+			"source_sha256": "c8bc25d28b361461f6f1f09067d47469a29464310cab27422892d55d698b047d",
+			"triangles": 1736.0
+		},
+		{
+			"age": 1.0,
+			"bounds_min": [
+				-1.94000005722046,
+				-0.00999999791383743,
+				-1.66999995708466
+			],
+			"category": "building",
+			"family": "usine",
+			"file": "bld_usine_a01.scn",
+			"id": "bld_usine_a01",
+			"sha256": "d63ab4a97b3205ac8798ff2728cd66b3ff025c20920f691d0fec8700dfa4b52a",
+			"size": [
+				3.88000011444092,
+				3.30999970436096,
+				3.68000030517578
+			],
+			"source_sha256": "46419db9febd72cc9190a973e5c951bb9e591e66a88fcf43a54fa5d618853988",
+			"triangles": 2176.0
+		},
+		{
+			"age": 1.0,
+			"bounds_min": [
+				-1.94000005722046,
+				-0.00999999791383743,
+				-1.66999995708466
+			],
+			"category": "building",
+			"family": "academie",
+			"file": "bld_academie_a01.scn",
+			"id": "bld_academie_a01",
+			"sha256": "0563bd7f428e0a95688f633608c5c4d3d3be00ebfd92bd2536acbac3e81f8cb3",
+			"size": [
+				3.88000011444092,
+				3.41499972343445,
+				3.68000030517578
+			],
+			"source_sha256": "9a19f20479bb72730d174f091b1cbb5a8a15a653052b0a52bb3b5be1b0eb1355",
+			"triangles": 1476.0
+		},
+		{
+			"age": 1.0,
+			"bounds_min": [
+				-1.94000005722046,
+				-0.00999999791383743,
+				-1.66999995708466
+			],
+			"category": "building",
+			"family": "depot",
+			"file": "bld_depot_a01.scn",
+			"id": "bld_depot_a01",
+			"sha256": "d963f38adf7fb025809ce68f10b54030e3ce38a67c9e6f7a953b77c0cc594b5f",
+			"size": [
+				3.88000011444092,
+				3.30999970436096,
+				3.68000030517578
+			],
+			"source_sha256": "0ca50cc512b2a787fc79db3fe91a1efd7d933bd4ad054b72baf58b7a128b3515",
+			"triangles": 2308.0
+		},
+		{
+			"age": 1.0,
+			"bounds_min": [
+				-1.89999997615814,
+				-0.00999999791383743,
+				-1.60000002384186
+			],
+			"category": "building",
+			"family": "fort",
+			"file": "bld_fort_a01.scn",
+			"id": "bld_fort_a01",
+			"sha256": "57d656928643af0009763ca284eca9e8dd196f4412574a9e882d9f56362cb814",
+			"size": [
+				3.79999995231628,
+				3.96000003814697,
+				3.6100001335144
+			],
+			"source_sha256": "1729403db09f619ad49e473ff3957d17f38f3a92529a0ab7131ceb41920d8048",
+			"triangles": 1678.0
+		},
+		{
+			"age": 1.0,
+			"bounds_min": [
+				-1.89999997615814,
+				-0.00999999791383743,
+				-1.60000002384186
+			],
+			"category": "building",
+			"family": "palissade",
+			"file": "bld_palissade_a01.scn",
+			"id": "bld_palissade_a01",
+			"sha256": "ec7aa3522a9836509fae2861b15bc068206185ff7d2190e5504590b7bd5572c4",
+			"size": [
+				3.79999995231628,
+				1.74957430362701,
+				3.6100001335144
+			],
+			"source_sha256": "8fbe81c48296d26ea0a9968d1c0ecbec9c7a2a8ef838967bda2b888dd78c00a2",
+			"triangles": 628.0
+		},
+		{
+			"age": 3.0,
+			"bounds_min": [
+				-1.94000005722046,
+				-0.00999999791383743,
+				-1.66999995708466
+			],
+			"category": "building",
+			"family": "centre",
+			"file": "bld_centre_a03.scn",
+			"id": "bld_centre_a03",
+			"sha256": "83183b46d4c5dcc7f705c406d92caf57147724f49357e599b6f94471e9192a23",
+			"size": [
+				3.88000011444092,
+				4.8600001335144,
+				3.68000030517578
+			],
+			"source_sha256": "5d762d6e36e7a8d286976b8f7708703e3b87ead22f430d32117fdef8619a8916",
+			"triangles": 2340.0
+		},
+		{
+			"age": 3.0,
+			"bounds_min": [
+				-1.94000005722046,
+				-0.00999999791383743,
+				-1.66999995708466
+			],
+			"category": "building",
+			"family": "maison",
+			"file": "bld_maison_a03.scn",
+			"id": "bld_maison_a03",
+			"sha256": "8474e7358fce60e84c19267bba75769fa7c80f644eef60872946d6505b8664b6",
+			"size": [
+				3.88000011444092,
+				2.91499972343445,
+				3.68000030517578
+			],
+			"source_sha256": "79ee7c6dec0bbc32889ef8bdfa5cb3b94240d8f350405ca76dd255cb1fe78b58",
+			"triangles": 2244.0
+		},
+		{
+			"age": 3.0,
+			"bounds_min": [
+				-1.94000005722046,
+				-0.00999999791383743,
+				-1.66999995708466
+			],
+			"category": "building",
+			"family": "caserne",
+			"file": "bld_caserne_a03.scn",
+			"id": "bld_caserne_a03",
+			"sha256": "00b1beb873e1af21dcccf1f3d615388f4673f79c6b0f3e0631b67d43a92a0028",
+			"size": [
+				3.88000011444092,
+				3.61499953269958,
+				3.68000030517578
+			],
+			"source_sha256": "c9e5fb2c445a9f083d9dbb179c71b8ef724ff936f0ab2967412530251669d05d",
+			"triangles": 2238.0
+		},
+		{
+			"age": 3.0,
+			"bounds_min": [
+				-1.94000005722046,
+				-0.00999999791383743,
+				-1.66999995708466
+			],
+			"category": "building",
+			"family": "entrepot",
+			"file": "bld_entrepot_a03.scn",
+			"id": "bld_entrepot_a03",
+			"sha256": "3c3ca732c769481a291cde5bd6da2e638cbb3945f7afee393b5f1951684af4d1",
+			"size": [
+				3.88000011444092,
+				3.30999970436096,
+				3.68000030517578
+			],
+			"source_sha256": "f1e3efaef001ee2be67d3055883c22f8340901175bec5767dc75ea40bcc9deee",
+			"triangles": 2348.0
+		},
+		{
+			"age": 3.0,
+			"bounds_min": [
+				-1.94000005722046,
+				-0.00999999791383743,
+				-1.66999995708466
+			],
+			"category": "building",
+			"family": "atelier",
+			"file": "bld_atelier_a03.scn",
+			"id": "bld_atelier_a03",
+			"sha256": "4aecdc72e93bd5c27c7f3ac9de8d68e52a5f39e7e76a880187d72e912dda49ae",
+			"size": [
+				3.88000011444092,
+				3.30999970436096,
+				3.68000030517578
+			],
+			"source_sha256": "1601d21270e7560df7b76a14d2ebca1158c3b00cd9c9445c635beebc082fa0e5",
+			"triangles": 2216.0
+		},
+		{
+			"age": 3.0,
+			"bounds_min": [
+				-1.89999997615814,
+				-0.00999999791383743,
+				-1.60000002384186
+			],
+			"category": "building",
+			"family": "marche",
+			"file": "bld_marche_a03.scn",
+			"id": "bld_marche_a03",
+			"sha256": "a1adcca7f820c2545e48b24f189ed3c50aebb86394e163749909d4b3b3e69801",
+			"size": [
+				3.79999995231628,
+				2.54500007629395,
+				3.6100001335144
+			],
+			"source_sha256": "2826fc8390396f9cfbba3b9acae8d1b31dd8c92ede6cf46779cfb567fe2ebdf2",
+			"triangles": 1736.0
+		},
+		{
+			"age": 3.0,
+			"bounds_min": [
+				-1.94000005722046,
+				-0.00999999791383743,
+				-1.66999995708466
+			],
+			"category": "building",
+			"family": "usine",
+			"file": "bld_usine_a03.scn",
+			"id": "bld_usine_a03",
+			"sha256": "dbc33d6ca4994d6edb558840e133f92199db5faf333fe53efe97e65020f4a2f0",
+			"size": [
+				3.88000011444092,
+				3.30999970436096,
+				3.68000030517578
+			],
+			"source_sha256": "2ba83dc04537b9183cb4cb8df3f1496560afa024acd9f5bc38b8456421bcae87",
+			"triangles": 2836.0
+		},
+		{
+			"age": 3.0,
+			"bounds_min": [
+				-1.94000005722046,
+				-0.00999999791383743,
+				-1.66999995708466
+			],
+			"category": "building",
+			"family": "academie",
+			"file": "bld_academie_a03.scn",
+			"id": "bld_academie_a03",
+			"sha256": "3269975f107425d5854a78ed74512b229f130e91ed30e3ad4c1ca9e78e141dfa",
+			"size": [
+				3.88000011444092,
+				3.61499953269958,
+				3.68000030517578
+			],
+			"source_sha256": "e5444b71defbd06eca732ab935c9ce3b2b39eb73625bf4407b2b8c7daf53391c",
+			"triangles": 2136.0
+		},
+		{
+			"age": 3.0,
+			"bounds_min": [
+				-1.94000005722046,
+				-0.00999999791383743,
+				-1.66999995708466
+			],
+			"category": "building",
+			"family": "depot",
+			"file": "bld_depot_a03.scn",
+			"id": "bld_depot_a03",
+			"sha256": "452c377cbfe49a3d2cc4cfec4edb78c02f3a26a1f173e8c44b7a1ddea2b2447e",
+			"size": [
+				3.88000011444092,
+				3.30999970436096,
+				3.68000030517578
+			],
+			"source_sha256": "4a7c4f4b7c74f8dc3497a240c7817e6da709d5612ee9838c6938e307f6f2f266",
+			"triangles": 2348.0
+		},
+		{
+			"age": 3.0,
+			"bounds_min": [
+				-1.89999997615814,
+				-0.00999999791383743,
+				-1.60000002384186
+			],
+			"category": "building",
+			"family": "fort",
+			"file": "bld_fort_a03.scn",
+			"id": "bld_fort_a03",
+			"sha256": "a20cd93eafb43fb9f1c579c8ac585af804b6a8dadfecd9174910f65654ffdbd6",
+			"size": [
+				3.79999995231628,
+				3.96000003814697,
+				3.6100001335144
+			],
+			"source_sha256": "9b6ee0f7e0c085776663cacc97ccd748f9ef172f7c74d63d270c21baedbf13c4",
+			"triangles": 1678.0
+		},
+		{
+			"age": 3.0,
+			"bounds_min": [
+				-1.89999997615814,
+				-0.00999999791383743,
+				-1.60000002384186
+			],
+			"category": "building",
+			"family": "palissade",
+			"file": "bld_palissade_a03.scn",
+			"id": "bld_palissade_a03",
+			"sha256": "e7b74d365f4845f996c6fd89ecb6b8efbbef58709b1bc4ec7d40cca05a9e53a7",
+			"size": [
+				3.79999995231628,
+				1.74957430362701,
+				3.6100001335144
+			],
+			"source_sha256": "231ed812f824a8c69fa92569574e45ed7467414e91548b691a2389b727372315",
+			"triangles": 628.0
+		},
+		{
+			"age": 6.0,
+			"bounds_min": [
+				-1.89999997615814,
+				-0.00999999791383743,
+				-1.60000002384186
+			],
+			"category": "building",
+			"family": "centre",
+			"file": "bld_centre_a06.scn",
+			"id": "bld_centre_a06",
+			"sha256": "6f72e6c4a05408178cf66f9aef6eb20bad474313b19fe24e0fe80e090a26d99b",
+			"size": [
+				3.79999995231628,
+				4.8600001335144,
+				3.6100001335144
+			],
+			"source_sha256": "58280bd1e248c0ce6817eb318dd3fc5d9b3ff54c7be0490354c25bc0ce29e0e5",
+			"triangles": 2152.0
+		},
+		{
+			"age": 6.0,
+			"bounds_min": [
+				-1.89999997615814,
+				-0.00999999791383743,
+				-1.60000002384186
+			],
+			"category": "building",
+			"family": "maison",
+			"file": "bld_maison_a06.scn",
+			"id": "bld_maison_a06",
+			"sha256": "fe36e0c65d8f9aabee1d553aab2e0edbf36392241b2701d9b0dcdaa9c6e22077",
+			"size": [
+				3.79999995231628,
+				2.95999979972839,
+				3.6100001335144
+			],
+			"source_sha256": "cd3e7ed8b6fe8806581830dc7765bd7c4cf8b1f12923c453b4b5acdece9725f5",
+			"triangles": 2056.0
+		},
+		{
+			"age": 6.0,
+			"bounds_min": [
+				-1.89999997615814,
+				-0.00999999791383743,
+				-1.60000002384186
+			],
+			"category": "building",
+			"family": "caserne",
+			"file": "bld_caserne_a06.scn",
+			"id": "bld_caserne_a06",
+			"sha256": "179b76671601b81648d9e064bc0cbbef2b59335d5beeea072bba37c1d6fdd73f",
+			"size": [
+				3.79999995231628,
+				3.66000008583069,
+				3.6100001335144
+			],
+			"source_sha256": "7a7e2242f42259eb3e10e5b119c2f9e19d27618d72e3e2051773a69486af5537",
+			"triangles": 2050.0
+		},
+		{
+			"age": 6.0,
+			"bounds_min": [
+				-1.89999997615814,
+				-0.00999999791383743,
+				-1.60000002384186
+			],
+			"category": "building",
+			"family": "entrepot",
+			"file": "bld_entrepot_a06.scn",
+			"id": "bld_entrepot_a06",
+			"sha256": "1d46c8fa23cc3474c82ec40f7d8c1f05c3bea5ed8e9cb550c268ab49b95e9872",
+			"size": [
+				3.79999995231628,
+				3.30999970436096,
+				3.6100001335144
+			],
+			"source_sha256": "20ce008dc26734d62fc4752ab6b5f6ac338f92a2b2382391bb4f06469f31e444",
+			"triangles": 2160.0
+		},
+		{
+			"age": 6.0,
+			"bounds_min": [
+				-1.89999997615814,
+				-0.00999999791383743,
+				-1.60000002384186
+			],
+			"category": "building",
+			"family": "atelier",
+			"file": "bld_atelier_a06.scn",
+			"id": "bld_atelier_a06",
+			"sha256": "c6933b22a217a7d98b91082169b9c0d58dc109c2958da68f2e84cf7adb74484e",
+			"size": [
+				3.79999995231628,
+				3.30999970436096,
+				3.6100001335144
+			],
+			"source_sha256": "ac824ec2a7c77fae633ed67e2cc03fd9b574c3928980ff4734980415d1ed86c4",
+			"triangles": 2028.0
+		},
+		{
+			"age": 6.0,
+			"bounds_min": [
+				-1.89999997615814,
+				-0.00999999791383743,
+				-1.60000002384186
+			],
+			"category": "building",
+			"family": "marche",
+			"file": "bld_marche_a06.scn",
+			"id": "bld_marche_a06",
+			"sha256": "abc36f1c17501cd47ea1fa48fb8a4d6391d6f0c97776e08ef0bd03c5c3567a1e",
+			"size": [
+				3.79999995231628,
+				2.54500007629395,
+				3.6100001335144
+			],
+			"source_sha256": "5ba174d2f34549ef5cbde1f95386671d4bf67b0efc8bf51ff972b908dd0c7092",
+			"triangles": 1736.0
+		},
+		{
+			"age": 6.0,
+			"bounds_min": [
+				-1.89999997615814,
+				-0.00999999791383743,
+				-1.60000002384186
+			],
+			"category": "building",
+			"family": "usine",
+			"file": "bld_usine_a06.scn",
+			"id": "bld_usine_a06",
+			"sha256": "2beb33cb45d25692886ae65fb53aed39eb142aff9f7fef3595570f76eb7a6f84",
+			"size": [
+				3.79999995231628,
+				3.30999970436096,
+				3.6100001335144
+			],
+			"source_sha256": "131a5d909ae204f7f3811e5396f18ffb5ab815c2e15c31588a2c1c1f6bc1bfff",
+			"triangles": 2648.0
+		},
+		{
+			"age": 6.0,
+			"bounds_min": [
+				-1.89999997615814,
+				-0.00999999791383743,
+				-1.60000002384186
+			],
+			"category": "building",
+			"family": "academie",
+			"file": "bld_academie_a06.scn",
+			"id": "bld_academie_a06",
+			"sha256": "f4652a5d7a9ee81c8eec8c62531865bf909aa2af1cb6792f8c9df8201f204f50",
+			"size": [
+				3.79999995231628,
+				3.66000008583069,
+				3.6100001335144
+			],
+			"source_sha256": "c35e02016d5ef4178346826c1d555dc1139831274a7ed02725d786cd1bf1e659",
+			"triangles": 1948.0
+		},
+		{
+			"age": 6.0,
+			"bounds_min": [
+				-1.89999997615814,
+				-0.00999999791383743,
+				-1.60000002384186
+			],
+			"category": "building",
+			"family": "depot",
+			"file": "bld_depot_a06.scn",
+			"id": "bld_depot_a06",
+			"sha256": "352f000e94362d798b8f6bfb5c079a156e50ce30d4ad852d8fb2872dfb358ff2",
+			"size": [
+				3.79999995231628,
+				3.30999970436096,
+				3.6100001335144
+			],
+			"source_sha256": "f5c4ee4d7b3e620175f5efeee1eb6a8c3b42ccea01431f5a2a4bc77d4ec7ef0b",
+			"triangles": 2160.0
+		},
+		{
+			"age": 6.0,
+			"bounds_min": [
+				-1.89999997615814,
+				-0.00999999791383743,
+				-1.60000002384186
+			],
+			"category": "building",
+			"family": "fort",
+			"file": "bld_fort_a06.scn",
+			"id": "bld_fort_a06",
+			"sha256": "c068055716ba37b0a10e15a8634179a434bbadc337f60af39700825bd8c4ac3e",
+			"size": [
+				3.79999995231628,
+				3.96000003814697,
+				3.6100001335144
+			],
+			"source_sha256": "b5dfc511c28b8fd10c042b3a8384225d6eeffa640c353b66caee7093cb2bc37f",
+			"triangles": 1678.0
+		},
+		{
+			"age": 6.0,
+			"bounds_min": [
+				-1.89999997615814,
+				-0.00999999791383743,
+				-1.60000002384186
+			],
+			"category": "building",
+			"family": "palissade",
+			"file": "bld_palissade_a06.scn",
+			"id": "bld_palissade_a06",
+			"sha256": "2350402b40e28121e2ed12853565360940c31167ebd24b4bf0db11bf89db3442",
+			"size": [
+				3.79999995231628,
+				1.74957430362701,
+				3.6100001335144
+			],
+			"source_sha256": "1195059896a9592665330a6daa4cbd06722bb3d090376bffaf24ac52fc073462",
+			"triangles": 628.0
+		},
+		{
+			"age": 10.0,
+			"bounds_min": [
+				-1.89999997615814,
+				-0.00999999791383743,
+				-1.60000002384186
+			],
+			"category": "building",
+			"family": "centre",
+			"file": "bld_centre_a10.scn",
+			"id": "bld_centre_a10",
+			"sha256": "8a9828fa24f0f4fbf6d1da065b831e6b802ef6a3c65e6d9c87cd1b3199e72371",
+			"size": [
+				3.79999995231628,
+				4.21000003814697,
+				3.89999961853027
+			],
+			"source_sha256": "916b13a5b59e1b8b22fb5a6d71ee6ba88f68916d0b3c1dcf07355211924467e7",
+			"triangles": 2822.0
+		},
+		{
+			"age": 10.0,
+			"bounds_min": [
+				-1.89999997615814,
+				-0.00999999791383743,
+				-1.60000002384186
+			],
+			"category": "building",
+			"family": "maison",
+			"file": "bld_maison_a10.scn",
+			"id": "bld_maison_a10",
+			"sha256": "1b5a6c982adf763f881028097bd3fd026fccb0b506ddc9406ec4c4738fb90707",
+			"size": [
+				3.79999995231628,
+				3.30999970436096,
+				3.89999961853027
+			],
+			"source_sha256": "882a67397d67bc39653cf647ea52ed7a24e37e60c4e9d9fb8ac9bd0db0db316b",
+			"triangles": 2208.0
+		},
+		{
+			"age": 10.0,
+			"bounds_min": [
+				-1.89999997615814,
+				-0.00999999791383743,
+				-1.60000002384186
+			],
+			"category": "building",
+			"family": "caserne",
+			"file": "bld_caserne_a10.scn",
+			"id": "bld_caserne_a10",
+			"sha256": "341782a9101057b98e94216dd54ed092dac91db829e8475cc5144758abb3b8fc",
+			"size": [
+				3.79999995231628,
+				3.30999970436096,
+				3.89999961853027
+			],
+			"source_sha256": "0a2f10b047c644baa3d4e79e4c906acb0291142c973c0b47897e11fc7b1ec954",
+			"triangles": 2202.0
+		},
+		{
+			"age": 10.0,
+			"bounds_min": [
+				-1.89999997615814,
+				-0.00999999791383743,
+				-1.60000002384186
+			],
+			"category": "building",
+			"family": "entrepot",
+			"file": "bld_entrepot_a10.scn",
+			"id": "bld_entrepot_a10",
+			"sha256": "1e2837ee7577bbc9607dde00054ad925fa4250248d26d17170e73d28affe5afe",
+			"size": [
+				3.79999995231628,
+				3.41000008583069,
+				3.89999961853027
+			],
+			"source_sha256": "13c0b37128f04e63b41891c9c3a2d00b2d47638d7f8ff0b9934f77d1d2b50d73",
+			"triangles": 2932.0
+		},
+		{
+			"age": 10.0,
+			"bounds_min": [
+				-1.89999997615814,
+				-0.00999999791383743,
+				-1.60000002384186
+			],
+			"category": "building",
+			"family": "atelier",
+			"file": "bld_atelier_a10.scn",
+			"id": "bld_atelier_a10",
+			"sha256": "4fab90d2133ca18e7027973bc75fbbea9b780a2d6ef810e7e35fe02ecaf9e42b",
+			"size": [
+				3.79999995231628,
+				3.41000008583069,
+				3.89999961853027
+			],
+			"source_sha256": "54331666599de892fa6c5beb2c46b9d1ea1beb6b50c216540d06545f11731f05",
+			"triangles": 2800.0
+		},
+		{
+			"age": 10.0,
+			"bounds_min": [
+				-1.89999997615814,
+				-0.00999999791383743,
+				-1.60000002384186
+			],
+			"category": "building",
+			"family": "marche",
+			"file": "bld_marche_a10.scn",
+			"id": "bld_marche_a10",
+			"sha256": "cc4f3abc7b127709d70cd0cd624fcb865b42de770895629f3ab4514d50547e5b",
+			"size": [
+				3.79999995231628,
+				2.54500007629395,
+				3.6100001335144
+			],
+			"source_sha256": "25f5206d3f94f94329b665c7bf6ecb558bedb11bce25d92e410f946a38172614",
+			"triangles": 1736.0
+		},
+		{
+			"age": 10.0,
+			"bounds_min": [
+				-1.89999997615814,
+				-0.00999999791383743,
+				-1.60000002384186
+			],
+			"category": "building",
+			"family": "usine",
+			"file": "bld_usine_a10.scn",
+			"id": "bld_usine_a10",
+			"sha256": "e31c63720fb2304d6c9557e16cc3a5b295406816ae19f755307f39a73df8b63a",
+			"size": [
+				3.79999995231628,
+				3.41000008583069,
+				3.89999961853027
+			],
+			"source_sha256": "52dc31e828d5ec95e15283f30b289d6ca6f44a9b036bc7a303753517c68f2102",
+			"triangles": 2800.0
+		},
+		{
+			"age": 10.0,
+			"bounds_min": [
+				-1.89999997615814,
+				-0.00999999791383743,
+				-1.60000002384186
+			],
+			"category": "building",
+			"family": "academie",
+			"file": "bld_academie_a10.scn",
+			"id": "bld_academie_a10",
+			"sha256": "e3b220a78e1d4f15dec267bc0ea62ea95a5b7e349c3bd3ad3b07442f6af9886f",
+			"size": [
+				3.79999995231628,
+				4.21000003814697,
+				3.89999961853027
+			],
+			"source_sha256": "2f295402fcbdca4928f82ea5a918a53d91e1f58e4f8e9cfb02cccf7050e0730a",
+			"triangles": 2100.0
+		},
+		{
+			"age": 10.0,
+			"bounds_min": [
+				-1.89999997615814,
+				-0.00999999791383743,
+				-1.60000002384186
+			],
+			"category": "building",
+			"family": "depot",
+			"file": "bld_depot_a10.scn",
+			"id": "bld_depot_a10",
+			"sha256": "fe71d86ef6fc7c3dcf6d86e56471eef8086c32307d85078132c24b2f74fd763d",
+			"size": [
+				3.79999995231628,
+				3.41000008583069,
+				3.89999961853027
+			],
+			"source_sha256": "5cbb3c27fe006228700d4b863a9fa6a9e637f3bb3997f3a5861f6e1fa97f034f",
+			"triangles": 2932.0
+		},
+		{
+			"age": 10.0,
+			"bounds_min": [
+				-1.89999997615814,
+				-0.00999999791383743,
+				-1.60000002384186
+			],
+			"category": "building",
+			"family": "fort",
+			"file": "bld_fort_a10.scn",
+			"id": "bld_fort_a10",
+			"sha256": "e980dd3864db7dda3f2b2593d51b2513ddb4ea47ef6c504da375bfe562be36c1",
+			"size": [
+				3.79999995231628,
+				3.96000003814697,
+				3.6100001335144
+			],
+			"source_sha256": "a27f44c3fee4d5a573efe05240536d4d8dfac4225d1f83905bae71adafb8597b",
+			"triangles": 1678.0
+		},
+		{
+			"age": 10.0,
+			"bounds_min": [
+				-1.89999997615814,
+				-0.00999999791383743,
+				-1.60000002384186
+			],
+			"category": "building",
+			"family": "palissade",
+			"file": "bld_palissade_a10.scn",
+			"id": "bld_palissade_a10",
+			"sha256": "5aff2c2b301c1e140da27ccb2a8de4c58c4828f12ebea0b6794f6bcda7b1307d",
+			"size": [
+				3.79999995231628,
+				1.74957430362701,
+				3.6100001335144
+			],
+			"source_sha256": "e737f295a9668204844b5f41f9953e1e92be575b38c1d379491ffd05e8a31f52",
+			"triangles": 628.0
+		},
+		{
+			"age": 1.0,
+			"bounds_min": [
+				-2.52748441696167,
+				-0.079392097890377,
+				-2.45830178260803
+			],
+			"category": "resource",
+			"family": "tree",
+			"file": "oak_3.scn",
+			"id": "oak_3",
+			"sha256": "2922fa2e3e9a2b85995e3ff19260d9048a3e87c4cd3d0333ba31d2104b548bcd",
+			"size": [
+				5.09063100814819,
+				4.55786561965942,
+				5.14679145812988
+			],
+			"source_sha256": "03e3431b9b9e0cd127e9dc612fd7c44ebf936756c7292ee6a5eb336c2f649ef3",
+			"triangles": 9732.0
+		},
+		{
+			"age": 1.0,
+			"bounds_min": [
+				-2.70896148681641,
+				-0.0769583061337471,
+				-2.86825895309448
+			],
+			"category": "resource",
+			"family": "tree",
+			"file": "oak_11.scn",
+			"id": "oak_11",
+			"sha256": "422334de88a57e61161edd5753d8c92490f0006ef45f8e0f3ae926d832e1740d",
+			"size": [
+				5.30520105361938,
+				4.34318590164185,
+				5.21281003952026
+			],
+			"source_sha256": "e3cf52e1f796e80d29896a0d8d03dfb00e5ccea82c150db97a9249a1baebe9bf",
+			"triangles": 9732.0
+		},
+		{
+			"age": 1.0,
+			"bounds_min": [
+				-2.56280755996704,
+				-0.0880526229739189,
+				-2.46598386764526
+			],
+			"category": "resource",
+			"family": "tree",
+			"file": "oak_21.scn",
+			"id": "oak_21",
+			"sha256": "d6c392108e5abebd7784bf709c0ff227a8326eb745f5ca7d29de11bfc5736062",
+			"size": [
+				5.32195901870728,
+				4.53965377807617,
+				5.19122362136841
+			],
+			"source_sha256": "be7f5defd90a5e684d50c0ee7f02e330aa173e48c92ac42470bae40ffb9756af",
+			"triangles": 9732.0
+		},
+		{
+			"age": 1.0,
+			"bounds_min": [
+				-0.829475045204163,
+				0.0091511532664299,
+				-0.868682146072388
+			],
+			"category": "resource",
+			"family": "berries",
+			"file": "berry_bush.scn",
+			"id": "berry_bush",
+			"sha256": "5dceb64834098ee1eec533553fa210bb696477e93d8c61444574f32762d2c1a1",
+			"size": [
+				1.69071590900421,
+				0.880181431770325,
+				1.76037800312042
+			],
+			"source_sha256": "c9da590c23204fbfbf8c0bed6486e5a413d1aa109b6b73586d5d4f788ae3b42b",
+			"triangles": 11232.0
+		},
+		{
+			"age": 1.0,
+			"bounds_min": [
+				-0.910259544849396,
+				-0.345948278903961,
+				-0.794276058673859
+			],
+			"category": "resource",
+			"family": "ore",
+			"file": "boulder_4.scn",
+			"id": "boulder_4",
+			"sha256": "df3da63bf73551c5077e6e9cacf0ed7368f449dfc226697a54d7cf59f95ebde9",
+			"size": [
+				1.95149683952332,
+				1.21535658836365,
+				1.63204741477966
+			],
+			"source_sha256": "3688d35e0569381c2d6437a220451d3c0299aa91c8591a83c382124b97134560",
+			"triangles": 80.0
+		},
+		{
+			"age": 1.0,
+			"bounds_min": [
+				-1.09256017208099,
+				-0.330621480941772,
+				-0.747604131698608
+			],
+			"category": "resource",
+			"family": "ore",
+			"file": "boulder_9.scn",
+			"id": "boulder_9",
+			"sha256": "1332837620921418ce91fd3301de4e65fa3493ec63201ecef7fa265621ab134c",
+			"size": [
+				2.11032795906067,
+				1.21373474597931,
+				1.56578135490417
+			],
+			"source_sha256": "e8b4a4783e96895f0c996d81264631aaa4529db5480b97acdade0c8eabb64b46",
+			"triangles": 80.0
+		},
+		{
+			"age": 1.0,
+			"bounds_min": [
+				-1.02533483505249,
+				-0.314738750457764,
+				-0.746573030948639
+			],
+			"category": "resource",
+			"family": "ore",
+			"file": "boulder_17.scn",
+			"id": "boulder_17",
+			"sha256": "cc4ad94c21955fb0f9fd7ef747b6e593292afced736af2160ce07e0a31042bd7",
+			"size": [
+				2.07431364059448,
+				1.24528837203979,
+				1.58422517776489
+			],
+			"source_sha256": "5c088615bd2ec309e5270451759b70cb433a32676416e9b9f1d8dd77e5a89c3c",
+			"triangles": 80.0
+		},
+		{
+			"age": 1.0,
+			"bounds_min": [
+				-0.309722304344177,
+				0.00999999046325684,
+				-0.125
+			],
+			"category": "unit",
+			"family": "ouvrier",
+			"file": "human_ouvrier.scn",
+			"id": "human_ouvrier",
+			"sha256": "117f0ec4ea984033fad388eea5a3b783c3c2dfab7bc733b71c8430e210962094",
+			"size": [
+				0.689722299575806,
+				1.78399991989136,
+				0.321615248918533
+			],
+			"source_sha256": "0579964a3016a73b098927684a70dac8d799fe6ef9aacdc4dc25d289eadc62c0",
+			"triangles": 3128.0
+		},
+		{
+			"age": 1.0,
+			"bounds_min": [
+				-0.309722304344177,
+				0.00999999046325684,
+				-0.125
+			],
+			"category": "unit",
+			"family": "colon",
+			"file": "human_colon.scn",
+			"id": "human_colon",
+			"sha256": "df8920226ad76d83ee2517f1e25be54c4ad2b2e494c3b6260141938e1ad29d3e",
+			"size": [
+				0.619444608688354,
+				1.78399991989136,
+				0.321615219116211
+			],
+			"source_sha256": "540a2f692a6dd80f7f5d2649dccaee13d3faa96136857160856a7a2d40e94c15",
+			"triangles": 3012.0
+		},
+		{
+			"age": 1.0,
+			"bounds_min": [
+				-0.439999997615814,
+				0.00999999046325684,
+				-0.125
+			],
+			"category": "unit",
+			"family": "lancier",
+			"file": "human_lancier.scn",
+			"id": "human_lancier",
+			"sha256": "6176b7c7b07839fb74b3f3b6e642693a6d29d09a5280632776fedf033fa0ea84",
+			"size": [
+				0.759999990463257,
+				2.29000020027161,
+				0.321615219116211
+			],
+			"source_sha256": "28d2fcc8cf134449d1568463d97db8754b51b82b3a6212bac616ea86611cfa4a",
+			"triangles": 3568.0
+		},
+		{
+			"age": 1.0,
+			"bounds_min": [
+				-0.309722304344177,
+				0.00999999046325684,
+				-0.125
+			],
+			"category": "unit",
+			"family": "tireur",
+			"file": "human_tireur.scn",
+			"id": "human_tireur",
+			"sha256": "100f00182f81a1548b9e9f060a0c3d3226cd806f966bd6ceccc0941f548e8f15",
+			"size": [
+				0.619444608688354,
+				1.78399991989136,
+				0.321615219116211
+			],
+			"source_sha256": "36e9d9c51a21845a783518cb404850e2e230908f6f784082ee99306598db5717",
+			"triangles": 3228.0
+		},
+		{
+			"age": 1.0,
+			"bounds_min": [
+				-0.319999992847443,
+				0.00999999046325684,
+				-0.125
+			],
+			"category": "unit",
+			"family": "fusilier",
+			"file": "human_fusilier.scn",
+			"id": "human_fusilier",
+			"sha256": "314ee90920e24492c4124ebca15665772bb0a4c3c802a3a81e4bde0d902adc81",
+			"size": [
+				0.639999985694885,
+				1.7940000295639,
+				0.321615219116211
+			],
+			"source_sha256": "cb842d7ca9cf3197321529597f5454e8433505558b7612bc77042bab2dd2a7c6",
+			"triangles": 3556.0
+		},
+		{
+			"age": 1.0,
+			"bounds_min": [
+				-0.319999992847443,
+				0.00999999046325684,
+				-0.125
+			],
+			"category": "unit",
+			"family": "grenadier",
+			"file": "human_grenadier.scn",
+			"id": "human_grenadier",
+			"sha256": "05945dc1a5cce6e0a4542d563e099290ee7eba19fc4ac65c9ca70a0e8db402af",
+			"size": [
+				0.639999985694885,
+				1.7940000295639,
+				0.321615219116211
+			],
+			"source_sha256": "5f633cfe15e4d8014b63592e06700f9acfd383d0eb5e54d1434eb3799ea9b23f",
+			"triangles": 3556.0
+		}
+	],
+	"prepared": true,
+	"schema": 1,
+	"self_contained": true
+}

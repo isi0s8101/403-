@@ -1,0 +1,39 @@
+extends SceneTree
+## Navigation par les niveaux : tactical -> planète -> orbite -> système -> galaxie.
+var frames: int = 0
+var finished: bool = false
+
+func _initialize() -> void:
+	GameConfig.mode = "planet_j9"
+	GameConfig.seed_value = 20261110
+	change_scene_to_file("res://game/game.tscn")
+
+func _process(_delta: float) -> bool:
+	frames += 1
+	if frames < 12 or finished:
+		return false
+	finished = true
+	var game = current_scene
+	game.paused = true
+	game.campaign.ages[0] = 10
+	for key in ViewTechnology.RESEARCH_ORDER:
+		game.campaign.technologies[0][key] = true # Fixture de recette, pas un déblocage joueur.
+	game.campaign._sync_all()
+	game.enter_planet_overview()
+	var planet_ok: bool = game.planet_mode
+	game.enter_space_overview("orbit")
+	var orbit_ok: bool = game.space_mode == "orbit" and game.orbit_view != null and game.orbit_hud != null
+	game.enter_space_overview("system")
+	var system_ok: bool = game.space_mode == "system" and game.space_view != null
+	game.enter_space_overview("galaxy")
+	var galaxy_ok: bool = game.space_mode == "galaxy" and game.galaxy_view != null and game.galaxy_view.markers.size() == 16
+	game.open_galaxy_system("sol")
+	var zoom_ok: bool = game.space_mode == "system" and game.space_view != null
+	game.enter_space_overview("galaxy")
+	game.leave_space_overview(true)
+	var return_ok: bool = game.space_mode == "" and game.hud.visible and game.view.visible
+	var result: bool = planet_ok and orbit_ok and system_ok and galaxy_ok and zoom_ok and return_ok
+	print("J11_UI_RESULT=%s planet=%s orbit=%s system=%s galaxy=%s zoom=%s return=%s" % [
+		"PASS" if result else "FAIL", planet_ok, orbit_ok, system_ok, galaxy_ok, zoom_ok, return_ok])
+	quit(0 if result else 1)
+	return false

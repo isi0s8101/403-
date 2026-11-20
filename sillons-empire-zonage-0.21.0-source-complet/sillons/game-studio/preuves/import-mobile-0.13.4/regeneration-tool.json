@@ -1,0 +1,9 @@
+{
+  "result": "PASS",
+  "command": "python tools/prepare-native-assets.py --godot GODOT_4_7_2 --output SCRATCH/assets_3d.pck",
+  "validation": "Full fresh source import + native preparation + packaging",
+  "delivered_pack_sha256": "6d602614eb2b0c87fe27ec3b6e2536a235dc7fc38833fbb9345086e4f8f11197",
+  "rebuilt_pack_sha256": "27dff2f458c8486f92f29ae462df1414f2c1359203fc8ca683531f09bfdd87e9",
+  "bitwise_reproducibility": "NOT_REQUIRED; Godot internal resource identifiers may differ",
+  "android": "NOT_RUN"
+}

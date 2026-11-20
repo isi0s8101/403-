@@ -1,0 +1,25 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS U01 tracé invalide sans dépense ni segment partiel
+PASS U01 voisin constructible disponible
+PASS U01 tracé prévisualisé puis construit
+PASS U01 coût total débité une seule fois
+PASS P10 vote refusé sans confiance ni soutien
+PASS P10 aide réservée au départ, jamais livrée instantanément
+PASS P10 lancement matériel réellement payé
+PASS S01 traité et cargaison en route sauvegardés
+PASS P10 aide livrée une seule fois après trajet
+PASS P10 deuxième passage sans double livraison
+PASS P10 autonomie négociable après aide
+PASS P10 maintien nécessaire avant autonomie
+PASS P10 autonomie conserve gouvernement propre et accès explicites
+PASS P10 procédure de réunification acceptée
+PASS P10 réunification différée conserve âge et infrastructure
+PASS P10 réserves équilibrées après réunification
+PASS F01 identité historique de la commune conservée
+PASS F01 deux sécessions ont deux factions distinctes
+PASS S01 sauvegarde multilatérale acceptée
+PASS P09 reconquête terrestre autorisée avec garnison près de la capitale
+PASS P09 contrôle maintenu avant transfert de souveraineté
+PASS P09 reconquête ouvre une occupation, sans remise à zéro
+EVOLUTION_DIPLOMACY_RESULT checks=22 failures=0

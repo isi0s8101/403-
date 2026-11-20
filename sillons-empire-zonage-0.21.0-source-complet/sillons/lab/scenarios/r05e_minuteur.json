@@ -1,0 +1,53 @@
+{
+  "name": "R05e — Minuteur de reconstruction (arbitrage D-07)",
+  "description": "Le camp perd son centre en gardant ouvriers et ressources. Sans centre rebâti avant le délai, il est éliminé. Délai réduit à 20 s pour la recette (180 s en partie).",
+  "seed": 1504,
+  "ticks": 400,
+  "rules": {
+    "rebuild_timeout": 20,
+    "max_age": 3
+  },
+  "teams": [
+    {},
+    {
+      "res": {
+        "food": 500,
+        "wood": 1000,
+        "ore": 1000
+      }
+    }
+  ],
+  "orders": [
+    {
+      "tick": 10,
+      "cmd": {
+        "t": "lab_kill",
+        "team": 1,
+        "id": "$cc1"
+      }
+    }
+  ],
+  "asserts": [
+    {
+      "tick": 30,
+      "check": "event",
+      "type": "sans_centre",
+      "team": 1,
+      "label": "délai de reconstruction annoncé"
+    },
+    {
+      "tick": 150,
+      "check": "eliminated",
+      "team": 1,
+      "value": false,
+      "label": "avant le délai : toujours en jeu (moyens présents)"
+    },
+    {
+      "tick": 260,
+      "check": "eliminated",
+      "team": 1,
+      "value": true,
+      "label": "délai écoulé sans centre : éliminé"
+    }
+  ]
+}

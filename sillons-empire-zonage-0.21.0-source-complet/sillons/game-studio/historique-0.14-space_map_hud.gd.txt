@@ -1,0 +1,318 @@
+class_name SpaceMapHud
+extends CanvasLayer
+## J10 : actions de navigation et expéditions tactiles, sans téléporter les unités.
+var game
+var root: Control
+var panel: PanelContainer
+var title: Label
+var details: Label
+var travel_btn: Button
+var land_btn: Button
+var orbit_btn: Button
+var system_btn: Button
+var switch_system_btn: Button
+var galaxy_btn: Button
+var _last_tick: int = -1
+# J12.3 : chaîne de production orbitale, distincte de la carte au sol.
+var orbital_status: Label
+var orbital_deploy_btn: Button
+var orbital_module_menu: OptionButton
+var orbital_unit_menu: OptionButton
+var orbital_build_btn: Button
+var orbital_train_btn: Button
+var orbital_upgrade_btn: Button
+var orbital_fleet_btn: Button
+var orbital_assault_btn: Button
+var orbital_probe_btn: Button
+
+func setup(p_game: Node3D) -> void:
+	game = p_game
+	root = Control.new()
+	root.theme = MobileUI.theme()
+	root.set_anchors_preset(Control.PRESET_FULL_RECT)
+	root.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	add_child(root)
+	panel = PanelContainer.new()
+	panel.anchor_left = 0.0
+	panel.offset_left = 16.0
+	panel.offset_right = 390.0
+	panel.offset_top = 12.0
+	panel.offset_bottom = 492.0
+	panel.mouse_filter = Control.MOUSE_FILTER_STOP
+	root.add_child(panel)
+	var scroll := ScrollContainer.new()
+	panel.add_child(scroll)
+	var items := VBoxContainer.new()
+	items.add_theme_constant_override("separation", 7)
+	scroll.add_child(items)
+	title = Label.new()
+	title.text = "J10 · NAVIGATION SPATIALE"
+	title.add_theme_font_size_override("font_size", 19)
+	items.add_child(title)
+	details = Label.new()
+	details.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
+	items.add_child(details)
+	land_btn = _button("ZOOM + · Vue planétaire", _zoom_in)
+	items.add_child(land_btn)
+	orbit_btn = _button("VUE ORBITALE", func(): game.enter_space_overview("orbit"))
+	items.add_child(orbit_btn)
+	system_btn = _button("ZOOM − · Système stellaire", func(): game.enter_space_overview("system"))
+	items.add_child(system_btn)
+	galaxy_btn = _button("ZOOM − · CARTE GALACTIQUE", func(): game.enter_space_overview("galaxy"))
+	items.add_child(galaxy_btn)
+	switch_system_btn = _button("SOL ↔ PROXIMA · Changer de système", func(): game.switch_space_system())
+	items.add_child(switch_system_btn)
+	travel_btn = _button("PRÉPARER UNE EXPÉDITION TERRESTRE", _compose_flight)
+	items.add_child(travel_btn)
+	var separator := HSeparator.new()
+	items.add_child(separator)
+	var heading_orbit := Label.new()
+	heading_orbit.text = "CHANTIER NAVAL · COMMAND. ORBITAL IX"
+	heading_orbit.add_theme_font_size_override("font_size", 16)
+	items.add_child(heading_orbit)
+	orbital_status = Label.new()
+	orbital_status.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
+	items.add_child(orbital_status)
+	orbital_deploy_btn = _button("ÉRIGER UN CHANTIER NAVAL EN ORBITE", _orbital_deploy)
+	items.add_child(orbital_deploy_btn)
+	orbital_module_menu = OptionButton.new()
+	orbital_module_menu.custom_minimum_size.y = 42.0
+	for kind in OrbitalIndustry.MODULES.keys():
+		var def: Dictionary = OrbitalIndustry.MODULES[kind] as Dictionary
+		orbital_module_menu.add_item(String(def["label"]))
+		orbital_module_menu.set_item_metadata(orbital_module_menu.item_count - 1, kind)
+	items.add_child(orbital_module_menu)
+	orbital_build_btn = _button("CONSTRUIRE LE MODULE SÉLECTIONNÉ", _orbital_build)
+	items.add_child(orbital_build_btn)
+	orbital_unit_menu = OptionButton.new()
+	orbital_unit_menu.custom_minimum_size.y = 42.0
+	for kind in OrbitalIndustry.UNITS.keys():
+		var def: Dictionary = OrbitalIndustry.UNITS[kind] as Dictionary
+		orbital_unit_menu.add_item(String(def["label"]))
+		orbital_unit_menu.set_item_metadata(orbital_unit_menu.item_count - 1, kind)
+	items.add_child(orbital_unit_menu)
+	orbital_train_btn = _button("PRODUIRE L'UNITÉ SÉLECTIONNÉE", _orbital_train)
+	items.add_child(orbital_train_btn)
+	orbital_upgrade_btn = _button("AMÉLIORER CE CHANTIER NAVAL", _orbital_upgrade)
+	items.add_child(orbital_upgrade_btn)
+	orbital_fleet_btn = _button("ENVOYER 1 NAVETTE + 1 DRONE VERS LA CIBLE", _orbital_fleet)
+	items.add_child(orbital_fleet_btn)
+	orbital_assault_btn = _button("ENVOYER 1 FRÉGATE VERS LA CIBLE", _orbital_assault)
+	items.add_child(orbital_assault_btn)
+	orbital_probe_btn = _button("SONDE · EXPLORER UNE ÉTOILE VOISINE", _orbital_probe)
+	items.add_child(orbital_probe_btn)
+	items.add_child(_button("RETOUR À LA PLANÈTE", func(): game.leave_space_overview(true)))
+	var note := Label.new()
+	note.text = "Toucher une planète ou une lune pour la sélectionner.\nLes missions ont un coût et un temps de trajet."
+	note.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
+	items.add_child(note)
+	refresh(true)
+
+func _button(text_value: String, cb: Callable) -> Button:
+	var b := Button.new()
+	b.text = text_value
+	b.custom_minimum_size.y = 45.0
+	b.focus_mode = Control.FOCUS_NONE
+	b.pressed.connect(cb)
+	return b
+
+func is_over_ui(point: Vector2) -> bool:
+	return panel != null and panel.get_global_rect().has_point(point)
+
+func refresh(force: bool = false) -> void:
+	if game.campaign == null or game.campaign.star_catalog == null:
+		return
+	var c: StarCampaign = game.campaign
+	if not force and c.tick - _last_tick < 8:
+		return
+	_last_tick = c.tick
+	var body: Dictionary = c.star_catalog.info(game.space_selected)
+	if body.is_empty():
+		return
+	var units_count: int = (c.worlds[game.space_selected] as SimWorld).team_units(game.player).size() if c.worlds.has(game.space_selected) else 0
+	var in_transit: int = 0
+	for mission in c.flights:
+		if int(mission["team"]) == game.player and (String(mission["from"]) == game.space_selected or String(mission["to"]) == game.space_selected):
+			in_transit += 1
+	var body_type: String = "Lune" if String(body["kind"]) == "moon" else "Planète"
+	title.text = "J10 · " + ("ORBITE" if game.space_mode == "orbit" else "SYSTÈME STELLAIRE")
+	details.text = "%s : %s\nSystème %s · unités : %d · trajets : %d\nÂge requis : %d · actif : %s" % [body_type, String(body["label"]), String(body["system"]), units_count, in_transit, int(body["age"]), String(c.info(c.active)["label"])]
+	land_btn.disabled = game.space_mode == "orbit" and not c.is_unlocked(game.player, game.space_selected)
+	land_btn.text = ("DESCENDRE SUR LA SURFACE" if game.space_mode == "orbit" else "ZOOM + · Orbite du monde")
+	orbit_btn.disabled = game.space_mode == "orbit"
+	system_btn.disabled = game.space_mode == "system"
+	switch_system_btn.disabled = int(c.ages[game.player]) < 10
+	var galaxy_access: Dictionary = game.view_status("galaxy")
+	galaxy_btn.disabled = not bool(galaxy_access["ok"])
+	galaxy_btn.tooltip_text = String(galaxy_access["reason"])
+	travel_btn.disabled = c.active == game.space_selected or not c.is_unlocked(game.player, game.space_selected) or StarCampaign.expected_flight_duration(c.star_catalog, c.active, game.space_selected) < 0
+	_refresh_orbital()
+
+func _zoom_in() -> void:
+	if game.space_mode == "system":
+		game.enter_space_overview("orbit")
+	else:
+		game.land_on_space_selection()
+
+func _compose_flight() -> void:
+	var c: StarCampaign = game.campaign
+	var destination: String = game.space_selected
+	var origin: String = c.active
+	if origin == destination:
+		return
+	var port_ids: Array = []
+	for building in (c.worlds[origin] as SimWorld).team_buildings(game.player, "", true):
+		if building.type in ["spatioport", "chantier_orbital"]:
+			port_ids.append(building.id)
+	if port_ids.is_empty():
+		_notify("Construire un spatioport ou chantier orbital sur la planète active.")
+		return
+	var dialog := ConfirmationDialog.new()
+	dialog.title = "Expédition vers " + String(c.info(destination)["label"])
+	dialog.ok_button_text = "Lancer le convoi"
+	dialog.dialog_hide_on_ok = false
+	dialog.min_size = Vector2i(500, 480)
+	root.add_child(dialog)
+	var container := VBoxContainer.new()
+	container.custom_minimum_size = Vector2(470, 380)
+	dialog.add_child(container)
+	var port := OptionButton.new()
+	for id in port_ids:
+		port.add_item("Plateforme #%d" % int(id), int(id))
+	container.add_child(port)
+	var ships := OptionButton.new()
+	container.add_child(ships)
+	var help := Label.new()
+	help.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
+	container.add_child(help)
+	var scroller := ScrollContainer.new()
+	scroller.custom_minimum_size.y = 210.0
+	container.add_child(scroller)
+	var cargo_box := VBoxContainer.new()
+	scroller.add_child(cargo_box)
+	var toggles: Dictionary = {}
+	var populate := func() -> void:
+		for child in cargo_box.get_children():
+			cargo_box.remove_child(child)
+			child.queue_free()
+		toggles.clear()
+		ships.clear()
+		var options: Dictionary = c.shipping_candidates(game.player, origin, port.get_selected_id(), destination)
+		if not bool(options.get("ok", false)):
+			help.text = String(options.get("reason", "Trajet non autorisé"))
+			return
+		for item in options["ships"]:
+			ships.add_item("%s #%d" % [String(item["type"]), int(item["id"])], int(item["id"]))
+		for item in options["cargo"]:
+			var check := CheckBox.new()
+			check.text = "%s #%d" % [String(item["type"]), int(item["id"])]
+			cargo_box.add_child(check)
+			toggles[int(item["id"])] = check
+		help.text = "Choisir un vaisseau et 1 à 6 unités.\nLes coûts et ETA sont vérifiés au lancement."
+	port.item_selected.connect(func(_index: int): populate.call())
+	populate.call()
+	dialog.confirmed.connect(func():
+		var chosen: Array = []
+		for unit_id in toggles:
+			if (toggles[unit_id] as CheckBox).button_pressed:
+				chosen.append(int(unit_id))
+		if ships.item_count == 0 or chosen.size() < 1 or chosen.size() > 6:
+			help.text = "Sélectionner un vaisseau et entre 1 et 6 unités."
+			return
+		var result: Dictionary = c.dispatch(game.player, origin, port.get_selected_id(), destination, chosen, ships.get_selected_id())
+		if bool(result.get("ok", false)):
+			dialog.hide()
+			dialog.queue_free()
+			_notify("Convoi lancé. Le trajet progresse même hors écran.")
+		else:
+			help.text = String(result.get("reason", "Départ impossible"))
+	)
+	dialog.canceled.connect(func(): dialog.queue_free())
+	dialog.popup_centered()
+
+func _notify(message: String) -> void:
+	if details != null:
+		details.text = message + "\n" + details.text
+
+func _refresh_orbital() -> void:
+	var c: StarCampaign = game.campaign
+	var body: String = game.space_selected
+	var hub: Dictionary = OrbitalIndustry.site(c, game.player, body)
+	var present: Dictionary = OrbitalIndustry.presence(c, game.player, body)
+	var available: bool = OrbitalIndustry.has_hub(c, game.player, body)
+	var detail := PackedStringArray()
+	if hub.is_empty():
+		detail.append("Aucun chantier orbital autour de ce monde.")
+	elif not available:
+		detail.append("Chantier en assemblage : %d ticks" % int(hub.get("remaining", 0)))
+	else:
+		detail.append("Chantier niveau %d · %.0f PV · équipage %d/%d" % [int(hub["tier"]), float(hub["hp"]), OrbitalIndustry.population(c, game.player, body), OrbitalIndustry.capacity(c, game.player, body)])
+		var modules: Dictionary = hub["modules"] as Dictionary
+		if not modules.is_empty():
+			detail.append("Modules : " + var_to_str(modules))
+		if not (hub["job"] as Dictionary).is_empty():
+			detail.append("Production : %s · %d ticks" % [String((hub["job"] as Dictionary)["kind"]), int((hub["job"] as Dictionary)["remaining"])])
+	if not present.is_empty():
+		detail.append("Unités orbitales : " + var_to_str(present))
+	orbital_status.text = "\n".join(detail)
+	orbital_deploy_btn.disabled = not hub.is_empty() or int(c.ages[game.player]) < 9
+	orbital_build_btn.disabled = not available
+	orbital_train_btn.disabled = not available
+	orbital_upgrade_btn.disabled = not available or int(hub.get("tier", 1)) >= 3
+	var active: String = c.active
+	var source_hub: bool = OrbitalIndustry.has_hub(c, game.player, active)
+	var destination_ok: bool = body != active and c.is_unlocked(game.player, body)
+	orbital_fleet_btn.disabled = not source_hub or not destination_ok
+	orbital_assault_btn.disabled = not source_hub or not destination_ok
+	orbital_probe_btn.disabled = not available or int(c.ages[game.player]) < 10 or int(present.get("sonde", 0)) < 1
+
+func _orbital_deploy() -> void:
+	var result: Dictionary = game.campaign.orbital_shipyard(game.player, game.space_selected)
+	_notify("Chantier orbital lancé" if bool(result.get("ok", false)) else String(result.get("reason", "Refus")))
+	refresh(true)
+
+func _orbital_build() -> void:
+	if orbital_module_menu.item_count == 0:
+		return
+	var id: String = String(orbital_module_menu.get_selected_metadata())
+	var result: Dictionary = game.campaign.orbital_build(game.player, game.space_selected, id)
+	_notify("Module lancé : " + id if bool(result.get("ok", false)) else String(result.get("reason", "Refus")))
+	refresh(true)
+
+func _orbital_train() -> void:
+	if orbital_unit_menu.item_count == 0:
+		return
+	var id: String = String(orbital_unit_menu.get_selected_metadata())
+	var result: Dictionary = game.campaign.orbital_train(game.player, game.space_selected, id)
+	_notify("Production lancée : " + id if bool(result.get("ok", false)) else String(result.get("reason", "Refus")))
+	refresh(true)
+
+func _orbital_upgrade() -> void:
+	var result: Dictionary = game.campaign.orbital_upgrade(game.player, game.space_selected)
+	_notify("Modernisation lancée" if bool(result.get("ok", false)) else String(result.get("reason", "Refus")))
+	refresh(true)
+
+func _orbital_fleet() -> void:
+	var c: StarCampaign = game.campaign
+	var result: Dictionary = c.orbital_send(game.player, c.active, game.space_selected, {"navette": 1, "drone": 1})
+	_notify("Expédition orbitale lancée" if bool(result.get("ok", false)) else String(result.get("reason", "Refus")))
+	refresh(true)
+
+func _orbital_assault() -> void:
+	var c: StarCampaign = game.campaign
+	var result: Dictionary = c.orbital_send(game.player, c.active, game.space_selected, {"fregate": 1})
+	_notify("Frégate envoyée" if bool(result.get("ok", false)) else String(result.get("reason", "Refus")))
+	refresh(true)
+
+func _orbital_probe() -> void:
+	var c: StarCampaign = game.campaign
+	var source: String = game.space_selected
+	var system_id: String = String(c.info(source).get("system_id", ""))
+	for next in c.star_catalog.galaxy.neighbors(system_id):
+		var target: String = String(next)
+		if not c.system_known(game.player, target):
+			var result: Dictionary = OrbitalIndustry.send_probe(c, game.player, source, target)
+			_notify("Sonde envoyée vers " + target if bool(result.get("ok", false)) else String(result.get("reason", "Refus")))
+			refresh(true)
+			return
+	_notify("Aucune étoile inconnue accessible depuis ce système")

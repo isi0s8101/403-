@@ -1,0 +1,96 @@
+PASS j678
+PASS recette
+PASS fix082
+PASS j9
+PASS j9-complete
+PASS j10
+PASS j11
+PASS j12
+PASS evolution
+PASS orbital
+PASS j13
+PASS socle conservé, modifications de simulation déclarées : sim/age_progression.gd, sim/ai_controller.gd, sim/campaign_save.gd, sim/j13_rules.gd, sim/modern_systems.gd, sim/orbital_industry.gd, sim/planet_campaign.gd, sim/planet_governor.gd, sim/rules.gd, sim/save_game.gd, sim/sim_map.gd, sim/sim_world.gd, sim/star_campaign.gd
+PASS 800 modèles et 2400 GLB conformes au catalogue
+PASS paquet natif complet et SHA-256 exact
+PASS aucun GLB dans res://
+PASS aucune bibliothèque native libre à analyser par l’éditeur
+PASS sources 3D conservées hors du projet jouable
+PASS 2430 GLB source conservés, dont 2400 niveaux du catalogue
+PASS catalogue source correspondant au paquet
+PASS 800 modèles, 2400 scènes, 174 images prêts
+PASS correspondance complète entre scènes natives et GLB du catalogue
+PASS paquet inclus dans le filtre d’export Android
+PASS preuves et anciennes captures exclues du scan d’assets
+MOBILE_IMPORT_STATIC=PASS checks=10 failures=0
+PASS 57-model native pack hash and size
+PASS 44 buildings, 7 natural assets, 6 rigged figures
+PASS native index matches prepared assets
+PASS all authored GLB sources match native pack
+PASS 27 photographic maps intact
+PASS source license and attribution documented
+PASS 27 authored mipmap import presets supplied
+PASS no GLB in playable project
+PASS both native packs included in exports
+PASS candidate version 0.16.0 / code 160
+REALISM_STATIC=PASS checks=10 failures=0
+REFONTE_STATIC=PASS suites=15 failures=0
+REFONTE_IMPORT=PASS
+PASS j9_planet
+PASS j9_regions
+PASS strategic
+PASS recette_integrale
+PASS j10_systems
+PASS j10_ui
+PASS j11_galaxy
+PASS j11_ui
+PASS j12_empire
+PASS j12_perf
+PASS view_technology
+PASS age_progression
+PASS j12_orbital_shipyard
+PASS j13_colony
+PASS j13_supply
+PASS assets_3d
+PASS j13_globe
+PASS j13_ui
+PASS fronts
+PASS modern
+PASS modern_ai
+PASS modern_catalog
+PASS modern_sandbox
+PASS modern_ui
+PASS strategic_ui
+PASS speed_ui
+PASS touch
+PASS ui_j21
+PASS visual_j21c
+PASS visual_j21def
+PASS refonte_visual
+PASS modal_touch
+PASS native_assets
+PASS realism_visual
+PASS evolution_campaign
+PASS evolution_rally
+PASS evolution_politics
+PASS evolution_diplomacy
+PASS evolution_logistics
+PASS evolution_ui
+PASS evolution_progression
+PASS evolution_performance
+PASS interface_menu
+PASS interface_interaction
+PASS interface_portraits
+PASS orbit_tactical
+PASS orbit_save
+PASS orbit_performance
+PASS android_performance
+PASS android_performance_ui
+PASS civ_evolution
+PASS civ_ui
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+NATIVE_PACKAGED_RUNTIME=PASS models=800 jeep=veh.ground.jeep.a07
+REFONTE_GODOT=PASS scenarios=52 ; ANDROID_DEVICE=NOT_RUN
+rc=0

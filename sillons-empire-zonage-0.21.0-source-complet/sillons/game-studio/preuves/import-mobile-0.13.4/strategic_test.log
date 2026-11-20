@@ -1,0 +1,44 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS trois planètes uniques
+PASS secteurs verrouillés au départ
+PASS bascule prématurée refusée
+PASS IX débloque la planète locale, pas une autre étoile
+PASS emplacement spatioport valide
+PASS satellite : usurpation d'un port refusée
+PASS satellite lancé à l'âge IX
+PASS recharge satellite non contournable
+PASS brouillard planétaire distinct avant scan
+PASS balayage orbital distant
+PASS scan révèle le secteur
+PASS recharge du scan
+PASS coordonnées de scan invalides
+PASS âges des camps indépendants
+PASS interstellaire interdit avant X
+PASS détournement du port refusé
+PASS expédition avec navette et ouvrier
+PASS troupes embarquées absentes de la carte source
+PASS embarquement sans pertes fictives
+PASS voyage non instantané
+PASS instantané multi-cartes cohérent
+PASS reprise déterministe avec voyage en cours
+PASS première colonie fondée
+PASS ouvrier réellement débarqué
+PASS visibilité du scan expire
+PASS exploration conservée après scan
+PASS âge X ouvre le système externe
+PASS chantier orbital colonial placé
+PASS frégate interstellaire envoyée
+PASS colonisation d'une autre étoile
+PASS unités combattantes conservées à destination
+PASS toutes les planètes continuent en parallèle
+PASS camp sans âge X ne peut accéder au secteur
+PASS bascule caméra et secteur autorisée
+PASS aucune interception instantanée au décollage
+PASS interceptions multiples à mi-trajet sans accès hors bornes
+PASS version de sauvegarde inconnue refusée
+PASS vol corrompu refusé
+PASS écriture contrôlée sur disque
+PASS restauration sur disque identique
+PASS fichier principal altéré refusé
+STRATEGIC_RESULT=PASS checks=41 fail=0

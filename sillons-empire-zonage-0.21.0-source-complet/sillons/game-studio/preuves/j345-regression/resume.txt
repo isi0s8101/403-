@@ -1,0 +1,25 @@
+Laboratoire Sillons d'Empire — Godot 4.5.1-stable (official) — 2026-11-09T20:48:27
+PASS r01_priorites                      7/7 assertions PASS — empreinte b006d8175c1eeb68 — 900 ticks en 691 ms
+PASS r02_epuisement                     7/7 assertions PASS — empreinte b32f13eef9e28d09 — 1400 ticks en 1172 ms
+PASS r02b_inaccessible                  3/3 assertions PASS — empreinte 86542539433ba5dc — 700 ticks en 545 ms
+PASS r03_passage_age                    7/7 assertions PASS — empreinte 44c847020c60a45f — 520 ticks en 436 ms
+PASS r03b_ia_passage                    3/3 assertions PASS — empreinte 323a167c60f42cca — 9000 ticks en 18437 ms
+PASS r04_delegation                     16/16 assertions PASS — empreinte 7957321b1a99d4ef — 420 ticks en 811 ms
+PASS r05_conquete                       4/4 assertions PASS — empreinte b9c447295064363e — 90 ticks en 74 ms
+PASS r05b_sans_moyens                   1/1 assertions PASS — empreinte ddef8f9b75684d17 — 40 ticks en 40 ms
+PASS r05c_regle_batisseur_seul          1/1 assertions PASS — empreinte 6b1d4670f2aa51af — 120 ticks en 105 ms
+PASS r05d_reconstruction                3/3 assertions PASS — empreinte 0736fa235b5cd2b9 — 700 ticks en 538 ms
+PASS r05e_minuteur                      3/3 assertions PASS — empreinte 44099cd37dbb4043 — 260 ticks en 184 ms
+PASS r06_ia_reevaluation                5/5 assertions PASS — empreinte 661f5e08eafca141 — 2400 ticks en 8769 ms
+PASS r06b_ia_passage_bloque             2/2 assertions PASS — empreinte 47f646dec8f03829 — 1500 ticks en 2653 ms
+PASS r07_ouverture_commerce             3/3 assertions PASS — empreinte a3c483aee801a922 — 8400 ticks en 51089 ms
+PASS r08_ouverture_assaut               2/2 assertions PASS — empreinte e1391ee7d5b43e40 — 8400 ticks en 20456 ms
+PASS r09_determinisme                   2/2 assertions PASS — empreinte 5844a13a73ec80c7 — 3000 ticks en 10153 ms
+PASS r10_partie_complete                1/1 assertions PASS — empreinte f659303940aa0c19 — 30000 ticks en 42425 ms
+PASS r11_fort_passage                   6/6 assertions PASS — empreinte f86cbc57877a3b09 — 3000 ticks en 11203 ms
+PASS r12_siege                          4/4 assertions PASS — empreinte 67d1ad71c88a49ad — 3600 ticks en 3261 ms
+PASS r13_route_alternative              4/4 assertions PASS — empreinte fb3e538f024deacd — 3000 ticks en 7570 ms
+PASS r14_passage_age3                   7/7 assertions PASS — empreinte da19b3ece1d4ddb0 — 600 ticks en 590 ms
+PASS r15_delegation_acces               4/4 assertions PASS — empreinte dcef661dee16cbf4 — 1800 ticks en 4103 ms
+PASS r16_artillerie                     4/4 assertions PASS — empreinte b239b0f54374c916 — 400 ticks en 499 ms
+RÉSULTAT GLOBAL : PASS

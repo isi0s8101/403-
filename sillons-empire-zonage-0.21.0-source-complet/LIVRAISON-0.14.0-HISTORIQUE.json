@@ -1,0 +1,22 @@
+{
+  "candidate": "0.14.0-evolutions-candidate",
+  "base": "0.13.5",
+  "source_complete": true,
+  "godot_scenarios": 42,
+  "historical_scenarios": 34,
+  "new_scenarios": 8,
+  "real_captures": 3,
+  "godot": "4.7.2-stable official ed1daf0bf",
+  "android": "NOT_RUN",
+  "apk": "NOT_BUILT",
+  "main_map_size": 256,
+  "experimental_map_size": 512,
+  "new_campaign_ai_progression_verified": "I to IV / seed 14050 / 8653 ticks",
+  "whole_new_campaign_I_to_X": "NOT_CERTIFIED",
+  "old_model_catalog": 800,
+  "new_authored_models_retained": 57,
+  "native_packs": 2,
+  "source_glb": 2487,
+  "photographic_maps": 27,
+  "notes": "Les 34 recettes historiques passent. Le nouveau profil complet et sa capacité maximale doivent encore être certifiés sur Android."
+}

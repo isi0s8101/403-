@@ -1,0 +1,131 @@
+Godot Engine v4.7.1.stable.official.a13da4feb - https://godotengine.org
+PASS nouvelle partie : dotation tracée, comptes équilibrés
+PASS monde fondateur : âge local = âge du camp
+PASS fondation sur son propre monde refusée
+PASS 12 colons réservés et retirés une seule fois au départ
+PASS trajet non instantané, colonie pas encore fondée
+PASS 12 arrivées, pas 24 (une naissance possible le même tick)
+PASS empire X : la colonie naît à l'âge VII local
+PASS le terrain tactique de la colonie produit à l'âge VII
+PASS commandement terrestre réellement posé
+PASS gouverneur refusé à l'âge VII
+PASS station orbitale refusée avant l'âge IX local
+PASS chantier naval du monde fondateur opérationnel
+PASS frégate X envoyée en renfort
+PASS frégate X importée présente en orbite de la colonie
+PASS frégate importée : aucun arsenal local débloqué
+PASS VIII refusé sans industrie locale
+PASS industrie locale construite
+PASS VIII refusé sans matériaux ni crédits
+PASS refus sans aucun débit
+PASS état inchangé après un refus
+PASS passage VIII lancé
+PASS un seul passage d'âge à la fois
+PASS âge VIII local atteint après le délai
+PASS passage IX lancé
+PASS âge IX local atteint
+PASS X refusé sans station orbitale locale
+PASS station locale payée, en assemblage
+PASS station locale opérationnelle après assemblage
+PASS passage X lancé
+PASS âge X local : gouverneur activé par défaut
+PASS gouverneur suspendable
+PASS comptes équilibrés après la progression
+PASS sauvegarde 0.12.3 migrée : âge conservé
+PASS migration : trésorerie 0, aucune station offerte
+PASS migration : chantiers et stocks ni perdus ni dupliqués
+PASS trois rechargements : aucun crédit, colon ou stock en plus
+PASS sauvegarde aux crédits falsifiés refusée
+PASS sauvegarde à l'âge local hors bornes refusée
+PASS ratio dont la somme dépasse 100 % refusé
+PASS ratio hors bornes refusé
+PASS ratio 60/20/20 accepté
+PASS océan hors périmètre, relief et réserve naturelle non aménageables
+PASS zone sans accès routier refusée
+PASS deux districts résidentiels construits
+PASS densification payée (crédits + béton)
+PASS capacité de logement selon la densité, pas selon la surface
+PASS population née dans les logements, bornée par la capacité
+PASS commerce sans produit à vendre : zéro crédit créé
+PASS sans nourriture la population recule
+PASS produit réel vendu : chiffre d'affaires
+PASS usine sans électricité : production refusée et expliquée
+PASS centrales insuffisantes : déficit mesuré
+PASS réseau rétabli : l'usine produit
+PASS recette conservatrice : pas de matière créée
+PASS station d'eau retirée
+PASS sans station d'eau la production s'arrête
+  grow hospital refusé : manque : crédits
+PASS construction à budget zéro refusée, aucun débit
+PASS comptes équilibrés
+PASS quartier et services construits
+PASS quartiers desservis par la route (54 %), les autres avec leur cause
+PASS route de l'hôpital coupée
+PASS voisin immédiat mais hors accès routier = non desservi
+PASS route reconstruite : service rétabli
+PASS hôpital saturé ou trop loin : quartier sous-couvert avec sa cause
+PASS couverture recalculée après changement de population
+PASS gouverneur accordé à l'âge X local, suspendu puis repris par le joueur
+PASS pas de gouverneur pour le camp resté à l'âge I
+PASS sans ressources : aucun chantier gratuit, cause affichée
+PASS district protégé par le joueur
+PASS plan du gouverneur sauvegardé
+PASS reprise du plan : mêmes décisions aux mêmes ticks
+PASS 100 % du périmètre éligible aménagé (cycle 24)
+PASS ni océan, ni relief, ni réserve aménagés pour atteindre 100 %
+PASS aucune démolition/reconstruction, bâtiment manuel intact
+PASS ratio du joueur respecté, jamais modifié
+PASS eau et électricité couvertes
+PASS santé, pompiers et police >= 99 % (1.000 1.000 1.000)
+PASS stable après 1 000 cycles supplémentaires : aucun chantier parasite
+PASS comptes équilibrés après 100 000 ticks
+PASS journal des décisions avec raisons
+PASS aucun stock négatif
+PASS colonie VII sans station : débarquement possible
+PASS seconde station payée par le défenseur
+PASS station en assemblage : pas encore comptée
+PASS deux stations opérationnelles : invasion bloquée
+PASS débarquement refusé, équipage resté au sol
+PASS transport de colons refusé par le même verrou
+PASS pas d'assaut sans escadre armée en orbite
+PASS attaque spatiale autorisée malgré le verrou
+PASS une station détruite sur deux : invasion toujours bloquée
+PASS escadre victorieuse restée en orbite
+PASS seconde destruction : débarquement ouvert
+PASS détruire les stations ne conquiert pas la planète
+PASS première vague légale envoyée
+PASS station reconstruite : nouvelle vague bloquée en orbite, sans perte
+PASS verrou levé : la vague débarque une seule fois
+PASS tête de pont enregistrée comme occupation, pas comme colonie neuve
+PASS troupes déjà au sol conservées, renforts suivants bloqués
+PASS monde fondateur partagé : jamais un débarquement hostile
+PASS l'IA est bloquée par la même règle
+PASS IA : construit un hangar payé pour lever le verrou (hangar:aurore)
+PASS IA : produit des intercepteurs payés
+PASS IA : envoie une escadre contre la station (escadre:nemesis), pas de débarquement
+PASS verrou et stations conservés par la sauvegarde
+PASS manifeste au-delà de la capacité refusé sans débit
+PASS transport sans colonie d'accueil refusé
+PASS mission de fondation lancée
+PASS en vol : ni au sol ni livré
+PASS sauvegarde au milieu du trajet
+PASS reprise : une seule arrivée, 12 colons
+PASS mission archivée, livrée une fois
+PASS sauvegarde d'un transport actif déjà livré refusée
+PASS 400 alliages sur A : 0 utilisable sur B
+PASS fret supérieur au stock ou à la cale refusé
+PASS 50 alliages et 3 colons embarqués
+PASS stock de départ débité une fois
+PASS transport détruit explicitement
+PASS transport perdu : rien n'arrive, passagers perdus consignés
+PASS second envoi
+PASS 50 livrés sur B, 300 restent sur A : ni perte ni duplication
+PASS minerai : déjà dans le dépôt commun du système, pas de téléportation simulée
+PASS bénéfice net viré à la trésorerie, au plus une fois par période (4)
+PASS réserve d'exploitation locale conservée
+PASS comptes équilibrés : trésorerie + réserves = créé - dépensé
+PASS rechargements : aucun bénéfice recrédité
+PASS déficit : aucun profit fictif, réserve jamais négative
+PASS écriture atomique du fichier de campagne
+PASS relecture du fichier : état identique
+J13_COLONY_RESULT=PASS checks=128 failures=0

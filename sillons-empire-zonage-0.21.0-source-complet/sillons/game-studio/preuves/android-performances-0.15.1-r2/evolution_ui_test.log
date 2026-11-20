@@ -1,0 +1,12 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS U01 campagne principale raccordée
+PASS M02 dotations civiles symétriques
+PASS U01 conseil bloque les gestes du terrain
+PASS U01 politique envoyée au modèle
+PASS U01 aménagement accessible avant la vue spatiale
+PASS U01 atlas routier tactile présent
+PASS U01 retour ferme le conseil
+PASS R01 drapeau permanent visible sur le terrain
+PASS M04 secteurs graphiques 32, cache borné
+EVOLUTION_UI_RESULT checks=9 failures=0

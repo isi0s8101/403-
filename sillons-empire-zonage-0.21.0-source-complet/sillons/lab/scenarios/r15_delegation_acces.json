@@ -1,0 +1,96 @@
+{
+  "name": "R15 — Armée déléguée : trouver un autre accès",
+  "description": "Le secteur à défendre est derrière le gué nord-ouest, fermé par l'ennemi. L'armée rejoint ses postes par le gué sud-est et les tient.",
+  "seed": 2105,
+  "ticks": 1800,
+  "setup": [
+    {
+      "t": "lab_reveal",
+      "team": 0
+    },
+    {
+      "t": "lab_block_ford",
+      "team": 1,
+      "ford": 0
+    },
+    {
+      "t": "spawn_group",
+      "team": 0,
+      "unit": "lancier",
+      "count": 6,
+      "pos": [
+        20,
+        40
+      ],
+      "as": "a1"
+    },
+    {
+      "t": "spawn_group",
+      "team": 0,
+      "unit": "lancier",
+      "count": 6,
+      "pos": [
+        22,
+        43
+      ]
+    },
+    {
+      "t": "spawn_group",
+      "team": 0,
+      "unit": "tireur",
+      "count": 6,
+      "pos": [
+        18,
+        44
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "tick": 5,
+      "cmd": {
+        "t": "army_defend",
+        "team": 0,
+        "pos": [
+          40,
+          22
+        ],
+        "radius": 10
+      },
+      "expect": true,
+      "label": "délégation acceptée"
+    }
+  ],
+  "asserts": [
+    {
+      "tick": 30,
+      "check": "squad_role_sub",
+      "team": 0,
+      "contains": "autre accès",
+      "label": "postes atteints par un autre accès (détour signalé)"
+    },
+    {
+      "tick": 1790,
+      "check": "count_side",
+      "team": 0,
+      "side": "ne",
+      "op": ">=",
+      "value": 15,
+      "label": "l'armée a franchi par le gué praticable"
+    },
+    {
+      "tick": 1790,
+      "check": "unit_near",
+      "unit": "$a1",
+      "pos": [
+        40,
+        22
+      ],
+      "dist": 9,
+      "label": "le secteur est tenu"
+    }
+  ],
+  "rules": {
+    "max_age": 3
+  }
+}

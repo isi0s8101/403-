@@ -1,0 +1,9 @@
+=== Scénario R05b — Cas limite : ouvrier sans ressources ni dépôt — graine 1502 ===
+Cas ambigu soumis à arbitrage (D-07). Règle provisoire batisseur_et_moyens : élimination.
+[t=   1.0s] ORDRE {"id":225,"t":"lab_kill","team":1.0} -> OK
+[t=   1.0s] EVT detruit camp 1 : Bâtiment détruit : Centre de commandement
+[t=   1.5s] EVT sans_centre camp 1 : Adversaire n'a plus de centre : 180 s pour en rebâtir un
+[t=   1.5s] EVT elimine camp 1 : Adversaire éliminé : plus de centre et ouvrier sans ressources ni dépôt
+[t=   1.5s] EVT fin camp 0 : Victoire : Joueur
+[t=   4.0s] PASS ouvrier sans moyens : éliminé (règle provisoire) — camp 1 éliminé = true ; capacité : ouvrier sans ressources ni dépôt
+[t=   4.0s] FIN — 1/1 assertions PASS — empreinte ddef8f9b75684d17

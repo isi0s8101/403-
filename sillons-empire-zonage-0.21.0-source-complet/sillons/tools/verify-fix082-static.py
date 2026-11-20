@@ -1,0 +1,78 @@
+#!/usr/bin/env python3
+"""Vérifications structurées 0.8.2. PAS un substitut à l'exécution Godot."""
+from pathlib import Path
+import sys
+root=Path(__file__).resolve().parents[1]
+checks=0
+failures=0
+def check(pred,msg):
+ global checks,failures
+ checks+=1
+ if not pred: failures+=1
+ print(("PASS " if pred else "FAIL ")+msg)
+def get(rel):
+ f=root/rel
+ check(f.is_file(), "fichier "+rel)
+ return f.read_text(encoding="utf-8") if f.is_file() else ""
+star=get("sim/star_campaign.gd")
+save=get("sim/campaign_save.gd")
+screen=get("game/recette_screen.gd")
+suite=get("lab/recette_suite.gd")
+ui=get("game/strategic_hud.gd")
+game=get("game/game.gd")
+conf=get("game/game_config.gd")
+for s,t in [
+ ("func shipping_candidates(","prévisualisation des transports"),
+ ("cargo_ids: Array = []", "cargaison explicite"),
+ ("if not allowed.has(uid) or unique.has(uid)","cargaison hors liste et doublons refusés"),
+ ("fondation déjà en cours", "une réservation de colonie par secteur"),
+ ("_flight_duration", "durée de trajet"),
+ ("a0 > b0 or a1 < b1", "interception sur croisement"),
+ ("_arrive(flight):", "arrivée sous condition"),
+ ("capacité de population insuffisante", "attente orbite"),
+ ("_record_notice", "journal stratégique"),
+ ("OFFSCREEN_ALERT_TYPES", "événements hors écran"),
+ ("for team in faction_ids():","boucle IA multiequipe via registre")]: check(s in star,t)
+for s,t in [
+ ("last_load_source", "provenance backup"),
+ ("load_campaign(path: String = PATH, allow_backup: bool = true)","fallback contrôlé"),
+ ("_load_exact(path + \".bak\"", "backup utilisé"),
+ ("_valid_ratio", "ratio obligatoire"),
+ ("_valid_supply", "ravitaillement obligatoire"),
+ ('rec.has("holding")', "état d'attente validé"),
+ ('if not rec.get("id") is int', "id vol validé")]: check(s in save,t)
+for s,t in [
+ ("recette_manual_run_id", "statuts liés exécution"),
+ ("manual.clear()", "reset contrôles matériels"),
+ ("func _copy_report", "copie du rapport Android"),
+ ("DisplayServer.clipboard_set", "presse papiers Android"),
+ ("OS.get_model_name", "identifiant modèle"),
+ ("speed_benchmarks", "mesure de vitesses conservée")]: check(s in screen,t)
+for s,t in [
+ ("run_id: String", "identifiant unique test"),
+ ("Convoi sans état du vaisseau refusé", "régression ratio absent"),
+ ("Cargaison sans ravitaillement refusée", "régression supply absent"),
+ ("Secours SHA-256 restauré", "régression restauration backup"),
+ ("Pas d'interception juste après départ", "régression collision départ"),
+ ("Alerte planète hors écran agrégée", "régression alerte"),
+ ("Convoi retient sa cargaison", "régression population"),
+ ("Aucun double prélèvement", "régression double coût"),
+ ("Troupe non sélectionnée reste au sol", "régression sélection")]: check(s in suite,t)
+for s,t in [
+ ("CheckBox.new()", "cases de sélection"),
+ ("ships_select.get_selected_id()", "choix du vaisseau"),
+ ("_jump_to_alert", "navigation alertes"),
+ ("dialog.add_child(box)", "contenant standard du dialogue"),
+ ("dialog.add_child(box)", "conteneur UI compatible")]: check(s in ui,t)
+check("dialog.get_vbox()" not in ui,"pas de méthode FileDialog exclusive")
+for s,t in [
+ ("_sample_speed(delta, steps)", "mesure tick réelle"),
+ ("p95_frame_ms", "mesure p95"),
+ ("p99_frame_ms", "mesure p99"),
+ ("requested_ticks_per_second", "rapport vitesse demandée"),
+ ("delivered_ratio", "rapport vitesse réalisée")]: check(s in game,t)
+check("0.5, 1.0, 2.0, 4.0, 8.0" in conf,"toutes les vitesses maintenues")
+check("version/code=" in get("export_presets.cfg") and int(get("export_presets.cfg").split("version/code=")[1].splitlines()[0]) >= 82, "code Android >= 82")
+check(any(v in get("project.godot") for v in ["0.8.2-correctifs-candidate", "0.9.0-j9-candidate", "0.9.1-j9-completion-candidate", "0.10.0-j10-candidate", "0.11.0-j11-candidate", "0.12.3-j12-orbital-candidate", "0.16.0-civilisation-candidate", "0.17.0-interface-candidate", "0.18.0-ville-candidate", "0.18.1-ville-candidate", "0.19.0-zonage-candidate", "0.20.0-zonage-candidate"]),"version 0.8.2 ou J9 compatible")
+print("FIX082_STATIC_RESULT=%s checks=%d failures=%d" % ("PASS" if not failures else "FAIL", checks, failures))
+sys.exit(0 if failures==0 else 1)

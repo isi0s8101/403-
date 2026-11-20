@@ -1,0 +1,23 @@
+=== Scénario R01 — Priorités de ressources et réaffectation — graine 1201 ===
+Recette 2a : changer une priorité et constater la réaffectation automatique des ouvriers.
+[t=   2.5s] PASS départ : ouvriers répartis (nourriture) — ouvriers en tâche food = 2 (>= 1.0)
+[t=   3.0s] ORDRE {"res":"food","t":"set_priority","team":0.0,"value":0.0} -> OK
+[t=   3.0s] ORDRE {"res":"ore","t":"set_priority","team":0.0,"value":0.0} -> OK
+[t=   3.0s] ORDRE {"res":"wood","t":"set_priority","team":0.0,"value":3.0} -> OK
+[t=   3.0s] EVT priorite camp 0 : Priorité Nourriture : 0
+[t=   3.0s] EVT priorite camp 0 : Priorité Minerai : 0
+[t=   3.0s] EVT priorite camp 0 : Priorité Bois : 3
+[t=   3.0s] EVT reaffectation camp 0 : Réaffectation : 2 ouvrier(s) nourriture → bois
+[t=   3.0s] EVT reaffectation camp 0 : Réaffectation : 1 ouvrier(s) minerai → bois
+[t=   6.0s] PASS bois priorité 3 seule : 5 ouvriers au bois — ouvriers en tâche wood = 5 (== 5.0)
+[t=   6.0s] PASS événement de réaffectation émis — événement reaffectation trouvé
+[t=  39.0s] PASS bois collecté (contrôle de cohérence) — stat spent camp 0 = 0
+[t=  39.0s] PASS le bois augmente pendant la priorité bois — wood camp 0 = 280 (> 260.0)
+[t=  40.0s] ORDRE {"res":"wood","t":"set_priority","team":0.0,"value":0.0} -> OK
+[t=  40.0s] ORDRE {"res":"food","t":"set_priority","team":0.0,"value":3.0} -> OK
+[t=  40.0s] EVT priorite camp 0 : Priorité Bois : 0
+[t=  40.0s] EVT priorite camp 0 : Priorité Nourriture : 3
+[t=  40.0s] EVT reaffectation camp 0 : Réaffectation : 5 ouvrier(s) bois → nourriture
+[t=  43.0s] PASS nourriture priorité 3 seule : 5 ouvriers à la nourriture — ouvriers en tâche food = 5 (== 5.0)
+[t=  89.0s] PASS la nourriture augmente ensuite — food camp 0 = 350 (> 260.0)
+[t=  90.0s] FIN — 7/7 assertions PASS — empreinte c3106ba01af949b9

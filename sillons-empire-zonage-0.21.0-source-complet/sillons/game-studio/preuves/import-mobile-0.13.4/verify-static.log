@@ -1,0 +1,25 @@
+PASS j678
+PASS recette
+PASS fix082
+PASS j9
+PASS j9-complete
+PASS j10
+PASS j11
+PASS j12
+PASS evolution
+PASS orbital
+PASS j13
+PASS simulation identique à la 0.13.2
+PASS 800 modèles et 2400 GLB conformes au catalogue
+PASS paquet natif complet et SHA-256 exact
+PASS aucun GLB dans res://
+PASS aucune bibliothèque native libre à analyser par l’éditeur
+PASS sources 3D conservées hors du projet jouable
+PASS 2430 GLB source conservés, dont 2400 niveaux du catalogue
+PASS catalogue source correspondant au paquet
+PASS 800 modèles, 2400 scènes, 174 images prêts
+PASS correspondance complète entre scènes natives et GLB du catalogue
+PASS paquet inclus dans le filtre d’export Android
+PASS preuves et anciennes captures exclues du scan d’assets
+MOBILE_IMPORT_STATIC=PASS checks=10 failures=0
+REFONTE_STATIC=PASS suites=14 failures=0

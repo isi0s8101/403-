@@ -1,0 +1,9 @@
+WARNING: Couldn't get executable path from /proc/self/exe, using argv[0]
+     at: get_executable_path (drivers/unix/os_unix.cpp:1136)
+Godot Engine v4.5.1.stable.official.f62fdbde1 - https://godotengine.org
+
+PASS niveau 100 u./front, 300 ticks, A (sans vue) contre B (3 bascules) : 300+300 empreintes identiques, journaux identiques, 75+35 unités identiques ; empreintes finales 183d93f3b0c03df7 / 76670e1d6fe7288a ; suites d'ordres identiques (270 + 134 ordres)
+PASS niveau 100 u./front, 300 ticks, A (sans vue) contre C (8 bascules) : 300+300 empreintes identiques, journaux identiques, 75+35 unités identiques ; empreintes finales 183d93f3b0c03df7 / 76670e1d6fe7288a ; suites d'ordres identiques (270 + 134 ordres)
+PASS contrôle négatif (décalage de 0,001 case au tick 150) : divergence détectée — front A : divergence au tick 150 ; front A : suites d'ordres différentes ; front A : journaux d'événements différents ; front A : 68 unités à l'état différent
+RÉSULTAT GLOBAL : PASS
+Preuves : /workspace/scratch/0daced5ff8b8/work/sillons/game-studio/preuves/deux_fronts

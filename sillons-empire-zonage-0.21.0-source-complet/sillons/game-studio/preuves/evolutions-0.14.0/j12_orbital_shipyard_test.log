@@ -1,0 +1,26 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS Avant IX : aucun chantier naval orbital
+PASS Âge IX : chantier orbital initial automatique
+PASS Assemblage non instantané
+PASS Chantier naval devenu centre opérationnel
+PASS Drone constructeur initial disponible
+PASS Le chantier commande son propre habitat spatial
+PASS Pas de double commande pendant la production
+PASS Habitat = capacité de population orbitale
+PASS Ferme hydroponique spatialement construite
+PASS Production réelle de nourriture en orbite
+PASS Centre orbital produit une navette dès IX
+PASS Navette conservée dans l'inventaire orbital, pas au sol
+PASS Mission avec unités manquantes refusée sans débit
+PASS Mission interplanétaire réelle : navette + constructeur
+PASS Sauvegarde de campagne contenant le chantier et le vol
+PASS Reprise exacte de l'état orbital
+PASS Mission corrompue refusée
+PASS Arrivée physique : drone transféré sans duplication
+PASS Drone transféré construit un nouveau centre orbital
+PASS Coût du deuxième chantier prélevé une seule fois
+PASS Un seul chantier par camp et monde
+PASS Frégate verrouillée avant l'âge X
+PASS Arsenal spatial nécessaire à la frégate
+ORBITAL_J12_3=PASS assertions=23 failures=0

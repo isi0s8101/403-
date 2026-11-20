@@ -1,0 +1,22 @@
+=== Scénario R03 — Passage d'âge : ressources seules, objectif seul, les deux — graine 1301 ===
+Recette 3. Objectif provisoire : découvrir un comptoir neutre (règle de recette configurable, non approuvée).
+[t=   1.0s] ORDRE {"res":{"food":1000.0,"wood":1000.0},"t":"lab_res","team":0.0} -> OK
+[t=   1.2s] ORDRE {"t":"age_up","team":0.0} -> REFUS (passage d'âge impossible : objectif : Découvrir un comptoir neutre)
+[t=   1.2s] PASS ressources seules : refus, objectif manquant affiché — attendu REFUS, obtenu REFUS passage d'âge impossible : objectif : Découvrir un comptoir neutre
+[t=   1.2s] EVT refus camp 0 : Ordre refusé : passage d'âge impossible : objectif : Découvrir un comptoir neutre
+[t=   2.0s] ORDRE {"res":{"food":0.0,"wood":0.0},"t":"lab_res","team":0.0} -> OK
+[t=   2.0s] ORDRE {"pos":[8.0,25.0],"t":"lab_spawn","team":0.0,"unit":"eclaireur"} -> OK
+[t=   2.0s] EVT comptoir camp 0 : Comptoir neutre découvert
+[t=   3.0s] PASS comptoir neutre découvert par l'éclaireur — événement comptoir trouvé
+[t=   4.0s] ORDRE {"t":"age_up","team":0.0} -> REFUS (passage d'âge impossible : manque 400 nourriture, 200 bois)
+[t=   4.0s] PASS objectif seul : refus, ressources manquantes chiffrées — attendu REFUS, obtenu REFUS passage d'âge impossible : manque 400 nourriture, 200 bois
+[t=   4.0s] EVT refus camp 0 : Ordre refusé : passage d'âge impossible : manque 400 nourriture, 200 bois
+[t=   5.0s] ORDRE {"res":{"food":1000.0,"wood":1000.0},"t":"lab_res","team":0.0} -> OK
+[t=   5.2s] ORDRE {"t":"age_up","team":0.0} -> OK
+[t=   5.2s] PASS ressources + objectif : passage lancé — attendu OK, obtenu OK 
+[t=   5.2s] EVT age camp 0 : Passage à l'âge II — Commerce lancé
+[t=  20.0s] PASS âge I pendant le passage — âge camp 0 = 1 (attendu 1)
+[t=  40.1s] EVT age_atteint camp 0 : Joueur atteint l'âge II — Commerce
+[t=  42.0s] PASS âge II atteint après la durée de passage — âge camp 0 = 2 (attendu 2)
+[t=  42.0s] PASS l'adversaire reste indépendant (âge I) — âge camp 1 = 1 (attendu 1)
+[t=  52.0s] FIN — 7/7 assertions PASS — empreinte fec9548d0a854ed6

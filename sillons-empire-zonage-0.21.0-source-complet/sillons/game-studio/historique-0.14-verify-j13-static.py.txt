@@ -1,0 +1,69 @@
+#!/usr/bin/env python3
+"""Vérification structurelle J13 ; ne remplace pas l'exécution Godot (voir verify-j13.sh)."""
+from pathlib import Path
+import hashlib, re, sys
+ROOT = Path(__file__).resolve().parents[1]
+results = []
+def check(ok, label):
+    results.append(bool(ok))
+    print(('PASS ' if ok else 'FAIL ') + label)
+def src(name):
+    return (ROOT / name).read_text(encoding='utf-8')
+FILES = ['sim/j13_rules.gd', 'sim/planet_campaign.gd', 'sim/planet_governor.gd', 'sim/j13_save.gd',
+         'views/colony_panel.gd', 'lab/j13_colony_test.gd', 'lab/j13_ui_test.gd', 'sim/colony_gate.gd', 'lab/j13_supply_test.gd', 'game/asset_library.gd', 'lab/assets_3d_test.gd', 'lab/j13_globe_test.gd', 'README-J13.md',
+         'game-studio/J13-validation.md', 'tools/verify-j13.sh', 'tools/export-android-j13.sh']
+for name in FILES:
+    check((ROOT / name).is_file(), 'fichier ' + name)
+rules, planet, governor, save = src('sim/j13_rules.gd'), src('sim/planet_campaign.gd'), src('sim/planet_governor.gd'), src('sim/j13_save.gd')
+campaign, orbital, envelope = src('sim/star_campaign.gd'), src('sim/orbital_industry.gd'), src('sim/campaign_save.gd')
+for token in ['COLONY_START_AGE: int = 7', 'DEFAULT_TARGET', 'RECIPES', 'FACILITIES', 'AGE_UP', 'STATION_COST', 'UTILITY_PRIORITY', 'PRESETS']:
+    check(token in rules, 'table ' + token)
+for token in ['func local_age(', 'func found(', 'func zone(', 'func build_civic(', 'func build_road(', 'func set_target(',
+              'func service_report(', 'func utilities(', 'func landing_blocked(', 'func orbital_assault(', 'func send_transport(',
+              'func destroy_transport(', 'func books_balanced(', 'func advance_colony_age(', 'func developed_ratio(', 'func ai_orbital(']:
+    check(token in planet, 'mécanique ' + token)
+check('static func decide(' in governor and 'demolish' not in governor, 'gouverneur : décision pure, aucune démolition')
+check('_process' not in planet + governor, 'aucune décision économique dans _process')
+check(not re.search(r'\brand[fi]\w*\(|\bTime\.|\bOS\.', planet + governor), 'ni hasard global ni horloge système')
+for token in ['var planets: PlanetCampaign', 'planets.step(self)', 'planets.lock_text(self, team, target)', 'planets.lock_text(self, team, dest_key)',
+              'planets.note_world_age(', 'planets.local_age(self, team, String(key))', 'planets.hash_text()', 'func request_hostile_landing(',
+              'func advance_colony_age(', 'func transfer_materials(', 'func found_colony(']:
+    check(token in campaign, 'campagne ' + token)
+check('c.planets.local_age(c, team, body) < 9' in orbital and 'c.planets.local_age(c, team, body) < min_age' in orbital, 'orbite : âge LOCAL pour station et production')
+check('c.planets.orbital_assault(' in orbital, 'orbite : toutes les stations comptent')
+check('J13Save.write(c, out)' in envelope and 'J13Save.read(c, data)' in envelope and '.duplicate(true)' in envelope, 'sauvegarde : bloc j13 + instantané immuable')
+gate, world = src('sim/colony_gate.gd'), src('sim/sim_world.gd')
+check('func lack(' in gate and 'func consume(' in gate and world.count('supply_gate.call(') == 4, 'chaîne : habitants et industrie requis pour former et bâtir')
+check('static func unit_needs(' in rules and 'static func building_needs(' in rules and 'func enable_supply_chain(' in campaign, 'chaîne : tables et activation')
+globe_view = src('views/planet_globe_view.gd')
+check('func show_districts(' in globe_view and 'AssetLibrary.instantiate(' in globe_view and 'planet_globe.bind_campaign(campaign, player)' in src('game/game.gd'), 'globe : districts affichés avec les assets 3D')
+check((ROOT / 'data/assets_3d.pck').is_file() and 'load_resource_pack(NATIVE_PACK, false)' in src('game/asset_library.gd'), 'paquet natif prêt sans import GLB')
+check('_process' not in globe_view.split('J13.2 : districts en 3D')[1] and '.planets.zone(' not in globe_view and '_charge(' not in globe_view, 'globe : affichage en lecture seule')
+check('migrated_from = "0.12.3"' in save and 'bootstrap(c, false)' in save and 'books_balanced' in save, 'migration 0.12.3 sans crédit ni station')
+check('"0.14.0-evolutions-candidate"' in src('project.godot'), 'version projet 0.14.0-evolutions-candidate')
+check('version/code=140' in src('export_presets.cfg'), 'versionCode Android 134')
+check('res://lab/j13_colony_test.gd' in src('tools/verify-j13.sh') and '--editor --quit' in src('tools/verify-j13.sh'), 'recette Godot réelle branchée')
+for name in FILES[:12]:
+    text = src(name)
+    check('\x00' not in text and '\r' not in text and not re.search(r'(?m)^(?:<<<<<<<|=======|>>>>>>>)', text) and not re.search(r'(?m)^ +\S', text), 'texte sain ' + name)
+    funcs = re.findall(r'(?m)^(?:static )?func (\w+)\(', text)
+    check(len(funcs) == len(set(funcs)), 'fonctions uniques ' + name)
+manifest = ROOT / 'game-studio/manifest-j13.sha256'
+if manifest.is_file():
+    entries = manifest.read_text(encoding='utf-8').splitlines()
+    valid = len(entries) > 300
+    for record in entries:
+        if '  ' not in record:
+            valid = False
+            break
+        digest, rel = record.split('  ', 1)
+        target = ROOT / rel
+        if rel.startswith('/') or '..' in Path(rel).parts or not target.is_file() or hashlib.sha256(target.read_bytes()).hexdigest() != digest:
+            print('  écart : ' + rel)
+            valid = False
+            break
+    check(valid, 'manifeste J13 SHA-256 valide : %d fichiers' % len(entries))
+else:
+    print("INFO manifeste J13 généré à l'assemblage")
+print('J13_STATIC_RESULT=%s checks=%d failures=%d' % ('PASS' if all(results) else 'FAIL', len(results), sum(not r for r in results)))
+sys.exit(0 if all(results) else 1)

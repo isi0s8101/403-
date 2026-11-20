@@ -1,0 +1,42 @@
+{
+  "conditions": "Linux / CPU partagé / headless / 3 mondes / 500 ticks par profil ; exclut GPU et assets de rendu ; mémoire statique Godot et non RSS du processus",
+  "samples": [
+    {
+      "dimension": 96,
+      "godot": "4.7.2-stable (official)",
+      "memory_mib": 51.3080453872681,
+      "platform": "Linux",
+      "startup_ms": 40.657,
+      "tick_max_ms": 10.676,
+      "tick_p50_ms": 0.7,
+      "tick_p95_ms": 4.653,
+      "ticks": 500,
+      "worlds": 3
+    },
+    {
+      "dimension": 256,
+      "godot": "4.7.2-stable (official)",
+      "memory_mib": 86.0509901046753,
+      "platform": "Linux",
+      "startup_ms": 389.951,
+      "tick_max_ms": 24.685,
+      "tick_p50_ms": 0.55,
+      "tick_p95_ms": 5.146,
+      "ticks": 500,
+      "worlds": 3
+    },
+    {
+      "dimension": 512,
+      "godot": "4.7.2-stable (official)",
+      "memory_mib": 224.637391090393,
+      "platform": "Linux",
+      "startup_ms": 1473.495,
+      "tick_max_ms": 57.912,
+      "tick_p50_ms": 0.59,
+      "tick_p95_ms": 8.341,
+      "ticks": 500,
+      "worlds": 3
+    }
+  ],
+  "android": "NOT_RUN"
+}

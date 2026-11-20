@@ -1,0 +1,27 @@
+{
+  "project": "Sillons d’Empire",
+  "version": "0.9.1-j9-completion-candidate",
+  "source_baseline": "sillons-empire-j9-planete-procedurale-0.9.0-source-complet.zip",
+  "scope": "J9 inter-regional traversability, procedural regions, persistence, background simulation, touch controls, spatial destination binding",
+  "static_suite_results": {
+    "j678": 215,
+    "recette": 100,
+    "fix082": 59,
+    "j9": 49,
+    "j9_completion": 44,
+    "total_assertions": 467,
+    "failures": 0
+  },
+  "godot_import": "NOT_RUN_GODOT_UNAVAILABLE",
+  "godot_headless": "NOT_RUN_GODOT_UNAVAILABLE",
+  "android_apk": "NOT_BUILT_ANDROID_TOOLCHAIN_UNAVAILABLE",
+  "galaxy_s25_ultra": "NOT_TESTED",
+  "release_status": "CANDIDATE_RUNTIME_VALIDATION_REQUIRED",
+  "known_limits": [
+    "generation and render of adjacent region synchronous",
+    "all visited inhabited regions simulated at 10 fixed ticks/s",
+    "only Val planet has interregional geography; Aurore/Nemesis pending J10",
+    "terrain transition is regional reload, not seamless graphical continuous scroll",
+    "ocean crossing requires later naval transport"
+  ]
+}

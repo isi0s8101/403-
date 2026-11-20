@@ -1,0 +1,21 @@
+=== Scénario R02 — Gisement épuisé, pénurie lisible puis reprise — graine 1202 ===
+Recette 2b : épuiser les baies proches. Les ouvriers cherchent un autre gisement exploré ; sans gisement connu, pénurie signalée et réaffectation au bois ; après exploration, retour à la nourriture.
+[t=  19.0s] PASS avant épuisement : majorité à la nourriture — ouvriers en tâche food = 4 (>= 3.0)
+[t=  20.5s] LABO épuisement de 7 gisement(s) baies
+[t=  20.5s] EVT epuise camp 0 : Gisement épuisé (nourriture) : recherche d'un autre
+[t=  20.5s] EVT penurie camp 0 : Aucun gisement de nourriture accessible : ouvriers réaffectés
+[t=  20.5s] EVT epuise camp 0 : Gisement épuisé (nourriture) : recherche d'un autre
+[t=  20.5s] EVT epuise camp 0 : Gisement épuisé (nourriture) : recherche d'un autre
+[t=  20.5s] EVT epuise camp 0 : Gisement épuisé (nourriture) : recherche d'un autre
+[t=  32.0s] PASS gisement épuisé signalé — événement epuise trouvé
+[t=  42.0s] PASS pénurie de nourriture explicite (aucun gisement accessible) — événement penurie trouvé
+[t=  42.0s] PASS ouvriers réaffectés au bois pendant la pénurie — ouvriers en tâche wood = 5 (== 5.0)
+[t=  70.0s] ORDRE {"t":"lab_reveal","team":0.0} -> OK
+[t=  70.0s] EVT penurie_fin camp 0 : Gisement de nourriture de nouveau accessible
+[t=  70.0s] EVT reaffectation camp 0 : Réaffectation : 4 ouvrier(s) bois → nourriture
+[t=  82.0s] PASS fin de pénurie après exploration — événement penurie_fin trouvé
+[t=  82.0s] PASS retour à la nourriture (baies éloignées) — ouvriers en tâche food = 4 (>= 3.0)
+[t=  90.8s] EVT epuise camp 1 : Gisement épuisé (bois) : recherche d'un autre
+[t=  90.8s] EVT epuise camp 1 : Gisement épuisé (bois) : recherche d'un autre
+[t= 139.0s] PASS fin de scénario — stat units_trained camp 0 = 0
+[t= 140.0s] FIN — 7/7 assertions PASS — empreinte b32f13eef9e28d09

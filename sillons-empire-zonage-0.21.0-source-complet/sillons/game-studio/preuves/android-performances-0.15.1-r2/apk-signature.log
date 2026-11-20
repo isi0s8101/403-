@@ -1,0 +1,17 @@
+Verifies
+Verified using v1 scheme (JAR signing): false
+Verified using v2 scheme (APK Signature Scheme v2): true
+Verified using v3 scheme (APK Signature Scheme v3): true
+Verified using v3.1 scheme (APK Signature Scheme v3.1): false
+Verified using v4 scheme (APK Signature Scheme v4): false
+Verified for SourceStamp: false
+Number of signers: 1
+Signer #1 certificate DN: CN=Sillons Empire Test R2, O=Local Test, C=FR
+Signer #1 certificate SHA-256 digest: 6e6750cb0ca38980449b3e062d8fe590772c7d009b1d31cf78e36d10cb322184
+Signer #1 certificate SHA-1 digest: 38c254e785ebf8438b2aaa4424977ffa61c140d0
+Signer #1 certificate MD5 digest: 867a2e451a97602a3af0b2e52206b7d1
+Signer #1 key algorithm: RSA
+Signer #1 key size (bits): 2048
+Signer #1 public key SHA-256 digest: d06a1ad4f3402e64c22f7976d1704dc3ac6988fa9bfd95bb4d1f98356b585555
+Signer #1 public key SHA-1 digest: da6d4a2b47902c34e8a0aeba438bde4a11a01203
+Signer #1 public key MD5 digest: ce43958c882cad5fd1b5730da8b796aa

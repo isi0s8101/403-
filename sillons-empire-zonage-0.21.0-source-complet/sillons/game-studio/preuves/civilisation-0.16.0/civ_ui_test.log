@@ -1,0 +1,16 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+PASS campagne principale : évolution de la civilisation active
+PASS bouton « Civilisation » dans la barre du haut
+PASS panneau ouvert, il bloque les gestes du terrain
+PASS voies, monuments, héros, améliorations et pouvoirs listés
+PASS choix de voie proposé à l'âge II
+PASS voie choisie depuis le panneau (commande simulée)
+PASS monument de l'âge suivant proposé (ou objectif d'âge affiché)
+PASS pouvoir de rang 1 déblocable
+PASS pouvoir débloqué prêt à l'emploi
+PASS ciblage du pouvoir sur la carte
+PASS toucher la carte lance le pouvoir (soin appliqué)
+PASS fiche du centre ouverte
+PASS fiche : héros proposé, unités des autres voies masquées
+PASS fiche : améliorations économiques au centre
+CIV_UI_RESULT=PASS checks=14 failures=0

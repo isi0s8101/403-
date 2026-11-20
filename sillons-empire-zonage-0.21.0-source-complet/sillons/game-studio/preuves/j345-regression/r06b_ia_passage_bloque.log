@@ -1,0 +1,49 @@
+=== Scénario R06b — IA : passage bloqué et changement de cible — graine 1602 ===
+La seule structure ennemie connue de l'IA est sur l'îlot du lac (inaccessible). L'IA doit constater le passage bloqué, l'exposer et chercher une autre cible.
+[t=   0.0s] ORDRE {"cell":[46.0,48.0],"complete":true,"t":"lab_building","team":0.0,"type":"maison"} -> OK
+[t=   0.0s] LABO placement : 6 × lancier camp 1 en (60,36)
+[t=   0.0s] ORDRE {"pos":[56.0,42.0],"t":"lab_spawn","team":1.0,"unit":"eclaireur"} -> OK
+[t=   0.0s] EVT escouade camp 1 : Escouade 1 formée
+[t=   0.8s] EVT priorite camp 1 : Priorité Nourriture : 3
+[t=   0.8s] EVT priorite camp 1 : Priorité Bois : 2
+[t=   0.8s] EVT priorite camp 1 : Priorité Minerai : 3
+[t=   0.8s] EVT ia camp 1 : IA : Attaquer (Maison ennemi (47,49))
+[t=   0.8s] EVT refus camp 1 : Ordre refusé : aucun chemin vers la destination
+[t=   1.0s] EVT reaffectation camp 1 : Réaffectation : 1 ouvrier(s) bois → minerai
+[t=   1.8s] EVT ia_abandon camp 1 : IA : abandon — passage bloqué vers Maison ennemi (47,49)
+[t=   1.8s] EVT ia camp 1 : IA : Contourner : chercher un autre passage (base)
+[t=   2.8s] EVT armee camp 1 : Armée : défense du secteur déléguée
+[t=   2.8s] EVT controle camp 1 : Escouade 1 rendue à l'armée
+[t=   2.8s] EVT ia camp 1 : IA : Masser une armée d'assaut (—)
+[t=  11.8s] EVT ia camp 1 : IA : Chercher l'ennemi (zone inexplorée (20,48))
+[t=  18.8s] EVT ia camp 1 : IA : Chercher l'ennemi (zone inexplorée (20,12))
+[t=  27.8s] EVT ia camp 1 : IA : Chercher l'ennemi (zone inexplorée (76,84))
+[t=  30.0s] IA camp 1 | objectif : Chercher l'ennemi | cible : zone inexplorée (76,84) | infos : aucune structure ennemie en mémoire | abandon : t=1s passage bloqué vers Maison ennemi (47,49)
+[t=  30.0s] EVT comptoir camp 1 : Comptoir neutre découvert
+[t=  52.8s] EVT ia camp 1 : IA : Chercher l'ennemi (zone inexplorée (86,72))
+[t=  53.0s] EVT comptoir camp 1 : Comptoir neutre découvert
+[t=  57.8s] EVT ia camp 1 : IA : Chercher l'ennemi (zone inexplorée (48,76))
+[t=  60.0s] IA camp 1 | objectif : Chercher l'ennemi | cible : zone inexplorée (48,76) | infos : aucune structure ennemie en mémoire | abandon : t=1s passage bloqué vers Maison ennemi (47,49)
+[t=  62.0s] EVT comptoir camp 1 : Comptoir neutre découvert
+[t=  69.8s] EVT ia camp 1 : IA : Chercher l'ennemi (zone inexplorée (14,82))
+[t=  75.6s] EVT epuise camp 0 : Gisement épuisé (bois) : recherche d'un autre
+[t=  75.7s] EVT epuise camp 0 : Gisement épuisé (bois) : recherche d'un autre
+[t=  82.8s] EVT ia camp 1 : IA : Attaquer (Centre de commandement ennemi (14,82))
+[t=  83.8s] EVT mort camp 0 : Unité perdue : Éclaireur
+[t=  88.9s] EVT mort camp 0 : Unité perdue : Ouvrier
+[t=  90.0s] IA camp 1 | objectif : Attaquer | cible : Centre de commandement ennemi (14,82) | infos : armée au départ : 6; armée actuelle : 6; pertes : 0 %; route : directe | abandon : t=1s passage bloqué vers Maison ennemi (47,49)
+[t=  90.7s] EVT mort camp 0 : Unité perdue : Ouvrier
+[t=  91.0s] EVT reaffectation camp 0 : Réaffectation : 1 ouvrier(s) nourriture → bois
+[t=  91.8s] EVT ia_route camp 1 : IA : route alternative : détour de 47 % (passage direct bloqué)
+[t=  93.4s] EVT mort camp 0 : Unité perdue : Ouvrier
+[t=  94.0s] EVT reaffectation camp 0 : Réaffectation : 1 ouvrier(s) minerai → bois
+[t= 120.0s] IA camp 1 | objectif : Attaquer | cible : Centre de commandement ennemi (14,82) | infos : armée au départ : 6; armée actuelle : 6; pertes : 0 %; route alternative : détour de 32 % (passage direct bloqué) | abandon : t=1s passage bloqué vers Maison ennemi (47,49)
+[t= 120.5s] EVT mort camp 1 : Unité perdue : Lancier
+[t= 124.8s] EVT fondation camp 1 : Fondation : Maison
+[t= 134.0s] EVT comptoir camp 1 : Comptoir neutre découvert
+[t= 138.8s] EVT acheve camp 1 : Construction terminée : Maison
+[t= 148.8s] EVT unite camp 1 : Unité prête : Ouvrier
+[t= 150.0s] IA camp 1 | objectif : Attaquer | cible : Centre de commandement ennemi (14,82) | infos : armée au départ : 6; armée actuelle : 5; pertes : 16 %; route : directe | abandon : t=1s passage bloqué vers Maison ennemi (47,49)
+[t= 150.0s] PASS abandon pour passage bloqué exposé — IA abandon = t=1s passage bloqué vers Maison ennemi (47,49)
+[t= 150.0s] PASS réévaluation : nouvelle cible / exploration — événement ia trouvé
+[t= 150.0s] FIN — 2/2 assertions PASS — empreinte 47f646dec8f03829

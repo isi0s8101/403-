@@ -1,0 +1,41 @@
+{
+  "name": "R09 — Déterminisme du rejeu (IA contre IA)",
+  "description": "Même graine, mêmes ordres : deux exécutions donnent la même empreinte d'état.",
+  "seed": 1901,
+  "ticks": 3000,
+  "check_determinism": true,
+  "stop_on_game_over": false,
+  "teams": [
+    {
+      "ai": true
+    },
+    {
+      "ai": true
+    }
+  ],
+  "orders": [
+    {
+      "tick": 100,
+      "cmd": {
+        "t": "set_priority",
+        "team": 0,
+        "res": "ore",
+        "value": 3
+      }
+    }
+  ],
+  "asserts": [
+    {
+      "tick": 3000,
+      "check": "count",
+      "team": 0,
+      "tag": "worker",
+      "op": ">=",
+      "value": 5,
+      "label": "économie active"
+    }
+  ],
+  "rules": {
+    "max_age": 3
+  }
+}

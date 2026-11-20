@@ -1,0 +1,41 @@
+=== Scénario R04 — Défense déléguée, ordre direct et retour de la main — graine 1401 ===
+Recette 4 : l'armée répartit trois escouades sur un secteur ; une menace déclenche l'interception ; un ordre direct sur une unité puis sur une escouade reprend la priorité ; rendre la main restaure la délégation.
+[t=   0.0s] LABO placement : 6 × lancier camp 0 en (22,72)
+[t=   0.0s] LABO placement : 6 × lancier camp 0 en (26,72)
+[t=   0.0s] LABO placement : 6 × lancier camp 0 en (22,76)
+[t=   0.0s] EVT escouade camp 0 : Escouade 1 formée
+[t=   0.0s] EVT escouade camp 0 : Escouade 2 formée
+[t=   0.0s] EVT escouade camp 0 : Escouade 3 formée
+[t=   0.5s] ORDRE {"pos":[24.0,68.0],"radius":12.0,"t":"army_defend","team":0.0} -> OK
+[t=   0.5s] PASS délégation acceptée — attendu OK, obtenu OK 
+[t=   0.5s] EVT armee camp 0 : Armée : défense du secteur déléguée
+[t=   6.0s] PASS 3 escouades sur des postes distincts (réserve + 2 postes) — rôles : Réserve, Poste 1, Poste 2
+[t=   7.0s] LABO placement : 4 × lancier camp 1 en (31,60)
+[t=   7.0s] EVT escouade camp 1 : Escouade 1 formée
+[t=   8.5s] ORDRE {"t":"take_unit","team":0.0,"unit":252} -> OK
+[t=   8.5s] PASS reprise en main d'une unité — attendu OK, obtenu OK 
+[t=   8.5s] EVT controle camp 0 : Lancier #252 : contrôle direct
+[t=   8.6s] ORDRE {"pos":[14.0,76.0],"t":"move","team":0.0,"units":[252]} -> OK
+[t=   8.6s] PASS ordre direct à l'unité — attendu OK, obtenu OK 
+[t=   9.5s] PASS menace dans le secteur : interception — rôles : Réserve, Interception, Interception
+[t=   9.5s] PASS une réserve reste au centre du secteur — rôles : Réserve, Interception, Interception
+[t=  10.5s] EVT mort camp 1 : Unité perdue : Lancier
+[t=  13.3s] EVT mort camp 1 : Unité perdue : Lancier
+[t=  14.0s] PASS l'unité reprise exécute l'ordre direct malgré la menace — distance = 0.1 (≤ 1.5)
+[t=  14.0s] PASS l'unité est hors délégation — direct = true
+[t=  14.1s] EVT mort camp 1 : Unité perdue : Lancier
+[t=  15.0s] ORDRE {"pos":[20.0,78.0],"squad":260,"t":"move","team":0.0} -> OK
+[t=  15.0s] PASS ordre direct à une escouade — attendu OK, obtenu OK 
+[t=  16.9s] EVT mort camp 1 : Unité perdue : Lancier
+[t=  20.0s] PASS escouade sous ordre direct exclue de la délégation — direct = true
+[t=  20.0s] PASS rôle affiché : ordre direct — army_role = Ordre direct
+[t=  30.0s] ORDRE {"squad":260,"t":"release_squad","team":0.0} -> OK
+[t=  30.0s] PASS escouade rendue à l'armée — attendu OK, obtenu OK 
+[t=  30.0s] EVT controle camp 0 : Escouade 2 rendue à l'armée
+[t=  30.5s] ORDRE {"t":"release_unit","team":0.0,"unit":252} -> OK
+[t=  30.5s] PASS unité rendue à son escouade — attendu OK, obtenu OK 
+[t=  30.5s] EVT controle camp 0 : Lancier #252 rendue à son escouade
+[t=  33.0s] PASS escouade revenue sous délégation — direct = false
+[t=  33.0s] PASS unité revenue sous contrôle d'escouade — direct = false
+[t=  41.0s] PASS menace éliminée : postes redistribués — rôles : Réserve (autre accès), Poste 2, Poste 1
+[t=  42.0s] FIN — 16/16 assertions PASS — empreinte 7957321b1a99d4ef

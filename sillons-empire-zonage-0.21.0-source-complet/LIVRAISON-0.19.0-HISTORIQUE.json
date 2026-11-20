@@ -1,0 +1,66 @@
+{
+ "product": "Sillons d'Empire",
+ "version": "0.19.0-zonage-candidate",
+ "android_version_code": 190,
+ "status": "candidate",
+ "lot": "A",
+ "baseline_version": "0.18.1-ville-candidate",
+ "engine": "4.7.2.stable.official.ed1daf0bf",
+ "entrypoint": "sillons/project.godot",
+ "guide": "README-ZONAGE-0.19.0.md",
+ "audit": "AUDIT-ZONAGE-0.18.1.md",
+ "validation": "sillons/game-studio/VALIDATION-ZONAGE-0.19.0.md",
+ "evidence": "sillons/game-studio/preuves/zonage-0.19.0/",
+ "apk": null,
+ "source_scenarios": 63,
+ "source_result": "PASS 63/63 en deux passages (43 scénarios, puis les 20 derniers après deux correctifs de portraits — puits, exploitation agricole, ruines — et le paquet natif ; refonte_visual relancé après le correctif : PASS)",
+ "android_native": "NOT_RUN",
+ "galaxy_s25_ultra": "NOT_RUN",
+ "third_party_content_reused": false,
+ "author_decisions": [
+  "zonage dès l'âge I, à côté de la récolte ; la bascule de la recherche Électricité reste",
+  "pose manuelle des zones remplacée ; parties 0.18 converties (zones posées → parcelles zonées)",
+  "routes ajoutées : un bâtiment ne pousse qu'à 2 cases au plus d'une route reliée au centre"
+ ],
+ "simulation_changes_declared": [
+  "sim/urban_zoning.gd, sim/urban_growth.gd (nouveaux, par composition)",
+  "sim/urban_city.gd (calcul étendu : ère pré-électrique, états, nourriture, émeutes, intensité du feu, croissance)",
+  "sim/urban_rules.gd (tables du zonage)",
+  "sim/rules.gd (zones dès l'âge I, zone agricole, ruines, puits)",
+  "sim/sim_world.gd (Team.zoning, cache des routes dans footprint_free, ruines à la destruction)",
+  "sim/urban_ai.gd (routes et zones de l'IA)"
+ ],
+ "provisional_values": [
+  "sim/urban_rules.gd (toutes les valeurs)",
+  "sim/urban_zoning.gd (coûts des routes)"
+ ],
+ "new_files": [
+  "sim/urban_zoning.gd",
+  "sim/urban_growth.gd",
+  "game/urban_visual.gd",
+  "interface/zoning_tool.gd",
+  "interface/zoning_panel.gd",
+  "lab/zoning_test.gd",
+  "lab/ui_zoning_test.gd",
+  "game-studio/VALIDATION-ZONAGE-0.19.0.md",
+  "game-studio/preuves/zonage-0.19.0/",
+  "../README-ZONAGE-0.19.0.md",
+  "../AUDIT-ZONAGE-0.18.1.md"
+ ],
+ "adapted_tests": [
+  "lab/urban_city_test.gd (U04, U18–U20, G06) : les zones poussent sur le zonage au lieu d'être posées (raison écrite dans le fichier)",
+  "lab/ui_city_test.gd (C09, C14) : même raison"
+ ],
+ "not_run": [
+  "Android / Galaxy S25 Ultra, APK",
+  "changement d'échelle et villes lointaines abrégées (LOT B)",
+  "performance mesurée sur téléphone"
+ ],
+ "lot_b_remaining": [
+  "silhouettes plus distinctes pour les 10 âges",
+  "simulation multi-échelle (colonies, orbite, système, galaxie)",
+  "filtres visuels (population, densité, criminalité, prospérité, production, pollution, état, incidents, infrastructures)",
+  "événements urbains extensibles",
+  "seuils de performance Android et calcul de la ville réparti sur plusieurs ticks"
+ ]
+}

@@ -1,0 +1,23 @@
+=== Scénario R14 — Passage II → III : ressources seules, objectif seul, les deux — graine 2104 ===
+Objectif provisoire configurable : achever un bâtiment à moins de 9 cases d'un gué.
+[t=   0.5s] ORDRE {"res":{"food":2000.0,"ore":2000.0,"wood":2000.0},"t":"lab_res","team":0.0} -> OK
+[t=   0.6s] ORDRE {"building":244,"t":"train","team":0.0,"unit":"canon"} -> REFUS (ce bâtiment ne forme pas cette unité)
+[t=   0.6s] PASS canon indisponible avant l'âge III — attendu REFUS, obtenu REFUS ce bâtiment ne forme pas cette unité
+[t=   0.6s] EVT refus camp 0 : Ordre refusé : ce bâtiment ne forme pas cette unité
+[t=   0.7s] ORDRE {"t":"age_up","team":0.0} -> REFUS (passage d'âge impossible : objectif : Achever un bâtiment à moins de 9 cases d'un gué)
+[t=   0.7s] PASS ressources seules : refus, objectif affiché — attendu REFUS, obtenu REFUS passage d'âge impossible : objectif : Achever un bâtiment à moins de 9 cases d'un gué
+[t=   0.7s] EVT refus camp 0 : Ordre refusé : passage d'âge impossible : objectif : Achever un bâtiment à moins de 9 cases d'un gué
+[t=   1.0s] ORDRE {"res":{"food":0.0,"ore":0.0,"wood":0.0},"t":"lab_res","team":0.0} -> OK
+[t=   1.0s] ORDRE {"cell":[22.0,28.0],"complete":true,"t":"lab_building","team":0.0,"type":"palissade"} -> OK
+[t=   1.2s] ORDRE {"t":"age_up","team":0.0} -> REFUS (passage d'âge impossible : manque 700 nourriture, 450 bois, 300 minerai)
+[t=   1.2s] PASS objectif seul : refus, manques chiffrés — attendu REFUS, obtenu REFUS passage d'âge impossible : manque 700 nourriture, 450 bois, 300 minerai
+[t=   1.2s] EVT refus camp 0 : Ordre refusé : passage d'âge impossible : manque 700 nourriture, 450 bois, 300 minerai
+[t=   2.0s] ORDRE {"res":{"food":2000.0,"ore":2000.0,"wood":2000.0},"t":"lab_res","team":0.0} -> OK
+[t=   2.2s] ORDRE {"t":"age_up","team":0.0} -> OK
+[t=   2.2s] PASS ressources + objectif : passage lancé — attendu OK, obtenu OK 
+[t=   2.2s] EVT age camp 0 : Passage à l'âge III — Forteresses lancé
+[t=  30.0s] PASS âge II pendant le passage — âge camp 0 = 2 (attendu 2)
+[t=  47.1s] EVT age_atteint camp 0 : Joueur atteint l'âge III — Forteresses
+[t=  50.0s] PASS âge III atteint — âge camp 0 = 3 (attendu 3)
+[t=  50.0s] PASS adversaire indépendant — âge camp 1 = 1 (attendu 1)
+[t=  60.0s] FIN — 7/7 assertions PASS — empreinte ac45be693cd0486b

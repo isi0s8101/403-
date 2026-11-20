@@ -1,0 +1,14 @@
+[
+  {
+    "component": "build-tools;36.0.0",
+    "sha1": "b0b6376977657e8ad9b969bacf4093601da2c6fb",
+    "sha256": "5d9ac77fb6ff43d9da518a337b4fcf8f9097113df531d99ccefe80ef7ce8250b",
+    "url": "https://dl.google.com/android/repository/build-tools_r36_linux.zip"
+  },
+  {
+    "component": "platform-tools",
+    "sha1": "e1579b288a7ae4e9bc28dedec6a154d78b3c04ed",
+    "sha256": "214548146cadb2ca3508143d8a1d4be4c59de5bb837253e3ede89ed74cf450d1",
+    "url": "https://dl.google.com/android/repository/platform-tools_r37.0.3-linux.zip"
+  }
+]

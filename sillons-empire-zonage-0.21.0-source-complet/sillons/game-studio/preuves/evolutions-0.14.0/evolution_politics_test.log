@@ -1,0 +1,27 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS P01 aucune exigence industrielle à l'âge I
+PASS P02 coefficient borné
+PASS P02 extraction retranchée exactement du gisement
+PASS P02 industrie : même facteur aux entrées et sorties
+PASS P03 pénurie tolérée avant sécession
+PASS P03 crise durable : ultimatum proposé
+PASS P06 conditions réalisables sans technologie future
+PASS P05 contre-proposition acceptée
+PASS P05 accord maintenu : stabilisation et délai de grâce
+PASS P07 transfert atomique appliqué
+PASS F01 identité distincte et relations propres
+PASS P07 armée et base fidèles ; milice locale et maison transférées
+PASS P07 stocks physiques transférés ; trésorerie impériale préservée
+PASS P07 conservation population et réserves comptables
+PASS P08 transaction répétée refusée
+PASS P08 sauvegarde après sécession complète
+PASS S01 reprise avec IA insurgée identique
+PASS S02 stock négatif refusé
+PASS S02 position non finie refusée
+PASS P10 trêve sans accès militaire implicite
+PASS P10 tirs interdits pendant la trêve
+PASS P09 station ennemie bloque même l'ancien monde fondateur
+PASS P09 aucune reconquête par simple clic sous verrou orbital
+PASS S02 ordre invalide sans effet partiel
+EVOLUTION_POLITICS_RESULT checks=24 failures=0

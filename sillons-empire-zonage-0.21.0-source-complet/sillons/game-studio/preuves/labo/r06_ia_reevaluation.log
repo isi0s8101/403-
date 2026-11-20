@@ -1,0 +1,126 @@
+=== Scénario R06 — IA : attaque sur informations propres, échec et réévaluation — graine 1601 ===
+L'IA ne connaît la base du joueur que par son éclaireur. Elle attaque, échoue contre une défense supérieure, expose la cause de l'abandon et réévalue.
+[t=   0.0s] LABO placement : 6 × lancier camp 1 en (76,22)
+[t=   0.0s] LABO placement : 3 × tireur camp 1 en (78,24)
+[t=   0.0s] ORDRE {"pos":[20.0,72.0],"t":"lab_spawn","team":1.0,"unit":"eclaireur"} -> OK
+[t=   0.0s] LABO placement : 9 × tireur camp 0 en (18,74)
+[t=   0.0s] LABO placement : 9 × tireur camp 0 en (22,76)
+[t=   0.0s] LABO placement : 6 × lancier camp 0 en (20,70)
+[t=   0.0s] EVT escouade camp 1 : Escouade 1 formée
+[t=   0.0s] EVT escouade camp 1 : Escouade 2 formée
+[t=   0.0s] EVT escouade camp 0 : Escouade 1 formée
+[t=   0.0s] EVT escouade camp 0 : Escouade 2 formée
+[t=   0.0s] EVT escouade camp 0 : Escouade 3 formée
+[t=   0.0s] EVT escouade camp 0 : Escouade 4 formée
+[t=   0.0s] EVT mort camp 1 : Unité perdue : Éclaireur
+[t=   0.2s] ORDRE {"pos":[20.0,76.0],"radius":14.0,"t":"army_defend","team":0.0} -> OK
+[t=   0.2s] EVT armee camp 0 : Armée : défense du secteur déléguée
+[t=   0.8s] EVT fondation camp 1 : Fondation : Maison
+[t=   0.8s] EVT priorite camp 1 : Priorité Nourriture : 3
+[t=   0.8s] EVT priorite camp 1 : Priorité Bois : 1
+[t=   0.8s] EVT priorite camp 1 : Priorité Minerai : 2
+[t=   0.8s] EVT fondation camp 1 : Fondation : Caserne
+[t=   0.8s] EVT ia camp 1 : IA : Attaquer (Centre de commandement ennemi (14,82))
+[t=   1.0s] EVT reaffectation camp 1 : Réaffectation : 1 ouvrier(s) nourriture → minerai
+[t=   1.8s] EVT priorite camp 1 : Priorité Bois : 2
+[t=   2.0s] EVT reaffectation camp 1 : Réaffectation : 1 ouvrier(s) minerai → bois
+[t=  15.6s] EVT acheve camp 1 : Construction terminée : Maison
+[t=  15.8s] EVT fondation camp 1 : Fondation : Maison
+[t=  24.8s] EVT unite camp 1 : Unité prête : Ouvrier
+[t=  29.5s] EVT comptoir camp 1 : Comptoir neutre découvert
+[t=  30.0s] IA camp 1 | objectif : Attaquer | cible : Centre de commandement ennemi (14,82) | infos : armée au départ : 9; armée actuelle : 9; pertes : 0 % | abandon : 
+[t=  32.1s] EVT acheve camp 1 : Construction terminée : Caserne
+[t=  32.6s] EVT acheve camp 1 : Construction terminée : Maison
+[t=  33.8s] EVT priorite camp 1 : Priorité Minerai : 3
+[t=  38.0s] EVT mort camp 1 : Unité perdue : Lancier
+[t=  39.7s] EVT mort camp 1 : Unité perdue : Lancier
+[t=  41.8s] EVT unite camp 1 : Unité prête : Ouvrier
+[t=  42.1s] EVT mort camp 1 : Unité perdue : Lancier
+[t=  43.0s] EVT mort camp 1 : Unité perdue : Lancier
+[t=  43.6s] EVT mort camp 0 : Unité perdue : Tireur régulier
+[t=  43.7s] EVT mort camp 0 : Unité perdue : Tireur régulier
+[t=  45.0s] EVT mort camp 1 : Unité perdue : Lancier
+[t=  46.7s] EVT mort camp 1 : Unité perdue : Lancier
+[t=  46.8s] EVT ia_abandon camp 1 : IA : abandon — attaque échouée sur Centre de commandement ennemi (14,82) (pertes 66 %)
+[t=  46.8s] EVT ia camp 1 : IA : Consolider : économie et défense (base)
+[t=  46.8s] EVT escouade camp 1 : Escouade 3 formée
+[t=  46.8s] EVT unite camp 1 : Unité prête : Tireur régulier
+[t=  47.8s] EVT armee camp 1 : Armée : défense du secteur déléguée
+[t=  47.8s] EVT controle camp 1 : Escouade 2 rendue à l'armée
+[t=  47.8s] EVT ia camp 1 : IA : Masser une armée d'assaut (—)
+[t=  48.0s] EVT mort camp 1 : Unité perdue : Tireur régulier
+[t=  49.3s] EVT mort camp 1 : Unité perdue : Tireur régulier
+[t=  49.7s] EVT mort camp 1 : Unité perdue : Tireur régulier
+[t=  51.8s] EVT unite camp 1 : Unité prête : Ouvrier
+[t=  53.0s] EVT comptoir camp 1 : Comptoir neutre découvert
+[t=  60.0s] IA camp 1 | objectif : Masser une armée d'assaut | cible : — | infos : âge 2; ouvriers 8; structures ennemies connues : 1 | abandon : t=46s attaque échouée sur Centre de commandement ennemi (14,82) (pertes 66 %)
+[t=  60.0s] PASS l'IA lance une attaque — événement ia trouvé
+[t=  60.0s] PASS cible issue de sa mémoire (centre vu par l'éclaireur) — IA history = t=0s Attaquer → Centre de commandement ennemi (14,82); t=46s Consolider : économie et défense → base; réévaluation (pertes) : Consolider : économie et défense; t=47s Masser une armée d'assaut → —
+[t=  60.9s] EVT unite camp 1 : Unité prête : Tireur régulier
+[t=  71.8s] EVT unite camp 1 : Unité prête : Ouvrier
+[t=  72.0s] EVT unite camp 1 : Unité prête : Lancier
+[t=  90.0s] IA camp 1 | objectif : Masser une armée d'assaut | cible : — | infos : âge 2; ouvriers 9; structures ennemies connues : 1 | abandon : t=46s attaque échouée sur Centre de commandement ennemi (14,82) (pertes 66 %)
+[t=  92.8s] EVT epuise camp 0 : Gisement épuisé (bois) : recherche d'un autre
+[t=  93.8s] EVT unite camp 1 : Unité prête : Ouvrier
+[t=  94.8s] EVT epuise camp 0 : Gisement épuisé (bois) : recherche d'un autre
+[t= 103.0s] EVT comptoir camp 1 : Comptoir neutre découvert
+[t= 106.8s] EVT ia camp 1 : IA : Masser une armée d'assaut (seuil d'attaque 12 (armée 3))
+[t= 109.8s] EVT unite camp 1 : Unité prête : Ouvrier
+[t= 110.8s] EVT priorite camp 1 : Priorité Minerai : 2
+[t= 111.0s] EVT reaffectation camp 1 : Réaffectation : 1 ouvrier(s) minerai → nourriture
+[t= 112.8s] EVT fondation camp 1 : Fondation : Entrepôt
+[t= 113.0s] EVT reaffectation camp 1 : Réaffectation : 1 ouvrier(s) nourriture → bois
+[t= 120.0s] IA camp 1 | objectif : Masser une armée d'assaut | cible : seuil d'attaque 12 (armée 3) | infos : âge 2; ouvriers 11; structures ennemies connues : 1 | abandon : t=46s attaque échouée sur Centre de commandement ennemi (14,82) (pertes 66 %)
+[t= 125.8s] EVT unite camp 1 : Unité prête : Ouvrier
+[t= 132.5s] EVT comptoir camp 1 : Comptoir neutre découvert
+[t= 133.3s] EVT acheve camp 1 : Construction terminée : Entrepôt
+[t= 145.3s] EVT epuise camp 1 : Gisement épuisé (bois) : recherche d'un autre
+[t= 145.4s] EVT epuise camp 1 : Gisement épuisé (bois) : recherche d'un autre
+[t= 145.4s] EVT epuise camp 1 : Gisement épuisé (bois) : recherche d'un autre
+[t= 147.8s] EVT unite camp 1 : Unité prête : Ouvrier
+[t= 150.0s] IA camp 1 | objectif : Masser une armée d'assaut | cible : seuil d'attaque 12 (armée 3) | infos : âge 2; ouvriers 13; structures ennemies connues : 1 | abandon : t=46s attaque échouée sur Centre de commandement ennemi (14,82) (pertes 66 %)
+[t= 158.8s] EVT refus camp 1 : Ordre refusé : destination infranchissable (eau)
+[t= 158.8s] EVT refus camp 1 : Ordre refusé : destination infranchissable (eau)
+[t= 160.8s] EVT unite camp 1 : Unité prête : Ouvrier
+[t= 163.8s] EVT fondation camp 1 : Fondation : Entrepôt
+[t= 164.0s] EVT reaffectation camp 1 : Réaffectation : 1 ouvrier(s) nourriture → minerai
+[t= 172.4s] EVT epuise camp 1 : Gisement épuisé (nourriture) : recherche d'un autre
+[t= 172.5s] EVT epuise camp 1 : Gisement épuisé (nourriture) : recherche d'un autre
+[t= 172.5s] EVT epuise camp 1 : Gisement épuisé (nourriture) : recherche d'un autre
+[t= 172.5s] EVT epuise camp 1 : Gisement épuisé (nourriture) : recherche d'un autre
+[t= 172.8s] EVT unite camp 1 : Unité prête : Ouvrier
+[t= 179.0s] EVT mort camp 1 : Unité perdue : Éclaireur
+[t= 180.0s] IA camp 1 | objectif : Masser une armée d'assaut | cible : seuil d'attaque 12 (armée 3) | infos : âge 2; ouvriers 15; structures ennemies connues : 1 | abandon : t=46s attaque échouée sur Centre de commandement ennemi (14,82) (pertes 66 %)
+[t= 182.9s] EVT acheve camp 1 : Construction terminée : Entrepôt
+[t= 184.4s] EVT epuise camp 0 : Gisement épuisé (bois) : recherche d'un autre
+[t= 184.4s] EVT epuise camp 0 : Gisement épuisé (bois) : recherche d'un autre
+[t= 189.8s] EVT unite camp 1 : Unité prête : Ouvrier
+[t= 194.0s] EVT epuise camp 1 : Gisement épuisé (nourriture) : recherche d'un autre
+[t= 194.0s] EVT epuise camp 1 : Gisement épuisé (nourriture) : recherche d'un autre
+[t= 194.0s] EVT epuise camp 1 : Gisement épuisé (nourriture) : recherche d'un autre
+[t= 194.0s] EVT epuise camp 1 : Gisement épuisé (nourriture) : recherche d'un autre
+[t= 194.0s] EVT epuise camp 1 : Gisement épuisé (nourriture) : recherche d'un autre
+[t= 194.1s] EVT epuise camp 1 : Gisement épuisé (nourriture) : recherche d'un autre
+[t= 195.2s] EVT epuise camp 1 : Gisement épuisé (nourriture) : recherche d'un autre
+[t= 201.8s] EVT priorite camp 1 : Priorité Minerai : 1
+[t= 201.8s] EVT unite camp 1 : Unité prête : Lancier
+[t= 202.0s] EVT reaffectation camp 1 : Réaffectation : 1 ouvrier(s) minerai → nourriture
+[t= 202.8s] EVT ia camp 1 : IA : Masser une armée d'assaut (seuil d'attaque 12 (armée 4))
+[t= 206.8s] EVT fondation camp 1 : Fondation : Maison
+[t= 207.0s] EVT reaffectation camp 1 : Réaffectation : 1 ouvrier(s) minerai → nourriture
+[t= 210.0s] IA camp 1 | objectif : Masser une armée d'assaut | cible : seuil d'attaque 12 (armée 4) | infos : âge 2; ouvriers 16; structures ennemies connues : 1 | abandon : t=46s attaque échouée sur Centre de commandement ennemi (14,82) (pertes 66 %)
+[t= 213.8s] EVT priorite camp 1 : Priorité Minerai : 2
+[t= 214.0s] EVT reaffectation camp 1 : Réaffectation : 1 ouvrier(s) nourriture → minerai
+[t= 214.0s] EVT reaffectation camp 1 : Réaffectation : 1 ouvrier(s) bois → minerai
+[t= 215.2s] EVT epuise camp 1 : Gisement épuisé (bois) : recherche d'un autre
+[t= 216.8s] EVT epuise camp 1 : Gisement épuisé (bois) : recherche d'un autre
+[t= 216.8s] EVT epuise camp 1 : Gisement épuisé (bois) : recherche d'un autre
+[t= 216.9s] EVT epuise camp 1 : Gisement épuisé (bois) : recherche d'un autre
+[t= 221.3s] EVT acheve camp 1 : Construction terminée : Maison
+[t= 226.8s] EVT unite camp 1 : Unité prête : Tireur régulier
+[t= 227.8s] EVT ia camp 1 : IA : Masser une armée d'assaut (seuil d'attaque 12 (armée 5))
+[t= 240.0s] IA camp 1 | objectif : Masser une armée d'assaut | cible : seuil d'attaque 12 (armée 5) | infos : âge 2; ouvriers 16; structures ennemies connues : 1 | abandon : t=46s attaque échouée sur Centre de commandement ennemi (14,82) (pertes 66 %)
+[t= 240.0s] PASS cause d'abandon exposée (pertes) — IA abandon = t=46s attaque échouée sur Centre de commandement ennemi (14,82) (pertes 66 %)
+[t= 240.0s] PASS réévaluation de l'objectif après l'échec — IA history = t=0s Attaquer → Centre de commandement ennemi (14,82); t=46s Consolider : économie et défense → base; réévaluation (pertes) : Consolider : économie et défense; t=47s Masser une armée d'assaut → —; t=106s Masser une armée d'assaut → seuil d'attaque 12 (armée 3); t=202s Masser une armée d'assaut → seuil d'attaque 12 (armée 4); t=227s Masser une armée d'assaut → seuil d'attaque 12 (armée 5)
+[t= 240.0s] PASS la défense tient — camp 0 éliminé = false ; capacité : centre debout
+[t= 240.0s] FIN — 5/5 assertions PASS — empreinte 07155a5ab90ef2da

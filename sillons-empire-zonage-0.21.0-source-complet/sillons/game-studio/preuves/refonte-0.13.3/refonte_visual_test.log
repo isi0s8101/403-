@@ -1,0 +1,145 @@
+Godot Engine v4.7.1.stable.official.a13da4feb - https://godotengine.org
+
+PASS bâtiment de bibliothèque intégré
+NODE_COMPARISON legacy=12 compact=9
+PASS architecture fusionnée réduit les nœuds
+PASS personnage proche et LOD lointain disponibles
+PASS LOD lointain sans AnimationPlayer
+PASS LOD lointain plus léger
+PASS animation proche conservée
+PASS marche synchronisée à la vitesse
+PASS pause : animation immobilisée
+PASS reprise : animation réactivée
+PASS bâtiment spatioport respecte un âge disponible
+PASS bâtiment chantier_orbital respecte un âge disponible
+PASS bâtiment usine respecte un âge disponible
+PASS bâtiment academie respecte un âge disponible
+PASS bâtiment depot respecte un âge disponible
+PASS bâtiment aerodrome respecte un âge disponible
+PASS bâtiment radar respecte un âge disponible
+PASS bâtiment silo respecte un âge disponible
+PASS bâtiment intercepteur respecte un âge disponible
+PASS bâtiment centre respecte un âge disponible
+PASS bâtiment maison respecte un âge disponible
+PASS bâtiment entrepot respecte un âge disponible
+PASS bâtiment caserne respecte un âge disponible
+PASS bâtiment marche respecte un âge disponible
+PASS bâtiment palissade respecte un âge disponible
+PASS bâtiment fort respecte un âge disponible
+PASS bâtiment atelier respecte un âge disponible
+PASS bâtiment comptoir respecte un âge disponible
+PASS unité navette conserve une représentation
+PASS unité fregate conserve une représentation
+PASS unité fusilier conserve une représentation
+PASS unité obusier conserve une représentation
+PASS unité grenadier conserve une représentation
+PASS unité char conserve une représentation
+PASS unité avion conserve une représentation
+PASS unité antiaerien conserve une représentation
+PASS unité train conserve une représentation
+PASS unité lance_missiles conserve une représentation
+PASS unité drone conserve une représentation
+PASS unité brouilleur conserve une représentation
+PASS unité ouvrier conserve une représentation
+PASS unité eclaireur conserve une représentation
+PASS unité lancier conserve une représentation
+PASS unité tireur conserve une représentation
+PASS unité cavalier conserve une représentation
+PASS unité canon conserve une représentation
+PASS unité caravane conserve une représentation
+PASS fusion 0 disponible
+PASS fusion 1 disponible
+PASS fusion 2 disponible
+PASS fusion 3 disponible
+PASS fusion 4 disponible
+PASS fusion 5 disponible
+PASS fusion 6 disponible
+PASS fusion 7 disponible
+PASS fusion 8 disponible
+PASS fusion 9 disponible
+PASS fusion 10 disponible
+PASS fusion 11 disponible
+PASS fusion 12 disponible
+PASS fusion 13 disponible
+PASS fusion 14 disponible
+PASS fusion 15 disponible
+PASS fusion 16 disponible
+PASS fusion 17 disponible
+PASS fusion 18 disponible
+PASS fusion 19 disponible
+PASS fusion 20 disponible
+PASS fusion 21 disponible
+PASS fusion 22 disponible
+PASS fusion 23 disponible
+PASS fusion 24 disponible
+PASS fusion 25 disponible
+PASS fusion 26 disponible
+PASS fusion 27 disponible
+PASS fusion 28 disponible
+PASS fusion 29 disponible
+PASS fusion 30 disponible
+PASS fusion 31 disponible
+PASS fusion 32 disponible
+PASS fusion 33 disponible
+PASS fusion 34 disponible
+PASS fusion 35 disponible
+PASS fusion 36 disponible
+PASS fusion 37 disponible
+PASS fusion 38 disponible
+PASS fusion 39 disponible
+PASS fusion 40 disponible
+PASS fusion 41 disponible
+PASS fusion 42 disponible
+PASS fusion 43 disponible
+PASS fusion 44 disponible
+PASS fusion 45 disponible
+PASS fusion 46 disponible
+PASS fusion 47 disponible
+PASS fusion 48 disponible
+PASS fusion 49 disponible
+PASS fusion 50 disponible
+PASS fusion 51 disponible
+PASS fusion 52 disponible
+PASS fusion 53 disponible
+PASS fusion 54 disponible
+PASS fusion 55 disponible
+PASS fusion 56 disponible
+PASS fusion 57 disponible
+PASS fusion 58 disponible
+PASS fusion 59 disponible
+PASS fusion 60 disponible
+PASS fusion 61 disponible
+PASS fusion 62 disponible
+PASS fusion 63 disponible
+PASS fusion 64 disponible
+PASS fusion 65 disponible
+PASS fusion 66 disponible
+PASS fusion 67 disponible
+PASS fusion 68 disponible
+PASS fusion 69 disponible
+PASS fusion 70 disponible
+PASS fusion 71 disponible
+PASS fusion 72 disponible
+PASS fusion 73 disponible
+PASS fusion 74 disponible
+PASS unités éloignées rendues par lots
+PASS lots régionaux bornés
+PASS instanciation GPU regroupe les unités
+BATCH_COMPARISON units=24 groups=3
+PASS cache de scènes borné
+PASS cache de maillages borné
+PASS profil économie : ombres coupées
+PASS profil économie : résolution 3D abaissée
+PASS interface conserve sa résolution
+PASS surcharge : ombres désactivées
+PASS surcharge : échelle 3D bornée
+PASS toucher annulé : aucun doigt bloqué
+PASS toucher annulé : inertie arrêtée
+PASS perte du focus : état tactile nettoyé
+PASS retour de l’aide vers le menu parent
+PASS retour suivant reprend la partie
+PASS retour ferme la construction
+PASS menu modal bloque les boutons du terrain
+PASS retour terrain retire le voile modal
+PASS refonte sans modification de simulation
+REFONTE_VISUAL_RESULT=PASS checks=140 failures=0

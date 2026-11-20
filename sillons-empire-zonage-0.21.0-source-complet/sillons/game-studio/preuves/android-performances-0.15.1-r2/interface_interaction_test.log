@@ -1,0 +1,27 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS toucher le toit ouvre le bâtiment
+PASS photos de bâtiment et unités chargées
+PASS onglets du bâtiment disponibles
+PASS toucher la photo produit une unité réelle
+PASS point de ralliement cliqué sans récursion
+PASS catalogue de bâtiments photographié
+PASS fiche de bâtiment rétractable
+PASS fiche redéployable
+PASS Retour ferme la fiche avant le menu pause
+PASS trois pressions rapides gardent le bon état du tiroir
+PASS orbite = carte tactique distincte
+PASS toucher un vaisseau ouvre sa sélection
+PASS production orbitale par photo, sans ordre sous le panneau
+PASS ouvrir un onglet n'émet pas d'ordre
+PASS toucher le vide ordonne un mouvement orbital
+PASS le vaisseau se déplace dans la simulation
+PASS pincement orbital zoome sans tap fantôme
+PASS glisser déplace seulement la caméra
+PASS deux doigts relâchés sans déplacement ne donnent aucun ordre
+PASS perte du focus nettoie les gestes orbitaux
+PASS navigation et trafic système/galaxie en lecture seule
+PASS galaxie limitée au suivi et à la navigation
+PASS Retour replie d'abord le panneau orbital
+PASS Retour suivant retrouve le terrain
+INTERFACE_INTERACTION_RESULT checks=24 failures=0

@@ -1,0 +1,9 @@
+Godot Engine v4.7.1.stable.official.a13da4feb - https://godotengine.org
+
+PASS niveau 100 u./front, 1500 ticks, A (sans vue) contre B (15 bascules) : 1500+1500 empreintes identiques, journaux identiques, 33+31 unités identiques ; empreintes finales a3fcaf254ac927d7 / 0c0bc5958d5aeb1c ; suites d'ordres identiques (542 + 389 ordres)
+PASS niveau 100 u./front, 1500 ticks, A (sans vue) contre C (40 bascules) : 1500+1500 empreintes identiques, journaux identiques, 33+31 unités identiques ; empreintes finales a3fcaf254ac927d7 / 0c0bc5958d5aeb1c ; suites d'ordres identiques (542 + 389 ordres)
+PASS niveau 400 u./front, 300 ticks, A (sans vue) contre B (3 bascules) : 300+300 empreintes identiques, journaux identiques, 290+142 unités identiques ; empreintes finales a7b69ad77521651b / 4f4405d5f1506891 ; suites d'ordres identiques (1400 + 482 ordres)
+PASS niveau 400 u./front, 300 ticks, A (sans vue) contre C (8 bascules) : 300+300 empreintes identiques, journaux identiques, 290+142 unités identiques ; empreintes finales a7b69ad77521651b / 4f4405d5f1506891 ; suites d'ordres identiques (1400 + 482 ordres)
+PASS contrôle négatif (décalage de 0,001 case au tick 300) : divergence détectée — front A : divergence au tick 300 ; front A : suites d'ordres différentes ; front A : journaux d'événements différents ; front A : 29 unités à l'état différent
+RÉSULTAT GLOBAL : PASS
+Preuves : /workspace/scratch/ac658ab601c7/runtime/test-users/fronts_test/godot/app_userdata/Sillons d'Empire/preuves/deux_fronts

@@ -1,0 +1,86 @@
+Godot Engine v4.4.1.stable.official.49a5bc7b6 - https://godotengine.org
+
+PASS r01_priorites                      7/7 assertions PASS — empreinte c3106ba01af949b9 — 900 ticks en 409 ms
+    PASS départ : ouvriers répartis (nourriture) — ouvriers en tâche food = 2 (>= 1.0)
+    PASS bois priorité 3 seule : 5 ouvriers au bois — ouvriers en tâche wood = 5 (== 5.0)
+    PASS événement de réaffectation émis — événement reaffectation trouvé
+    PASS bois collecté (contrôle de cohérence) — stat spent camp 0 = 0
+    PASS le bois augmente pendant la priorité bois — wood camp 0 = 280 (> 260.0)
+    PASS nourriture priorité 3 seule : 5 ouvriers à la nourriture — ouvriers en tâche food = 5 (== 5.0)
+    PASS la nourriture augmente ensuite — food camp 0 = 350 (> 260.0)
+PASS r02_epuisement                     7/7 assertions PASS — empreinte 71889ea90b55adda — 1400 ticks en 746 ms
+    PASS avant épuisement : majorité à la nourriture — ouvriers en tâche food = 4 (>= 3.0)
+    PASS gisement épuisé signalé — événement epuise trouvé
+    PASS pénurie de nourriture explicite (aucun gisement accessible) — événement penurie trouvé
+    PASS ouvriers réaffectés au bois pendant la pénurie — ouvriers en tâche wood = 5 (== 5.0)
+    PASS fin de pénurie après exploration — événement penurie_fin trouvé
+    PASS retour à la nourriture (baies éloignées) — ouvriers en tâche food = 4 (>= 3.0)
+    PASS fin de scénario — stat units_trained camp 0 = 0
+PASS r02b_inaccessible                  3/3 assertions PASS — empreinte a092beae529ff37b — 700 ticks en 295 ms
+    PASS pénurie de minerai signalée malgré l'îlot visible — événement penurie trouvé
+    PASS aucun ouvrier affecté à l'îlot inaccessible — ouvriers affectés au gisement = 0
+    PASS aucun ouvrier bloqué en tâche minerai — ouvriers en tâche ore = 0 (== 0.0)
+PASS r03_passage_age                    7/7 assertions PASS — empreinte fec9548d0a854ed6 — 520 ticks en 241 ms
+    PASS ressources seules : refus, objectif manquant affiché — attendu REFUS, obtenu REFUS passage d'âge impossible : objectif : Découvrir un comptoir neutre
+    PASS comptoir neutre découvert par l'éclaireur — événement comptoir trouvé
+    PASS objectif seul : refus, ressources manquantes chiffrées — attendu REFUS, obtenu REFUS passage d'âge impossible : manque 400 nourriture, 200 bois
+    PASS ressources + objectif : passage lancé — attendu OK, obtenu OK 
+    PASS âge I pendant le passage — âge camp 0 = 1 (attendu 1)
+    PASS âge II atteint après la durée de passage — âge camp 0 = 2 (attendu 2)
+    PASS l'adversaire reste indépendant (âge I) — âge camp 1 = 1 (attendu 1)
+PASS r03b_ia_passage                    3/3 assertions PASS — empreinte 88d9f3e7db974459 — 9000 ticks en 9898 ms
+    PASS l'IA découvre un comptoir par exploration — événement comptoir trouvé
+    PASS IA à l'âge II — âge camp 1 = 2 (attendu 2)
+    PASS joueur toujours à l'âge I — âge camp 0 = 1 (attendu 1)
+PASS r04_delegation                     16/16 assertions PASS — empreinte d1e1569e73ceed8e — 420 ticks en 358 ms
+    PASS délégation acceptée — attendu OK, obtenu OK 
+    PASS 3 escouades sur des postes distincts (réserve + 2 postes) — rôles : Réserve, Poste 1, Poste 2
+    PASS reprise en main d'une unité — attendu OK, obtenu OK 
+    PASS ordre direct à l'unité — attendu OK, obtenu OK 
+    PASS menace dans le secteur : interception — rôles : Réserve, Interception, Interception
+    PASS une réserve reste au centre du secteur — rôles : Réserve, Interception, Interception
+    PASS l'unité reprise exécute l'ordre direct malgré la menace — distance = 0.1 (≤ 1.5)
+    PASS l'unité est hors délégation — direct = true
+    PASS ordre direct à une escouade — attendu OK, obtenu OK 
+    PASS escouade sous ordre direct exclue de la délégation — direct = true
+    PASS rôle affiché : ordre direct — army_role = Ordre direct
+    PASS escouade rendue à l'armée — attendu OK, obtenu OK 
+    PASS unité rendue à son escouade — attendu OK, obtenu OK 
+    PASS escouade revenue sous délégation — direct = false
+    PASS unité revenue sous contrôle d'escouade — direct = false
+    PASS menace éliminée : postes redistribués — rôles : Réserve, Poste 2, Poste 1
+PASS r05_conquete                       4/4 assertions PASS — empreinte 0b063eea7cca0147 — 90 ticks en 36 ms
+    PASS centre détruit, ouvrier + ressources : camp toujours en jeu — camp 1 éliminé = false ; capacité : ouvrier + ressources suffisantes
+    PASS la partie continue — fin de partie = false, vainqueur -1, t=5s
+    PASS plus aucun bâtisseur : camp éliminé (l'éclaireur seul ne suffit pas) — camp 1 éliminé = true ; capacité : aucun ouvrier bâtisseur
+    PASS victoire du joueur — vainqueur = 0
+PASS r05b_sans_moyens                   1/1 assertions PASS — empreinte 3c88dd0eba0636a4 — 40 ticks en 21 ms
+    PASS ouvrier sans moyens : éliminé (règle provisoire) — camp 1 éliminé = true ; capacité : ouvrier sans ressources ni dépôt
+PASS r05c_regle_batisseur_seul          1/1 assertions PASS — empreinte c23edd142c17f56a — 120 ticks en 58 ms
+    PASS variante : l'ouvrier maintient le camp en jeu — camp 1 éliminé = false ; capacité : ouvrier vivant
+PASS r05d_reconstruction                3/3 assertions PASS — empreinte 7a067ba24fb5223e — 700 ticks en 306 ms
+    PASS fondation d'un nouveau centre — attendu OK, obtenu OK 
+    PASS fondation + ouvriers : en jeu — camp 0 éliminé = false ; capacité : ouvrier + fondation de centre
+    PASS nouveau centre achevé — centre = 1 (== 1.0)
+PASS r06_ia_reevaluation                5/5 assertions PASS — empreinte 07155a5ab90ef2da — 2400 ticks en 5141 ms
+    PASS l'IA lance une attaque — événement ia trouvé
+    PASS cible issue de sa mémoire (centre vu par l'éclaireur) — IA history = t=0s Attaquer → Centre de commandement ennemi (14,82); t=46s Consolider : économie et défense → base; réévaluation (pertes) : Consolider : économie et défense; t=47s Masser une armée d'assaut → —
+    PASS cause d'abandon exposée (pertes) — IA abandon = t=46s attaque échouée sur Centre de commandement ennemi (14,82) (pertes 66 %)
+    PASS réévaluation de l'objectif après l'échec — IA history = t=0s Attaquer → Centre de commandement ennemi (14,82); t=46s Consolider : économie et défense → base; réévaluation (pertes) : Consolider : économie et défense; t=47s Masser une armée d'assaut → —; t=106s Masser une armée d'assaut → seuil d'attaque 12 (armée 3); t=202s Masser une armée d'assaut → seuil d'attaque 12 (armée 4); t=227s Masser une armée d'assaut → seuil d'attaque 12 (armée 5)
+    PASS la défense tient — camp 0 éliminé = false ; capacité : centre debout
+PASS r06b_ia_passage_bloque             2/2 assertions PASS — empreinte 21f7520ae545180e — 1500 ticks en 1584 ms
+    PASS abandon pour passage bloqué exposé — IA abandon = t=1s passage bloqué vers Maison ennemi (47,49)
+    PASS réévaluation : nouvelle cible / exploration — événement ia trouvé
+PASS r07_ouverture_commerce             3/3 assertions PASS — empreinte ad4cedd205cda204 — 8400 ticks en 28838 ms
+    PASS relais marchand établi — événement acheve trouvé
+    PASS revenu commercial significatif — stat trade camp 0 = 4621
+    PASS commerce : revenu cumulé supérieur à l'assaut tardif — revenu cumulé camp 0 = 9353 (dont commerce 4621) ; camp 1 = 4746 (dont commerce 0)
+PASS r08_ouverture_assaut               2/2 assertions PASS — empreinte 97a2259d468880ef — 8400 ticks en 11914 ms
+    PASS assaut : plus de pertes infligées que subies — kills : camp 1 = 47, camp 0 = 21
+    PASS au moins un bâtiment du camp commerce détruit — événement detruit trouvé
+PASS r09_determinisme                   2/2 assertions PASS — empreinte de1a90c9a6e0d910 — 3000 ticks en 5992 ms
+    PASS économie active — unités = 16 (>= 5.0)
+    PASS déterminisme (2 exécutions) — de1a90c9a6e0d910 / de1a90c9a6e0d910
+PASS r10_partie_complete                1/1 assertions PASS — empreinte eb179432da36e494 — 30000 ticks en 55083 ms
+    PASS la partie se termine par une conquête — fin de partie = true, vainqueur 0, t=3000s
+RÉSULTAT GLOBAL : PASS

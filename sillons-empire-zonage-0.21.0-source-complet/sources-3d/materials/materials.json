@@ -1,0 +1,954 @@
+{
+ "version": "1.0.0",
+ "note": "Chaque GLB porte ces matériaux en facteurs PBR. Les textures carrelables partagées s'appliquent par nom de matériau (projection triplanaire).",
+ "materials": {
+  "alloy": {
+   "base_color_linear": [
+    0.11443537382697373,
+    0.21223075741405523,
+    0.33245153634617935
+   ],
+   "metallic": 0.85,
+   "roughness": 0.3,
+   "emissive": null,
+   "alpha": 1.0,
+   "textures": {
+    "base": "textures/alloy_base.png",
+    "normal": "textures/alloy_normal.png",
+    "orm": "textures/alloy_orm.png"
+   }
+  },
+  "alloy_gold": {
+   "base_color_linear": [
+    0.4793201831008268,
+    0.32314320911295075,
+    0.10224173308810132
+   ],
+   "metallic": 0.9,
+   "roughness": 0.3,
+   "emissive": null,
+   "alpha": 1.0,
+   "textures": {
+    "base": "textures/alloy_gold_base.png",
+    "normal": "textures/alloy_gold_normal.png",
+    "orm": "textures/alloy_gold_orm.png"
+   }
+  },
+  "asphalt": {
+   "base_color_linear": [
+    0.028426039504420793,
+    0.030713443732993635,
+    0.03433980680868217
+   ],
+   "metallic": 0,
+   "roughness": 0.9,
+   "emissive": null,
+   "alpha": 1.0,
+   "textures": {
+    "base": "textures/asphalt_base.png",
+    "normal": "textures/asphalt_normal.png",
+    "orm": "textures/asphalt_orm.png"
+   }
+  },
+  "brick": {
+   "base_color_linear": [
+    0.33245153634617935,
+    0.06847816984440017,
+    0.03189603307301153
+   ],
+   "metallic": 0,
+   "roughness": 0.86,
+   "emissive": null,
+   "alpha": 1.0,
+   "textures": {
+    "base": "textures/brick_base.png",
+    "normal": "textures/brick_normal.png",
+    "orm": "textures/brick_orm.png"
+   }
+  },
+  "bronze": {
+   "base_color_linear": [
+    0.3613067797835095,
+    0.20155625379439707,
+    0.046665086336880095
+   ],
+   "metallic": 0.9,
+   "roughness": 0.45,
+   "emissive": null,
+   "alpha": 1.0,
+   "textures": {
+    "base": "textures/bronze_base.png",
+    "normal": "textures/bronze_normal.png",
+    "orm": "textures/bronze_orm.png"
+   }
+  },
+  "cloth_blue": {
+   "base_color_linear": [
+    0.026241221894849898,
+    0.07421356838014963,
+    0.23455058216100522
+   ],
+   "metallic": 0,
+   "roughness": 0.9,
+   "emissive": null,
+   "alpha": 1.0,
+   "textures": {
+    "base": "textures/cloth_blue_base.png",
+    "normal": "textures/cloth_blue_normal.png",
+    "orm": "textures/cloth_blue_orm.png"
+   }
+  },
+  "cloth_brown": {
+   "base_color_linear": [
+    0.1559264637078274,
+    0.08437621154414882,
+    0.03688945040110004
+   ],
+   "metallic": 0,
+   "roughness": 0.92,
+   "emissive": null,
+   "alpha": 1.0,
+   "textures": {
+    "base": "textures/cloth_brown_base.png",
+    "normal": "textures/cloth_brown_normal.png",
+    "orm": "textures/cloth_brown_orm.png"
+   }
+  },
+  "cloth_green": {
+   "base_color_linear": [
+    0.04970656598412723,
+    0.14412847085805777,
+    0.042311410620809675
+   ],
+   "metallic": 0,
+   "roughness": 0.9,
+   "emissive": null,
+   "alpha": 1.0,
+   "textures": {
+    "base": "textures/cloth_green_base.png",
+    "normal": "textures/cloth_green_normal.png",
+    "orm": "textures/cloth_green_orm.png"
+   }
+  },
+  "cloth_red": {
+   "base_color_linear": [
+    0.33245153634617935,
+    0.028426039504420793,
+    0.02315336617811041
+   ],
+   "metallic": 0,
+   "roughness": 0.9,
+   "emissive": null,
+   "alpha": 1.0,
+   "textures": {
+    "base": "textures/cloth_red_base.png",
+    "normal": "textures/cloth_red_normal.png",
+    "orm": "textures/cloth_red_orm.png"
+   }
+  },
+  "cloth_white": {
+   "base_color_linear": [
+    0.8069522576692516,
+    0.7758222183174236,
+    0.6866853124353135
+   ],
+   "metallic": 0,
+   "roughness": 0.9,
+   "emissive": null,
+   "alpha": 1.0,
+   "textures": {
+    "base": "textures/cloth_white_base.png",
+    "normal": "textures/cloth_white_normal.png",
+    "orm": "textures/cloth_white_orm.png"
+   }
+  },
+  "cobble": {
+   "base_color_linear": [
+    0.184474994500441,
+    0.1714411007328226,
+    0.14702726649759498
+   ],
+   "metallic": 0,
+   "roughness": 0.9,
+   "emissive": null,
+   "alpha": 1.0,
+   "textures": {
+    "base": "textures/cobble_base.png",
+    "normal": "textures/cobble_normal.png",
+    "orm": "textures/cobble_orm.png"
+   }
+  },
+  "composite": {
+   "base_color_linear": [
+    0.7379104087727308,
+    0.768151147247507,
+    0.7912979403326302
+   ],
+   "metallic": 0.2,
+   "roughness": 0.45,
+   "emissive": null,
+   "alpha": 1.0,
+   "textures": {
+    "base": "textures/composite_base.png",
+    "normal": "textures/composite_normal.png",
+    "orm": "textures/composite_orm.png"
+   }
+  },
+  "composite_dark": {
+   "base_color_linear": [
+    0.02315336617811041,
+    0.028426039504420793,
+    0.03688945040110004
+   ],
+   "metallic": 0.3,
+   "roughness": 0.5,
+   "emissive": null,
+   "alpha": 1.0,
+   "textures": {
+    "base": "textures/composite_dark_base.png",
+    "normal": "textures/composite_dark_normal.png",
+    "orm": "textures/composite_dark_orm.png"
+   }
+  },
+  "concrete": {
+   "base_color_linear": [
+    0.39675523072562685,
+    0.39675523072562685,
+    0.3712376804741491
+   ],
+   "metallic": 0,
+   "roughness": 0.82,
+   "emissive": null,
+   "alpha": 1.0,
+   "textures": {
+    "base": "textures/concrete_base.png",
+    "normal": "textures/concrete_normal.png",
+    "orm": "textures/concrete_orm.png"
+   }
+  },
+  "concrete_dark": {
+   "base_color_linear": [
+    0.14702726649759498,
+    0.14995978981060856,
+    0.14702726649759498
+   ],
+   "metallic": 0,
+   "roughness": 0.85,
+   "emissive": null,
+   "alpha": 1.0,
+   "textures": {
+    "base": "textures/concrete_dark_base.png",
+    "normal": "textures/concrete_dark_normal.png",
+    "orm": "textures/concrete_dark_orm.png"
+   }
+  },
+  "copper": {
+   "base_color_linear": [
+    0.45641102318040466,
+    0.14412847085805777,
+    0.04518620438567554
+   ],
+   "metallic": 0.9,
+   "roughness": 0.4,
+   "emissive": null,
+   "alpha": 1.0,
+   "textures": {
+    "base": "textures/copper_base.png",
+    "normal": "textures/copper_normal.png",
+    "orm": "textures/copper_orm.png"
+   }
+  },
+  "daub": {
+   "base_color_linear": [
+    0.5711248294648731,
+    0.4072402119017367,
+    0.2232279573168085
+   ],
+   "metallic": 0,
+   "roughness": 0.92,
+   "emissive": null,
+   "alpha": 1.0,
+   "textures": {
+    "base": "textures/daub_base.png",
+    "normal": "textures/daub_normal.png",
+    "orm": "textures/daub_orm.png"
+   }
+  },
+  "dirt_road": {
+   "base_color_linear": [
+    0.26225065752969623,
+    0.1714411007328226,
+    0.08021982031446832
+   ],
+   "metallic": 0,
+   "roughness": 0.97,
+   "emissive": null,
+   "alpha": 1.0,
+   "textures": {
+    "base": "textures/dirt_road_base.png",
+    "normal": "textures/dirt_road_normal.png",
+    "orm": "textures/dirt_road_orm.png"
+   }
+  },
+  "earth": {
+   "base_color_linear": [
+    0.20507873639031693,
+    0.11443537382697373,
+    0.05612849004960009
+   ],
+   "metallic": 0,
+   "roughness": 0.95,
+   "emissive": null,
+   "alpha": 1.0,
+   "textures": {
+    "base": "textures/earth_base.png",
+    "normal": "textures/earth_normal.png",
+    "orm": "textures/earth_orm.png"
+   }
+  },
+  "emit_cyan": {
+   "base_color_linear": [
+    0.11443537382697373,
+    0.7912979403326302,
+    1.0
+   ],
+   "metallic": 0,
+   "roughness": 0.3,
+   "emissive": [
+    0.3433061214809212,
+    2.373893820997891,
+    3.0
+   ],
+   "alpha": 1.0,
+   "textures": {
+    "base": "textures/emit_cyan_base.png",
+    "normal": "textures/emit_cyan_normal.png",
+    "orm": "textures/emit_cyan_orm.png"
+   }
+  },
+  "emit_orange": {
+   "base_color_linear": [
+    1.0,
+    0.32314320911295075,
+    0.04518620438567554
+   ],
+   "metallic": 0,
+   "roughness": 0.3,
+   "emissive": [
+    3.0,
+    0.9694296273388523,
+    0.1355586131570266
+   ],
+   "alpha": 1.0,
+   "textures": {
+    "base": "textures/emit_orange_base.png",
+    "normal": "textures/emit_orange_normal.png",
+    "orm": "textures/emit_orange_orm.png"
+   }
+  },
+  "emit_red": {
+   "base_color_linear": [
+    1.0,
+    0.043735029256973465,
+    0.0295568344378088
+   ],
+   "metallic": 0,
+   "roughness": 0.3,
+   "emissive": [
+    2.5,
+    0.10933757314243367,
+    0.073892086094522
+   ],
+   "alpha": 1.0,
+   "textures": {
+    "base": "textures/emit_red_base.png",
+    "normal": "textures/emit_red_normal.png",
+    "orm": "textures/emit_red_orm.png"
+   }
+  },
+  "emit_white": {
+   "base_color_linear": [
+    0.9046611743911496,
+    0.938685728457888,
+    1.0
+   ],
+   "metallic": 0,
+   "roughness": 0.3,
+   "emissive": [
+    1.8093223487822991,
+    1.877371456915776,
+    2.0
+   ],
+   "alpha": 1.0,
+   "textures": {
+    "base": "textures/emit_white_base.png",
+    "normal": "textures/emit_white_normal.png",
+    "orm": "textures/emit_white_orm.png"
+   }
+  },
+  "glass": {
+   "base_color_linear": [
+    0.21223075741405523,
+    0.45641102318040466,
+    0.6724431569576875
+   ],
+   "metallic": 0.1,
+   "roughness": 0.08,
+   "emissive": null,
+   "alpha": 0.55,
+   "textures": {
+    "base": "textures/glass_base.png",
+    "normal": "textures/glass_normal.png",
+    "orm": "textures/glass_orm.png"
+   }
+  },
+  "glass_dark": {
+   "base_color_linear": [
+    0.012286488356915872,
+    0.02315336617811041,
+    0.03954623527673284
+   ],
+   "metallic": 0.3,
+   "roughness": 0.1,
+   "emissive": null,
+   "alpha": 1.0,
+   "textures": {
+    "base": "textures/glass_dark_base.png",
+    "normal": "textures/glass_dark_normal.png",
+    "orm": "textures/glass_dark_orm.png"
+   }
+  },
+  "gold": {
+   "base_color_linear": [
+    0.6724431569576875,
+    0.4178850708481375,
+    0.042311410620809675
+   ],
+   "metallic": 1.0,
+   "roughness": 0.3,
+   "emissive": null,
+   "alpha": 1.0,
+   "textures": {
+    "base": "textures/gold_base.png",
+    "normal": "textures/gold_normal.png",
+    "orm": "textures/gold_orm.png"
+   }
+  },
+  "grass": {
+   "base_color_linear": [
+    0.10946171077829933,
+    0.21223075741405523,
+    0.0595112381629812
+   ],
+   "metallic": 0,
+   "roughness": 0.95,
+   "emissive": null,
+   "alpha": 1.0,
+   "textures": {
+    "base": "textures/grass_base.png",
+    "normal": "textures/grass_normal.png",
+    "orm": "textures/grass_orm.png"
+   }
+  },
+  "hide": {
+   "base_color_linear": [
+    0.14412847085805777,
+    0.06847816984440017,
+    0.0295568344378088
+   ],
+   "metallic": 0,
+   "roughness": 0.8,
+   "emissive": null,
+   "alpha": 1.0,
+   "textures": {
+    "base": "textures/hide_base.png",
+    "normal": "textures/hide_normal.png",
+    "orm": "textures/hide_orm.png"
+   }
+  },
+  "hide_light": {
+   "base_color_linear": [
+    0.4620769996544071,
+    0.3712376804741491,
+    0.25415209433082675
+   ],
+   "metallic": 0,
+   "roughness": 0.8,
+   "emissive": null,
+   "alpha": 1.0,
+   "textures": {
+    "base": "textures/hide_light_base.png",
+    "normal": "textures/hide_light_normal.png",
+    "orm": "textures/hide_light_orm.png"
+   }
+  },
+  "iron": {
+   "base_color_linear": [
+    0.042311410620809675,
+    0.04518620438567554,
+    0.05126945837404324
+   ],
+   "metallic": 0.85,
+   "roughness": 0.55,
+   "emissive": null,
+   "alpha": 1.0,
+   "textures": {
+    "base": "textures/iron_base.png",
+    "normal": "textures/iron_normal.png",
+    "orm": "textures/iron_orm.png"
+   }
+  },
+  "leather": {
+   "base_color_linear": [
+    0.1119324278369056,
+    0.046665086336880095,
+    0.017641954488384078
+   ],
+   "metallic": 0,
+   "roughness": 0.7,
+   "emissive": null,
+   "alpha": 1.0,
+   "textures": {
+    "base": "textures/leather_base.png",
+    "normal": "textures/leather_normal.png",
+    "orm": "textures/leather_orm.png"
+   }
+  },
+  "marble": {
+   "base_color_linear": [
+    0.7912979403326302,
+    0.7529422167760779,
+    0.6724431569576875
+   ],
+   "metallic": 0,
+   "roughness": 0.45,
+   "emissive": null,
+   "alpha": 1.0,
+   "textures": {
+    "base": "textures/marble_base.png",
+    "normal": "textures/marble_normal.png",
+    "orm": "textures/marble_orm.png"
+   }
+  },
+  "paint_black": {
+   "base_color_linear": [
+    0.014443843596092545,
+    0.01599629336550963,
+    0.019382360956935723
+   ],
+   "metallic": 0.4,
+   "roughness": 0.5,
+   "emissive": null,
+   "alpha": 1.0,
+   "textures": {
+    "base": "textures/paint_black_base.png",
+    "normal": "textures/paint_black_normal.png",
+    "orm": "textures/paint_black_orm.png"
+   }
+  },
+  "paint_blue": {
+   "base_color_linear": [
+    0.0202885630566524,
+    0.08021982031446832,
+    0.27467731206038465
+   ],
+   "metallic": 0.3,
+   "roughness": 0.5,
+   "emissive": null,
+   "alpha": 1.0,
+   "textures": {
+    "base": "textures/paint_blue_base.png",
+    "normal": "textures/paint_blue_normal.png",
+    "orm": "textures/paint_blue_orm.png"
+   }
+  },
+  "paint_grey": {
+   "base_color_linear": [
+    0.1589608350608804,
+    0.184474994500441,
+    0.21586050011389926
+   ],
+   "metallic": 0.4,
+   "roughness": 0.5,
+   "emissive": null,
+   "alpha": 1.0,
+   "textures": {
+    "base": "textures/paint_grey_base.png",
+    "normal": "textures/paint_grey_normal.png",
+    "orm": "textures/paint_grey_orm.png"
+   }
+  },
+  "paint_navy": {
+   "base_color_linear": [
+    0.0202885630566524,
+    0.03688945040110004,
+    0.06847816984440017
+   ],
+   "metallic": 0.4,
+   "roughness": 0.5,
+   "emissive": null,
+   "alpha": 1.0,
+   "textures": {
+    "base": "textures/paint_navy_base.png",
+    "normal": "textures/paint_navy_normal.png",
+    "orm": "textures/paint_navy_orm.png"
+   }
+  },
+  "paint_olive": {
+   "base_color_linear": [
+    0.09305896284668745,
+    0.11953842798834562,
+    0.042311410620809675
+   ],
+   "metallic": 0.3,
+   "roughness": 0.6,
+   "emissive": null,
+   "alpha": 1.0,
+   "textures": {
+    "base": "textures/paint_olive_base.png",
+    "normal": "textures/paint_olive_normal.png",
+    "orm": "textures/paint_olive_orm.png"
+   }
+  },
+  "paint_red": {
+   "base_color_linear": [
+    0.45078578283822346,
+    0.019382360956935723,
+    0.012983032342173012
+   ],
+   "metallic": 0.3,
+   "roughness": 0.5,
+   "emissive": null,
+   "alpha": 1.0,
+   "textures": {
+    "base": "textures/paint_red_base.png",
+    "normal": "textures/paint_red_normal.png",
+    "orm": "textures/paint_red_orm.png"
+   }
+  },
+  "paint_sand": {
+   "base_color_linear": [
+    0.4793201831008268,
+    0.3613067797835095,
+    0.17464740365558504
+   ],
+   "metallic": 0.3,
+   "roughness": 0.6,
+   "emissive": null,
+   "alpha": 1.0,
+   "textures": {
+    "base": "textures/paint_sand_base.png",
+    "normal": "textures/paint_sand_normal.png",
+    "orm": "textures/paint_sand_orm.png"
+   }
+  },
+  "paint_white": {
+   "base_color_linear": [
+    0.8549926081242338,
+    0.8713671191987972,
+    0.8713671191987972
+   ],
+   "metallic": 0.2,
+   "roughness": 0.5,
+   "emissive": null,
+   "alpha": 1.0,
+   "textures": {
+    "base": "textures/paint_white_base.png",
+    "normal": "textures/paint_white_normal.png",
+    "orm": "textures/paint_white_orm.png"
+   }
+  },
+  "paint_yellow": {
+   "base_color_linear": [
+    0.7454042095403874,
+    0.39157247774972326,
+    0.011612245179743885
+   ],
+   "metallic": 0.3,
+   "roughness": 0.5,
+   "emissive": null,
+   "alpha": 1.0,
+   "textures": {
+    "base": "textures/paint_yellow_base.png",
+    "normal": "textures/paint_yellow_normal.png",
+    "orm": "textures/paint_yellow_orm.png"
+   }
+  },
+  "plaster": {
+   "base_color_linear": [
+    0.7605245046752924,
+    0.6795424696330938,
+    0.5271151257058131
+   ],
+   "metallic": 0,
+   "roughness": 0.9,
+   "emissive": null,
+   "alpha": 1.0,
+   "textures": {
+    "base": "textures/plaster_base.png",
+    "normal": "textures/plaster_normal.png",
+    "orm": "textures/plaster_orm.png"
+   }
+  },
+  "road_mark": {
+   "base_color_linear": [
+    0.8713671191987972,
+    0.8227857543962835,
+    0.6307571363461468
+   ],
+   "metallic": 0,
+   "roughness": 0.7,
+   "emissive": null,
+   "alpha": 1.0,
+   "textures": {
+    "base": "textures/road_mark_base.png",
+    "normal": "textures/road_mark_normal.png",
+    "orm": "textures/road_mark_orm.png"
+   }
+  },
+  "rubber": {
+   "base_color_linear": [
+    0.008568125618069307,
+    0.009134058702220787,
+    0.010329823029626936
+   ],
+   "metallic": 0,
+   "roughness": 0.92,
+   "emissive": null,
+   "alpha": 1.0,
+   "textures": {
+    "base": "textures/rubber_base.png",
+    "normal": "textures/rubber_normal.png",
+    "orm": "textures/rubber_orm.png"
+   }
+  },
+  "sail": {
+   "base_color_linear": [
+    0.7304607400903537,
+    0.6444796819705821,
+    0.45641102318040466
+   ],
+   "metallic": 0,
+   "roughness": 0.9,
+   "emissive": null,
+   "alpha": 1.0,
+   "textures": {
+    "base": "textures/sail_base.png",
+    "normal": "textures/sail_normal.png",
+    "orm": "textures/sail_orm.png"
+   }
+  },
+  "skin": {
+   "base_color_linear": [
+    0.5840784178911641,
+    0.31398871337571754,
+    0.16826940018969075
+   ],
+   "metallic": 0,
+   "roughness": 0.65,
+   "emissive": null,
+   "alpha": 1.0,
+   "textures": {
+    "base": "textures/skin_base.png",
+    "normal": "textures/skin_normal.png",
+    "orm": "textures/skin_orm.png"
+   }
+  },
+  "slate": {
+   "base_color_linear": [
+    0.046665086336880095,
+    0.06124605423161761,
+    0.08865558628577294
+   ],
+   "metallic": 0,
+   "roughness": 0.7,
+   "emissive": null,
+   "alpha": 1.0,
+   "textures": {
+    "base": "textures/slate_base.png",
+    "normal": "textures/slate_normal.png",
+    "orm": "textures/slate_orm.png"
+   }
+  },
+  "solar": {
+   "base_color_linear": [
+    0.008023192985384994,
+    0.019382360956935723,
+    0.07818742180518633
+   ],
+   "metallic": 0.6,
+   "roughness": 0.2,
+   "emissive": null,
+   "alpha": 1.0,
+   "textures": {
+    "base": "textures/solar_base.png",
+    "normal": "textures/solar_normal.png",
+    "orm": "textures/solar_orm.png"
+   }
+  },
+  "steel": {
+   "base_color_linear": [
+    0.32314320911295075,
+    0.3613067797835095,
+    0.39675523072562685
+   ],
+   "metallic": 0.9,
+   "roughness": 0.38,
+   "emissive": null,
+   "alpha": 1.0,
+   "textures": {
+    "base": "textures/steel_base.png",
+    "normal": "textures/steel_normal.png",
+    "orm": "textures/steel_orm.png"
+   }
+  },
+  "stone": {
+   "base_color_linear": [
+    0.32314320911295075,
+    0.3049873140698863,
+    0.26225065752969623
+   ],
+   "metallic": 0,
+   "roughness": 0.88,
+   "emissive": null,
+   "alpha": 1.0,
+   "textures": {
+    "base": "textures/stone_base.png",
+    "normal": "textures/stone_normal.png",
+    "orm": "textures/stone_orm.png"
+   }
+  },
+  "stone_dark": {
+   "base_color_linear": [
+    0.11443537382697373,
+    0.10946171077829933,
+    0.09989872824711389
+   ],
+   "metallic": 0,
+   "roughness": 0.9,
+   "emissive": null,
+   "alpha": 1.0,
+   "textures": {
+    "base": "textures/stone_dark_base.png",
+    "normal": "textures/stone_dark_normal.png",
+    "orm": "textures/stone_dark_orm.png"
+   }
+  },
+  "team": {
+   "base_color_linear": [
+    0.5775804404296506,
+    0.03189603307301153,
+    0.024157632448504756
+   ],
+   "metallic": 0.1,
+   "roughness": 0.6,
+   "emissive": null,
+   "alpha": 1.0,
+   "textures": {
+    "base": "textures/team_base.png",
+    "normal": "textures/team_normal.png",
+    "orm": "textures/team_orm.png"
+   }
+  },
+  "thatch": {
+   "base_color_linear": [
+    0.4793201831008268,
+    0.32314320911295075,
+    0.08437621154414882
+   ],
+   "metallic": 0,
+   "roughness": 0.95,
+   "emissive": null,
+   "alpha": 1.0,
+   "textures": {
+    "base": "textures/thatch_base.png",
+    "normal": "textures/thatch_normal.png",
+    "orm": "textures/thatch_orm.png"
+   }
+  },
+  "tile_roof": {
+   "base_color_linear": [
+    0.39157247774972326,
+    0.08021982031446832,
+    0.028426039504420793
+   ],
+   "metallic": 0,
+   "roughness": 0.8,
+   "emissive": null,
+   "alpha": 1.0,
+   "textures": {
+    "base": "textures/tile_roof_base.png",
+    "normal": "textures/tile_roof_normal.png",
+    "orm": "textures/tile_roof_orm.png"
+   }
+  },
+  "water": {
+   "base_color_linear": [
+    0.028426039504420793,
+    0.1589608350608804,
+    0.27467731206038465
+   ],
+   "metallic": 0.1,
+   "roughness": 0.15,
+   "emissive": null,
+   "alpha": 1.0,
+   "textures": {
+    "base": "textures/water_base.png",
+    "normal": "textures/water_normal.png",
+    "orm": "textures/water_orm.png"
+   }
+  },
+  "window_lit": {
+   "base_color_linear": [
+    1.0,
+    0.6938717612919899,
+    0.25415209433082675
+   ],
+   "metallic": 0,
+   "roughness": 0.4,
+   "emissive": [
+    1.6,
+    1.110194818067184,
+    0.4066433509293228
+   ],
+   "alpha": 1.0,
+   "textures": {
+    "base": "textures/window_lit_base.png",
+    "normal": "textures/window_lit_normal.png",
+    "orm": "textures/window_lit_orm.png"
+   }
+  },
+  "wood": {
+   "base_color_linear": [
+    0.25415209433082675,
+    0.12213877222960187,
+    0.042311410620809675
+   ],
+   "metallic": 0,
+   "roughness": 0.85,
+   "emissive": null,
+   "alpha": 1.0,
+   "textures": {
+    "base": "textures/wood_base.png",
+    "normal": "textures/wood_normal.png",
+    "orm": "textures/wood_orm.png"
+   }
+  },
+  "wood_dark": {
+   "base_color_linear": [
+    0.07818742180518633,
+    0.03560131487502034,
+    0.01520851442291271
+   ],
+   "metallic": 0,
+   "roughness": 0.9,
+   "emissive": null,
+   "alpha": 1.0,
+   "textures": {
+    "base": "textures/wood_dark_base.png",
+    "normal": "textures/wood_dark_normal.png",
+    "orm": "textures/wood_dark_orm.png"
+   }
+  }
+ }
+}

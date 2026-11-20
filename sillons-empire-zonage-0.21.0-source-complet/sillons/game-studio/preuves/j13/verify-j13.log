@@ -1,0 +1,33 @@
+GODOT_COMPILE=NOT_EXECUTED  ANDROID_EXPORT=NOT_EXECUTED  DEVICE_TEST=NOT_EXECUTED
+RECETTE_STATIC_RESULT=PASS checks=129 failures=0
+FIX082_STATIC_RESULT=PASS checks=63 failures=0
+J9_STATIC_RESULT=PASS checks=49 failures=0
+J9_COMPLETE_STATIC=PASS checks=44 failures=0
+J10_STATIC_RESULT=PASS checks=93 failures=0
+J11_STATIC_RESULT=PASS checks=118 failures=0
+J12_STATIC_RESULT=PASS checks=74 failures=0
+EVOLUTION_STATIC_RESULT=PASS checks=93 failures=0
+ORBITAL_STATIC=PASS checks=73 failures=0
+J13_STATIC_RESULT=PASS checks=91 failures=0
+4.7.1.stable.official.a13da4feb
+J13_GODOT_IMPORT=PASS
+J9_TEST_RESULT=PASS checks=14 failures=0
+J9_REGIONS_RESULT=PASS checks=29 failures=0
+STRATEGIC_RESULT=PASS checks=41 fail=0
+RECETTE_AUTO_RESULT=PASS checks=202 fails=0 ticks=83859
+J10_SYSTEMS_RESULT=PASS checks=24 failures=0
+J10_UI_RESULT=PASS globe=true orbit=true system=true choice=true land=true return=true
+J11_GALAXY_RESULT=PASS checks=32 failures=0
+J11_UI_RESULT=PASS planet=true orbit=true system=true galaxy=true zoom=true return=true
+J12_EMPIRE_RESULT=PASS checks=34 failures=0
+J12_PERF_RESULT=PASS failures=0
+VIEW_TECH_RESULT=PASS checks=13 fails=0
+AGE_TREE_RESULT=PASS checks=17 fails=0
+ORBITAL_J12_3=PASS assertions=23 failures=0
+J13_COLONY_RESULT=PASS checks=128 failures=0
+J13_SUPPLY_RESULT=PASS checks=22 failures=0
+ASSETS_GODOT_RESULT=PASS assets=800/800 fichiers=2400/2400
+J13_GLOBE_RESULT=PASS districts=7 modeles=15
+J13_UI_RESULT=PASS shown=true built=true refused=true ratio=true governor=true
+J13_GODOT_HEADLESS=PASS ; VALIDATION_ANDROID=NOT_RUN
+rc=0

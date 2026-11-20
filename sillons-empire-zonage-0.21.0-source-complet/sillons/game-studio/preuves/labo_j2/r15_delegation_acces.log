@@ -1,0 +1,23 @@
+=== Scénario R15 — Armée déléguée : trouver un autre accès — graine 2105 ===
+Le secteur à défendre est derrière le gué nord-ouest, fermé par l'ennemi. L'armée rejoint ses postes par le gué sud-est et les tient.
+[t=   0.0s] ORDRE {"t":"lab_reveal","team":0.0} -> OK
+[t=   0.0s] ORDRE {"ford":0.0,"t":"lab_block_ford","team":1.0} -> OK
+[t=   0.0s] LABO placement : 6 × lancier camp 0 en (20,40)
+[t=   0.0s] LABO placement : 6 × lancier camp 0 en (22,43)
+[t=   0.0s] LABO placement : 6 × tireur camp 0 en (18,44)
+[t=   0.0s] EVT escouade camp 0 : Escouade 1 formée
+[t=   0.0s] EVT escouade camp 0 : Escouade 2 formée
+[t=   0.0s] EVT escouade camp 0 : Escouade 3 formée
+[t=   0.5s] ORDRE {"pos":[40.0,22.0],"radius":10.0,"t":"army_defend","team":0.0} -> OK
+[t=   0.5s] PASS délégation acceptée — attendu OK, obtenu OK 
+[t=   0.5s] EVT armee camp 0 : Armée : défense du secteur déléguée
+[t=   3.0s] PASS postes atteints par un autre accès (détour signalé) — rôles : Réserve (autre accès), Poste 1 (autre accès), Poste 2 (autre accès)
+[t=  91.8s] EVT epuise camp 0 : Gisement épuisé (bois) : recherche d'un autre
+[t=  91.8s] EVT epuise camp 0 : Gisement épuisé (bois) : recherche d'un autre
+[t= 104.8s] EVT epuise camp 1 : Gisement épuisé (bois) : recherche d'un autre
+[t= 105.1s] EVT epuise camp 1 : Gisement épuisé (bois) : recherche d'un autre
+[t= 172.7s] EVT epuise camp 0 : Gisement épuisé (bois) : recherche d'un autre
+[t= 172.7s] EVT epuise camp 0 : Gisement épuisé (bois) : recherche d'un autre
+[t= 179.0s] PASS l'armée a franchi par le gué praticable — unités du camp 0 côté ne = 18 (>= 15.0)
+[t= 179.0s] PASS le secteur est tenu — distance = 6.8 (≤ 9.0)
+[t= 180.0s] FIN — 4/4 assertions PASS — empreinte a744eb515259d88e

@@ -1,0 +1,141 @@
+#!/usr/bin/env python3
+"""J11 : intégrité, branchement et garde-fous statiques. Ne compile pas GDScript."""
+from __future__ import annotations
+import hashlib
+from pathlib import Path
+import re
+import sys
+
+ROOT = Path(__file__).resolve().parents[1]
+checks: list[tuple[bool, str]] = []
+
+def check(ok: bool, message: str) -> None:
+    checks.append((bool(ok), message))
+    print(("PASS " if ok else "FAIL ") + message)
+
+def text(name: str) -> str:
+    return (ROOT / name).read_text(encoding='utf8')
+
+required = [
+    'procgen/galaxy_generator.gd', 'procgen/star_system_generator.gd',
+    'sim/star_campaign.gd', 'sim/campaign_save.gd',
+    'views/galaxy_map_view.gd', 'views/galaxy_map_hud.gd',
+    'views/space_map_view.gd', 'views/space_map_hud.gd',
+    'game/game.gd', 'game/strategic_hud.gd', 'game/main_menu.gd',
+    'lab/j11_galaxy_test.gd', 'lab/j11_ui_test.gd',
+    'tools/verify-j11.sh', 'tools/export-android-j11.sh',
+    'README-J11.md', 'README-J10.md', 'README-J9.md',
+]
+for name in required:
+    check((ROOT / name).is_file(), f'fichier indispensable : {name}')
+graph = text('procgen/galaxy_generator.gd')
+catalog = text('procgen/star_system_generator.gd')
+campaign = text('sim/star_campaign.gd')
+save = text('sim/campaign_save.gd')
+ui = text('game/game.gd')
+mapview = text('views/galaxy_map_view.gd')
+hud = text('views/galaxy_map_hud.gd')
+for symbol, purpose in [
+    ('class_name GalaxyGenerator', 'générateur indépendant de la scène'),
+    ('GENERATED_SYSTEMS: int = 14', 'nombre borné de systèmes procéduraux'),
+    ('RandomNumberGenerator.new()', 'RNG local déterministe'),
+    ('func _add_link(', 'création de routes explicites'),
+    ('while connected.size() < systems.size()', 'réseau entièrement connecté par arbre couvrant'),
+    ('func route(', 'calcul d’itinéraire sur graphe'),
+    ('func adjacent(', 'test d’adjacence pour voyages'),
+    ('func signature(', 'signature reproductible'),
+    ('_add_link("sol", String(generated[0]))', 'passage explorable depuis Sol'),
+    ('"sol"', 'ancre Sol'), ('"proxima"', 'ancre Proxima'),
+]: check(symbol in graph, purpose)
+for symbol, purpose in [
+    ('galaxy = GalaxyGenerator.new(master_seed)', 'générateur lié à la graine J10'),
+    ('"sol_p%d"', 'identifiants J10 conservés') if False else ('"sol" if sys_id == "sol" else "prox"', 'préfixes J10 conservés'),
+    ('MAX_BODIES: int = 128', 'borne des mondes instanciables'),
+    ('"planet"', 'planètes générées'), ('"moon"', 'lunes générées'),
+]: check(symbol in catalog, purpose)
+for symbol, purpose in [
+    ('var discovered_systems:', 'connaissance par camp'),
+    ('func system_known(', 'vérification du brouillard de guerre'),
+    ('func system_owner(', 'contrôle fondé sur les centres réels'),
+    ('func system_has_port(', 'sonde issue d’un chantier allié'),
+    ('func survey_system(', 'reconnaissance avec coûts et temps'),
+    ('SURVEY_COST', 'exploration économique'),
+    ('func _tick_surveys()', 'sondes mises à jour sur ticks'),
+    ('func expected_flight_duration(', 'ETA du réseau'),
+    ('galaxy.adjacent(', 'refus des vols hors route directe'),
+    ('func _tick_flights()', 'transit et interceptions historiques conservés'),
+    ('same_edge', 'interception par arête interstellaire'),
+    ('func _ai_expansion()', 'IA de conquête'),
+    ('survey_system(team,', 'IA d’exploration'),
+    ('var_to_str(discovered_systems)', 'état galactique dans hash'),
+    ('materialize(key)', 'instanciation à la demande'),
+]: check(symbol in campaign, purpose)
+for symbol, purpose in [
+    ('"galaxy_version": GalaxyGenerator.VERSION', 'version galactique sérialisée'),
+    ('"discovered_systems": c.discovered_systems', 'brouillard sauvegardé'),
+    ('"survey_probes": c.survey_probes', 'sondes sauvegardées'),
+    ('probe_ids', 'IDs de sondes uniques'),
+    ('GalaxyGenerator.MAX_SYSTEMS', 'limitation de la taille sauvegardée'),
+    ('catalog.galaxy.adjacent(from_id, to_id)', 'validation des routes des sondes'),
+    ('StarCampaign.expected_flight_duration(', 'durées de trajets validées'),
+    ('c._sync_all()', 'restauration des ressources et âges'),
+    ('int(data.get("star_catalog_version", 1))', 'compatibilité J10'),
+]: check(symbol in save, purpose)
+for symbol, purpose in [
+    ('var galaxy_view: GalaxyMapView', 'scène galactique disponible'),
+    ('var galaxy_hud: GalaxyMapHud', 'commandes mobiles disponibles'),
+    ('func enter_space_overview(', 'navigation multi-échelle'),
+    ('func _handle_galaxy_input(', 'événements tactiles carte galactique'),
+    ('func open_galaxy_system(', 'zoom galaxie vers système'),
+    ('func leave_space_overview(', 'retour à la surface'),
+    ('level == "galaxy"', 'niveau de zoom galactique'),
+]: check(symbol in ui, purpose)
+for symbol, purpose in [
+    ('MAX_VISIBLE_TRANSITS', 'budget d’affichage des convois'),
+    ('func refresh_sim(', 'rendu découplé des ticks'),
+    ('func pick(', 'sélection d’étoile'),
+    ('func _build_roads(', 'routes visibles'),
+    ('campaign.flights', 'marqueurs de vols réellement simulés'),
+    ('campaign.system_owner(', 'couleur des systèmes selon colonies'),
+]: check(symbol in mapview, purpose)
+for symbol, purpose in [
+    ('func _send_probe(', 'action pour explorer'),
+    ('func _open_system(', 'action pour entrer dans un système'),
+    ('game.campaign.survey_system(', 'commande liée au moteur'),
+    ('func _find_origin(', 'origine de reconnaissance valide'),
+    ('func is_over_ui(', 'tactile respectant les panneaux'),
+]: check(symbol in hud, purpose)
+check(any(v in text('project.godot') for v in ['0.11.0-j11-candidate','0.12.3-j12-orbital-candidate', '0.14.0-evolutions-candidate']), 'version J11 ou J12 affichée')
+check(int(text('export_presets.cfg').split('version/code=')[1].splitlines()[0]) >= 110, 'code Android supérieur à J10')
+check('J11_GALAXY_RESULT=' in text('lab/j11_galaxy_test.gd'), 'recette moteur PASS/FAIL')
+check('J11_UI_RESULT=' in text('lab/j11_ui_test.gd'), 'recette UI PASS/FAIL')
+check('verify-j11.sh' in text('tools/export-android-j11.sh'), 'APK conditionné aux tests')
+for name in required:
+    if not (ROOT / name).is_file():
+        continue
+    src = text(name)
+    check('\x00' not in src and '\r' not in src, f'texte UTF-8 : {name}')
+    check(not re.search(r'^\s*(<<<<<<<|=======|>>>>>>>)', src, re.M), f'aucun conflit : {name}')
+manifest = ROOT / ('game-studio/manifest-j13.sha256' if '0.14.0-evolutions-candidate' in text('project.godot') else 'game-studio/manifest-j12.sha256' if '0.12.3-j12-orbital-candidate' in text('project.godot') else 'game-studio/manifest-j11.sha256')
+if manifest.exists():
+    content = manifest.read_text(encoding='utf8').splitlines()
+    good = True
+    for record in content:
+        if '  ' not in record:
+            good = False
+            break
+        expected, relname = record.split('  ', 1)
+        target = ROOT / relname
+        if (not re.fullmatch('[0-9a-f]{64}', expected)
+            or relname.startswith('/')
+            or '..' in Path(relname).parts
+            or not target.is_file()
+            or hashlib.sha256(target.read_bytes()).hexdigest() != expected):
+            good = False
+            break
+    check(good and len(content) > 300, f'manifeste J11 ({len(content)} fichiers)')
+else:
+    print('INFO manifest J11 absent avant assemblage final')
+failures = [name for ok, name in checks if not ok]
+print(f'J11_STATIC_RESULT={"FAIL" if failures else "PASS"} checks={len(checks)} failures={len(failures)}')
+sys.exit(1 if failures else 0)

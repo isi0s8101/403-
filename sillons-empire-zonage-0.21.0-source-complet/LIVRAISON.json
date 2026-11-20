@@ -1,0 +1,69 @@
+{
+ "product": "Sillons d'Empire",
+ "version": "0.21.0-terre-nouvelle-partie-candidate",
+ "android_version_code": 210,
+ "status": "candidate (non validée dans Godot : seuls earth_test.gd 16/16 passe)",
+ "lot": "Terre réelle + menu Nouvelle partie",
+ "baseline_version": "0.20.0-zonage-candidate",
+ "baseline_archive_sha256": "2de4fab841b260524d4b8a68d844ec2366cb195d20f75a737f9ae0469a3dd997",
+ "engine": "4.7.2.stable.official.ed1daf0bf",
+ "entrypoint": "sillons/project.godot",
+ "guides": [
+  "README-0.21.0-TERRE-NOUVELLE-PARTIE.md",
+  "README-ZONAGE-0.20.0.md",
+  "README-ZONAGE-0.19.0.md"
+ ],
+ "audit": "AUDIT-ZONAGE-0.18.1.md",
+ "validation": "sillons/game-studio/VALIDATION-ZONAGE-0.20.0.md",
+ "evidence": [
+  "sillons/game-studio/preuves/zonage-0.19.0/",
+  "sillons/game-studio/preuves/zonage-0.20.0/"
+ ],
+ "apk": null,
+ "source_scenarios": 64,
+ "source_result": "PASS 64/64 en un passage (statique 17 suites, import, compilation, glyphes, 64 scénarios, paquet natif)",
+ "android_native": "NOT_RUN",
+ "galaxy_s25_ultra": "NOT_RUN",
+ "third_party_content_reused": false,
+ "simulation_changes_declared": [
+  "sim/urban_events.gd, sim/urban_abstract.gd (nouveaux, par composition)",
+  "sim/urban_city.gd (échelle de temps des villes lointaines, camps décalés, événements, production sous événements)",
+  "sim/urban_growth.gd (durées selon l'échelle de temps, demande sous événements)",
+  "sim/urban_zoning.gd (accès à la route gardé pour le tick)",
+  "sim/urban_rules.gd (TEAM_OFFSET, FAR_EVERY)",
+  "sim/sim_world.gd (urban_far, urban_phase, commande de recette lab_urban_event)",
+  "sim/star_campaign.gd, evolution/evolution_campaign.gd (monde affiché détaillé, autres mondes abrégés, décalage)",
+  "sim/urban_ai.gd, sim/ai_controller.gd (zonage de l'IA avant l'électricité)"
+ ],
+ "provisional_values": [
+  "sim/urban_events.gd (fréquences, dégâts, durées)",
+  "sim/urban_rules.gd (TEAM_OFFSET, FAR_EVERY et toutes les valeurs de la ville)",
+  "sim/urban_ai.gd (EARLY_ZONES, EARLY_RESERVE)"
+ ],
+ "new_files": [
+  "sim/urban_events.gd",
+  "sim/urban_abstract.gd",
+  "lab/urban_lotb_test.gd",
+  "tools/profile-urban.gd",
+  "game-studio/VALIDATION-ZONAGE-0.20.0.md",
+  "game-studio/preuves/zonage-0.20.0/",
+  "../README-ZONAGE-0.20.0.md"
+ ],
+ "adapted_tests": [
+  "lab/urban_city_test.gd A01 : camps calculés à des ticks différents ; vérifie ce que l'IA a bâti (plus grand nombre atteint), pas ce qui survit aux incendies (raison écrite dans le fichier)"
+ ],
+ "measured_linux": {
+  "city_update_136_buildings_ms": "9-11 (0.19.0 : 15-16)",
+  "road_access_137_buildings_one_tick_ms": "1.9-2.2",
+  "far_city_cost_vs_detailed": "40 %"
+ },
+ "not_run": [
+  "Android / Galaxy S25 Ultra, APK",
+  "seuils de performance sur téléphone",
+  "équilibrage en partie réelle"
+ ],
+ "known_limits": [
+  "après l'électricité, l'IA dépense beaucoup de bois en armée et sa ville peut manquer de réparations (comportement antérieur)",
+  "habitat de niveau I à III : modèles de la bibliothèque, qui changent tous les deux âges ; couleur et toiture propres à chaque âge à partir du niveau IV"
+ ]
+}

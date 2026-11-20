@@ -1,0 +1,69 @@
+{
+  "project": "Sillons d’Empire",
+  "version": "0.11.0-j11-candidate",
+  "baseline": "sillons-empire-j10-systemes-solaires-0.10.0-source-complet.zip",
+  "baseline_sha256": "c8528a2c92a36e2f4b2ebb986e2b25a804aaf1290883ab52f7c89f275326e3ad",
+  "baseline_files": 318,
+  "baseline_preserved": 318,
+  "baseline_identical": 302,
+  "baseline_modified": 16,
+  "j11_sources_added": [
+    "sillons/README-J11.md",
+    "sillons/lab/j11_galaxy_test.gd",
+    "sillons/lab/j11_ui_test.gd",
+    "sillons/procgen/galaxy_generator.gd",
+    "sillons/tools/export-android-j11.sh",
+    "sillons/tools/verify-j11-static.py",
+    "sillons/tools/verify-j11.sh",
+    "sillons/views/galaxy_map_hud.gd",
+    "sillons/views/galaxy_map_view.gd"
+  ],
+  "static_verifications": {
+    "J678": {
+      "passed": 231,
+      "failed": 0
+    },
+    "RECETTE": {
+      "passed": 106,
+      "failed": 0
+    },
+    "FIX082": {
+      "passed": 61,
+      "failed": 0
+    },
+    "J9": {
+      "passed": 49,
+      "failed": 0
+    },
+    "J9_COMPLETE": {
+      "passed": 44,
+      "failed": 0
+    },
+    "J10": {
+      "passed": 92,
+      "failed": 0
+    },
+    "J11": {
+      "passed": 117,
+      "failed": 0
+    }
+  },
+  "godot_headless": {
+    "executed": false,
+    "result": "NOT_RUN",
+    "reason": "Godot absent dans le conteneur"
+  },
+  "android_export": {
+    "executed": false,
+    "result": "NOT_RUN"
+  },
+  "device_galaxy_s25_ultra": {
+    "executed": false,
+    "result": "NOT_RUN"
+  },
+  "notes": [
+    "Tests statiques seuls : ne certifient ni compilation, ni fonctionnement des scènes, ni performances Android.",
+    "J11 GalaxyGenerator : 16 systèmes dont 14 additionnels à Sol et Proxima.",
+    "Les transferts multisauts automatisés et les cartes J9 pour chaque astre restent hors du périmètre de J11."
+  ]
+}

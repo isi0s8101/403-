@@ -1,0 +1,39 @@
+{
+  "name": "R05c — Variante de règle : un ouvrier suffit",
+  "description": "Même situation que R05b avec la variante batisseur_seul (paramètre rebuild_rule).",
+  "seed": 1502,
+  "ticks": 120,
+  "rules": {
+    "rebuild_rule": "batisseur_seul",
+    "max_age": 3
+  },
+  "teams": [
+    {},
+    {
+      "res": {
+        "food": 0,
+        "wood": 0,
+        "ore": 0
+      }
+    }
+  ],
+  "orders": [
+    {
+      "tick": 10,
+      "cmd": {
+        "t": "lab_kill",
+        "team": 1,
+        "id": "$cc1"
+      }
+    }
+  ],
+  "asserts": [
+    {
+      "tick": 40,
+      "check": "eliminated",
+      "team": 1,
+      "value": false,
+      "label": "variante : l'ouvrier maintient le camp en jeu"
+    }
+  ]
+}

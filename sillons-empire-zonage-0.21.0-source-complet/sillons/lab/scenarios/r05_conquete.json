@@ -1,0 +1,65 @@
+{
+  "name": "R05 — Conquête : dernier centre détruit, constructeur capable, puis défaite",
+  "description": "Recette 5. Règle provisoire batisseur_et_moyens : un ouvrier vivant et (stock suffisant, fondation de centre ou dépôt).",
+  "seed": 1501,
+  "ticks": 200,
+  "teams": [
+    {},
+    {
+      "res": {
+        "food": 500,
+        "wood": 1000,
+        "ore": 1000
+      }
+    }
+  ],
+  "orders": [
+    {
+      "tick": 10,
+      "cmd": {
+        "t": "lab_kill",
+        "team": 1,
+        "id": "$cc1"
+      }
+    },
+    {
+      "tick": 60,
+      "cmd": {
+        "t": "lab_kill_type",
+        "team": 1,
+        "unit": "ouvrier"
+      }
+    }
+  ],
+  "asserts": [
+    {
+      "tick": 50,
+      "check": "eliminated",
+      "team": 1,
+      "value": false,
+      "label": "centre détruit, ouvrier + ressources : camp toujours en jeu"
+    },
+    {
+      "tick": 50,
+      "check": "game_over",
+      "value": false,
+      "label": "la partie continue"
+    },
+    {
+      "tick": 90,
+      "check": "eliminated",
+      "team": 1,
+      "value": true,
+      "label": "plus aucun bâtisseur : camp éliminé (l'éclaireur seul ne suffit pas)"
+    },
+    {
+      "tick": 90,
+      "check": "winner",
+      "value": 0,
+      "label": "victoire du joueur"
+    }
+  ],
+  "rules": {
+    "max_age": 3
+  }
+}

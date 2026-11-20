@@ -1,0 +1,25 @@
+{
+  "name": "R10 — Partie complète IA contre IA jusqu'à la conquête",
+  "description": "Escarmouche standard depuis l'âge I : exploration, passage d'âge, ouvertures, attaques et élimination par la règle de conquête complète.",
+  "seed": 2001,
+  "ticks": 30000,
+  "teams": [
+    {
+      "ai": true
+    },
+    {
+      "ai": true
+    }
+  ],
+  "asserts": [
+    {
+      "tick": 30000,
+      "check": "game_over",
+      "value": true,
+      "label": "la partie se termine par une conquête"
+    }
+  ],
+  "rules": {
+    "max_age": 3
+  }
+}

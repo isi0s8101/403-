@@ -1,0 +1,21 @@
+﻿id;proposition;motif;validation;statut;decision_finale;responsable
+D01;Dix âges stricts I–X;Continuité et scope;Âge X atteignable en jeu normal;PROPOSE;;
+D02;Solo hors ligne;Fiabilité et autonomie Android;Mode avion, reprise app;PROPOSE;;
+D03;Deux camps en V1;Maîtrise IA/simulation;Parité IA, performance;PROPOSE;;
+D04;Atlas de galaxies = choix de seed, pas combat;Éviter un étage de complexité sans gameplay;Maquette et tutoriel;PROPOSE;;
+D05;Carte planétaire sphérique avec chunks de heightmap;Grande taille sans allocation globale;Seam tests + mémoire;PROPOSE;;
+D06;Multi-vues distinctes, transition fluide perçue;Godot mobile réalisable;Tests zoom 1 000 cycles;PROPOSE;;
+D07;Pas fixe 10 Hz de départ;Préserve le moteur historique;Invariance et fluidité interpolée;PROPOSE;;
+D08;Stocks impériaux deviennent locaux par migration;Donne du sens à la logistique;Grand livre, non-duplication;PROPOSE;;
+D09;Visual LOD séparé de logique;Stabilité;Hash caméra-indépendant;PROPOSE;;
+D10;IA hiérarchique explicable et équitable;Jeu solo crédible;IA vs IA, tests brouillard;PROPOSE;;
+D11;Vitesse ×8 best effort, non garantie;Respect contraintes CPU;Mesurer vitesse effective;PROPOSE;;
+D12;Défaite après disparition globale de toute reconstruction viable;Règle de campagne cohérente;Convoi/reconstructeur en vol;PROPOSE;;
+D13;Niveau graphique Mobile comme référence;Code 0.8.2, appareil Android;Profilage sur S25 Ultra;PROPOSE;;
+D14;Taille galaxie profilée, pas « illimitée » promise;Eviter crash et marketing trompeur;Benchmark 16/64/256 systèmes;PROPOSE;;
+D15;Sauvegarde d'état + deltas et backups;Reprise robuste;Crash au milieu d'écriture;PROPOSE;;
+D16;Warnings critiques GDScript bloquants;Préserve import Godot;Exécution réelle du moteur;PROPOSE;;
+D17;Effets visuels adaptatifs, jamais règles de combat;Réactivité vs équité;Benchmark LOD;PROPOSE;;
+D18;Départ équitable vérifié sur plusieurs seeds;Évite parties injouables;Tests 1 000 seeds;PROPOSE;;
+D19;Naval complet non bloquant J9;Focalisation multiscalaire;Première verticale terminable;PROPOSE;;
+D20;No-go V1 si Android non validé;Qualité produit;APK + recette physique;PROPOSE;;

@@ -1,0 +1,62 @@
+{
+ "product": "Sillons d'Empire",
+ "version": "0.18.1-ville-candidate",
+ "android_version_code": 181,
+ "status": "candidate",
+ "baseline_version": "0.18.0-ville-candidate",
+ "baseline_archive_sha256": "a2dcd8c18308aae7401f36652cd6aa3ed4c6c901dc3c435676ab606279a2e94b",
+ "engine": "4.7.2.stable.official.ed1daf0bf",
+ "entrypoint": "sillons/project.godot",
+ "guide": "README-VILLE-0.18.0.md",
+ "audit": "AUDIT-URBAIN-0.17.0.md",
+ "validation": "sillons/game-studio/VALIDATION-VILLE-0.18.0.md",
+ "evidence": "sillons/game-studio/preuves/ville-0.18.0/",
+ "apk": null,
+ "source_scenarios": 61,
+ "source_result": "PASS 61/61 (0.18.1, un seul passage ; voir sillons/game-studio/VALIDATION-VILLE-0.18.0.md)",
+ "android_native": "NOT_RUN",
+ "galaxy_s25_ultra": "NOT_RUN",
+ "orientation": "capteur (paysage et portrait)",
+ "third_party_content_reused": false,
+ "author_decisions": [
+  "recherche Électricité à l'usine, possible dès l'âge IV",
+  "remplacement net : fermes, maisons et récolte s'arrêtent après la recherche",
+  "aucun contenu repris du jeu fourni en référence : seules les règles habituelles du genre"
+ ],
+ "simulation_changes_declared": [
+  "sim/rules.gd (bâtiments urbains, recherche electricite)",
+  "sim/sim_world.gd (crochets vers UrbanCity : pas fixe, récolte, population, constructibilité)",
+  "sim/ai_controller.gd (appel de UrbanAI après la recherche)",
+  "sim/civ_evolution.gd, sim/modern_systems.gd, sim/unit_commands.gd (une ligne chacun)",
+  "sim/j13_rules.gd (familles de modèles)"
+ ],
+ "provisional_values": [
+  "sim/urban_rules.gd (toutes les valeurs)"
+ ],
+ "new_files": [
+  "sim/urban_rules.gd",
+  "sim/urban_city.gd",
+  "sim/urban_ai.gd",
+  "interface/city_panel.gd",
+  "interface/city_overlay.gd",
+  "interface/responsive_layout.gd",
+  "lab/urban_city_test.gd",
+  "lab/ui_city_test.gd",
+  "lab/ui_portrait_test.gd",
+  "tools/verify-urbain-static.py",
+  "game-studio/VALIDATION-VILLE-0.18.0.md",
+  "../README-VILLE-0.18.0.md",
+  "../AUDIT-URBAIN-0.17.0.md",
+  "tools/check-glyphs.gd",
+  "game/icons/play.svg"
+ ],
+ "adapted_tests": [
+  "lab/modern_ui_test.gd : les 13 bâtiments urbains allongeaient la rangée de pose au-delà de la carte de 96 cases ; passage à la ligne toutes les 16 poses (raison écrite dans le fichier)",
+  "lab/ui_theme_test.gd : la partie est mise à l'âge joué par la cérémonie, pour que le contrôle périodique du thème ne crée plus d'échec aléatoire (raison écrite dans le fichier)"
+ ],
+ "fixes_0_18_1": [
+  "bouton d'ajout affiché en carré « FF0B » sur Android (caractère absent des polices)",
+  "mini-carte étirée en hauteur",
+  "tous les symboles d'interface pris dans les polices livrées, contrôle check-glyphs.gd"
+ ]
+}

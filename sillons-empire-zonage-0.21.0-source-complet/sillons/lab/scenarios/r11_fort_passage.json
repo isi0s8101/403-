@@ -1,0 +1,140 @@
+{
+  "name": "R11 — Tenir les gués avec forts et palissades",
+  "description": "Recette J2-1a. Le joueur ferme les deux gués par des palissades couvertes par un fort. L'IA attaque sans artillerie : elle tente d'ouvrir une palissade sous le feu du fort, échoue et réévalue.",
+  "seed": 2101,
+  "ticks": 3000,
+  "stop_on_game_over": false,
+  "teams": [
+    {
+      "age": 3
+    },
+    {
+      "ai": true,
+      "age": 2,
+      "opening": "assaut",
+      "attack_threshold": 10,
+      "res": {
+        "food": 600,
+        "wood": 400,
+        "ore": 400
+      }
+    }
+  ],
+  "rules": {
+    "max_age": 2
+  },
+  "setup": [
+    {
+      "t": "lab_block_ford",
+      "team": 0,
+      "ford": 0,
+      "full": true
+    },
+    {
+      "t": "lab_block_ford",
+      "team": 0,
+      "ford": 1,
+      "full": true
+    },
+    {
+      "t": "lab_building",
+      "team": 0,
+      "type": "fort",
+      "cell": [
+        19,
+        25
+      ],
+      "complete": true,
+      "as": "fort0"
+    },
+    {
+      "t": "lab_building",
+      "team": 0,
+      "type": "fort",
+      "cell": [
+        64,
+        70
+      ],
+      "complete": true,
+      "as": "fort1"
+    },
+    {
+      "t": "spawn_group",
+      "team": 1,
+      "unit": "lancier",
+      "count": 6,
+      "pos": [
+        76,
+        22
+      ]
+    },
+    {
+      "t": "spawn_group",
+      "team": 1,
+      "unit": "tireur",
+      "count": 6,
+      "pos": [
+        78,
+        25
+      ]
+    },
+    {
+      "t": "lab_spawn",
+      "team": 1,
+      "unit": "eclaireur",
+      "pos": [
+        18,
+        76
+      ]
+    }
+  ],
+  "asserts": [
+    {
+      "tick": 3000,
+      "check": "event",
+      "type": "ia",
+      "team": 1,
+      "contains": "Attaquer",
+      "label": "l'IA attaque"
+    },
+    {
+      "tick": 3000,
+      "check": "event",
+      "type": "ia",
+      "team": 1,
+      "contains": "passage bloqué par Palissade",
+      "label": "l'IA identifie la palissade qui ferme le gué"
+    },
+    {
+      "tick": 3000,
+      "check": "ai",
+      "team": 1,
+      "field": "history",
+      "contains": "réévaluation",
+      "label": "attaque repoussée : réévaluation"
+    },
+    {
+      "tick": 3000,
+      "check": "building_alive",
+      "building": "$fort0",
+      "value": true,
+      "label": "fort nord-ouest debout"
+    },
+    {
+      "tick": 3000,
+      "check": "building_alive",
+      "building": "$fort1",
+      "value": true,
+      "label": "fort sud-est debout"
+    },
+    {
+      "tick": 3000,
+      "check": "count_side",
+      "team": 1,
+      "side": "sw",
+      "op": "==",
+      "value": 0,
+      "label": "aucune unité ennemie n'a franchi la rivière"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "name": "R16 — Contraintes de l'artillerie",
+  "description": "Mise en batterie de 3 s avant le premier tir, dégâts élevés contre une structure, portée minimale : trop près, le canon recule au lieu de tirer.",
+  "seed": 2106,
+  "ticks": 400,
+  "teams": [
+    {
+      "age": 3
+    },
+    {
+      "age": 3
+    }
+  ],
+  "setup": [
+    {
+      "t": "lab_building",
+      "team": 0,
+      "type": "maison",
+      "cell": [
+        40,
+        80
+      ],
+      "complete": true,
+      "as": "maison"
+    },
+    {
+      "t": "lab_spawn",
+      "team": 1,
+      "unit": "canon",
+      "pos": [
+        41,
+        88.5
+      ],
+      "as": "canon"
+    },
+    {
+      "t": "lab_spawn",
+      "team": 1,
+      "unit": "canon",
+      "pos": [
+        60,
+        90
+      ],
+      "new_squad": true,
+      "as": "canon2"
+    }
+  ],
+  "orders": [
+    {
+      "tick": 200,
+      "cmd": {
+        "t": "lab_spawn",
+        "team": 0,
+        "unit": "lancier",
+        "pos": [
+          61.5,
+          90
+        ]
+      }
+    }
+  ],
+  "asserts": [
+    {
+      "tick": 15,
+      "check": "unit_field",
+      "unit": "$canon",
+      "field": "state",
+      "value": "batterie",
+      "label": "mise en batterie visible avant le tir"
+    },
+    {
+      "tick": 25,
+      "check": "building_hp",
+      "building": "$maison",
+      "op": "==",
+      "value": 400,
+      "label": "aucun tir avant la fin de la mise en batterie"
+    },
+    {
+      "tick": 45,
+      "check": "building_hp",
+      "building": "$maison",
+      "op": "<=",
+      "value": 200,
+      "label": "premier tir : 210 dégâts sur la structure"
+    },
+    {
+      "tick": 203,
+      "check": "unit_field",
+      "unit": "$canon2",
+      "field": "state",
+      "value": "trop_pres",
+      "label": "ennemi sous la portée minimale : le canon recule"
+    }
+  ],
+  "rules": {
+    "max_age": 3
+  }
+}

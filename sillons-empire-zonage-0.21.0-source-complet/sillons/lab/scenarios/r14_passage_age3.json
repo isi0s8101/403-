@@ -1,0 +1,127 @@
+{
+  "name": "R14 — Passage II → III : ressources seules, objectif seul, les deux",
+  "description": "Objectif provisoire configurable : achever un bâtiment à moins de 9 cases d'un gué.",
+  "seed": 2104,
+  "ticks": 600,
+  "teams": [
+    {
+      "age": 2
+    },
+    {}
+  ],
+  "orders": [
+    {
+      "tick": 5,
+      "cmd": {
+        "t": "lab_res",
+        "team": 0,
+        "res": {
+          "food": 2000,
+          "wood": 2000,
+          "ore": 2000
+        }
+      }
+    },
+    {
+      "tick": 6,
+      "cmd": {
+        "t": "train",
+        "team": 0,
+        "building": "$cc0",
+        "unit": "canon"
+      },
+      "expect": false,
+      "label": "canon indisponible avant l'âge III"
+    },
+    {
+      "tick": 7,
+      "cmd": {
+        "t": "age_up",
+        "team": 0
+      },
+      "expect": false,
+      "reason_contains": "objectif",
+      "label": "ressources seules : refus, objectif affiché"
+    },
+    {
+      "tick": 10,
+      "cmd": {
+        "t": "lab_res",
+        "team": 0,
+        "res": {
+          "food": 0,
+          "wood": 0,
+          "ore": 0
+        }
+      }
+    },
+    {
+      "tick": 10,
+      "cmd": {
+        "t": "lab_building",
+        "team": 0,
+        "type": "palissade",
+        "cell": [
+          22,
+          28
+        ],
+        "complete": true
+      }
+    },
+    {
+      "tick": 12,
+      "cmd": {
+        "t": "age_up",
+        "team": 0
+      },
+      "expect": false,
+      "reason_contains": "manque",
+      "label": "objectif seul : refus, manques chiffrés"
+    },
+    {
+      "tick": 20,
+      "cmd": {
+        "t": "lab_res",
+        "team": 0,
+        "res": {
+          "food": 2000,
+          "wood": 2000,
+          "ore": 2000
+        }
+      }
+    },
+    {
+      "tick": 22,
+      "cmd": {
+        "t": "age_up",
+        "team": 0
+      },
+      "expect": true,
+      "label": "ressources + objectif : passage lancé"
+    }
+  ],
+  "asserts": [
+    {
+      "tick": 300,
+      "check": "age",
+      "value": 2,
+      "label": "âge II pendant le passage"
+    },
+    {
+      "tick": 500,
+      "check": "age",
+      "value": 3,
+      "label": "âge III atteint"
+    },
+    {
+      "tick": 500,
+      "check": "age",
+      "team": 1,
+      "value": 1,
+      "label": "adversaire indépendant"
+    }
+  ],
+  "rules": {
+    "max_age": 3
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "milestone": "J12",
+  "version": "0.12.0",
+  "status": "source_candidate",
+  "scope": [
+    "galactic_directives",
+    "per_system_stocks",
+    "multi_hop_freight",
+    "android_visual_governor",
+    "j1_j12_recipe"
+  ],
+  "godot_import": "NOT_RUN",
+  "godot_runtime_tests": "NOT_RUN",
+  "android_export": "NOT_RUN",
+  "galaxy_s25_ultra_tests": "NOT_RUN",
+  "static_tests": "PASS",
+  "known_limits": [
+    "fleet_multi_hop_manual",
+    "nonhistoric_world_atlas_not_full",
+    "spatial_battles_abstract",
+    "freight_not_interceptable"
+  ],
+  "rollback": "Keep baseline J11 zip and original user:// saves; older J11 cannot read J12 saves",
+  "static_assertions": 791,
+  "baseline_j11_files_preserved": 328,
+  "baseline_j11_byte_identical": 311,
+  "baseline_j11_modified": 17
+}

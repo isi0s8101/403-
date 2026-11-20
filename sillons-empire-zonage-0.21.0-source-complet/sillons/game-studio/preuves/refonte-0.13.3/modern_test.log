@@ -1,0 +1,47 @@
+Godot Engine v4.7.1.stable.official.a13da4feb - https://godotengine.org
+
+PASS passage âge 4 accepté
+PASS âge 4 atteint, adversaire indépendant
+PASS passage âge 5 accepté
+PASS âge 5 atteint, adversaire indépendant
+PASS passage âge 6 accepté
+PASS âge 6 atteint, adversaire indépendant
+PASS passage âge 7 accepté
+PASS âge 7 atteint, adversaire indépendant
+PASS passage âge 8 accepté
+PASS âge 8 atteint, adversaire indépendant
+PASS âge IX indisponible
+PASS camp négatif refusé
+PASS recherche lancée
+PASS double recherche refusée
+PASS technologie achevée
+PASS recherche bâtiment ennemi refusée
+PASS industrie transforme 2 bois en 1,5 minerai
+PASS formation char acceptée
+PASS char produit
+PASS filtrage air-sol et antiaérien
+PASS avion franchit l’eau
+PASS rupture ravitaillement réduit efficacité
+PASS brouillage drone
+PASS contre-mesures réduisent brouillage
+PASS destruction brouilleur restaure efficacité
+PASS missile vers brouillard refusé
+PASS missile visible lancé
+PASS recharge missile imposée
+PASS interception antimissile
+PASS impact sans interception
+PASS réseau transitif centre → gare → gare
+PASS train circule entre gares
+PASS ravitaillement via réseau connecté
+PASS destruction gare coupe réseau et train
+PASS train refuse déplacement libre hors liaison
+PASS ordre aérien vers eau accepté
+PASS ordre hors carte refusé
+PASS sauvegarde atomique
+PASS remplacement sauvegarde et copie de secours
+PASS copie de secours rechargeable
+PASS chargement conserve empreinte
+PASS continuation déterministe après reprise 100 ticks
+PASS état complet identique après reprise (IA, ordres, files, chemins)
+PASS sauvegarde corrompue refusée
+MODERN_TEST: 44/44 PASS

@@ -1,0 +1,14 @@
+PASS j678
+PASS recette
+PASS fix082
+PASS j9
+PASS j9-complete
+PASS j10
+PASS j11
+PASS j12
+PASS evolution
+PASS orbital
+PASS j13
+PASS simulation identique à la 0.13.2
+PASS 800 modèles et 2400 GLB conformes au catalogue
+REFONTE_STATIC=PASS suites=13 failures=0

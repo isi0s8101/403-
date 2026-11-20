@@ -1,0 +1,53 @@
+<!doctype html><html lang="fr"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Sillons d’Empire · Interface 0.17.0</title>
+<style>
+body{margin:0;background:#0d0f13;color:#eceae4;font:16px system-ui}
+main{max-width:1400px;margin:auto;padding:32px 20px}
+h1{font-size:32px;margin:6px 0 8px}h2{font-size:22px;margin:40px 0 10px;color:#f0c27a}
+p,li{color:#c3c7cc;line-height:1.6}small{color:#9aa3ad;letter-spacing:.06em}
+.pair{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media(max-width:900px){.pair{grid-template-columns:1fr}}
+figure{margin:0;border:1px solid #2f343c;border-radius:10px;overflow:hidden;background:#15181e}
+figcaption{padding:10px 14px;color:#f0c27a;font-weight:600}
+img{width:100%;height:auto;display:block}
+table{border-collapse:collapse;margin:10px 0;width:100%;max-width:900px}
+td,th{border:1px solid #2f343c;padding:6px 10px;text-align:left}th{background:#1b1f26;color:#f0c27a}
+</style>
+<main>
+<small>PROJET COMPLET · 0.17.0 CANDIDATE · ANDROID NOT_RUN</small>
+<h1>Commander vite, lire d’un coup d’œil, un habillage qui grandit avec l’empire.</h1>
+<p>Captures réelles du jeu dans Godot 4.7.2 (OpenGL logiciel sur Linux, 1600×740 = format paysage du Galaxy S25 Ultra à l’échelle 1). À gauche la 0.16.0, à droite la 0.17.0, même scène et même graine. Les boutons restent à la même place dans les 10 âges : seul l’habillage change.</p>
+
+<h2>Combien de touchers ?</h2>
+<table><tr><th>Action</th><th>0.16.0</th><th>0.17.0</th></tr>
+<tr><td>Tous les ouvriers inactifs</td><td>impossible</td><td>1</td></tr>
+<tr><td>Toute l’armée</td><td>impossible</td><td>1</td></tr>
+<tr><td>Tous les mêmes à l’écran</td><td>impossible</td><td>2 (double appui)</td></tr>
+<tr><td>Rappeler un groupe</td><td>impossible</td><td>1</td></tr>
+<tr><td>Trajet A → B → C</td><td>impossible</td><td>1 + 3</td></tr>
+<tr><td>Former 5 unités</td><td>5</td><td>1</td></tr>
+<tr><td>Ligne de murs</td><td>12</td><td>1 glissé + 1</td></tr>
+<tr><td>Lancer un pouvoir</td><td>3 et plus</td><td>2</td></tr>
+<tr><td>Aller à la dernière alerte</td><td>impossible</td><td>1</td></tr></table>
+
+<h2>Début de partie</h2>
+<div class="pair"><figure><figcaption>0.16.0</figcaption><img alt="Début 0.16.0" src="sillons/game-studio/preuves/interface-0.17.0/avant/debut-1600.png"></figure><figure><figcaption>0.17.0</figcaption><img alt="Début 0.17.0" src="sillons/game-studio/preuves/interface-0.17.0/apres/debut-1600.png"></figure></div>
+<h2>Armée sélectionnée · carte de commandes</h2>
+<div class="pair"><figure><figcaption>0.16.0</figcaption><img alt="Armée 0.16.0" src="sillons/game-studio/preuves/interface-0.17.0/avant/armee-1600.png"></figure><figure><figcaption>0.17.0</figcaption><img alt="Armée 0.17.0" src="sillons/game-studio/preuves/interface-0.17.0/apres/armee-1600.png"></figure></div>
+<h2>Ordres enchaînés A → B → C</h2>
+<div class="pair"><figure><figcaption>0.17.0 · étapes numérotées au sol</figcaption><img alt="File d’ordres" src="sillons/game-studio/preuves/interface-0.17.0/apres/file-1600.png"></figure><figure><figcaption>0.17.0 · grand écran 2400×1110</figcaption><img alt="Armée 2400" src="sillons/game-studio/preuves/interface-0.17.0/apres/armee-2400.png"></figure></div>
+<h2>Caserne · production</h2>
+<div class="pair"><figure><figcaption>0.16.0</figcaption><img alt="Caserne 0.16.0" src="sillons/game-studio/preuves/interface-0.17.0/avant/caserne-1600.png"></figure><figure><figcaption>0.17.0</figcaption><img alt="Caserne 0.17.0" src="sillons/game-studio/preuves/interface-0.17.0/apres/caserne-1600.png"></figure></div>
+<h2>Pose de bâtiment</h2>
+<div class="pair"><figure><figcaption>0.16.0</figcaption><img alt="Pose 0.16.0" src="sillons/game-studio/preuves/interface-0.17.0/avant/placement-1600.png"></figure><figure><figcaption>0.17.0</figcaption><img alt="Pose 0.17.0" src="sillons/game-studio/preuves/interface-0.17.0/apres/placement-1600.png"></figure></div>
+<h2>Civilisation</h2>
+<div class="pair"><figure><figcaption>0.16.0</figcaption><img alt="Civilisation 0.16.0" src="sillons/game-studio/preuves/interface-0.17.0/avant/civilisation-1600.png"></figure><figure><figcaption>0.17.0</figcaption><img alt="Civilisation 0.17.0" src="sillons/game-studio/preuves/interface-0.17.0/apres/civilisation-1600.png"></figure></div>
+<h2>Bataille</h2>
+<div class="pair"><figure><figcaption>0.16.0</figcaption><img alt="Bataille 0.16.0" src="sillons/game-studio/preuves/interface-0.17.0/avant/bataille-1600.png"></figure><figure><figcaption>0.17.0</figcaption><img alt="Bataille 0.17.0" src="sillons/game-studio/preuves/interface-0.17.0/apres/bataille-1600.png"></figure></div>
+<h2>Globe</h2>
+<div class="pair"><figure><figcaption>0.16.0</figcaption><img alt="Globe 0.16.0" src="sillons/game-studio/preuves/interface-0.17.0/avant/globe-1600.png"></figure><figure><figcaption>0.17.0</figcaption><img alt="Globe 0.17.0" src="sillons/game-studio/preuves/interface-0.17.0/apres/globe-1600.png"></figure></div>
+
+<h2>Planche des 10 âges</h2>
+<p>Même partie, même disposition, thème de chaque âge (à gauche la scène avec une armée sélectionnée, à droite le panneau Civilisation). Les contrastes indiqués sont mesurés par la recette <code>ui_theme</code> sur les couleurs réelles (jetons et centre des textures) : texte ≥ 4,5:1 et éléments graphiques ≥ 3:1 dans chaque âge.</p>
+<figure><figcaption>Âges I à X</figcaption><img alt="Planche des 10 âges" src="sillons/game-studio/preuves/interface-0.17.0/planche-10-ages.png"></figure>
+<p><small>Aucun APK n’accompagne cette version. Essais sur téléphone : NOT_RUN.</small></p>
+</main></html>

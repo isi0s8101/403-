@@ -1,0 +1,27 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS catalogue identique pour une graine identique
+PASS graines distinctes produisent des systemes differents
+PASS Sol et Proxima, planètes et lunes (J11 étend le catalogue)
+PASS mondes historiques conserves
+PASS IDs uniques, orbites finies et lunes rattachees
+PASS J9 et catalogue J10 coexistent sans nouveaux mondes charges
+PASS planetes procedurales fermees avant IX
+PASS expansion locale IX et distante X
+PASS planete generee sans colonie fictive
+PASS instance du monde persistante et non dupliquee
+PASS plateforme de depart disponible
+PASS mission vers planete procedurale au lieu d'un teleport
+PASS embarquement sans pertes de combat
+PASS sauvegarde J10 avec destination et vol en cours
+PASS reprise deterministe au terme de la mission
+PASS colonie fondee sur nouvelle planete
+PASS ouvrier debarque vivant
+PASS monde externe falsifie refuse
+PASS generation future inconnue refusee
+PASS seed de monde falsifie refusee
+PASS systeme Proxima accessible a X
+PASS camera peut rejoindre une planete distante
+PASS monde de systeme different conserve
+PASS ancienne sauvegarde 0.9.1 toujours lisible
+J10_SYSTEMS_RESULT=PASS checks=24 failures=0

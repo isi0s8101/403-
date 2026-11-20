@@ -1,0 +1,6 @@
+Comparaison du budget de recherches de chemin (path_budget) — même graine, mêmes ordres
+budget | R12 statut | R12 passage ouvert (s) | R12 1er franchissement (s) | front A 400 u. : sim moy / pic (ms) sur 300 ticks
+illimité | PASS | 39.8 | 83.0 | 39.9 / 320.2
+    48 | PASS | 39.8 | 83.0 | 33.0 / 111.6
+    24 | PASS | 39.8 | 83.0 | 25.7 / 72.5
+    12 | PASS | 39.8 | 83.0 | 21.2 / 64.5

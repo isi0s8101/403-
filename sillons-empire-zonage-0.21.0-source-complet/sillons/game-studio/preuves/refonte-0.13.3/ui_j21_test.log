@@ -1,0 +1,18 @@
+Godot Engine v4.7.1.stable.official.a13da4feb - https://godotengine.org
+
+PASS UI_J21 mini-carte repliable
+PASS UI_J21 mini-carte restauree
+PASS UI_J21 liste escouades masquee par defaut
+PASS UI_J21 liste escouades ouvrable
+PASS UI_J21 liste escouades fermable
+PASS UI_J21 escouades disponibles
+PASS UI_J21 escouade selectionnee
+PASS UI_J21 menu contextuel ouvert
+PASS UI_J21 action sectorielle accessible
+PASS UI_J21 menu contextuel ferme
+PASS UI_J21 selection multiple
+PASS UI_J21 surbrillance multiple
+PASS UI_J21 mode rectangle active
+PASS UI_J21 mode rectangle annule
+PASS UI_J21 panneau selection inactif
+UI_J21_RESULT 15/15 PASS

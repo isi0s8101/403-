@@ -1,0 +1,350 @@
+ERROR Draco mesh compression is not available because library could not be found at /usr/bin/4.3/python/lib/python3.13/site-packages/libextern_draco.so
+03:52:12 | INFO: Starting glTF 2.0 export
+03:52:12 | INFO: Extracting primitive: Cube.001
+03:52:12 | INFO: Primitives created: 7
+03:52:13 | INFO: Finished glTF 2.0 export in 0.027426958084106445 s
+
+MODEL_READY bld_centre_a01 1680
+03:52:13 | INFO: Starting glTF 2.0 export
+03:52:13 | INFO: Extracting primitive: Cube.047
+03:52:13 | INFO: Primitives created: 7
+03:52:13 | INFO: Finished glTF 2.0 export in 0.023334741592407227 s
+
+MODEL_READY bld_maison_a01 1584
+03:52:13 | INFO: Starting glTF 2.0 export
+03:52:13 | INFO: Extracting primitive: Cube.093
+03:52:13 | INFO: Primitives created: 7
+03:52:13 | INFO: Finished glTF 2.0 export in 0.024375438690185547 s
+
+MODEL_READY bld_caserne_a01 1578
+03:52:13 | INFO: Starting glTF 2.0 export
+03:52:13 | INFO: Extracting primitive: Cube.138
+03:52:13 | INFO: Primitives created: 6
+03:52:13 | INFO: Finished glTF 2.0 export in 0.025967121124267578 s
+
+MODEL_READY bld_entrepot_a01 2308
+03:52:14 | INFO: Starting glTF 2.0 export
+03:52:14 | INFO: Extracting primitive: Cube.190
+03:52:14 | INFO: Primitives created: 6
+03:52:14 | INFO: Finished glTF 2.0 export in 0.025526762008666992 s
+
+MODEL_READY bld_atelier_a01 2176
+03:52:14 | INFO: Starting glTF 2.0 export
+03:52:14 | INFO: Extracting primitive: Cube.239
+03:52:14 | INFO: Primitives created: 7
+03:52:14 | INFO: Finished glTF 2.0 export in 0.02697587013244629 s
+
+MODEL_READY bld_marche_a01 1736
+03:52:14 | INFO: Starting glTF 2.0 export
+03:52:14 | INFO: Extracting primitive: Cube.254
+03:52:14 | INFO: Primitives created: 6
+03:52:14 | INFO: Finished glTF 2.0 export in 0.0254666805267334 s
+
+MODEL_READY bld_usine_a01 2176
+03:52:15 | INFO: Starting glTF 2.0 export
+03:52:15 | INFO: Extracting primitive: Cube.303
+03:52:15 | INFO: Primitives created: 6
+03:52:15 | INFO: Finished glTF 2.0 export in 0.02272176742553711 s
+
+MODEL_READY bld_academie_a01 1476
+03:52:15 | INFO: Starting glTF 2.0 export
+03:52:15 | INFO: Extracting primitive: Cube.348
+03:52:15 | INFO: Primitives created: 6
+03:52:15 | INFO: Finished glTF 2.0 export in 0.024591445922851562 s
+
+MODEL_READY bld_depot_a01 2308
+03:52:15 | INFO: Starting glTF 2.0 export
+03:52:15 | INFO: Extracting primitive: Cube.400
+03:52:15 | INFO: Primitives created: 4
+03:52:15 | INFO: Finished glTF 2.0 export in 0.016841411590576172 s
+
+MODEL_READY bld_fort_a01 1678
+03:52:15 | INFO: Starting glTF 2.0 export
+03:52:15 | INFO: Extracting primitive: Cube.433
+03:52:15 | INFO: Primitives created: 2
+03:52:15 | INFO: Finished glTF 2.0 export in 0.008767843246459961 s
+
+MODEL_READY bld_palissade_a01 628
+03:52:16 | INFO: Starting glTF 2.0 export
+03:52:16 | INFO: Extracting primitive: Cube.439
+03:52:16 | INFO: Primitives created: 7
+03:52:16 | INFO: Finished glTF 2.0 export in 0.02624344825744629 s
+
+MODEL_READY bld_centre_a03 2340
+03:52:16 | INFO: Starting glTF 2.0 export
+03:52:16 | INFO: Extracting primitive: Cube.510
+03:52:16 | INFO: Primitives created: 7
+03:52:16 | INFO: Finished glTF 2.0 export in 0.030522584915161133 s
+
+MODEL_READY bld_maison_a03 2244
+03:52:17 | INFO: Starting glTF 2.0 export
+03:52:17 | INFO: Extracting primitive: Cube.581
+03:52:17 | INFO: Primitives created: 7
+03:52:17 | INFO: Finished glTF 2.0 export in 0.02524709701538086 s
+
+MODEL_READY bld_caserne_a03 2238
+03:52:17 | INFO: Starting glTF 2.0 export
+03:52:17 | INFO: Extracting primitive: Cube.651
+03:52:17 | INFO: Primitives created: 6
+03:52:17 | INFO: Finished glTF 2.0 export in 0.022516727447509766 s
+
+MODEL_READY bld_entrepot_a03 2348
+03:52:18 | INFO: Starting glTF 2.0 export
+03:52:18 | INFO: Extracting primitive: Cube.703
+03:52:18 | INFO: Primitives created: 6
+03:52:18 | INFO: Finished glTF 2.0 export in 0.025150775909423828 s
+
+MODEL_READY bld_atelier_a03 2216
+03:52:18 | INFO: Starting glTF 2.0 export
+03:52:18 | INFO: Extracting primitive: Cube.752
+03:52:18 | INFO: Primitives created: 7
+03:52:18 | INFO: Finished glTF 2.0 export in 0.02416062355041504 s
+
+MODEL_READY bld_marche_a03 1736
+03:52:18 | INFO: Starting glTF 2.0 export
+03:52:18 | INFO: Extracting primitive: Cube.767
+03:52:18 | INFO: Primitives created: 6
+03:52:18 | INFO: Finished glTF 2.0 export in 0.02515888214111328 s
+
+MODEL_READY bld_usine_a03 2836
+03:52:19 | INFO: Starting glTF 2.0 export
+03:52:19 | INFO: Extracting primitive: Cube.841
+03:52:19 | INFO: Primitives created: 6
+03:52:19 | INFO: Finished glTF 2.0 export in 0.02582240104675293 s
+
+MODEL_READY bld_academie_a03 2136
+03:52:19 | INFO: Starting glTF 2.0 export
+03:52:19 | INFO: Extracting primitive: Cube.911
+03:52:19 | INFO: Primitives created: 6
+03:52:19 | INFO: Finished glTF 2.0 export in 0.02478766441345215 s
+
+MODEL_READY bld_depot_a03 2348
+03:52:20 | INFO: Starting glTF 2.0 export
+03:52:20 | INFO: Extracting primitive: Cube.963
+03:52:20 | INFO: Primitives created: 4
+03:52:20 | INFO: Finished glTF 2.0 export in 0.015829086303710938 s
+
+MODEL_READY bld_fort_a03 1678
+03:52:20 | INFO: Starting glTF 2.0 export
+03:52:20 | INFO: Extracting primitive: Cube.996
+03:52:20 | INFO: Primitives created: 2
+03:52:20 | INFO: Finished glTF 2.0 export in 0.008996009826660156 s
+
+MODEL_READY bld_palissade_a03 628
+03:52:20 | INFO: Starting glTF 2.0 export
+03:52:20 | INFO: Extracting primitive: Cube.1002
+03:52:20 | INFO: Primitives created: 8
+03:52:20 | INFO: Finished glTF 2.0 export in 0.030123472213745117 s
+
+MODEL_READY bld_centre_a06 2152
+03:52:21 | INFO: Starting glTF 2.0 export
+03:52:21 | INFO: Extracting primitive: Cube.1069
+03:52:21 | INFO: Primitives created: 7
+03:52:21 | INFO: Finished glTF 2.0 export in 0.028452396392822266 s
+
+MODEL_READY bld_maison_a06 2056
+03:52:21 | INFO: Starting glTF 2.0 export
+03:52:21 | INFO: Extracting primitive: Cube.1136
+03:52:21 | INFO: Primitives created: 7
+03:52:21 | INFO: Finished glTF 2.0 export in 0.02581048011779785 s
+
+MODEL_READY bld_caserne_a06 2050
+03:52:22 | INFO: Starting glTF 2.0 export
+03:52:22 | INFO: Extracting primitive: Cube.1202
+03:52:22 | INFO: Primitives created: 6
+03:52:22 | INFO: Finished glTF 2.0 export in 0.024027585983276367 s
+
+MODEL_READY bld_entrepot_a06 2160
+03:52:22 | INFO: Starting glTF 2.0 export
+03:52:22 | INFO: Extracting primitive: Cube.1250
+03:52:22 | INFO: Primitives created: 6
+03:52:22 | INFO: Finished glTF 2.0 export in 0.024878740310668945 s
+
+MODEL_READY bld_atelier_a06 2028
+03:52:22 | INFO: Starting glTF 2.0 export
+03:52:22 | INFO: Extracting primitive: Cube.1295
+03:52:22 | INFO: Primitives created: 7
+03:52:22 | INFO: Finished glTF 2.0 export in 0.04281187057495117 s
+
+MODEL_READY bld_marche_a06 1736
+03:52:23 | INFO: Starting glTF 2.0 export
+03:52:23 | INFO: Extracting primitive: Cube.1310
+03:52:23 | INFO: Primitives created: 6
+03:52:23 | INFO: Finished glTF 2.0 export in 0.024834871292114258 s
+
+MODEL_READY bld_usine_a06 2648
+03:52:23 | INFO: Starting glTF 2.0 export
+03:52:23 | INFO: Extracting primitive: Cube.1380
+03:52:23 | INFO: Primitives created: 6
+03:52:23 | INFO: Finished glTF 2.0 export in 0.024107933044433594 s
+
+MODEL_READY bld_academie_a06 1948
+03:52:24 | INFO: Starting glTF 2.0 export
+03:52:24 | INFO: Extracting primitive: Cube.1446
+03:52:24 | INFO: Primitives created: 6
+03:52:24 | INFO: Finished glTF 2.0 export in 0.02287435531616211 s
+
+MODEL_READY bld_depot_a06 2160
+03:52:24 | INFO: Starting glTF 2.0 export
+03:52:24 | INFO: Extracting primitive: Cube.1494
+03:52:24 | INFO: Primitives created: 4
+03:52:24 | INFO: Finished glTF 2.0 export in 0.017621517181396484 s
+
+MODEL_READY bld_fort_a06 1678
+03:52:24 | INFO: Starting glTF 2.0 export
+03:52:24 | INFO: Extracting primitive: Cube.1527
+03:52:24 | INFO: Primitives created: 2
+03:52:24 | INFO: Finished glTF 2.0 export in 0.009821414947509766 s
+
+MODEL_READY bld_palissade_a06 628
+03:52:25 | INFO: Starting glTF 2.0 export
+03:52:25 | INFO: Extracting primitive: Cube.1533
+03:52:25 | INFO: Primitives created: 7
+03:52:25 | INFO: Finished glTF 2.0 export in 0.027886629104614258 s
+
+MODEL_READY bld_centre_a10 2822
+03:52:25 | INFO: Starting glTF 2.0 export
+03:52:25 | INFO: Extracting primitive: Cube.1631
+03:52:25 | INFO: Primitives created: 7
+03:52:25 | INFO: Finished glTF 2.0 export in 0.027614831924438477 s
+
+MODEL_READY bld_maison_a10 2208
+03:52:26 | INFO: Starting glTF 2.0 export
+03:52:26 | INFO: Extracting primitive: Cube.1705
+03:52:26 | INFO: Primitives created: 7
+03:52:26 | INFO: Finished glTF 2.0 export in 0.024611949920654297 s
+
+MODEL_READY bld_caserne_a10 2202
+03:52:26 | INFO: Starting glTF 2.0 export
+03:52:26 | INFO: Extracting primitive: Cube.1778
+03:52:26 | INFO: Primitives created: 6
+03:52:26 | INFO: Finished glTF 2.0 export in 0.025266408920288086 s
+
+MODEL_READY bld_entrepot_a10 2932
+03:52:27 | INFO: Starting glTF 2.0 export
+03:52:27 | INFO: Extracting primitive: Cube.1858
+03:52:27 | INFO: Primitives created: 6
+03:52:27 | INFO: Finished glTF 2.0 export in 0.02617669105529785 s
+
+MODEL_READY bld_atelier_a10 2800
+03:52:27 | INFO: Starting glTF 2.0 export
+03:52:27 | INFO: Extracting primitive: Cube.1935
+03:52:27 | INFO: Primitives created: 7
+03:52:27 | INFO: Finished glTF 2.0 export in 0.02627420425415039 s
+
+MODEL_READY bld_marche_a10 1736
+03:52:28 | INFO: Starting glTF 2.0 export
+03:52:28 | INFO: Extracting primitive: Cube.1950
+03:52:28 | INFO: Primitives created: 6
+03:52:28 | INFO: Finished glTF 2.0 export in 0.03272676467895508 s
+
+MODEL_READY bld_usine_a10 2800
+03:52:28 | INFO: Starting glTF 2.0 export
+03:52:28 | INFO: Extracting primitive: Cube.2027
+03:52:28 | INFO: Primitives created: 6
+03:52:28 | INFO: Finished glTF 2.0 export in 0.024158477783203125 s
+
+MODEL_READY bld_academie_a10 2100
+03:52:29 | INFO: Starting glTF 2.0 export
+03:52:29 | INFO: Extracting primitive: Cube.2100
+03:52:29 | INFO: Primitives created: 6
+03:52:29 | INFO: Finished glTF 2.0 export in 0.025388717651367188 s
+
+MODEL_READY bld_depot_a10 2932
+03:52:29 | INFO: Starting glTF 2.0 export
+03:52:29 | INFO: Extracting primitive: Cube.2180
+03:52:29 | INFO: Primitives created: 4
+03:52:29 | INFO: Finished glTF 2.0 export in 0.01574873924255371 s
+
+MODEL_READY bld_fort_a10 1678
+03:52:29 | INFO: Starting glTF 2.0 export
+03:52:29 | INFO: Extracting primitive: Cube.2213
+03:52:29 | INFO: Primitives created: 2
+03:52:29 | INFO: Finished glTF 2.0 export in 0.009107351303100586 s
+
+MODEL_READY bld_palissade_a10 628
+03:52:30 | INFO: Starting glTF 2.0 export
+03:52:30 | INFO: Extracting primitive: Cone.350
+03:52:30 | INFO: Primitives created: 2
+03:52:30 | INFO: Finished glTF 2.0 export in 0.05712175369262695 s
+
+MODEL_READY oak_3 9732
+03:52:30 | INFO: Starting glTF 2.0 export
+03:52:30 | INFO: Extracting primitive: Cone.435
+03:52:31 | INFO: Primitives created: 2
+03:52:31 | INFO: Finished glTF 2.0 export in 0.03976607322692871 s
+
+MODEL_READY oak_11 9732
+03:52:31 | INFO: Starting glTF 2.0 export
+03:52:31 | INFO: Extracting primitive: Cone.520
+03:52:31 | INFO: Primitives created: 2
+03:52:31 | INFO: Finished glTF 2.0 export in 0.042992591857910156 s
+
+MODEL_READY oak_21 9732
+03:52:34 | INFO: Starting glTF 2.0 export
+03:52:34 | INFO: Extracting primitive: Sphere.040
+03:52:34 | INFO: Primitives created: 2
+03:52:34 | INFO: Finished glTF 2.0 export in 0.024149179458618164 s
+
+MODEL_READY berry_bush 11232
+Warning: No mesh data to join
+03:52:34 | INFO: Starting glTF 2.0 export
+03:52:34 | INFO: Extracting primitive: Icosphere
+03:52:34 | INFO: Primitives created: 1
+03:52:34 | INFO: Finished glTF 2.0 export in 0.0043447017669677734 s
+
+MODEL_READY boulder_4 80
+Warning: No mesh data to join
+03:52:34 | INFO: Starting glTF 2.0 export
+03:52:34 | INFO: Extracting primitive: Icosphere.001
+03:52:34 | INFO: Primitives created: 1
+03:52:34 | INFO: Finished glTF 2.0 export in 0.004494428634643555 s
+
+MODEL_READY boulder_9 80
+Warning: No mesh data to join
+03:52:34 | INFO: Starting glTF 2.0 export
+03:52:34 | INFO: Extracting primitive: Icosphere.002
+03:52:34 | INFO: Primitives created: 1
+03:52:34 | INFO: Finished glTF 2.0 export in 0.004430532455444336 s
+
+MODEL_READY boulder_17 80
+03:52:34 | INFO: Starting glTF 2.0 export
+03:52:34 | INFO: Extracting primitive: Sphere.274
+03:52:34 | INFO: Primitives created: 7
+03:52:34 | INFO: Finished glTF 2.0 export in 0.19239473342895508 s
+
+MODEL_READY human_ouvrier 3128
+03:52:34 | INFO: Starting glTF 2.0 export
+03:52:34 | INFO: Extracting primitive: Sphere.291
+03:52:34 | INFO: Primitives created: 5
+03:52:35 | INFO: Finished glTF 2.0 export in 0.2033252716064453 s
+
+MODEL_READY human_colon 3012
+03:52:35 | INFO: Starting glTF 2.0 export
+03:52:35 | INFO: Extracting primitive: Sphere.308
+03:52:35 | INFO: Primitives created: 7
+03:52:35 | INFO: Finished glTF 2.0 export in 0.19292354583740234 s
+
+MODEL_READY human_lancier 3568
+03:52:35 | INFO: Starting glTF 2.0 export
+03:52:35 | INFO: Extracting primitive: Sphere.329
+03:52:35 | INFO: Primitives created: 6
+03:52:35 | INFO: Finished glTF 2.0 export in 0.18590283393859863 s
+
+MODEL_READY human_tireur 3228
+03:52:36 | INFO: Starting glTF 2.0 export
+03:52:36 | INFO: Extracting primitive: Sphere.346
+03:52:36 | INFO: Primitives created: 7
+03:52:36 | INFO: Finished glTF 2.0 export in 0.20063018798828125 s
+
+MODEL_READY human_fusilier 3556
+03:52:36 | INFO: Starting glTF 2.0 export
+03:52:36 | INFO: Extracting primitive: Sphere.366
+03:52:36 | INFO: Primitives created: 7
+03:52:36 | INFO: Finished glTF 2.0 export in 0.2137601375579834 s
+
+MODEL_READY human_grenadier 3556
+REALISM_GEOMETRY=PASS models=57
+Blender 4.3.2
+
+Blender quit

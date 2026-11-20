@@ -1,0 +1,19 @@
+Godot Engine v4.7.1.stable.official.a13da4feb - https://godotengine.org
+
+BUILD centre 1.0
+BUILD caserne 1.0
+BUILD atelier 1.0
+BUILD usine 1.0
+BUILD gare 1.0
+BUILD caserne 1.0
+BUILD academie 1.0
+BUILD gare 1.0
+BUILD depot 1.0
+BUILD aerodrome 1.0
+BUILD fort 1.0
+BUILD entrepot 1.0
+BUILD radar 1.0
+BUILD intercepteur 1.0
+BUILD silo 1.0
+AGE_STATUS { "to": 9, "possible": false, "res_ok": false, "obj_ok": false, "missing": ["âge maximal du jalon atteint"], "objective": "", "cost": {  } } RES { "food": 32154.0, "wood": 38761.0, "ore": 29854.5 }
+MODERN_AI: age=8 modern_units_alive=28 technologies={ "outillage": true, "blindage": true, "standardisation": true, "contre_mesures": true } PASS

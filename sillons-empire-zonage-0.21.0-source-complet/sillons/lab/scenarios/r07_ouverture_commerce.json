@@ -1,0 +1,61 @@
+{
+  "name": "R07 — Situation favorable au commerce",
+  "description": "IA commerce (camp 0) contre IA assaut tardif (camp 1, seuil d'attaque 30). Sans pression précoce, le commerce rentabilise le marché, le relais et les caravanes : revenu cumulé supérieur à 14 min. Âge maximal fixé à II pour isoler la situation de l'âge II (sans fortifications de l'âge III).",
+  "seed": 1701,
+  "ticks": 8400,
+  "stop_on_game_over": false,
+  "teams": [
+    {
+      "ai": true,
+      "age": 2,
+      "opening": "commerce",
+      "trade_attack_threshold": 99,
+      "res": {
+        "food": 400,
+        "wood": 500,
+        "ore": 200
+      }
+    },
+    {
+      "ai": true,
+      "age": 2,
+      "opening": "assaut",
+      "attack_threshold": 30,
+      "res": {
+        "food": 400,
+        "wood": 500,
+        "ore": 200
+      }
+    }
+  ],
+  "asserts": [
+    {
+      "tick": 8400,
+      "check": "event",
+      "type": "acheve",
+      "team": 0,
+      "contains": "Relais",
+      "label": "relais marchand établi"
+    },
+    {
+      "tick": 8400,
+      "check": "stat",
+      "team": 0,
+      "stat": "trade",
+      "op": ">",
+      "value": 300,
+      "label": "revenu commercial significatif"
+    },
+    {
+      "tick": 8400,
+      "check": "income",
+      "team": 0,
+      "other": 1,
+      "op": ">",
+      "label": "commerce : revenu cumulé supérieur à l'assaut tardif"
+    }
+  ],
+  "rules": {
+    "max_age": 2
+  }
+}

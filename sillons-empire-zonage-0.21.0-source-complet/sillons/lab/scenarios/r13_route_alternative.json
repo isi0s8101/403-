@@ -1,0 +1,98 @@
+{
+  "name": "R13 — L'IA choisit une route alternative",
+  "description": "Recette J2-1c. Le gué sud-est est fermé ; le gué nord-ouest reste praticable. L'IA rejoint sa cible par l'autre gué sans assiéger.",
+  "seed": 2103,
+  "ticks": 3000,
+  "stop_on_game_over": false,
+  "teams": [
+    {
+      "age": 2
+    },
+    {
+      "ai": true,
+      "age": 2,
+      "opening": "assaut",
+      "attack_threshold": 6,
+      "res": {
+        "food": 300,
+        "wood": 300,
+        "ore": 300
+      }
+    }
+  ],
+  "rules": {
+    "max_age": 2
+  },
+  "setup": [
+    {
+      "t": "lab_block_ford",
+      "team": 0,
+      "ford": 1
+    },
+    {
+      "t": "lab_building",
+      "team": 0,
+      "type": "maison",
+      "cell": [
+        64,
+        80
+      ],
+      "complete": true,
+      "as": "cible"
+    },
+    {
+      "t": "spawn_group",
+      "team": 1,
+      "unit": "lancier",
+      "count": 6,
+      "pos": [
+        80,
+        62
+      ]
+    },
+    {
+      "t": "lab_spawn",
+      "team": 1,
+      "unit": "eclaireur",
+      "pos": [
+        66,
+        76
+      ]
+    }
+  ],
+  "asserts": [
+    {
+      "tick": 3000,
+      "check": "event",
+      "type": "ia_route",
+      "team": 1,
+      "contains": "route alternative",
+      "label": "route alternative annoncée (détour chiffré)"
+    },
+    {
+      "tick": 3000,
+      "check": "event",
+      "type": "ia",
+      "team": 1,
+      "contains": "siège",
+      "value": false,
+      "label": "pas de siège inutile"
+    },
+    {
+      "tick": 3000,
+      "check": "count_side",
+      "team": 1,
+      "side": "sw",
+      "op": ">=",
+      "value": 1,
+      "label": "l'IA franchit par l'autre gué"
+    },
+    {
+      "tick": 3000,
+      "check": "building_alive",
+      "building": "$cible",
+      "value": false,
+      "label": "cible atteinte et détruite"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Front B — Bataille du gué nord-ouest",
+  "description": "Test technique deux fronts, seconde carte (autre graine). Deux armées IA se disputent le gué nord-ouest, sans fortification. Charge réglable.",
+  "seed": 3202,
+  "ticks": 6000,
+  "stop_on_game_over": false,
+  "teams": [{"ai": true, "age": 2, "opening": "assaut", "attack_threshold": 6, "res": {"food": 800, "wood": 800, "ore": 600}},
+            {"ai": true, "age": 2, "opening": "assaut", "attack_threshold": 6, "res": {"food": 800, "wood": 800, "ore": 600}}],
+  "setup": [
+    {"t": "spawn_group", "team": 0, "unit": "lancier", "count": 8, "pos": [18, 34], "scalable": true, "cols": 0},
+    {"t": "spawn_group", "team": 0, "unit": "tireur", "count": 6, "pos": [14, 40], "scalable": true, "cols": 0},
+    {"t": "spawn_group", "team": 0, "unit": "cavalier", "count": 4, "pos": [22, 40], "scalable": true, "cols": 0},
+    {"t": "spawn_group", "team": 1, "unit": "lancier", "count": 8, "pos": [34, 18], "scalable": true, "cols": 0},
+    {"t": "spawn_group", "team": 1, "unit": "tireur", "count": 6, "pos": [40, 14], "scalable": true, "cols": 0},
+    {"t": "spawn_group", "team": 1, "unit": "cavalier", "count": 4, "pos": [40, 22], "scalable": true, "cols": 0}
+  ],
+  "asserts": []
+}

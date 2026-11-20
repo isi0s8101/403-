@@ -1,0 +1,19 @@
+Godot Engine v4.7.1.stable.official.a13da4feb - https://godotengine.org
+
+PASS VISUAL_J21C vue_de_monde
+PASS VISUAL_J21C terrain_pbr
+PASS VISUAL_J21C eau
+PASS VISUAL_J21C masque_terrain
+PASS VISUAL_J21C dimensions_masque
+PASS VISUAL_J21C texture_grass_tex
+PASS VISUAL_J21C texture_soil_tex
+PASS VISUAL_J21C texture_sand_tex
+PASS VISUAL_J21C texture_rock_tex
+PASS VISUAL_J21C texture_normal_tex
+PASS VISUAL_J21C vegetation_multimesh
+PASS VISUAL_J21C vegetation_instanciee
+SKIP VISUAL_J21C decor_ne_fuit_pas_le_brouillard : readback MultiMesh indisponible, contrôle GPU requis
+PASS VISUAL_J21C lod_distant
+PASS VISUAL_J21C lod_proche
+PASS VISUAL_J21C simulation_sans_effet_de_bord
+VISUAL_J21C_RESULT 15/15 PASS ; 1 SKIP

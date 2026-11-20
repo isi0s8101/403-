@@ -1,0 +1,156 @@
+class_name GalaxyMapHud
+extends CanvasLayer
+## J11 : reconnaissance/zoom tactiles ; aucun transfert ni colonisation sans simulation.
+var game
+var panel: PanelContainer
+var title: Label
+var details: Label
+var discover_button: Button
+var zoom_button: Button
+var supply_button: Button
+var directive_buttons: Dictionary = {}
+var _last_tick: int = -1
+
+func setup(p_game: Node3D) -> void:
+	game = p_game
+	var root := Control.new()
+	root.set_anchors_preset(Control.PRESET_FULL_RECT)
+	root.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	add_child(root)
+	panel = PanelContainer.new()
+	panel.offset_left = 14.0
+	panel.offset_top = 12.0
+	panel.offset_right = 400.0
+	panel.offset_bottom = 385.0
+	panel.mouse_filter = Control.MOUSE_FILTER_STOP
+	root.add_child(panel)
+	var scroll := ScrollContainer.new()
+	panel.add_child(scroll)
+	var v := VBoxContainer.new()
+	v.add_theme_constant_override("separation", 8)
+	scroll.add_child(v)
+	title = Label.new()
+	title.text = "J12 · GALAXIE"
+	title.add_theme_font_size_override("font_size", 21)
+	v.add_child(title)
+	details = Label.new()
+	details.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
+	v.add_child(details)
+	discover_button = _button("ENVOYER UNE SONDE · 90 nourriture / 240 minerai", _send_probe)
+	v.add_child(discover_button)
+	zoom_button = _button("ZOOM + · SYSTÈME STELLAIRE", _open_system)
+	v.add_child(zoom_button)
+	var order_label := Label.new()
+	order_label.text = "COMMANDER UN SYSTÈME"
+	v.add_child(order_label)
+	for mode in ["observe", "defend", "supply", "explore"]:
+		var selected_mode: String = mode
+		var caption: String = String({"observe": "ANNULER DIRECTIVE", "defend": "DÉFENDRE LE SYSTÈME", "supply": "RAVITAILLER DEPUIS SOL", "explore": "EXPLORER LES VOISINS"}[mode])
+		var control := _button(caption, func(): _set_order(selected_mode))
+		v.add_child(control)
+		directive_buttons[mode] = control
+	supply_button = _button("EXPÉDIER 100 N / 100 B / 100 M DEPUIS LE SYSTÈME ACTIF", _send_supplies)
+	v.add_child(supply_button)
+	v.add_child(_button("REVENIR AU SYSTÈME ACTIF", func(): game.enter_space_overview("system")))
+	v.add_child(_button("RETOUR AU TERRAIN", func(): game.leave_space_overview(true)))
+	var note := Label.new()
+	note.text = "Choisir une étoile au toucher. Grise : inconnue. Une route et un chantier orbital allié sont requis pour sonder.\nLe fret automatisé passe par des relais alliés opérationnels. Les stocks sont locaux et les ordres sont persistants."
+	note.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
+	v.add_child(note)
+	refresh(true)
+
+func _button(value: String, callback: Callable) -> Button:
+	var b := Button.new()
+	b.text = value
+	b.custom_minimum_size.y = 48.0
+	b.focus_mode = Control.FOCUS_NONE
+	b.pressed.connect(callback)
+	return b
+
+func is_over_ui(point: Vector2) -> bool:
+	return panel != null and panel.get_global_rect().has_point(point)
+
+func refresh(force: bool = false) -> void:
+	if game.campaign == null:
+		return
+	var c: StarCampaign = game.campaign
+	if not force and c.tick - _last_tick < 10:
+		return
+	_last_tick = c.tick
+	var id: String = game.galaxy_selected
+	if not c.star_catalog.galaxy.systems.has(id):
+		return
+	var known: bool = c.system_known(game.player, id)
+	var node: Dictionary = c.star_catalog.galaxy.systems[id]
+	var owner: int = c.system_owner(id) if known else -1
+	var status: String = "inconnu"
+	if known:
+		status = "allié" if owner == game.player else ("ennemi" if owner >= 0 else ("contesté" if owner == -2 else "neutre"))
+	var active_id: String = String(c.star_catalog.info(c.active)["system_id"])
+	var neighbors: Array = c.star_catalog.galaxy.neighbors(id)
+	var route: Array = c.star_catalog.galaxy.route(active_id, id) if known else []
+	var shown_neighbors: int = 0
+	for neighbor in neighbors:
+		if c.system_known(game.player, String(neighbor)):
+			shown_neighbors += 1
+	var label_name: String = String(node["label"]) if known else "Étoile non identifiée"
+	var probes: int = 0
+	for probe in c.survey_probes:
+		if int(probe["team"]) == game.player and String(probe["target"]) == id:
+			probes += 1
+	title.text = "J12 · CARTE GALACTIQUE"
+	var resources_text: String = "inconnus"
+	if known:
+		var stocks: Dictionary = c.system_resources(game.player, id)
+		resources_text = "%.0f N / %.0f B / %.0f M" % [float(stocks.get("food", 0.0)), float(stocks.get("wood", 0.0)), float(stocks.get("ore", 0.0))]
+	var assigned: String = String(c.directives.get("%d:%s" % [game.player, id], "aucune"))
+	details.text = "%s · %s\nLiaisons connues : %d · chemin : %s\nSondes : %d · Âge %d\nStocks locaux : %s\nOrdre : %s · frets : %d" % [label_name, status, shown_neighbors, str(route.size()) if known else "?", probes, int(c.ages[game.player]), resources_text, assigned, c.freight_orders.size()]
+	zoom_button.disabled = not known or int(c.ages[game.player]) < 10
+	discover_button.disabled = known or int(c.ages[game.player]) < 10 or probes > 0
+	var can_order: bool = known and c.system_owner(id) == game.player and int(c.ages[game.player]) >= 10
+	for mode in directive_buttons.keys():
+		(directive_buttons[mode] as Button).disabled = not can_order
+	if supply_button != null:
+		var origin: String = String(c.star_catalog.info(c.active).get("system_id", "sol"))
+		supply_button.disabled = not can_order or origin == id or not c.system_has_port(game.player, origin)
+
+func _find_origin(target: String) -> String:
+	var c: StarCampaign = game.campaign
+	var options: Array = c.star_catalog.galaxy.neighbors(target)
+	options.sort()
+	for sys_id in options:
+		if c.system_known(game.player, String(sys_id)) and c.system_has_port(game.player, String(sys_id)):
+			return String(sys_id)
+	return ""
+
+func _send_probe() -> void:
+	var origin: String = _find_origin(game.galaxy_selected)
+	if origin.is_empty():
+		details.text = "Aucun chantier orbital allié disponible dans les systèmes voisins."
+		return
+	var result: Dictionary = game.campaign.survey_system(game.player, origin, game.galaxy_selected)
+	if bool(result.get("ok", false)):
+		details.text = "Sonde lancée depuis %s · ETA %d ticks." % [origin, int(result["eta"])]
+	else:
+		details.text = String(result.get("reason", "Sonde impossible"))
+	refresh(true)
+
+func _open_system() -> void:
+	if game.campaign.system_known(game.player, game.galaxy_selected):
+		game.open_galaxy_system(game.galaxy_selected)
+
+func _set_order(mode: String) -> void:
+	var result: Dictionary = game.campaign.set_system_order(game.player, game.galaxy_selected, mode)
+	if not bool(result.get("ok", false)):
+		details.text = String(result.get("reason", "Directive refusée"))
+	else:
+		refresh(true)
+
+func _send_supplies() -> void:
+	var source_id: String = String(game.campaign.info(game.campaign.active).get("system_id", "sol"))
+	var result: Dictionary = game.campaign.ship_supplies(game.player, source_id, game.galaxy_selected,
+		{"food": 100, "wood": 100, "ore": 100})
+	if not bool(result.get("ok", false)):
+		details.text = String(result.get("reason", "Transport refusé"))
+	else:
+		refresh(true)

@@ -1,0 +1,40 @@
+{
+  "baseline_version": "0.13.2",
+  "candidate_version": "0.13.3",
+  "scene": "graine 4242, âge I, caméra 56, 100 renforts, 112 unités simulées",
+  "renderer": "Godot 4.7.1, OpenGL Compatibility, Mesa llvmpipe logiciel",
+  "resolution": [
+    1280,
+    600
+  ],
+  "quality": 2,
+  "adaptive": false,
+  "baseline": {
+    "draw_calls": 1778,
+    "primitives": 324280,
+    "units": 112,
+    "visual": {
+      "buildings": 1,
+      "effects": 0,
+      "quality": 2,
+      "rigs": 6,
+      "rigs_limit": 56
+    }
+  },
+  "candidate": {
+    "draw_calls": 137,
+    "primitives": 274568,
+    "units": 112,
+    "visual": {
+      "batched_units": 106,
+      "batches": 4,
+      "buildings": 1,
+      "effects": 0,
+      "quality": 2,
+      "rigs": 0,
+      "rigs_limit": 56
+    }
+  },
+  "draw_call_reduction_percent": 92.29,
+  "limits": "Mesure de rendu local : aucune conclusion de FPS, RAM, chauffe ou autonomie Android."
+}

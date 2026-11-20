@@ -1,0 +1,29 @@
+{
+  "project": "Sillons d’Empire",
+  "version": "0.10.0-j10-candidate",
+  "source_baseline": "sillons-empire-j9-planete-complete-0.9.1-source-complet.zip",
+  "scope": "J10 orbital view, deterministic star systems, dynamic landing worlds, flight planning, save migration, touch UX",
+  "godot_version_target": "4.7.2",
+  "static_tests": "PASS (see verify-j10.sh)",
+  "godot_import": "NOT_RUN_ENGINE_UNAVAILABLE",
+  "godot_headless": "NOT_RUN_ENGINE_UNAVAILABLE",
+  "android_apk": "NOT_BUILT_TOOLCHAIN_UNAVAILABLE",
+  "galaxy_s25_ultra": "NOT_TESTED",
+  "release_status": "CANDIDATE_RUNTIME_VALIDATION_REQUIRED",
+  "known_limits": [
+    "world view transitions use discrete scene changes",
+    "new J10 planets and moons expose a tactical landing region but not global interregional geography",
+    "gameplay orbital distances are not physical N-body ephemerides",
+    "local resources and massive offscreen aggregation remain future improvements"
+  ],
+  "static_suite_results": {
+    "j678": 223,
+    "recette": 103,
+    "fix082": 60,
+    "j9": 49,
+    "j9_completion": 44,
+    "j10": 93,
+    "total_assertions": 572,
+    "failures": 0
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "name": "R06b — IA : passage bloqué et changement de cible",
+  "description": "La seule structure ennemie connue de l'IA est sur l'îlot du lac (inaccessible). L'IA doit constater le passage bloqué, l'exposer et chercher une autre cible.",
+  "seed": 1602,
+  "ticks": 1500,
+  "stop_on_game_over": false,
+  "teams": [
+    {},
+    {
+      "ai": true,
+      "age": 2,
+      "opening": "assaut",
+      "attack_threshold": 6,
+      "res": {
+        "food": 0,
+        "wood": 0,
+        "ore": 0
+      }
+    }
+  ],
+  "setup": [
+    {
+      "t": "lab_building",
+      "team": 0,
+      "type": "maison",
+      "cell": [
+        46,
+        48
+      ],
+      "complete": true
+    },
+    {
+      "t": "spawn_group",
+      "team": 1,
+      "unit": "lancier",
+      "count": 6,
+      "pos": [
+        60,
+        36
+      ]
+    },
+    {
+      "t": "lab_spawn",
+      "team": 1,
+      "unit": "eclaireur",
+      "pos": [
+        56,
+        42
+      ]
+    }
+  ],
+  "asserts": [
+    {
+      "tick": 1500,
+      "check": "ai",
+      "team": 1,
+      "field": "abandon",
+      "contains": "passage bloqué",
+      "label": "abandon pour passage bloqué exposé"
+    },
+    {
+      "tick": 1500,
+      "check": "event",
+      "type": "ia",
+      "team": 1,
+      "contains": "Chercher l'ennemi",
+      "label": "réévaluation : nouvelle cible / exploration"
+    }
+  ],
+  "rules": {
+    "max_age": 3
+  }
+}

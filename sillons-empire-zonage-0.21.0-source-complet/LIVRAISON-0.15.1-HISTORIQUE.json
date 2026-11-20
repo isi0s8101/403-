@@ -1,0 +1,41 @@
+{
+  "product": "Sillons d'Empire",
+  "version": "0.15.1-android-performances-r2-candidate",
+  "status": "candidate",
+  "baseline_version": "0.15.0-interface-orbite-candidate",
+  "baseline_sha256": "094a091a066ac218853465d468d8e2df32a44366a8b6a4b1a452da534404e3a5",
+  "engine": "4.7.2.stable.official.ed1daf0bf",
+  "entrypoint": "sillons/project.godot",
+  "guide": "README-ANDROID-0.15.1-R2.md",
+  "apk": {
+    "apk": "sillons-empire-test-0.15.1-r2-arm64.apk",
+    "sha256": "ad0afdc249864bd7313f4d520a6f87240443ba945db2b1a59056ec5da9dd9613",
+    "bytes": 134881056,
+    "godot": "4.7.2.stable.official.ed1daf0bf",
+    "build_tools": "36.0.0",
+    "package": "fr.sillons.empire.recette.r2",
+    "signature_verified": true,
+    "zipalign_16k": true,
+    "manifest_validated": true,
+    "launcher_alias": true,
+    "manifest_corrections": [
+      "restored distinct androidx-startup authority",
+      "typed uses-feature required=false",
+      "typed uses-feature version=1",
+      "mapped android:version resource ID",
+      "typed uses-feature required=false",
+      "typed uses-feature version=0x401000"
+    ],
+    "device_validation": "NOT_RUN"
+  },
+  "source_scenarios": 50,
+  "source_result": "PASS",
+  "compiled_apk_assets_platform": "Linux headless",
+  "android_native": "NOT_RUN",
+  "galaxy_s25_ultra": "NOT_RUN",
+  "android_fps": null,
+  "android_memory": null,
+  "android_thermal": null,
+  "simulation_source_unchanged": true,
+  "proofs": "sillons/game-studio/preuves/android-performances-0.15.1-r2/"
+}

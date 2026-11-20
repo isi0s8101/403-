@@ -1,0 +1,50 @@
+[
+  {
+    "name": "village",
+    "mode": "tactical",
+    "age": 1,
+    "result": "PASS",
+    "exit": 0,
+    "file": "village.png"
+  },
+  {
+    "name": "industrie",
+    "mode": "showcase",
+    "age": 6,
+    "result": "PASS",
+    "exit": 0,
+    "file": "industrie.png"
+  },
+  {
+    "name": "futur",
+    "mode": "showcase",
+    "age": 10,
+    "result": "PASS",
+    "exit": 0,
+    "file": "futur.png"
+  },
+  {
+    "name": "riviere",
+    "mode": "river",
+    "age": 1,
+    "result": "PASS",
+    "exit": 0,
+    "file": "riviere.png"
+  },
+  {
+    "name": "globe",
+    "mode": "globe",
+    "age": 10,
+    "result": "PASS",
+    "exit": 0,
+    "file": "globe.png"
+  },
+  {
+    "name": "armee",
+    "mode": "wide",
+    "age": 1,
+    "result": "PASS",
+    "exit": 0,
+    "file": "armee.png"
+  }
+]

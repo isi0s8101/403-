@@ -1,0 +1,8903 @@
+{
+ "planned": 800,
+ "checks": [
+  {
+   "check": "références attendues : 800",
+   "ok": true,
+   "detail": "800 dans le manifeste"
+  },
+  {
+   "check": "quota building_residential = 10",
+   "ok": true,
+   "detail": "10"
+  },
+  {
+   "check": "quota building_commercial = 10",
+   "ok": true,
+   "detail": "10"
+  },
+  {
+   "check": "quota building_industrial = 10",
+   "ok": true,
+   "detail": "10"
+  },
+  {
+   "check": "quota building_special = 120",
+   "ok": true,
+   "detail": "120"
+  },
+  {
+   "check": "quota unit_civilian = 110",
+   "ok": true,
+   "detail": "110"
+  },
+  {
+   "check": "quota unit_military = 180",
+   "ok": true,
+   "detail": "180"
+  },
+  {
+   "check": "quota vehicle_ground = 90",
+   "ok": true,
+   "detail": "90"
+  },
+  {
+   "check": "quota vehicle_air+vehicle_naval = 70",
+   "ok": true,
+   "detail": "70"
+  },
+  {
+   "check": "quota spaceship = 80",
+   "ok": true,
+   "detail": "80"
+  },
+  {
+   "check": "quota orbital_structure = 30",
+   "ok": true,
+   "detail": "30"
+  },
+  {
+   "check": "quota road = 90",
+   "ok": true,
+   "detail": "90"
+  },
+  {
+   "check": "contrôle technique des 3 niveaux de détail de chaque asset",
+   "ok": true,
+   "detail": "800/800 conformes"
+  },
+  {
+   "check": "aucun fichier GLB en double",
+   "ok": true,
+   "detail": "0 groupes"
+  },
+  {
+   "check": "aucune variante ne différant que par les matériaux",
+   "ok": true,
+   "detail": "800 formes distinctes"
+  },
+  {
+   "check": "matériaux : tous déclarés avec leurs 3 textures",
+   "ok": true,
+   "detail": "58 utilisés, 174 textures"
+  },
+  {
+   "check": "aperçu présent pour chaque asset",
+   "ok": true,
+   "detail": ""
+  }
+ ],
+ "assets": {
+  "bld.residential.a01": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "géométrie des 30 modèles fournis, matériaux PBR réattribués",
+   "triangles": [
+    328,
+    328,
+    132
+   ]
+  },
+  "bld.residential.a02": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "géométrie des 30 modèles fournis, matériaux PBR réattribués",
+   "triangles": [
+    116,
+    44,
+    36
+   ]
+  },
+  "bld.residential.a03": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "géométrie des 30 modèles fournis, matériaux PBR réattribués",
+   "triangles": [
+    236,
+    92,
+    48
+   ]
+  },
+  "bld.residential.a04": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "géométrie des 30 modèles fournis, matériaux PBR réattribués",
+   "triangles": [
+    236,
+    92,
+    48
+   ]
+  },
+  "bld.residential.a05": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "géométrie des 30 modèles fournis, matériaux PBR réattribués",
+   "triangles": [
+    336,
+    48,
+    36
+   ]
+  },
+  "bld.residential.a06": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "géométrie des 30 modèles fournis, matériaux PBR réattribués",
+   "triangles": [
+    456,
+    72,
+    60
+   ]
+  },
+  "bld.residential.a07": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "géométrie des 30 modèles fournis, matériaux PBR réattribués",
+   "triangles": [
+    552,
+    72,
+    60
+   ]
+  },
+  "bld.residential.a08": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "géométrie des 30 modèles fournis, matériaux PBR réattribués",
+   "triangles": [
+    720,
+    120,
+    60
+   ]
+  },
+  "bld.residential.a09": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "géométrie des 30 modèles fournis, matériaux PBR réattribués",
+   "triangles": [
+    1080,
+    120,
+    60
+   ]
+  },
+  "bld.residential.a10": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "géométrie des 30 modèles fournis, matériaux PBR réattribués",
+   "triangles": [
+    1440,
+    120,
+    60
+   ]
+  },
+  "bld.commercial.a01": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    200,
+    200,
+    96
+   ]
+  },
+  "bld.commercial.a02": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    200,
+    200,
+    96
+   ]
+  },
+  "bld.commercial.a03": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    200,
+    200,
+    96
+   ]
+  },
+  "bld.commercial.a04": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    288,
+    96,
+    60
+   ]
+  },
+  "bld.commercial.a05": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    288,
+    96,
+    60
+   ]
+  },
+  "bld.commercial.a06": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    432,
+    72,
+    72
+   ]
+  },
+  "bld.commercial.a07": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    432,
+    72,
+    72
+   ]
+  },
+  "bld.commercial.a08": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    564,
+    204,
+    96
+   ]
+  },
+  "bld.commercial.a09": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    564,
+    204,
+    96
+   ]
+  },
+  "bld.commercial.a10": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    564,
+    204,
+    96
+   ]
+  },
+  "bld.industrial.a01": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "géométrie des 30 modèles fournis ; âges 7 à 10 très proches",
+   "triangles": [
+    212,
+    212,
+    60
+   ]
+  },
+  "bld.industrial.a02": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "géométrie des 30 modèles fournis ; âges 7 à 10 très proches",
+   "triangles": [
+    212,
+    212,
+    60
+   ]
+  },
+  "bld.industrial.a03": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "géométrie des 30 modèles fournis ; âges 7 à 10 très proches",
+   "triangles": [
+    212,
+    212,
+    60
+   ]
+  },
+  "bld.industrial.a04": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "géométrie des 30 modèles fournis ; âges 7 à 10 très proches",
+   "triangles": [
+    264,
+    264,
+    72
+   ]
+  },
+  "bld.industrial.a05": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "géométrie des 30 modèles fournis ; âges 7 à 10 très proches",
+   "triangles": [
+    264,
+    264,
+    72
+   ]
+  },
+  "bld.industrial.a06": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "géométrie des 30 modèles fournis ; âges 7 à 10 très proches",
+   "triangles": [
+    264,
+    264,
+    72
+   ]
+  },
+  "bld.industrial.a07": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "géométrie des 30 modèles fournis ; âges 7 à 10 très proches",
+   "triangles": [
+    360,
+    360,
+    72
+   ]
+  },
+  "bld.industrial.a08": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "géométrie des 30 modèles fournis ; âges 7 à 10 très proches",
+   "triangles": [
+    360,
+    360,
+    72
+   ]
+  },
+  "bld.industrial.a09": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "géométrie des 30 modèles fournis ; âges 7 à 10 très proches",
+   "triangles": [
+    372,
+    372,
+    84
+   ]
+  },
+  "bld.industrial.a10": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "géométrie des 30 modèles fournis ; âges 7 à 10 très proches",
+   "triangles": [
+    372,
+    372,
+    84
+   ]
+  },
+  "bld.special.command_center.a01": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    312,
+    276,
+    240
+   ]
+  },
+  "bld.special.command_center.a02": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    724,
+    472,
+    256
+   ]
+  },
+  "bld.special.command_center.a03": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    596,
+    424,
+    148
+   ]
+  },
+  "bld.special.command_center.a04": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    368,
+    256,
+    160
+   ]
+  },
+  "bld.special.command_center.a05": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    394,
+    262,
+    130
+   ]
+  },
+  "bld.special.command_center.a06": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    876,
+    536,
+    189
+   ]
+  },
+  "bld.special.command_center.a07": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    876,
+    536,
+    189
+   ]
+  },
+  "bld.special.command_center.a08": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    600,
+    328,
+    157
+   ]
+  },
+  "bld.special.command_center.a09": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    600,
+    328,
+    157
+   ]
+  },
+  "bld.special.command_center.a10": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    600,
+    328,
+    157
+   ]
+  },
+  "bld.special.barracks.a01": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    356,
+    292,
+    232
+   ]
+  },
+  "bld.special.barracks.a02": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    364,
+    300,
+    240
+   ]
+  },
+  "bld.special.barracks.a03": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    424,
+    360,
+    252
+   ]
+  },
+  "bld.special.barracks.a04": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    332,
+    236,
+    140
+   ]
+  },
+  "bld.special.barracks.a05": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    332,
+    236,
+    140
+   ]
+  },
+  "bld.special.barracks.a06": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    404,
+    308,
+    140
+   ]
+  },
+  "bld.special.barracks.a07": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    224,
+    176,
+    152
+   ]
+  },
+  "bld.special.barracks.a09": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    460,
+    312,
+    229
+   ]
+  },
+  "bld.special.wall.a01": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    640,
+    640,
+    640
+   ]
+  },
+  "bld.special.wall.a02": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    120,
+    120,
+    24
+   ]
+  },
+  "bld.special.wall.a03": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    120,
+    120,
+    24
+   ]
+  },
+  "bld.special.wall.a05": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    48,
+    48,
+    48
+   ]
+  },
+  "bld.special.tower.a01": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    196,
+    196,
+    196
+   ]
+  },
+  "bld.special.tower.a02": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    60,
+    60,
+    12
+   ]
+  },
+  "bld.special.tower.a03": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    144,
+    96,
+    60
+   ]
+  },
+  "bld.special.tower.a04": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    144,
+    96,
+    60
+   ]
+  },
+  "bld.special.tower.a06": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    236,
+    124,
+    57
+   ]
+  },
+  "bld.special.gate.a01": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    48,
+    48,
+    48
+   ]
+  },
+  "bld.special.gate.a03": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    144,
+    144,
+    48
+   ]
+  },
+  "bld.special.gate.a05": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    72,
+    72,
+    72
+   ]
+  },
+  "bld.special.hospital.a01": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    108,
+    84,
+    60
+   ]
+  },
+  "bld.special.hospital.a02": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    468,
+    320,
+    188
+   ]
+  },
+  "bld.special.hospital.a03": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    276,
+    192,
+    108
+   ]
+  },
+  "bld.special.hospital.a04": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    288,
+    204,
+    120
+   ]
+  },
+  "bld.special.hospital.a05": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    648,
+    384,
+    96
+   ]
+  },
+  "bld.special.hospital.a06": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    840,
+    492,
+    96
+   ]
+  },
+  "bld.special.hospital.a07": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    1080,
+    632,
+    140
+   ]
+  },
+  "bld.special.hospital.a08": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    1248,
+    716,
+    140
+   ]
+  },
+  "bld.special.hospital.a10": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    1704,
+    920,
+    153
+   ]
+  },
+  "bld.special.police.a03": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    376,
+    256,
+    96
+   ]
+  },
+  "bld.special.police.a05": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    452,
+    296,
+    100
+   ]
+  },
+  "bld.special.police.a06": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    476,
+    320,
+    100
+   ]
+  },
+  "bld.special.police.a07": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    476,
+    320,
+    100
+   ]
+  },
+  "bld.special.police.a08": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    548,
+    356,
+    100
+   ]
+  },
+  "bld.special.police.a10": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    596,
+    356,
+    113
+   ]
+  },
+  "bld.special.fire_station.a04": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    240,
+    160,
+    116
+   ]
+  },
+  "bld.special.fire_station.a05": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    240,
+    160,
+    116
+   ]
+  },
+  "bld.special.fire_station.a06": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    288,
+    208,
+    116
+   ]
+  },
+  "bld.special.fire_station.a08": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    288,
+    208,
+    116
+   ]
+  },
+  "bld.special.fire_station.a10": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    288,
+    208,
+    116
+   ]
+  },
+  "bld.special.power_plant.a03": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    156,
+    124,
+    100
+   ]
+  },
+  "bld.special.power_plant.a05": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    390,
+    254,
+    94
+   ]
+  },
+  "bld.special.power_plant.a06": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    504,
+    336,
+    108
+   ]
+  },
+  "bld.special.power_plant.a07": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    432,
+    272,
+    141
+   ]
+  },
+  "bld.special.power_plant.a08": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    264,
+    264,
+    264
+   ]
+  },
+  "bld.special.power_plant.a09": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    508,
+    256,
+    148
+   ]
+  },
+  "bld.special.power_plant.a10": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    812,
+    388,
+    216
+   ]
+  },
+  "bld.special.water_works.a01": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    168,
+    136,
+    112
+   ]
+  },
+  "bld.special.water_works.a02": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    108,
+    108,
+    108
+   ]
+  },
+  "bld.special.water_works.a04": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    188,
+    156,
+    132
+   ]
+  },
+  "bld.special.water_works.a05": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    324,
+    260,
+    192
+   ]
+  },
+  "bld.special.water_works.a06": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    324,
+    224,
+    116
+   ]
+  },
+  "bld.special.water_works.a08": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    488,
+    308,
+    156
+   ]
+  },
+  "bld.special.warehouse.a01": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    120,
+    120,
+    48
+   ]
+  },
+  "bld.special.warehouse.a03": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    116,
+    116,
+    44
+   ]
+  },
+  "bld.special.warehouse.a05": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    68,
+    68,
+    68
+   ]
+  },
+  "bld.special.warehouse.a06": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    100,
+    84,
+    76
+   ]
+  },
+  "bld.special.warehouse.a08": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    108,
+    108,
+    108
+   ]
+  },
+  "bld.special.logistics_depot.a05": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    168,
+    168,
+    144
+   ]
+  },
+  "bld.special.logistics_depot.a07": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    168,
+    168,
+    144
+   ]
+  },
+  "bld.special.logistics_depot.a08": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    328,
+    248,
+    180
+   ]
+  },
+  "bld.special.logistics_depot.a10": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    328,
+    248,
+    180
+   ]
+  },
+  "bld.special.laboratory.a04": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    324,
+    188,
+    93
+   ]
+  },
+  "bld.special.laboratory.a06": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    424,
+    256,
+    101
+   ]
+  },
+  "bld.special.laboratory.a08": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    424,
+    256,
+    101
+   ]
+  },
+  "bld.special.laboratory.a09": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    680,
+    356,
+    149
+   ]
+  },
+  "bld.special.university.a02": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    692,
+    424,
+    172
+   ]
+  },
+  "bld.special.university.a04": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    770,
+    486,
+    222
+   ]
+  },
+  "bld.special.university.a05": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    770,
+    486,
+    222
+   ]
+  },
+  "bld.special.university.a06": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    690,
+    446,
+    134
+   ]
+  },
+  "bld.special.university.a08": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    972,
+    564,
+    121
+   ]
+  },
+  "bld.special.research_center.a06": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    520,
+    288,
+    150
+   ]
+  },
+  "bld.special.research_center.a08": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    776,
+    388,
+    198
+   ]
+  },
+  "bld.special.research_center.a09": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    824,
+    420,
+    218
+   ]
+  },
+  "bld.special.research_center.a10": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    824,
+    420,
+    218
+   ]
+  },
+  "bld.special.factory.a04": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    414,
+    278,
+    82
+   ]
+  },
+  "bld.special.factory.a05": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    414,
+    278,
+    82
+   ]
+  },
+  "bld.special.factory.a06": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    558,
+    350,
+    82
+   ]
+  },
+  "bld.special.factory.a07": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    588,
+    344,
+    81
+   ]
+  },
+  "bld.special.factory.a08": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    612,
+    368,
+    105
+   ]
+  },
+  "bld.special.factory.a10": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    612,
+    368,
+    105
+   ]
+  },
+  "bld.special.radar.a06": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    168,
+    128,
+    68
+   ]
+  },
+  "bld.special.radar.a07": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    168,
+    128,
+    68
+   ]
+  },
+  "bld.special.radar.a08": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    300,
+    180,
+    76
+   ]
+  },
+  "bld.special.radar.a09": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    556,
+    280,
+    124
+   ]
+  },
+  "bld.special.airport.a06": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    472,
+    348,
+    136
+   ]
+  },
+  "bld.special.airport.a07": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    472,
+    348,
+    136
+   ]
+  },
+  "bld.special.airport.a08": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    592,
+    408,
+    136
+   ]
+  },
+  "bld.special.airport.a10": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    640,
+    440,
+    156
+   ]
+  },
+  "bld.special.port.a02": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    592,
+    496,
+    120
+   ]
+  },
+  "bld.special.port.a04": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    476,
+    452,
+    108
+   ]
+  },
+  "bld.special.port.a06": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    536,
+    512,
+    144
+   ]
+  },
+  "bld.special.port.a08": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    536,
+    512,
+    144
+   ]
+  },
+  "bld.special.port.a10": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    656,
+    548,
+    157
+   ]
+  },
+  "bld.special.spaceport.a09": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    1204,
+    652,
+    276
+   ]
+  },
+  "bld.special.spaceport.a10": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    1604,
+    848,
+    384
+   ]
+  },
+  "bld.special.shipyard.a03": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    276,
+    236,
+    84
+   ]
+  },
+  "bld.special.shipyard.a05": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    304,
+    264,
+    112
+   ]
+  },
+  "bld.special.shipyard.a08": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    364,
+    324,
+    148
+   ]
+  },
+  "bld.special.shipyard.a10": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    484,
+    360,
+    161
+   ]
+  },
+  "bld.special.planetary_defense.a07": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    552,
+    324,
+    162
+   ]
+  },
+  "bld.special.planetary_defense.a08": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    600,
+    356,
+    182
+   ]
+  },
+  "bld.special.planetary_defense.a09": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    888,
+    484,
+    222
+   ]
+  },
+  "bld.special.planetary_defense.a10": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    1080,
+    580,
+    262
+   ]
+  },
+  "bld.special.temple.a01": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    132,
+    132,
+    132
+   ]
+  },
+  "bld.special.temple.a02": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    620,
+    428,
+    284
+   ]
+  },
+  "bld.special.temple.a03": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    404,
+    244,
+    88
+   ]
+  },
+  "bld.special.market.a01": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    348,
+    348,
+    348
+   ]
+  },
+  "bld.special.market.a03": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    436,
+    420,
+    408
+   ]
+  },
+  "bld.special.market.a05": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée ; style low-poly, pas photoréaliste",
+   "triangles": [
+    136,
+    120,
+    112
+   ]
+  },
+  "unit.civ.explorer.a01": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    527,
+    433,
+    361
+   ]
+  },
+  "unit.civ.explorer.a02": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    438,
+    380,
+    320
+   ]
+  },
+  "unit.civ.explorer.a03": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    514,
+    420,
+    348
+   ]
+  },
+  "unit.civ.explorer.a04": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    530,
+    430,
+    356
+   ]
+  },
+  "unit.civ.explorer.a05": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    470,
+    416,
+    356
+   ]
+  },
+  "unit.civ.explorer.a06": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    430,
+    376,
+    316
+   ]
+  },
+  "unit.civ.explorer.a07": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    446,
+    392,
+    332
+   ]
+  },
+  "unit.civ.explorer.a08": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    467,
+    413,
+    353
+   ]
+  },
+  "unit.civ.explorer.a09": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    534,
+    494,
+    430
+   ]
+  },
+  "unit.civ.explorer.a10": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    538,
+    498,
+    434
+   ]
+  },
+  "unit.civ.builder.a01": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    479,
+    385,
+    301
+   ]
+  },
+  "unit.civ.builder.a02": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    402,
+    344,
+    272
+   ]
+  },
+  "unit.civ.builder.a03": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    502,
+    408,
+    324
+   ]
+  },
+  "unit.civ.builder.a04": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    530,
+    430,
+    344
+   ]
+  },
+  "unit.civ.builder.a05": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    455,
+    397,
+    325
+   ]
+  },
+  "unit.civ.builder.a06": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    463,
+    405,
+    333
+   ]
+  },
+  "unit.civ.builder.a07": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    471,
+    417,
+    345
+   ]
+  },
+  "unit.civ.builder.a08": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    479,
+    425,
+    353
+   ]
+  },
+  "unit.civ.builder.a09": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    498,
+    466,
+    398
+   ]
+  },
+  "unit.civ.builder.a10": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    502,
+    470,
+    402
+   ]
+  },
+  "unit.civ.farmer.a01": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    571,
+    469,
+    389
+   ]
+  },
+  "unit.civ.farmer.a02": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    454,
+    392,
+    328
+   ]
+  },
+  "unit.civ.farmer.a03": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    526,
+    428,
+    352
+   ]
+  },
+  "unit.civ.farmer.a04": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    514,
+    414,
+    340
+   ]
+  },
+  "unit.civ.farmer.a05": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    454,
+    392,
+    328
+   ]
+  },
+  "unit.civ.farmer.a06": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    422,
+    364,
+    304
+   ]
+  },
+  "unit.civ.farmer.a07": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    438,
+    380,
+    316
+   ]
+  },
+  "unit.civ.farmer.a08": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    406,
+    352,
+    292
+   ]
+  },
+  "unit.civ.miner.a01": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    511,
+    413,
+    337
+   ]
+  },
+  "unit.civ.miner.a02": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    422,
+    360,
+    296
+   ]
+  },
+  "unit.civ.miner.a03": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    506,
+    408,
+    332
+   ]
+  },
+  "unit.civ.miner.a04": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    530,
+    430,
+    356
+   ]
+  },
+  "unit.civ.miner.a05": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    467,
+    409,
+    349
+   ]
+  },
+  "unit.civ.miner.a06": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    475,
+    409,
+    341
+   ]
+  },
+  "unit.civ.miner.a07": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    507,
+    445,
+    377
+   ]
+  },
+  "unit.civ.miner.a08": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    503,
+    441,
+    373
+   ]
+  },
+  "unit.civ.miner.a09": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    487,
+    433,
+    373
+   ]
+  },
+  "unit.civ.artisan.a01": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    491,
+    397,
+    325
+   ]
+  },
+  "unit.civ.artisan.a02": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    406,
+    348,
+    288
+   ]
+  },
+  "unit.civ.artisan.a03": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    482,
+    388,
+    316
+   ]
+  },
+  "unit.civ.artisan.a04": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    506,
+    406,
+    332
+   ]
+  },
+  "unit.civ.artisan.a05": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    418,
+    360,
+    300
+   ]
+  },
+  "unit.civ.engineer.a04": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    494,
+    398,
+    312
+   ]
+  },
+  "unit.civ.engineer.a05": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    406,
+    352,
+    280
+   ]
+  },
+  "unit.civ.engineer.a06": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    439,
+    381,
+    309
+   ]
+  },
+  "unit.civ.engineer.a07": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    447,
+    393,
+    321
+   ]
+  },
+  "unit.civ.engineer.a08": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    443,
+    389,
+    317
+   ]
+  },
+  "unit.civ.engineer.a09": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    463,
+    409,
+    337
+   ]
+  },
+  "unit.civ.engineer.a10": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    467,
+    413,
+    341
+   ]
+  },
+  "unit.civ.technician.a05": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    406,
+    348,
+    288
+   ]
+  },
+  "unit.civ.technician.a06": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    410,
+    356,
+    296
+   ]
+  },
+  "unit.civ.technician.a07": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    426,
+    372,
+    312
+   ]
+  },
+  "unit.civ.technician.a08": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    455,
+    401,
+    341
+   ]
+  },
+  "unit.civ.technician.a09": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    475,
+    421,
+    361
+   ]
+  },
+  "unit.civ.technician.a10": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    479,
+    425,
+    365
+   ]
+  },
+  "unit.civ.carrier.a01": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    471,
+    373,
+    297
+   ]
+  },
+  "unit.civ.carrier.a02": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    390,
+    332,
+    272
+   ]
+  },
+  "unit.civ.carrier.a03": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    502,
+    408,
+    336
+   ]
+  },
+  "unit.civ.carrier.a04": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    474,
+    378,
+    304
+   ]
+  },
+  "unit.civ.carrier.a05": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    386,
+    332,
+    272
+   ]
+  },
+  "unit.civ.carrier.a06": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    382,
+    328,
+    268
+   ]
+  },
+  "unit.civ.carrier.a07": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    398,
+    344,
+    284
+   ]
+  },
+  "unit.civ.carrier.a08": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    394,
+    340,
+    280
+   ]
+  },
+  "unit.civ.carrier.a09": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    487,
+    425,
+    357
+   ]
+  },
+  "unit.civ.carrier.a10": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    491,
+    429,
+    361
+   ]
+  },
+  "unit.civ.operator.a05": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    431,
+    373,
+    313
+   ]
+  },
+  "unit.civ.operator.a06": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    427,
+    369,
+    309
+   ]
+  },
+  "unit.civ.operator.a07": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    435,
+    381,
+    321
+   ]
+  },
+  "unit.civ.operator.a08": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    431,
+    377,
+    317
+   ]
+  },
+  "unit.civ.operator.a09": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    487,
+    433,
+    373
+   ]
+  },
+  "unit.civ.operator.a10": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    491,
+    437,
+    377
+   ]
+  },
+  "unit.civ.merchant.a01": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    575,
+    477,
+    389
+   ]
+  },
+  "unit.civ.merchant.a02": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    486,
+    424,
+    348
+   ]
+  },
+  "unit.civ.merchant.a03": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    574,
+    476,
+    388
+   ]
+  },
+  "unit.civ.merchant.a04": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    566,
+    466,
+    380
+   ]
+  },
+  "unit.civ.merchant.a05": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    466,
+    408,
+    336
+   ]
+  },
+  "unit.civ.merchant.a06": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    406,
+    352,
+    280
+   ]
+  },
+  "unit.civ.merchant.a07": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    422,
+    368,
+    296
+   ]
+  },
+  "unit.civ.merchant.a08": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    424,
+    370,
+    298
+   ]
+  },
+  "unit.civ.merchant.a09": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    468,
+    414,
+    342
+   ]
+  },
+  "unit.civ.merchant.a10": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    472,
+    418,
+    346
+   ]
+  },
+  "unit.civ.medic.a03": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    478,
+    384,
+    312
+   ]
+  },
+  "unit.civ.medic.a04": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    498,
+    402,
+    328
+   ]
+  },
+  "unit.civ.medic.a05": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    410,
+    356,
+    296
+   ]
+  },
+  "unit.civ.medic.a06": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    394,
+    340,
+    280
+   ]
+  },
+  "unit.civ.medic.a07": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    422,
+    368,
+    308
+   ]
+  },
+  "unit.civ.medic.a08": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    443,
+    389,
+    329
+   ]
+  },
+  "unit.civ.medic.a09": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    451,
+    397,
+    337
+   ]
+  },
+  "unit.civ.medic.a10": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    515,
+    453,
+    385
+   ]
+  },
+  "unit.civ.firefighter.a05": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    444,
+    386,
+    326
+   ]
+  },
+  "unit.civ.firefighter.a06": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    403,
+    349,
+    289
+   ]
+  },
+  "unit.civ.firefighter.a07": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    467,
+    405,
+    337
+   ]
+  },
+  "unit.civ.firefighter.a08": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    503,
+    441,
+    373
+   ]
+  },
+  "unit.civ.firefighter.a09": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    523,
+    461,
+    393
+   ]
+  },
+  "unit.civ.firefighter.a10": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    539,
+    477,
+    409
+   ]
+  },
+  "unit.civ.colonist.a07": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    410,
+    356,
+    296
+   ]
+  },
+  "unit.civ.colonist.a08": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    431,
+    377,
+    317
+   ]
+  },
+  "unit.civ.colonist.a09": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    498,
+    466,
+    410
+   ]
+  },
+  "unit.civ.colonist.a10": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    502,
+    470,
+    414
+   ]
+  },
+  "unit.civ.orbital_builder.a09": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    546,
+    506,
+    442
+   ]
+  },
+  "unit.civ.orbital_builder.a10": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    550,
+    510,
+    446
+   ]
+  },
+  "unit.civ.civil_robot_worker.a08": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    356,
+    320,
+    264
+   ]
+  },
+  "unit.civ.civil_robot_worker.a09": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    392,
+    360,
+    304
+   ]
+  },
+  "unit.civ.civil_robot_worker.a10": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    396,
+    364,
+    308
+   ]
+  },
+  "unit.civ.civil_robot_hauler.a08": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    373,
+    341,
+    285
+   ]
+  },
+  "unit.civ.civil_robot_hauler.a09": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    393,
+    361,
+    305
+   ]
+  },
+  "unit.civ.civil_robot_hauler.a10": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    397,
+    365,
+    309
+   ]
+  },
+  "unit.civ.civil_robot_medic.a08": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    385,
+    353,
+    297
+   ]
+  },
+  "unit.civ.civil_robot_medic.a09": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    405,
+    373,
+    317
+   ]
+  },
+  "unit.civ.civil_robot_medic.a10": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    409,
+    377,
+    321
+   ]
+  },
+  "unit.mil.light_infantry.a01": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    467,
+    373,
+    289
+   ]
+  },
+  "unit.mil.light_infantry.a02": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    424,
+    370,
+    298
+   ]
+  },
+  "unit.mil.light_infantry.a03": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    494,
+    400,
+    316
+   ]
+  },
+  "unit.mil.light_infantry.a04": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    544,
+    448,
+    362
+   ]
+  },
+  "unit.mil.light_infantry.a05": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    422,
+    368,
+    296
+   ]
+  },
+  "unit.mil.light_infantry.a06": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    427,
+    373,
+    301
+   ]
+  },
+  "unit.mil.light_infantry.a07": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    443,
+    389,
+    317
+   ]
+  },
+  "unit.mil.light_infantry.a08": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    451,
+    397,
+    325
+   ]
+  },
+  "unit.mil.light_infantry.a09": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    566,
+    526,
+    450
+   ]
+  },
+  "unit.mil.light_infantry.a10": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    582,
+    542,
+    466
+   ]
+  },
+  "unit.mil.heavy_infantry.a01": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    655,
+    561,
+    393
+   ]
+  },
+  "unit.mil.heavy_infantry.a02": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    544,
+    490,
+    334
+   ]
+  },
+  "unit.mil.heavy_infantry.a03": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    614,
+    520,
+    352
+   ]
+  },
+  "unit.mil.heavy_infantry.a04": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    642,
+    542,
+    372
+   ]
+  },
+  "unit.mil.heavy_infantry.a05": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    527,
+    473,
+    317
+   ]
+  },
+  "unit.mil.heavy_infantry.a06": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    535,
+    481,
+    325
+   ]
+  },
+  "unit.mil.heavy_infantry.a07": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    551,
+    497,
+    341
+   ]
+  },
+  "unit.mil.heavy_infantry.a08": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    559,
+    505,
+    349
+   ]
+  },
+  "unit.mil.heavy_infantry.a09": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    662,
+    622,
+    462
+   ]
+  },
+  "unit.mil.heavy_infantry.a10": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    678,
+    638,
+    478
+   ]
+  },
+  "unit.mil.militia.a01": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    479,
+    385,
+    313
+   ]
+  },
+  "unit.mil.militia.a02": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    394,
+    336,
+    276
+   ]
+  },
+  "unit.mil.militia.a03": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    470,
+    376,
+    304
+   ]
+  },
+  "unit.mil.militia.a05": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    406,
+    352,
+    292
+   ]
+  },
+  "unit.mil.scout.a01": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    503,
+    409,
+    325
+   ]
+  },
+  "unit.mil.scout.a02": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    438,
+    384,
+    312
+   ]
+  },
+  "unit.mil.scout.a03": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    514,
+    424,
+    340
+   ]
+  },
+  "unit.mil.scout.a04": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    518,
+    422,
+    336
+   ]
+  },
+  "unit.mil.scout.a05": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    430,
+    376,
+    304
+   ]
+  },
+  "unit.mil.scout.a06": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    426,
+    372,
+    300
+   ]
+  },
+  "unit.mil.scout.a07": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    436,
+    382,
+    310
+   ]
+  },
+  "unit.mil.scout.a08": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    432,
+    378,
+    306
+   ]
+  },
+  "unit.mil.scout.a09": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    487,
+    433,
+    361
+   ]
+  },
+  "unit.mil.scout.a10": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    491,
+    437,
+    365
+   ]
+  },
+  "unit.mil.officer.a01": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    595,
+    453,
+    353
+   ]
+  },
+  "unit.mil.officer.a02": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    532,
+    478,
+    322
+   ]
+  },
+  "unit.mil.officer.a03": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    594,
+    504,
+    336
+   ]
+  },
+  "unit.mil.officer.a04": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    606,
+    510,
+    340
+   ]
+  },
+  "unit.mil.officer.a05": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    422,
+    368,
+    296
+   ]
+  },
+  "unit.mil.officer.a06": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    418,
+    364,
+    292
+   ]
+  },
+  "unit.mil.officer.a07": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    434,
+    380,
+    308
+   ]
+  },
+  "unit.mil.officer.a08": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    436,
+    382,
+    310
+   ]
+  },
+  "unit.mil.officer.a09": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    619,
+    557,
+    393
+   ]
+  },
+  "unit.mil.officer.a10": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    635,
+    573,
+    409
+   ]
+  },
+  "unit.mil.standard_bearer.a01": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    467,
+    373,
+    289
+   ]
+  },
+  "unit.mil.standard_bearer.a02": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    432,
+    374,
+    302
+   ]
+  },
+  "unit.mil.standard_bearer.a03": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    482,
+    388,
+    304
+   ]
+  },
+  "unit.mil.standard_bearer.a05": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    422,
+    364,
+    292
+   ]
+  },
+  "unit.mil.spearman.a01": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    499,
+    405,
+    321
+   ]
+  },
+  "unit.mil.spearman.a02": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    464,
+    406,
+    334
+   ]
+  },
+  "unit.mil.spearman.a03": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    518,
+    424,
+    340
+   ]
+  },
+  "unit.mil.spearman.a04": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    556,
+    456,
+    370
+   ]
+  },
+  "unit.mil.archer.a01": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    499,
+    409,
+    325
+   ]
+  },
+  "unit.mil.archer.a02": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    438,
+    384,
+    312
+   ]
+  },
+  "unit.mil.archer.a03": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    522,
+    432,
+    348
+   ]
+  },
+  "unit.mil.archer.a04": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    556,
+    460,
+    374
+   ]
+  },
+  "unit.mil.swordsman.a02": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    552,
+    498,
+    342
+   ]
+  },
+  "unit.mil.swordsman.a03": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    594,
+    504,
+    336
+   ]
+  },
+  "unit.mil.swordsman.a04": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    656,
+    560,
+    390
+   ]
+  },
+  "unit.mil.shield_bearer.a01": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    491,
+    397,
+    313
+   ]
+  },
+  "unit.mil.shield_bearer.a02": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    468,
+    410,
+    338
+   ]
+  },
+  "unit.mil.shield_bearer.a03": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    518,
+    424,
+    340
+   ]
+  },
+  "unit.mil.shield_bearer.a04": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    580,
+    480,
+    394
+   ]
+  },
+  "unit.mil.crossbowman.a03": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    614,
+    524,
+    356
+   ]
+  },
+  "unit.mil.crossbowman.a04": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    676,
+    580,
+    410
+   ]
+  },
+  "unit.mil.pikeman.a03": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    624,
+    530,
+    362
+   ]
+  },
+  "unit.mil.pikeman.a04": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    640,
+    540,
+    370
+   ]
+  },
+  "unit.mil.pikeman.a05": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    422,
+    364,
+    292
+   ]
+  },
+  "unit.mil.fusilier.a04": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    556,
+    460,
+    374
+   ]
+  },
+  "unit.mil.fusilier.a05": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    434,
+    380,
+    308
+   ]
+  },
+  "unit.mil.fusilier.a06": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    439,
+    385,
+    313
+   ]
+  },
+  "unit.mil.fusilier.a07": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    455,
+    401,
+    329
+   ]
+  },
+  "unit.mil.grenadier.a04": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    546,
+    450,
+    364
+   ]
+  },
+  "unit.mil.grenadier.a05": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    458,
+    404,
+    332
+   ]
+  },
+  "unit.mil.grenadier.a06": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    463,
+    409,
+    337
+   ]
+  },
+  "unit.mil.grenadier.a08": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    475,
+    421,
+    349
+   ]
+  },
+  "unit.mil.machine_gunner.a05": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    446,
+    392,
+    320
+   ]
+  },
+  "unit.mil.machine_gunner.a06": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    451,
+    397,
+    325
+   ]
+  },
+  "unit.mil.machine_gunner.a07": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    479,
+    425,
+    353
+   ]
+  },
+  "unit.mil.machine_gunner.a08": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    487,
+    433,
+    361
+   ]
+  },
+  "unit.mil.sniper.a05": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    450,
+    396,
+    324
+   ]
+  },
+  "unit.mil.sniper.a06": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    446,
+    392,
+    320
+   ]
+  },
+  "unit.mil.sniper.a07": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    462,
+    408,
+    336
+   ]
+  },
+  "unit.mil.sniper.a08": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    458,
+    404,
+    332
+   ]
+  },
+  "unit.mil.sniper.a10": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    507,
+    453,
+    381
+   ]
+  },
+  "unit.mil.mortar_team.a05": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    451,
+    397,
+    325
+   ]
+  },
+  "unit.mil.mortar_team.a07": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    463,
+    409,
+    337
+   ]
+  },
+  "unit.mil.mortar_team.a09": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    479,
+    425,
+    353
+   ]
+  },
+  "unit.mil.flamethrower.a05": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    515,
+    453,
+    373
+   ]
+  },
+  "unit.mil.flamethrower.a06": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    511,
+    449,
+    369
+   ]
+  },
+  "unit.mil.flamethrower.a07": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    551,
+    489,
+    409
+   ]
+  },
+  "unit.mil.flamethrower.a08": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    547,
+    485,
+    405
+   ]
+  },
+  "unit.mil.combat_medic.a04": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    548,
+    452,
+    366
+   ]
+  },
+  "unit.mil.combat_medic.a06": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    431,
+    377,
+    305
+   ]
+  },
+  "unit.mil.combat_medic.a08": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    455,
+    401,
+    329
+   ]
+  },
+  "unit.mil.combat_medic.a09": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    486,
+    454,
+    386
+   ]
+  },
+  "unit.mil.combat_medic.a10": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    490,
+    458,
+    390
+   ]
+  },
+  "unit.mil.sapper.a03": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    530,
+    436,
+    352
+   ]
+  },
+  "unit.mil.sapper.a05": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    446,
+    388,
+    316
+   ]
+  },
+  "unit.mil.sapper.a06": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    419,
+    365,
+    293
+   ]
+  },
+  "unit.mil.sapper.a07": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    451,
+    397,
+    325
+   ]
+  },
+  "unit.mil.sapper.a08": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    495,
+    441,
+    369
+   ]
+  },
+  "unit.mil.sapper.a10": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    550,
+    510,
+    434
+   ]
+  },
+  "unit.mil.anti_tank.a06": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    535,
+    481,
+    325
+   ]
+  },
+  "unit.mil.anti_tank.a07": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    551,
+    497,
+    341
+   ]
+  },
+  "unit.mil.anti_tank.a08": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    559,
+    505,
+    349
+   ]
+  },
+  "unit.mil.anti_tank.a09": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    638,
+    598,
+    438
+   ]
+  },
+  "unit.mil.anti_tank.a10": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    642,
+    602,
+    442
+   ]
+  },
+  "unit.mil.anti_air.a06": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    448,
+    394,
+    322
+   ]
+  },
+  "unit.mil.anti_air.a07": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    464,
+    410,
+    338
+   ]
+  },
+  "unit.mil.anti_air.a08": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    479,
+    425,
+    353
+   ]
+  },
+  "unit.mil.anti_air.a09": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    457,
+    417,
+    341
+   ]
+  },
+  "unit.mil.anti_air.a10": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    461,
+    421,
+    345
+   ]
+  },
+  "unit.mil.mechanized.a06": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    563,
+    509,
+    353
+   ]
+  },
+  "unit.mil.mechanized.a07": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    579,
+    525,
+    369
+   ]
+  },
+  "unit.mil.mechanized.a08": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    559,
+    505,
+    349
+   ]
+  },
+  "unit.mil.mechanized.a09": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    553,
+    521,
+    369
+   ]
+  },
+  "unit.mil.special_forces.a06": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    448,
+    394,
+    322
+   ]
+  },
+  "unit.mil.special_forces.a07": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    476,
+    422,
+    350
+   ]
+  },
+  "unit.mil.special_forces.a08": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    535,
+    473,
+    393
+   ]
+  },
+  "unit.mil.special_forces.a09": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    579,
+    517,
+    437
+   ]
+  },
+  "unit.mil.special_forces.a10": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    595,
+    533,
+    453
+   ]
+  },
+  "unit.mil.exosuit.a08": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    545,
+    505,
+    345
+   ]
+  },
+  "unit.mil.exosuit.a09": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    662,
+    622,
+    462
+   ]
+  },
+  "unit.mil.exosuit.a10": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    678,
+    638,
+    478
+   ]
+  },
+  "unit.mil.space_marine.a09": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    662,
+    622,
+    462
+   ]
+  },
+  "unit.mil.space_marine.a10": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    690,
+    650,
+    490
+   ]
+  },
+  "unit.mil.space_marine_heavy.a09": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    590,
+    558,
+    406
+   ]
+  },
+  "unit.mil.space_marine_heavy.a10": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    642,
+    602,
+    442
+   ]
+  },
+  "unit.mil.space_marine_shield.a09": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    638,
+    598,
+    438
+   ]
+  },
+  "unit.mil.space_marine_shield.a10": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    666,
+    626,
+    466
+   ]
+  },
+  "unit.mil.combat_robot.a08": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    368,
+    336,
+    280
+   ]
+  },
+  "unit.mil.combat_robot.a09": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    412,
+    380,
+    324
+   ]
+  },
+  "unit.mil.combat_robot.a10": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    476,
+    436,
+    372
+   ]
+  },
+  "unit.mil.assault_robot.a08": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    393,
+    361,
+    305
+   ]
+  },
+  "unit.mil.assault_robot.a09": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    425,
+    393,
+    337
+   ]
+  },
+  "unit.mil.assault_robot.a10": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    525,
+    493,
+    353
+   ]
+  },
+  "unit.mil.guard.a01": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    495,
+    401,
+    317
+   ]
+  },
+  "unit.mil.guard.a03": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    552,
+    458,
+    374
+   ]
+  },
+  "unit.mil.guard.a05": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    454,
+    396,
+    320
+   ]
+  },
+  "unit.mil.guard.a07": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    474,
+    416,
+    340
+   ]
+  },
+  "unit.mil.guard.a09": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    519,
+    461,
+    385
+   ]
+  },
+  "unit.mil.cavalry.a02": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    744,
+    662,
+    498
+   ]
+  },
+  "unit.mil.cavalry.a03": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    794,
+    676,
+    500
+   ]
+  },
+  "unit.mil.cavalry.a04": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    848,
+    728,
+    550
+   ]
+  },
+  "unit.mil.cavalry.a05": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    614,
+    536,
+    456
+   ]
+  },
+  "unit.mil.cavalry.a06": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    619,
+    541,
+    461
+   ]
+  },
+  "unit.mil.horse_archer.a02": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    630,
+    552,
+    472
+   ]
+  },
+  "unit.mil.horse_archer.a03": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    706,
+    592,
+    500
+   ]
+  },
+  "unit.mil.horse_archer.a04": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    722,
+    602,
+    508
+   ]
+  },
+  "unit.mil.mounted_scout.a01": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    695,
+    577,
+    485
+   ]
+  },
+  "unit.mil.mounted_scout.a03": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    682,
+    564,
+    472
+   ]
+  },
+  "unit.mil.mounted_scout.a05": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    622,
+    544,
+    464
+   ]
+  },
+  "unit.mil.knight.a03": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    842,
+    724,
+    548
+   ]
+  },
+  "unit.mil.knight.a04": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    858,
+    734,
+    556
+   ]
+  },
+  "unit.mil.ram.a01": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    400,
+    336,
+    208
+   ]
+  },
+  "unit.mil.ram.a02": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    436,
+    372,
+    244
+   ]
+  },
+  "unit.mil.catapult.a02": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    364,
+    300,
+    172
+   ]
+  },
+  "unit.mil.catapult.a03": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    388,
+    324,
+    196
+   ]
+  },
+  "unit.mil.ballista.a02": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    320,
+    256,
+    128
+   ]
+  },
+  "unit.mil.trebuchet.a03": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    364,
+    300,
+    172
+   ]
+  },
+  "unit.mil.siege_tower.a03": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    328,
+    264,
+    136
+   ]
+  },
+  "unit.mil.siege_tower.a04": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    340,
+    276,
+    148
+   ]
+  },
+  "unit.mil.gun.a03": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    44,
+    32,
+    24
+   ]
+  },
+  "unit.mil.gun.a04": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    172,
+    128,
+    56
+   ]
+  },
+  "unit.mil.gun.a05": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    172,
+    128,
+    56
+   ]
+  },
+  "unit.mil.gun.a06": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    208,
+    164,
+    92
+   ]
+  },
+  "unit.mil.gun.a07": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    208,
+    164,
+    92
+   ]
+  },
+  "unit.mil.gun.a08": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    232,
+    188,
+    116
+   ]
+  },
+  "unit.mil.sentry.a06": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    128,
+    128,
+    128
+   ]
+  },
+  "unit.mil.sentry.a07": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    152,
+    152,
+    152
+   ]
+  },
+  "unit.mil.sentry.a08": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    148,
+    148,
+    148
+   ]
+  },
+  "unit.mil.sentry.a09": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    184,
+    184,
+    184
+   ]
+  },
+  "unit.mil.sentry.a10": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    208,
+    208,
+    208
+   ]
+  },
+  "unit.mil.ground_drone.a07": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    448,
+    196,
+    156
+   ]
+  },
+  "unit.mil.ground_drone.a08": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    488,
+    380,
+    180
+   ]
+  },
+  "unit.mil.ground_drone.a09": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    224,
+    212,
+    204
+   ]
+  },
+  "unit.mil.ground_drone.a10": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    140,
+    128,
+    120
+   ]
+  },
+  "unit.mil.war_elephant.a02": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    332,
+    308,
+    300
+   ]
+  },
+  "unit.mil.war_elephant.a03": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/3 examinée ; armes volontairement grossies pour la vue RTS",
+   "triangles": [
+    368,
+    344,
+    336
+   ]
+  },
+  "veh.ground.cart.a01": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    396,
+    340,
+    256
+   ]
+  },
+  "veh.ground.cart.a02": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    396,
+    340,
+    256
+   ]
+  },
+  "veh.ground.cart.a03": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    396,
+    340,
+    256
+   ]
+  },
+  "veh.ground.cart.a04": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    396,
+    340,
+    256
+   ]
+  },
+  "veh.ground.wagon.a02": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    716,
+    604,
+    448
+   ]
+  },
+  "veh.ground.wagon.a03": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    736,
+    612,
+    460
+   ]
+  },
+  "veh.ground.wagon.a05": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    736,
+    612,
+    460
+   ]
+  },
+  "veh.ground.chariot.a01": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    384,
+    328,
+    256
+   ]
+  },
+  "veh.ground.chariot.a02": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    576,
+    496,
+    416
+   ]
+  },
+  "veh.ground.caravan.a03": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    736,
+    612,
+    460
+   ]
+  },
+  "veh.ground.truck.a05": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    348,
+    272,
+    136
+   ]
+  },
+  "veh.ground.truck.a06": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    328,
+    264,
+    136
+   ]
+  },
+  "veh.ground.truck.a07": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    336,
+    260,
+    124
+   ]
+  },
+  "veh.ground.truck.a08": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    316,
+    252,
+    124
+   ]
+  },
+  "veh.ground.truck.a09": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    336,
+    260,
+    124
+   ]
+  },
+  "veh.ground.truck.a10": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    108,
+    108,
+    108
+   ]
+  },
+  "veh.ground.car.a05": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    292,
+    228,
+    100
+   ]
+  },
+  "veh.ground.car.a06": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    316,
+    252,
+    124
+   ]
+  },
+  "veh.ground.car.a07": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    312,
+    232,
+    104
+   ]
+  },
+  "veh.ground.car.a08": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    366,
+    286,
+    158
+   ]
+  },
+  "veh.ground.car.a10": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    104,
+    88,
+    88
+   ]
+  },
+  "veh.ground.bus.a06": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    468,
+    372,
+    156
+   ]
+  },
+  "veh.ground.bus.a08": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    456,
+    360,
+    144
+   ]
+  },
+  "veh.ground.bus.a10": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    120,
+    120,
+    96
+   ]
+  },
+  "veh.ground.jeep.a05": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    324,
+    260,
+    100
+   ]
+  },
+  "veh.ground.jeep.a06": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    348,
+    284,
+    124
+   ]
+  },
+  "veh.ground.jeep.a07": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    424,
+    332,
+    128
+   ]
+  },
+  "veh.ground.jeep.a09": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    448,
+    356,
+    152
+   ]
+  },
+  "veh.ground.ambulance.a06": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    376,
+    312,
+    184
+   ]
+  },
+  "veh.ground.ambulance.a08": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    364,
+    300,
+    172
+   ]
+  },
+  "veh.ground.ambulance.a10": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    156,
+    156,
+    156
+   ]
+  },
+  "veh.ground.fire_truck.a05": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    480,
+    384,
+    192
+   ]
+  },
+  "veh.ground.fire_truck.a07": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    468,
+    372,
+    180
+   ]
+  },
+  "veh.ground.fire_truck.a09": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    468,
+    372,
+    180
+   ]
+  },
+  "veh.ground.police_car.a06": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    316,
+    252,
+    124
+   ]
+  },
+  "veh.ground.police_car.a08": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    336,
+    256,
+    128
+   ]
+  },
+  "veh.ground.police_car.a10": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    128,
+    112,
+    112
+   ]
+  },
+  "veh.ground.tractor.a05": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    300,
+    236,
+    108
+   ]
+  },
+  "veh.ground.tractor.a07": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    300,
+    236,
+    108
+   ]
+  },
+  "veh.ground.tractor.a09": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    364,
+    300,
+    172
+   ]
+  },
+  "veh.ground.bulldozer.a05": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    424,
+    184,
+    152
+   ]
+  },
+  "veh.ground.bulldozer.a07": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    472,
+    232,
+    200
+   ]
+  },
+  "veh.ground.bulldozer.a08": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    484,
+    244,
+    212
+   ]
+  },
+  "veh.ground.tanker.a06": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    496,
+    384,
+    160
+   ]
+  },
+  "veh.ground.tanker.a08": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    484,
+    372,
+    148
+   ]
+  },
+  "veh.ground.tanker.a10": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    148,
+    132,
+    100
+   ]
+  },
+  "veh.ground.crane_truck.a07": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    456,
+    360,
+    168
+   ]
+  },
+  "veh.ground.locomotive.a05": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    626,
+    482,
+    218
+   ]
+  },
+  "veh.ground.locomotive.a07": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    560,
+    432,
+    176
+   ]
+  },
+  "veh.ground.locomotive.a09": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    120,
+    96,
+    88
+   ]
+  },
+  "veh.ground.rail_wagon.a05": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    572,
+    444,
+    188
+   ]
+  },
+  "veh.ground.rail_wagon.a06": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    548,
+    420,
+    164
+   ]
+  },
+  "veh.ground.rail_wagon.a07": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    564,
+    420,
+    156
+   ]
+  },
+  "veh.ground.rail_wagon.a08": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    572,
+    444,
+    188
+   ]
+  },
+  "veh.ground.rail_wagon.a09": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    60,
+    60,
+    60
+   ]
+  },
+  "veh.ground.rail_wagon.a10": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    76,
+    60,
+    52
+   ]
+  },
+  "veh.ground.tank_light.a05": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    410,
+    158,
+    118
+   ]
+  },
+  "veh.ground.tank_light.a06": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    420,
+    168,
+    128
+   ]
+  },
+  "veh.ground.tank_light.a07": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    420,
+    168,
+    128
+   ]
+  },
+  "veh.ground.tank_light.a08": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    420,
+    168,
+    128
+   ]
+  },
+  "veh.ground.tank_light.a09": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    420,
+    168,
+    128
+   ]
+  },
+  "veh.ground.tank_light.a10": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    100,
+    88,
+    80
+   ]
+  },
+  "veh.ground.tank_heavy.a06": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    432,
+    180,
+    128
+   ]
+  },
+  "veh.ground.tank_heavy.a07": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    412,
+    172,
+    128
+   ]
+  },
+  "veh.ground.tank_heavy.a08": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    412,
+    172,
+    128
+   ]
+  },
+  "veh.ground.tank_heavy.a09": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    456,
+    204,
+    152
+   ]
+  },
+  "veh.ground.tank_heavy.a10": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    136,
+    124,
+    104
+   ]
+  },
+  "veh.ground.sp_artillery.a06": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    400,
+    160,
+    128
+   ]
+  },
+  "veh.ground.sp_artillery.a08": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    400,
+    160,
+    128
+   ]
+  },
+  "veh.ground.sp_artillery.a10": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    80,
+    80,
+    80
+   ]
+  },
+  "veh.ground.aa_tracked.a07": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    488,
+    236,
+    196
+   ]
+  },
+  "veh.ground.aa_tracked.a09": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    488,
+    236,
+    196
+   ]
+  },
+  "veh.ground.apc_tracked.a06": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    444,
+    192,
+    152
+   ]
+  },
+  "veh.ground.apc_tracked.a08": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    444,
+    192,
+    152
+   ]
+  },
+  "veh.ground.apc.a06": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    612,
+    460,
+    196
+   ]
+  },
+  "veh.ground.apc.a08": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    612,
+    460,
+    196
+   ]
+  },
+  "veh.ground.apc.a10": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    124,
+    100,
+    92
+   ]
+  },
+  "veh.ground.rocket_launcher.a06": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    748,
+    608,
+    160
+   ]
+  },
+  "veh.ground.rocket_launcher.a08": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    748,
+    608,
+    160
+   ]
+  },
+  "veh.ground.rocket_launcher.a10": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    260,
+    248,
+    56
+   ]
+  },
+  "veh.ground.aa_wheeled.a07": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    756,
+    532,
+    229
+   ]
+  },
+  "veh.ground.aa_wheeled.a09": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    756,
+    532,
+    229
+   ]
+  },
+  "veh.ground.scout_car.a06": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    360,
+    272,
+    136
+   ]
+  },
+  "veh.ground.scout_car.a08": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    360,
+    272,
+    136
+   ]
+  },
+  "veh.ground.scout_car.a10": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    128,
+    104,
+    96
+   ]
+  },
+  "veh.ground.command_vehicle.a07": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    764,
+    540,
+    237
+   ]
+  },
+  "veh.ground.command_vehicle.a09": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    764,
+    540,
+    237
+   ]
+  },
+  "veh.ground.missile_carrier.a07": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    608,
+    444,
+    172
+   ]
+  },
+  "veh.ground.missile_carrier.a09": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    608,
+    444,
+    172
+   ]
+  },
+  "veh.ground.jammer.a08": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    612,
+    472,
+    216
+   ]
+  },
+  "veh.air.heli_transport.a06": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    220,
+    188,
+    180
+   ]
+  },
+  "veh.air.heli_transport.a07": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    232,
+    200,
+    192
+   ]
+  },
+  "veh.air.heli_transport.a08": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    280,
+    248,
+    240
+   ]
+  },
+  "veh.air.heli_transport.a09": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    828,
+    452,
+    324
+   ]
+  },
+  "veh.air.heli_transport.a10": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    1404,
+    692,
+    444
+   ]
+  },
+  "veh.air.heli_attack.a06": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    300,
+    268,
+    260
+   ]
+  },
+  "veh.air.heli_attack.a07": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    312,
+    280,
+    272
+   ]
+  },
+  "veh.air.heli_attack.a08": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    360,
+    328,
+    320
+   ]
+  },
+  "veh.air.heli_attack.a09": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    908,
+    532,
+    404
+   ]
+  },
+  "veh.air.heli_attack.a10": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    1484,
+    772,
+    524
+   ]
+  },
+  "veh.air.fighter.a05": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    328,
+    298,
+    256
+   ]
+  },
+  "veh.air.fighter.a06": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    276,
+    246,
+    236
+   ]
+  },
+  "veh.air.fighter.a07": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    284,
+    242,
+    224
+   ]
+  },
+  "veh.air.fighter.a08": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    344,
+    302,
+    284
+   ]
+  },
+  "veh.air.fighter.a09": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    270,
+    228,
+    210
+   ]
+  },
+  "veh.air.fighter.a10": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    330,
+    288,
+    270
+   ]
+  },
+  "veh.air.bomber.a05": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    412,
+    382,
+    328
+   ]
+  },
+  "veh.air.bomber.a06": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    360,
+    330,
+    308
+   ]
+  },
+  "veh.air.bomber.a07": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    328,
+    274,
+    236
+   ]
+  },
+  "veh.air.bomber.a08": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    388,
+    334,
+    296
+   ]
+  },
+  "veh.air.bomber.a09": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    282,
+    240,
+    210
+   ]
+  },
+  "veh.air.bomber.a10": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    342,
+    300,
+    270
+   ]
+  },
+  "veh.air.transport_plane.a05": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    412,
+    382,
+    340
+   ]
+  },
+  "veh.air.transport_plane.a06": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    360,
+    330,
+    320
+   ]
+  },
+  "veh.air.transport_plane.a07": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    328,
+    274,
+    248
+   ]
+  },
+  "veh.air.transport_plane.a08": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    452,
+    374,
+    332
+   ]
+  },
+  "veh.air.transport_plane.a09": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    392,
+    314,
+    272
+   ]
+  },
+  "veh.air.transport_plane.a10": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    452,
+    374,
+    332
+   ]
+  },
+  "veh.air.airliner.a06": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    348,
+    318,
+    308
+   ]
+  },
+  "veh.air.airliner.a08": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    440,
+    362,
+    320
+   ]
+  },
+  "veh.air.airliner.a10": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    440,
+    362,
+    320
+   ]
+  },
+  "veh.air.drone_recon.a07": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    100,
+    84,
+    84
+   ]
+  },
+  "veh.air.drone_recon.a08": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    224,
+    176,
+    144
+   ]
+  },
+  "veh.air.drone_recon.a09": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    112,
+    96,
+    96
+   ]
+  },
+  "veh.air.drone_recon.a10": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    492,
+    288,
+    204
+   ]
+  },
+  "veh.air.drone_strike.a07": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    140,
+    124,
+    124
+   ]
+  },
+  "veh.air.drone_strike.a08": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    200,
+    184,
+    184
+   ]
+  },
+  "veh.air.drone_strike.a09": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    152,
+    136,
+    136
+   ]
+  },
+  "veh.air.drone_strike.a10": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    212,
+    196,
+    196
+   ]
+  },
+  "veh.air.balloon.a04": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    204,
+    124,
+    80
+   ]
+  },
+  "veh.air.balloon.a05": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    216,
+    136,
+    92
+   ]
+  },
+  "veh.naval.merchant.a01": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    120,
+    90,
+    80
+   ]
+  },
+  "veh.naval.merchant.a02": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    120,
+    90,
+    80
+   ]
+  },
+  "veh.naval.merchant.a03": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    164,
+    134,
+    124
+   ]
+  },
+  "veh.naval.merchant.a04": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    196,
+    166,
+    156
+   ]
+  },
+  "veh.naval.merchant.a05": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    172,
+    142,
+    132
+   ]
+  },
+  "veh.naval.merchant.a06": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    244,
+    214,
+    108
+   ]
+  },
+  "veh.naval.merchant.a07": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    280,
+    250,
+    108
+   ]
+  },
+  "veh.naval.merchant.a08": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    280,
+    250,
+    108
+   ]
+  },
+  "veh.naval.merchant.a09": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    304,
+    274,
+    120
+   ]
+  },
+  "veh.naval.merchant.a10": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    352,
+    322,
+    120
+   ]
+  },
+  "veh.naval.warship.a01": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    284,
+    254,
+    80
+   ]
+  },
+  "veh.naval.warship.a02": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    284,
+    254,
+    80
+   ]
+  },
+  "veh.naval.warship.a03": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    364,
+    334,
+    124
+   ]
+  },
+  "veh.naval.warship.a04": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    396,
+    366,
+    156
+   ]
+  },
+  "veh.naval.warship.a05": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    340,
+    286,
+    260
+   ]
+  },
+  "veh.naval.warship.a06": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    412,
+    346,
+    312
+   ]
+  },
+  "veh.naval.warship.a07": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    392,
+    326,
+    292
+   ]
+  },
+  "veh.naval.warship.a08": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    440,
+    374,
+    292
+   ]
+  },
+  "veh.naval.warship.a09": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    380,
+    314,
+    232
+   ]
+  },
+  "veh.naval.warship.a10": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    380,
+    314,
+    232
+   ]
+  },
+  "veh.naval.fishing.a01": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    132,
+    102,
+    80
+   ]
+  },
+  "veh.naval.fishing.a03": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    144,
+    114,
+    92
+   ]
+  },
+  "veh.naval.fishing.a06": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    152,
+    122,
+    112
+   ]
+  },
+  "veh.naval.submarine.a05": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    184,
+    144,
+    124
+   ]
+  },
+  "veh.naval.submarine.a06": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    184,
+    144,
+    124
+   ]
+  },
+  "veh.naval.submarine.a07": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    184,
+    144,
+    124
+   ]
+  },
+  "veh.naval.submarine.a08": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    280,
+    240,
+    124
+   ]
+  },
+  "veh.naval.submarine.a09": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    280,
+    240,
+    124
+   ]
+  },
+  "veh.naval.submarine.a10": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    280,
+    240,
+    124
+   ]
+  },
+  "space.ship.probe.mk1": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    252,
+    156,
+    77
+   ]
+  },
+  "space.ship.probe.mk2": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    244,
+    160,
+    89
+   ]
+  },
+  "space.ship.probe.mk3": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    264,
+    168,
+    89
+   ]
+  },
+  "space.ship.probe.mk4": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    320,
+    212,
+    125
+   ]
+  },
+  "space.ship.probe.mk5": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    344,
+    224,
+    129
+   ]
+  },
+  "space.ship.probe.mk6": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    592,
+    328,
+    189
+   ]
+  },
+  "space.ship.builder_drone.mk1": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "needs_work",
+   "note": "évolutions Mk1 à Mk3 peu différenciées à distance",
+   "triangles": [
+    160,
+    136,
+    120
+   ]
+  },
+  "space.ship.builder_drone.mk2": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "needs_work",
+   "note": "évolutions Mk1 à Mk3 peu différenciées à distance",
+   "triangles": [
+    160,
+    136,
+    120
+   ]
+  },
+  "space.ship.builder_drone.mk3": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "needs_work",
+   "note": "évolutions Mk1 à Mk3 peu différenciées à distance",
+   "triangles": [
+    224,
+    176,
+    144
+   ]
+  },
+  "space.ship.builder_drone.mk4": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "needs_work",
+   "note": "évolutions Mk1 à Mk3 peu différenciées à distance",
+   "triangles": [
+    236,
+    188,
+    156
+   ]
+  },
+  "space.ship.builder_drone.mk5": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "needs_work",
+   "note": "évolutions Mk1 à Mk3 peu différenciées à distance",
+   "triangles": [
+    236,
+    188,
+    156
+   ]
+  },
+  "space.ship.builder_drone.mk6": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "needs_work",
+   "note": "évolutions Mk1 à Mk3 peu différenciées à distance",
+   "triangles": [
+    300,
+    228,
+    180
+   ]
+  },
+  "space.ship.shuttle.mk1": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    224,
+    156,
+    124
+   ]
+  },
+  "space.ship.shuttle.mk2": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    224,
+    156,
+    124
+   ]
+  },
+  "space.ship.shuttle.mk3": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    224,
+    156,
+    124
+   ]
+  },
+  "space.ship.shuttle.mk4": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    224,
+    156,
+    124
+   ]
+  },
+  "space.ship.shuttle.mk5": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    396,
+    244,
+    165
+   ]
+  },
+  "space.ship.shuttle.mk6": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    396,
+    244,
+    165
+   ]
+  },
+  "space.ship.shuttle.mk7": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    396,
+    244,
+    165
+   ]
+  },
+  "space.ship.transport.mk1": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    228,
+    150,
+    108
+   ]
+  },
+  "space.ship.transport.mk2": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    272,
+    194,
+    152
+   ]
+  },
+  "space.ship.transport.mk3": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    336,
+    234,
+    176
+   ]
+  },
+  "space.ship.transport.mk4": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    380,
+    278,
+    220
+   ]
+  },
+  "space.ship.transport.mk5": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    552,
+    366,
+    261
+   ]
+  },
+  "space.ship.transport.mk6": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    660,
+    450,
+    329
+   ]
+  },
+  "space.ship.transport.mk7": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    660,
+    450,
+    329
+   ]
+  },
+  "space.ship.interceptor.mk1": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    188,
+    148,
+    132
+   ]
+  },
+  "space.ship.interceptor.mk2": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    188,
+    148,
+    132
+   ]
+  },
+  "space.ship.interceptor.mk3": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    200,
+    160,
+    144
+   ]
+  },
+  "space.ship.interceptor.mk4": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    264,
+    200,
+    168
+   ]
+  },
+  "space.ship.interceptor.mk5": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    304,
+    240,
+    208
+   ]
+  },
+  "space.ship.interceptor.mk6": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    304,
+    240,
+    208
+   ]
+  },
+  "space.ship.interceptor.mk7": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    304,
+    240,
+    208
+   ]
+  },
+  "space.ship.frigate.mk1": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "needs_work",
+   "note": "silhouette trop proche du destroyer et du croiseur",
+   "triangles": [
+    340,
+    272,
+    240
+   ]
+  },
+  "space.ship.frigate.mk2": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "needs_work",
+   "note": "silhouette trop proche du destroyer et du croiseur",
+   "triangles": [
+    396,
+    328,
+    284
+   ]
+  },
+  "space.ship.frigate.mk3": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "needs_work",
+   "note": "silhouette trop proche du destroyer et du croiseur",
+   "triangles": [
+    396,
+    328,
+    284
+   ]
+  },
+  "space.ship.frigate.mk4": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "needs_work",
+   "note": "silhouette trop proche du destroyer et du croiseur",
+   "triangles": [
+    464,
+    396,
+    352
+   ]
+  },
+  "space.ship.frigate.mk5": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "needs_work",
+   "note": "silhouette trop proche du destroyer et du croiseur",
+   "triangles": [
+    628,
+    536,
+    476
+   ]
+  },
+  "space.ship.frigate.mk6": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "needs_work",
+   "note": "silhouette trop proche du destroyer et du croiseur",
+   "triangles": [
+    948,
+    700,
+    588
+   ]
+  },
+  "space.ship.frigate.mk7": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "needs_work",
+   "note": "silhouette trop proche du destroyer et du croiseur",
+   "triangles": [
+    960,
+    712,
+    600
+   ]
+  },
+  "space.ship.destroyer.mk1": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "needs_work",
+   "note": "silhouette trop proche de la frégate et du croiseur",
+   "triangles": [
+    452,
+    380,
+    332
+   ]
+  },
+  "space.ship.destroyer.mk2": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "needs_work",
+   "note": "silhouette trop proche de la frégate et du croiseur",
+   "triangles": [
+    508,
+    436,
+    376
+   ]
+  },
+  "space.ship.destroyer.mk3": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "needs_work",
+   "note": "silhouette trop proche de la frégate et du croiseur",
+   "triangles": [
+    628,
+    556,
+    376
+   ]
+  },
+  "space.ship.destroyer.mk4": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "needs_work",
+   "note": "silhouette trop proche de la frégate et du croiseur",
+   "triangles": [
+    736,
+    664,
+    444
+   ]
+  },
+  "space.ship.destroyer.mk5": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "needs_work",
+   "note": "silhouette trop proche de la frégate et du croiseur",
+   "triangles": [
+    960,
+    864,
+    588
+   ]
+  },
+  "space.ship.destroyer.mk6": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "needs_work",
+   "note": "silhouette trop proche de la frégate et du croiseur",
+   "triangles": [
+    1320,
+    1068,
+    700
+   ]
+  },
+  "space.ship.destroyer.mk7": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "needs_work",
+   "note": "silhouette trop proche de la frégate et du croiseur",
+   "triangles": [
+    1372,
+    1120,
+    712
+   ]
+  },
+  "space.ship.cruiser.mk1": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "needs_work",
+   "note": "silhouette trop proche du cuirassé",
+   "triangles": [
+    668,
+    542,
+    468
+   ]
+  },
+  "space.ship.cruiser.mk2": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "needs_work",
+   "note": "silhouette trop proche du cuirassé",
+   "triangles": [
+    724,
+    598,
+    512
+   ]
+  },
+  "space.ship.cruiser.mk3": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "needs_work",
+   "note": "silhouette trop proche du cuirassé",
+   "triangles": [
+    724,
+    598,
+    512
+   ]
+  },
+  "space.ship.cruiser.mk4": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "needs_work",
+   "note": "silhouette trop proche du cuirassé",
+   "triangles": [
+    792,
+    666,
+    580
+   ]
+  },
+  "space.ship.cruiser.mk5": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "needs_work",
+   "note": "silhouette trop proche du cuirassé",
+   "triangles": [
+    1016,
+    866,
+    764
+   ]
+  },
+  "space.ship.cruiser.mk6": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "needs_work",
+   "note": "silhouette trop proche du cuirassé",
+   "triangles": [
+    1336,
+    1030,
+    876
+   ]
+  },
+  "space.ship.cruiser.mk7": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "needs_work",
+   "note": "silhouette trop proche du cuirassé",
+   "triangles": [
+    1348,
+    1042,
+    888
+   ]
+  },
+  "space.ship.battleship.mk1": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    928,
+    740,
+    628
+   ]
+  },
+  "space.ship.battleship.mk2": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    984,
+    796,
+    672
+   ]
+  },
+  "space.ship.battleship.mk3": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    984,
+    796,
+    672
+   ]
+  },
+  "space.ship.battleship.mk4": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    1052,
+    864,
+    740
+   ]
+  },
+  "space.ship.battleship.mk5": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    1316,
+    1104,
+    964
+   ]
+  },
+  "space.ship.battleship.mk6": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    1636,
+    1268,
+    1076
+   ]
+  },
+  "space.ship.battleship.mk7": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    1648,
+    1280,
+    1088
+   ]
+  },
+  "space.ship.colony_transport.mk1": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    648,
+    366,
+    240
+   ]
+  },
+  "space.ship.colony_transport.mk2": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    724,
+    418,
+    276
+   ]
+  },
+  "space.ship.colony_transport.mk3": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    1004,
+    542,
+    348
+   ]
+  },
+  "space.ship.colony_transport.mk4": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    1080,
+    594,
+    384
+   ]
+  },
+  "space.ship.colony_transport.mk5": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    1252,
+    682,
+    425
+   ]
+  },
+  "space.ship.colony_transport.mk6": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    1608,
+    858,
+    533
+   ]
+  },
+  "space.ship.logistics.mk1": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    352,
+    224,
+    144
+   ]
+  },
+  "space.ship.logistics.mk2": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    416,
+    264,
+    168
+   ]
+  },
+  "space.ship.logistics.mk3": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    480,
+    304,
+    192
+   ]
+  },
+  "space.ship.logistics.mk4": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    544,
+    344,
+    216
+   ]
+  },
+  "space.ship.logistics.mk5": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    716,
+    432,
+    257
+   ]
+  },
+  "space.ship.logistics.mk6": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    844,
+    512,
+    305
+   ]
+  },
+  "space.ship.command_ship.mk1": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    1000,
+    690,
+    510
+   ]
+  },
+  "space.ship.command_ship.mk2": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    1056,
+    746,
+    554
+   ]
+  },
+  "space.ship.command_ship.mk3": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    1228,
+    834,
+    595
+   ]
+  },
+  "space.ship.command_ship.mk4": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    1296,
+    902,
+    663
+   ]
+  },
+  "space.ship.command_ship.mk5": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    1500,
+    1082,
+    827
+   ]
+  },
+  "space.ship.command_ship.mk6": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    1992,
+    1334,
+    980
+   ]
+  },
+  "space.ship.command_ship.mk7": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    2004,
+    1346,
+    992
+   ]
+  },
+  "space.orbital.station.t1": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    556,
+    300,
+    165
+   ]
+  },
+  "space.orbital.station.t2": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    604,
+    348,
+    189
+   ]
+  },
+  "space.orbital.command_center.t1": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    1064,
+    568,
+    358
+   ]
+  },
+  "space.orbital.command_center.t2": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    1128,
+    632,
+    422
+   ]
+  },
+  "space.orbital.command_center.t3": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    1192,
+    696,
+    486
+   ]
+  },
+  "space.orbital.shipyard.t1": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    444,
+    260,
+    196
+   ]
+  },
+  "space.orbital.shipyard.t2": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    456,
+    272,
+    208
+   ]
+  },
+  "space.orbital.shipyard.t3": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    468,
+    284,
+    220
+   ]
+  },
+  "space.orbital.habitat.t1": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    392,
+    220,
+    76
+   ]
+  },
+  "space.orbital.habitat.t2": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    648,
+    320,
+    124
+   ]
+  },
+  "space.orbital.habitat.t3": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    904,
+    420,
+    172
+   ]
+  },
+  "space.orbital.hydroponics.t1": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    304,
+    164,
+    116
+   ]
+  },
+  "space.orbital.hydroponics.t2": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    576,
+    308,
+    220
+   ]
+  },
+  "space.orbital.extractor.t1": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    112,
+    88,
+    72
+   ]
+  },
+  "space.orbital.extractor.t2": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    144,
+    108,
+    84
+   ]
+  },
+  "space.orbital.depot.t1": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    108,
+    108,
+    108
+   ]
+  },
+  "space.orbital.depot.t2": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    156,
+    156,
+    156
+   ]
+  },
+  "space.orbital.hangar.t1": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    222,
+    132,
+    85
+   ]
+  },
+  "space.orbital.hangar.t2": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    248,
+    152,
+    105
+   ]
+  },
+  "space.orbital.radar.t1": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    260,
+    164,
+    97
+   ]
+  },
+  "space.orbital.radar.t2": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    276,
+    180,
+    113
+   ]
+  },
+  "space.orbital.battery.t1": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    248,
+    152,
+    97
+   ]
+  },
+  "space.orbital.battery.t2": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    272,
+    176,
+    121
+   ]
+  },
+  "space.orbital.battery.t3": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    552,
+    300,
+    193
+   ]
+  },
+  "space.orbital.arsenal.t1": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    232,
+    232,
+    232
+   ]
+  },
+  "space.orbital.arsenal.t2": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    280,
+    280,
+    280
+   ]
+  },
+  "space.orbital.energy.t1": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    708,
+    332,
+    160
+   ]
+  },
+  "space.orbital.energy.t2": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    708,
+    332,
+    160
+   ]
+  },
+  "space.orbital.relay.t1": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    588,
+    336,
+    171
+   ]
+  },
+  "space.orbital.relay.t2": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "not_reviewed",
+   "note": "",
+   "triangles": [
+    1016,
+    524,
+    260
+   ]
+  },
+  "road.dirt.straight": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    12,
+    12,
+    12
+   ]
+  },
+  "road.dirt.curve": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    64,
+    40,
+    24
+   ]
+  },
+  "road.dirt.tee": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    24,
+    24,
+    24
+   ]
+  },
+  "road.dirt.cross": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    24,
+    24,
+    24
+   ]
+  },
+  "road.dirt.dead_end": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    60,
+    44,
+    32
+   ]
+  },
+  "road.dirt.wide": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    12,
+    12,
+    12
+   ]
+  },
+  "road.dirt.connector": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    12,
+    12,
+    12
+   ]
+  },
+  "road.dirt.bridge": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    192,
+    192,
+    168
+   ]
+  },
+  "road.dirt.ramp": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    12,
+    12,
+    12
+   ]
+  },
+  "road.paved.straight": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    36,
+    36,
+    12
+   ]
+  },
+  "road.paved.curve": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    64,
+    40,
+    24
+   ]
+  },
+  "road.paved.tee": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    72,
+    72,
+    24
+   ]
+  },
+  "road.paved.cross": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    72,
+    72,
+    24
+   ]
+  },
+  "road.paved.dead_end": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    84,
+    68,
+    32
+   ]
+  },
+  "road.paved.wide": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    36,
+    36,
+    12
+   ]
+  },
+  "road.paved.connector": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    12,
+    12,
+    12
+   ]
+  },
+  "road.paved.bridge": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    136,
+    120,
+    64
+   ]
+  },
+  "road.paved.ramp": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    12,
+    12,
+    12
+   ]
+  },
+  "road.cobble.straight": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    36,
+    36,
+    12
+   ]
+  },
+  "road.cobble.curve": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    64,
+    40,
+    24
+   ]
+  },
+  "road.cobble.tee": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    72,
+    72,
+    24
+   ]
+  },
+  "road.cobble.cross": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    72,
+    72,
+    24
+   ]
+  },
+  "road.cobble.dead_end": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    84,
+    68,
+    32
+   ]
+  },
+  "road.cobble.wide": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    36,
+    36,
+    12
+   ]
+  },
+  "road.cobble.connector": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    12,
+    12,
+    12
+   ]
+  },
+  "road.cobble.bridge": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    136,
+    120,
+    64
+   ]
+  },
+  "road.cobble.ramp": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    12,
+    12,
+    12
+   ]
+  },
+  "road.asphalt.straight": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    84,
+    36,
+    12
+   ]
+  },
+  "road.asphalt.curve": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    72,
+    40,
+    24
+   ]
+  },
+  "road.asphalt.tee": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    96,
+    72,
+    24
+   ]
+  },
+  "road.asphalt.cross": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    96,
+    72,
+    24
+   ]
+  },
+  "road.asphalt.dead_end": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    108,
+    68,
+    32
+   ]
+  },
+  "road.asphalt.wide": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    96,
+    48,
+    12
+   ]
+  },
+  "road.asphalt.connector": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    12,
+    12,
+    12
+   ]
+  },
+  "road.asphalt.bridge": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    252,
+    204,
+    60
+   ]
+  },
+  "road.asphalt.ramp": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    12,
+    12,
+    12
+   ]
+  },
+  "road.highway.straight": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    84,
+    36,
+    12
+   ]
+  },
+  "road.highway.curve": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    72,
+    40,
+    24
+   ]
+  },
+  "road.highway.tee": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    96,
+    72,
+    24
+   ]
+  },
+  "road.highway.cross": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    96,
+    72,
+    24
+   ]
+  },
+  "road.highway.dead_end": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    108,
+    68,
+    32
+   ]
+  },
+  "road.highway.wide": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    96,
+    48,
+    12
+   ]
+  },
+  "road.highway.connector": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    12,
+    12,
+    12
+   ]
+  },
+  "road.highway.bridge": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    264,
+    216,
+    168
+   ]
+  },
+  "road.highway.ramp": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    12,
+    12,
+    12
+   ]
+  },
+  "road.future.straight": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    132,
+    84,
+    12
+   ]
+  },
+  "road.future.curve": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    104,
+    60,
+    24
+   ]
+  },
+  "road.future.tee": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    192,
+    168,
+    24
+   ]
+  },
+  "road.future.cross": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    192,
+    168,
+    24
+   ]
+  },
+  "road.future.dead_end": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    412,
+    216,
+    80
+   ]
+  },
+  "road.future.wide": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    144,
+    96,
+    12
+   ]
+  },
+  "road.future.connector": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    36,
+    36,
+    36
+   ]
+  },
+  "road.future.bridge": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    228,
+    164,
+    56
+   ]
+  },
+  "road.future.ramp": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    36,
+    36,
+    36
+   ]
+  },
+  "road.industrial_v.straight": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "needs_work",
+   "note": "carrefours : bordures qui se chevauchent",
+   "triangles": [
+    108,
+    60,
+    12
+   ]
+  },
+  "road.industrial_v.curve": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "needs_work",
+   "note": "carrefours : bordures qui se chevauchent",
+   "triangles": [
+    72,
+    40,
+    24
+   ]
+  },
+  "road.industrial_v.tee": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "needs_work",
+   "note": "carrefours : bordures qui se chevauchent",
+   "triangles": [
+    96,
+    72,
+    24
+   ]
+  },
+  "road.industrial_v.cross": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "needs_work",
+   "note": "carrefours : bordures qui se chevauchent",
+   "triangles": [
+    96,
+    72,
+    24
+   ]
+  },
+  "road.industrial_v.loading_bay": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "needs_work",
+   "note": "carrefours : bordures qui se chevauchent",
+   "triangles": [
+    72,
+    72,
+    36
+   ]
+  },
+  "road.industrial_viii.straight": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "needs_work",
+   "note": "carrefours : bordures qui se chevauchent",
+   "triangles": [
+    108,
+    60,
+    12
+   ]
+  },
+  "road.industrial_viii.curve": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "needs_work",
+   "note": "carrefours : bordures qui se chevauchent",
+   "triangles": [
+    72,
+    40,
+    24
+   ]
+  },
+  "road.industrial_viii.tee": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "needs_work",
+   "note": "carrefours : bordures qui se chevauchent",
+   "triangles": [
+    96,
+    72,
+    24
+   ]
+  },
+  "road.industrial_viii.cross": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "needs_work",
+   "note": "carrefours : bordures qui se chevauchent",
+   "triangles": [
+    96,
+    72,
+    24
+   ]
+  },
+  "road.industrial_viii.loading_bay": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "needs_work",
+   "note": "carrefours : bordures qui se chevauchent",
+   "triangles": [
+    124,
+    124,
+    88
+   ]
+  },
+  "road.industrial_x.straight": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "needs_work",
+   "note": "carrefours : bordures qui se chevauchent",
+   "triangles": [
+    156,
+    108,
+    12
+   ]
+  },
+  "road.industrial_x.curve": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "needs_work",
+   "note": "carrefours : bordures qui se chevauchent",
+   "triangles": [
+    104,
+    60,
+    24
+   ]
+  },
+  "road.industrial_x.tee": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "needs_work",
+   "note": "carrefours : bordures qui se chevauchent",
+   "triangles": [
+    192,
+    168,
+    24
+   ]
+  },
+  "road.industrial_x.cross": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "needs_work",
+   "note": "carrefours : bordures qui se chevauchent",
+   "triangles": [
+    192,
+    168,
+    24
+   ]
+  },
+  "road.industrial_x.loading_bay": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "needs_work",
+   "note": "carrefours : bordures qui se chevauchent",
+   "triangles": [
+    148,
+    148,
+    112
+   ]
+  },
+  "road.rail_v.straight": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    156,
+    156,
+    36
+   ]
+  },
+  "road.rail_v.curve": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    300,
+    228,
+    72
+   ]
+  },
+  "road.rail_v.switch": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    288,
+    288,
+    84
+   ]
+  },
+  "road.rail_v.crossing": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    216,
+    216,
+    96
+   ]
+  },
+  "road.rail_v.platform": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    220,
+    220,
+    100
+   ]
+  },
+  "road.rail_v.bridge": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    216,
+    216,
+    72
+   ]
+  },
+  "road.rail_v.tunnel": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    204,
+    204,
+    84
+   ]
+  },
+  "road.rail_viii.straight": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    196,
+    196,
+    36
+   ]
+  },
+  "road.rail_viii.curve": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    328,
+    256,
+    72
+   ]
+  },
+  "road.rail_viii.switch": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    368,
+    368,
+    84
+   ]
+  },
+  "road.rail_viii.crossing": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    256,
+    256,
+    96
+   ]
+  },
+  "road.rail_viii.platform": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    260,
+    260,
+    100
+   ]
+  },
+  "road.rail_viii.bridge": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    232,
+    232,
+    72
+   ]
+  },
+  "road.rail_viii.tunnel": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    244,
+    244,
+    84
+   ]
+  },
+  "road.rail_x.straight": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    36,
+    36,
+    36
+   ]
+  },
+  "road.rail_x.curve": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    192,
+    120,
+    72
+   ]
+  },
+  "road.rail_x.switch": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    84,
+    84,
+    84
+   ]
+  },
+  "road.rail_x.crossing": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    96,
+    96,
+    96
+   ]
+  },
+  "road.rail_x.platform": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    100,
+    100,
+    100
+   ]
+  },
+  "road.rail_x.bridge": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    72,
+    72,
+    72
+   ]
+  },
+  "road.rail_x.tunnel": {
+   "technical": "technical_pass",
+   "errors": [],
+   "visual": "reviewed_ok",
+   "note": "planche 1/2 examinée",
+   "triangles": [
+    84,
+    84,
+    84
+   ]
+  }
+ },
+ "summary": {
+  "planned": 800,
+  "produced": 800,
+  "technical_pass": 800,
+  "glb_files": 2400,
+  "visual_reviewed_ok": 538,
+  "visual_needs_work": 42,
+  "visual_not_reviewed": 220,
+  "godot_imported": "800",
+  "to_fix": 42
+ }
+}

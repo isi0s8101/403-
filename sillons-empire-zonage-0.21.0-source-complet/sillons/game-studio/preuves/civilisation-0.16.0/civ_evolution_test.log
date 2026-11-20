@@ -1,0 +1,71 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+PASS partie historique : héros refusé
+PASS partie historique : forge refusée
+PASS partie historique : ordres de civilisation refusés
+PASS partie historique : passage d'âge classique conservé
+PASS partie historique : aucun modificateur, empreinte inchangée
+PASS le passage d'âge se fait par un monument
+PASS voie antique refusée avant l'âge II
+PASS monument de l'âge III refusé à l'âge I
+PASS monument refusé tant que l'objectif d'âge n'est pas rempli
+PASS monument posé et payé (coût du passage d'âge)
+PASS un seul des deux monuments par âge
+PASS les ouvriers construisent le monument (0.143)
+PASS achèvement du monument : âge II atteint
+PASS bonus du monument actif (+25 % commerce)
+PASS voie marchande choisie à l'âge II
+PASS choix de voie définitif
+PASS bonus de voie et de monument cumulés (+50 % commerce, +15 % nourriture)
+PASS chevalier refusé : unité de la voie militaire
+PASS archer monté autorisé : unité de la voie marchande
+PASS l'interface ne montre que l'unité de sa voie
+PASS monument détruit : bonus perdu, âge conservé
+PASS destruction d'un monument : points de commandement pour l'adversaire
+PASS amélioration « Armes de mêlée » lancée à la forge
+PASS une seule amélioration à la fois par bâtiment
+PASS amélioration refusée hors de son bâtiment
+PASS amélioration achevée après sa durée
+PASS attaque au corps à corps +10 %
+PASS niveau 2 réservé à l'âge IV
+PASS héros antique recruté au centre
+PASS héros unique : second recrutement refusé
+PASS héros en service
+PASS aura du héros : +15 % attaque à proximité
+PASS aura du héros : dégâts subis réduits à proximité
+PASS héros tombé : rappel après une attente
+PASS rappel du héros possible (attente réduite de moitié par la voie marchande)
+PASS points de commandement gagnés en détruisant un ennemi
+PASS pouvoir de rang 3 refusé sans rang 2
+PASS pouvoir non débloqué : refus sans effet
+PASS six pouvoirs débloqués dans l'ordre des rangs (52 points dépensés)
+PASS Ravitaillement : soin de 35 %
+PASS pouvoir en recharge
+PASS Éclaireurs : zone révélée
+PASS Cri de ralliement : +25 % attaque
+PASS Renforts : soldats ajoutés (population comptée)
+PASS Bombardement ordonné sur une zone visible
+PASS Bombardement : l'ennemi est touché après 3 s
+PASS Bombardement : pas de tir sur ses propres troupes
+PASS Bouclier : −50 % de dégâts sur les bâtiments
+PASS sauvegarde : état de civilisation conservé
+PASS reprise déterministe après sauvegarde
+PASS nouvelle campagne : évolution de la civilisation active
+PASS état de civilisation partagé par l'empire (référence commune)
+PASS sauvegarde de campagne : civilisation restaurée et repartagée
+PASS ancienne sauvegarde 0.15 relue (aucune civilisation ajoutée)
+PASS sauvegarde falsifiée refusée
+  tick 0 âges [1, 1] voies {  } / {  }
+  tick 4000 âges [2, 2] voies { "antique": "marchande" } / { "antique": "marchande" }
+  tick 8000 âges [3, 2] voies { "antique": "marchande" } / { "antique": "marchande" }
+  tick 12000 âges [4, 3] voies { "antique": "marchande" } / { "antique": "marchande" }
+  tick 16000 âges [4, 3] voies { "antique": "marchande" } / { "antique": "marchande" }
+  camp 0 : âge 5, voies { "antique": "marchande", "industrielle": "marchande" }, monuments { "monument_grand_comptoir": 1, "monument_citadelle": 1, "monument_manufacture": 1, "monument_grande_universite": 1 }, améliorations { "outils_bucheron": 2, "pioches": 2, "charrues": 2, "batisseurs": 2, "armes_melee": 2, "armures_infanterie": 2, "armes_tir": 2, "balistique": 1, "armures_cavalerie": 1 }, héros ["heros_antique", "heros_industriel"], points 0.0, pouvoirs [], forge 1
+PASS IA camp 0 : passe les âges par des monuments (âge 5)
+PASS IA camp 0 : monument bâti et voie choisie
+PASS IA camp 0 : forge et améliorations
+  camp 1 : âge 4, voies { "antique": "marchande" }, monuments { "monument_grand_comptoir": 1, "monument_citadelle": 1, "monument_manufacture": 1 }, améliorations { "outils_bucheron": 1, "charrues": 1, "pioches": 1, "batisseurs": 1 }, héros [], points 0.0, pouvoirs [], forge 1
+PASS IA camp 1 : passe les âges par des monuments (âge 4)
+PASS IA camp 1 : monument bâti et voie choisie
+PASS IA camp 1 : forge et améliorations
+PASS progression IA en temps raisonnable (tick 19558)
+CIV_EVOLUTION_RESULT=PASS checks=62 failures=0

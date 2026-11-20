@@ -1,0 +1,98 @@
+[
+  {
+    "case": "menu",
+    "mode": "menu",
+    "age": 1,
+    "ok": true,
+    "image": "menu.png",
+    "renderer": "OpenGL Compatibility / llvmpipe / Linux, 1280x600"
+  },
+  {
+    "case": "terrain-age-1",
+    "mode": "tactical",
+    "age": 1,
+    "ok": true,
+    "image": "terrain-age-1.png",
+    "renderer": "OpenGL Compatibility / llvmpipe / Linux, 1280x600"
+  },
+  {
+    "case": "terrain-age-5",
+    "mode": "tactical",
+    "age": 5,
+    "ok": true,
+    "image": "terrain-age-5.png",
+    "renderer": "OpenGL Compatibility / llvmpipe / Linux, 1280x600"
+  },
+  {
+    "case": "terrain-age-10",
+    "mode": "tactical",
+    "age": 10,
+    "ok": true,
+    "image": "terrain-age-10.png",
+    "renderer": "OpenGL Compatibility / llvmpipe / Linux, 1280x600"
+  },
+  {
+    "case": "globe-age-1",
+    "mode": "globe",
+    "age": 1,
+    "ok": true,
+    "image": "globe-age-1.png",
+    "renderer": "OpenGL Compatibility / llvmpipe / Linux, 1280x600"
+  },
+  {
+    "case": "globe-age-5",
+    "mode": "globe",
+    "age": 5,
+    "ok": true,
+    "image": "globe-age-5.png",
+    "renderer": "OpenGL Compatibility / llvmpipe / Linux, 1280x600"
+  },
+  {
+    "case": "globe-age-10",
+    "mode": "globe",
+    "age": 10,
+    "ok": true,
+    "image": "globe-age-10.png",
+    "renderer": "OpenGL Compatibility / llvmpipe / Linux, 1280x600"
+  },
+  {
+    "case": "selection",
+    "mode": "selection",
+    "age": 1,
+    "ok": true,
+    "image": "selection.png",
+    "renderer": "OpenGL Compatibility / llvmpipe / Linux, 1280x600"
+  },
+  {
+    "case": "construction",
+    "mode": "build",
+    "age": 1,
+    "ok": true,
+    "image": "construction.png",
+    "renderer": "OpenGL Compatibility / llvmpipe / Linux, 1280x600"
+  },
+  {
+    "case": "pause",
+    "mode": "pause",
+    "age": 1,
+    "ok": true,
+    "image": "pause.png",
+    "renderer": "OpenGL Compatibility / llvmpipe / Linux, 1280x600"
+  },
+  {
+    "case": "armee-100",
+    "mode": "wide",
+    "age": 1,
+    "ok": true,
+    "image": "armee-100.png",
+    "renderer": "OpenGL Compatibility / llvmpipe / Linux, 1280x600"
+  },
+  {
+    "case": "riviere",
+    "mode": "river",
+    "age": 1,
+    "ok": true,
+    "image": "riviere.png",
+    "renderer": "OpenGL Compatibility / llvmpipe / Linux, 1280x600"
+  }
+]

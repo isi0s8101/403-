@@ -1,0 +1,102 @@
+{
+  "name": "R12 — Ouvrir un passage fortifié par un siège",
+  "description": "Recette J2-1b. Même verrou de palissades, sans fort. L'IA dispose de canons : elle identifie la structure qui bloque, l'assiège, la détruit, puis franchit le gué rouvert (navigation recalculée).",
+  "seed": 2102,
+  "ticks": 3600,
+  "stop_on_game_over": false,
+  "teams": [
+    {
+      "age": 3
+    },
+    {
+      "ai": true,
+      "age": 3,
+      "opening": "assaut",
+      "attack_threshold": 8,
+      "res": {
+        "food": 600,
+        "wood": 600,
+        "ore": 600
+      }
+    }
+  ],
+  "setup": [
+    {
+      "t": "lab_block_ford",
+      "team": 0,
+      "ford": 0
+    },
+    {
+      "t": "lab_block_ford",
+      "team": 0,
+      "ford": 1
+    },
+    {
+      "t": "spawn_group",
+      "team": 1,
+      "unit": "canon",
+      "count": 3,
+      "pos": [
+        74,
+        24
+      ]
+    },
+    {
+      "t": "spawn_group",
+      "team": 1,
+      "unit": "lancier",
+      "count": 6,
+      "pos": [
+        77,
+        22
+      ]
+    },
+    {
+      "t": "lab_spawn",
+      "team": 1,
+      "unit": "eclaireur",
+      "pos": [
+        18,
+        76
+      ]
+    }
+  ],
+  "asserts": [
+    {
+      "tick": 3600,
+      "check": "event",
+      "type": "ia",
+      "team": 1,
+      "contains": "siège",
+      "label": "l'IA lance un siège sur la structure qui bloque"
+    },
+    {
+      "tick": 3600,
+      "check": "event",
+      "type": "detruit",
+      "team": 0,
+      "contains": "Palissade",
+      "label": "palissade détruite par le siège"
+    },
+    {
+      "tick": 3600,
+      "check": "event",
+      "type": "ia",
+      "team": 1,
+      "contains": "passage ouvert",
+      "label": "passage ouvert détecté"
+    },
+    {
+      "tick": 3600,
+      "check": "count_side",
+      "team": 1,
+      "side": "sw",
+      "op": ">=",
+      "value": 1,
+      "label": "des unités franchissent le gué rouvert"
+    }
+  ],
+  "rules": {
+    "max_age": 3
+  }
+}

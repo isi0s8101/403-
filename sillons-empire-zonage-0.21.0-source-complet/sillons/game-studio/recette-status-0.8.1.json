@@ -1,0 +1,11 @@
+{
+  "project": "Sillons d'Empire",
+  "build": "0.8.1-recette-candidate",
+  "base": "sillons-empire-j678-0.8.0-source-complet.zip",
+  "features": ["recette_auto_J1_J8", "recette_manuelle_android", "rapport_JSON", "simulation_speed_0_5_to_8"],
+  "godot_compilation": "NOT_RUN",
+  "headless_regression": "NOT_RUN",
+  "android_export": "NOT_RUN",
+  "physical_s25_ultra": "NOT_RUN",
+  "release_status": "CANDIDATE_NOT_ANDROID_VALIDATED"
+}

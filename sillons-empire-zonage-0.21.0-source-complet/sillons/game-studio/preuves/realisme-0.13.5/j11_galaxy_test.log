@@ -1,0 +1,35 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS 16 étoiles et routes connectées
+PASS même seed, mêmes routes
+PASS seed différente, galaxie différente
+PASS routes symétriques et galaxie entièrement connectée
+PASS corridor historique Sol Proxima conservé
+PASS J10 préservé et étendu
+PASS ETA historique interstellaire préservé
+PASS galaxie générée sans créer toutes les cartes tactiques
+PASS étoile inconnue accessible depuis Sol
+PASS planète procédurale dans le système inconnu
+PASS brouillard interdit l'accès à une planète inconnue
+PASS brouillard indépendant entre camps
+PASS chantier orbital de reconnaissance constructible
+PASS sonde exige une route et un chantier
+PASS sonde identique non doublée
+PASS sonde en cours sauvegardée intégralement
+PASS exploration identique après reprise et mêmes ticks
+PASS sonde révèle le monde à son arrivée
+PASS aucune fuite d'information vers l'adversaire
+PASS découverte ne colonise pas automatiquement
+PASS chemin interstellaire multiétape disponible
+PASS route non adjacente refusée sans retirer l'équipage
+PASS flotte en route, pas de téléportation
+PASS ETA lié à la distance de la route
+PASS sauvegarde d'une flotte galactique
+PASS transport et colonisation déterministes après reprise
+PASS système conquis via une colonie réelle
+PASS ouvrier débarqué vivant
+PASS sauvegarde révélant un système inexistant rejetée
+PASS sonde falsifiée refusée
+PASS interception sur une arête malgré des planètes distinctes
+PASS compatibilité des instantanés J10
+J11_GALAXY_RESULT=PASS checks=32 failures=0

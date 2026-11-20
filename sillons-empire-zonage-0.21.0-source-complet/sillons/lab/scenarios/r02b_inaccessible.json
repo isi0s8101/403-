@@ -1,0 +1,63 @@
+{
+  "name": "R02b — Gisement visible mais inaccessible (îlot du lac)",
+  "description": "Le minerai de l'îlot central est exploré mais inaccessible à pied. Une fois le minerai accessible épuisé, aucun ouvrier n'est envoyé sur l'îlot et la pénurie de minerai est signalée.",
+  "seed": 1203,
+  "ticks": 700,
+  "teams": [
+    {
+      "priorities": {
+        "food": 0,
+        "wood": 0,
+        "ore": 3
+      }
+    },
+    {}
+  ],
+  "setup": [
+    {
+      "t": "lab_reveal",
+      "team": 0
+    },
+    {
+      "t": "ref_node",
+      "near": [
+        48,
+        48
+      ],
+      "kind": "minerai",
+      "as": "ile"
+    },
+    {
+      "t": "deplete_kind",
+      "kind": "minerai",
+      "except": "$ile"
+    }
+  ],
+  "asserts": [
+    {
+      "tick": 120,
+      "check": "event",
+      "type": "penurie",
+      "team": 0,
+      "contains": "minerai",
+      "label": "pénurie de minerai signalée malgré l'îlot visible"
+    },
+    {
+      "tick": 600,
+      "check": "no_worker_on_node",
+      "node": "$ile",
+      "label": "aucun ouvrier affecté à l'îlot inaccessible"
+    },
+    {
+      "tick": 600,
+      "check": "task_count",
+      "task": "ore",
+      "op": "==",
+      "value": 0,
+      "label": "aucun ouvrier bloqué en tâche minerai"
+    }
+  ],
+  "rules": {
+    "max_age": 3
+  }
+}

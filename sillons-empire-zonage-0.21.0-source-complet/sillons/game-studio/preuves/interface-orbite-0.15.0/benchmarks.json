@@ -1,0 +1,52 @@
+{
+  "measurements": [
+    {
+      "godot": "4.7.2-stable (official)",
+      "maps": 3,
+      "max_ms": 91.468,
+      "p50_ms": 6.389,
+      "p95_ms": 13.547,
+      "platform": "Linux",
+      "ships": 120,
+      "ticks": 150
+    },
+    {
+      "dimension": 96,
+      "godot": "4.7.2-stable (official)",
+      "memory_mib": 51.7723932266235,
+      "platform": "Linux",
+      "startup_ms": 103.126,
+      "tick_max_ms": 15.112,
+      "tick_p50_ms": 0.683,
+      "tick_p95_ms": 4.522,
+      "ticks": 500,
+      "worlds": 3
+    },
+    {
+      "dimension": 256,
+      "godot": "4.7.2-stable (official)",
+      "memory_mib": 86.5158643722534,
+      "platform": "Linux",
+      "startup_ms": 279.968,
+      "tick_max_ms": 27.906,
+      "tick_p50_ms": 0.763,
+      "tick_p95_ms": 7.135,
+      "ticks": 500,
+      "worlds": 3
+    },
+    {
+      "dimension": 512,
+      "godot": "4.7.2-stable (official)",
+      "memory_mib": 225.102265357971,
+      "platform": "Linux",
+      "startup_ms": 1512.712,
+      "tick_max_ms": 81.872,
+      "tick_p50_ms": 0.998,
+      "tick_p95_ms": 13.894,
+      "ticks": 500,
+      "worlds": 3
+    }
+  ],
+  "scope": "simulation Linux ; rendu et bataille maximale exclus ; aucune certification Android",
+  "concurrent_test_processes": 3
+}

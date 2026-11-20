@@ -1,0 +1,260 @@
+[
+  {
+    "name": "j9_planet_test",
+    "exit": 0,
+    "errors": [],
+    "summary": [
+      "J9_TEST_RESULT=PASS checks=14 failures=0"
+    ]
+  },
+  {
+    "name": "j9_regions_test",
+    "exit": 0,
+    "errors": [],
+    "summary": [
+      "J9_REGIONS_RESULT=PASS checks=29 failures=0"
+    ]
+  },
+  {
+    "name": "strategic_test",
+    "exit": 0,
+    "errors": [],
+    "summary": [
+      "STRATEGIC_RESULT=PASS checks=41 fail=0"
+    ]
+  },
+  {
+    "name": "j10_systems_test",
+    "exit": 0,
+    "errors": [],
+    "summary": [
+      "J10_SYSTEMS_RESULT=PASS checks=24 failures=0"
+    ]
+  },
+  {
+    "name": "j10_ui_test",
+    "exit": 0,
+    "errors": [],
+    "summary": [
+      "J10_UI_RESULT=PASS globe=true orbit=true system=true choice=true land=true return=true"
+    ]
+  },
+  {
+    "name": "j11_galaxy_test",
+    "exit": 0,
+    "errors": [],
+    "summary": [
+      "J11_GALAXY_RESULT=PASS checks=32 failures=0"
+    ]
+  },
+  {
+    "name": "j12_empire_test",
+    "exit": 0,
+    "errors": [],
+    "summary": [
+      "J12_EMPIRE_RESULT=PASS checks=34 failures=0"
+    ]
+  },
+  {
+    "name": "j11_ui_test",
+    "exit": 0,
+    "errors": [],
+    "summary": [
+      "J11_UI_RESULT=PASS planet=true orbit=true system=true galaxy=true zoom=true return=true"
+    ]
+  },
+  {
+    "name": "view_technology_test",
+    "exit": 0,
+    "errors": [],
+    "summary": [
+      "VIEW_TECH_RESULT=PASS checks=13 fails=0"
+    ]
+  },
+  {
+    "name": "j12_perf_test",
+    "exit": 0,
+    "errors": [],
+    "summary": [
+      "J12_PERF_RESULT=PASS failures=0"
+    ]
+  },
+  {
+    "name": "age_progression_test",
+    "exit": 0,
+    "errors": [],
+    "summary": [
+      "AGE_TREE_RESULT=PASS checks=17 fails=0"
+    ]
+  },
+  {
+    "name": "j12_orbital_shipyard_test",
+    "exit": 0,
+    "errors": [],
+    "summary": [
+      "ORBITAL_J12_3=PASS assertions=23 failures=0"
+    ]
+  },
+  {
+    "name": "j13_supply_test",
+    "exit": 0,
+    "errors": [],
+    "summary": [
+      "J13_SUPPLY_RESULT=PASS checks=22 failures=0"
+    ]
+  },
+  {
+    "name": "assets_3d_test",
+    "exit": 0,
+    "errors": [],
+    "summary": [
+      "ASSETS_GODOT_RESULT=PASS assets=800/800 fichiers=2400/2400"
+    ]
+  },
+  {
+    "name": "j13_globe_test",
+    "exit": 0,
+    "errors": [],
+    "summary": [
+      "J13_GLOBE_RESULT=PASS districts=7 modeles=15"
+    ]
+  },
+  {
+    "name": "j13_ui_test",
+    "exit": 0,
+    "errors": [],
+    "summary": [
+      "J13_UI_RESULT=PASS shown=true built=true refused=true ratio=true governor=true"
+    ]
+  },
+  {
+    "name": "j13_colony_test",
+    "exit": 0,
+    "errors": [],
+    "summary": [
+      "J13_COLONY_RESULT=PASS checks=128 failures=0"
+    ]
+  },
+  {
+    "name": "modern_test",
+    "exit": 0,
+    "errors": [],
+    "summary": []
+  },
+  {
+    "name": "modern_ai_test",
+    "exit": 0,
+    "errors": [],
+    "summary": []
+  },
+  {
+    "name": "modern_catalog_test",
+    "exit": 0,
+    "errors": [],
+    "summary": []
+  },
+  {
+    "name": "modern_sandbox_test",
+    "exit": 0,
+    "errors": [],
+    "summary": []
+  },
+  {
+    "name": "modern_ui_test",
+    "exit": 0,
+    "errors": [],
+    "summary": []
+  },
+  {
+    "name": "strategic_ui_test",
+    "exit": 0,
+    "errors": [],
+    "summary": []
+  },
+  {
+    "name": "speed_ui_test",
+    "exit": 0,
+    "errors": [],
+    "summary": []
+  },
+  {
+    "name": "touch_test",
+    "exit": 0,
+    "errors": [],
+    "summary": [
+      "RÉSULTAT TACTILE : PASS"
+    ]
+  },
+  {
+    "name": "ui_j21_test",
+    "exit": 0,
+    "errors": [],
+    "summary": [
+      "UI_J21_RESULT 15/15 PASS"
+    ]
+  },
+  {
+    "name": "visual_j21c_test",
+    "exit": 0,
+    "errors": [],
+    "summary": [
+      "VISUAL_J21C_RESULT 15/15 PASS ; 1 SKIP"
+    ]
+  },
+  {
+    "name": "visual_j21def_test",
+    "exit": 0,
+    "errors": [],
+    "summary": [
+      "VISUAL_J21DEF_RESULT=PASS checks=21 fail=0"
+    ]
+  },
+  {
+    "name": "refonte_visual_test",
+    "exit": 0,
+    "errors": [],
+    "summary": [
+      "REFONTE_VISUAL_RESULT=PASS checks=140 failures=0"
+    ]
+  },
+  {
+    "name": "modal_touch_test",
+    "exit": 0,
+    "errors": [],
+    "summary": [
+      "MODAL_TOUCH_RESULT=PASS checks=4 failures=0"
+    ]
+  },
+  {
+    "name": "native_assets_test",
+    "exit": 0,
+    "errors": [],
+    "summary": [
+      "NATIVE_ASSETS_RESULT=PASS checks=9 failures=0"
+    ]
+  },
+  {
+    "name": "realism_visual_test",
+    "exit": 0,
+    "errors": [],
+    "summary": [
+      "REALISM_VISUAL_RESULT=PASS checks=148 failures=0"
+    ]
+  },
+  {
+    "name": "recette_integrale_test",
+    "exit": 0,
+    "errors": [],
+    "summary": [
+      "RECETTE_AUTO_RESULT=PASS checks=202 fails=0 ticks=83859"
+    ]
+  },
+  {
+    "name": "fronts_test",
+    "exit": 0,
+    "errors": [],
+    "summary": [
+      "RÉSULTAT GLOBAL : PASS"
+    ]
+  }
+]

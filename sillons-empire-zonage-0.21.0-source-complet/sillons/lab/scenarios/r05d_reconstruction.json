@@ -1,0 +1,60 @@
+{
+  "name": "R05d — Reconstruction effective du centre",
+  "description": "Le camp perd son centre, reconstruit avec ses ouvriers et reste en jeu.",
+  "seed": 1503,
+  "ticks": 700,
+  "teams": [
+    {
+      "res": {
+        "food": 0,
+        "wood": 500,
+        "ore": 300
+      }
+    },
+    {}
+  ],
+  "orders": [
+    {
+      "tick": 10,
+      "cmd": {
+        "t": "lab_kill",
+        "team": 0,
+        "id": "$cc0"
+      }
+    },
+    {
+      "tick": 20,
+      "cmd": {
+        "t": "build",
+        "team": 0,
+        "type": "centre",
+        "cell": [
+          16,
+          74
+        ]
+      },
+      "expect": true,
+      "label": "fondation d'un nouveau centre"
+    }
+  ],
+  "asserts": [
+    {
+      "tick": 60,
+      "check": "eliminated",
+      "team": 0,
+      "value": false,
+      "label": "fondation + ouvriers : en jeu"
+    },
+    {
+      "tick": 690,
+      "check": "building_count",
+      "type": "centre",
+      "op": "==",
+      "value": 1,
+      "label": "nouveau centre achevé"
+    }
+  ],
+  "rules": {
+    "max_age": 3
+  }
+}

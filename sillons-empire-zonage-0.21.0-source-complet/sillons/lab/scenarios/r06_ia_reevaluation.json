@@ -1,0 +1,146 @@
+{
+  "name": "R06 — IA : attaque sur informations propres, échec et réévaluation",
+  "description": "L'IA ne connaît la base du joueur que par son éclaireur. Elle attaque, échoue contre une défense supérieure, expose la cause de l'abandon et réévalue.",
+  "seed": 1601,
+  "ticks": 2400,
+  "stop_on_game_over": false,
+  "teams": [
+    {
+      "priorities": {
+        "food": 1,
+        "wood": 1,
+        "ore": 1
+      }
+    },
+    {
+      "ai": true,
+      "age": 2,
+      "opening": "assaut",
+      "attack_threshold": 8,
+      "res": {
+        "food": 300,
+        "wood": 300,
+        "ore": 200
+      }
+    }
+  ],
+  "setup": [
+    {
+      "t": "spawn_group",
+      "team": 1,
+      "unit": "lancier",
+      "count": 6,
+      "pos": [
+        76,
+        22
+      ]
+    },
+    {
+      "t": "spawn_group",
+      "team": 1,
+      "unit": "tireur",
+      "count": 3,
+      "pos": [
+        78,
+        24
+      ]
+    },
+    {
+      "t": "lab_spawn",
+      "team": 1,
+      "unit": "eclaireur",
+      "pos": [
+        20,
+        72
+      ]
+    },
+    {
+      "t": "spawn_group",
+      "team": 0,
+      "unit": "tireur",
+      "count": 9,
+      "pos": [
+        18,
+        74
+      ]
+    },
+    {
+      "t": "spawn_group",
+      "team": 0,
+      "unit": "tireur",
+      "count": 9,
+      "pos": [
+        22,
+        76
+      ]
+    },
+    {
+      "t": "spawn_group",
+      "team": 0,
+      "unit": "lancier",
+      "count": 6,
+      "pos": [
+        20,
+        70
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "tick": 2,
+      "cmd": {
+        "t": "army_defend",
+        "team": 0,
+        "pos": [
+          20,
+          76
+        ],
+        "radius": 14
+      }
+    }
+  ],
+  "asserts": [
+    {
+      "tick": 600,
+      "check": "event",
+      "type": "ia",
+      "team": 1,
+      "contains": "Attaquer",
+      "label": "l'IA lance une attaque"
+    },
+    {
+      "tick": 600,
+      "check": "ai",
+      "team": 1,
+      "field": "history",
+      "contains": "Centre de commandement ennemi",
+      "label": "cible issue de sa mémoire (centre vu par l'éclaireur)"
+    },
+    {
+      "tick": 2400,
+      "check": "ai",
+      "team": 1,
+      "field": "abandon",
+      "contains": "attaque échouée",
+      "label": "cause d'abandon exposée (pertes)"
+    },
+    {
+      "tick": 2400,
+      "check": "ai",
+      "team": 1,
+      "field": "history",
+      "contains": "réévaluation",
+      "label": "réévaluation de l'objectif après l'échec"
+    },
+    {
+      "tick": 2400,
+      "check": "eliminated",
+      "team": 0,
+      "value": false,
+      "label": "la défense tient"
+    }
+  ],
+  "rules": {
+    "max_age": 3
+  }
+}

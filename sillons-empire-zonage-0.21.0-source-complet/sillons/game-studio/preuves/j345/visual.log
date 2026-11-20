@@ -1,0 +1,27 @@
+WARNING: Couldn't get executable path from /proc/self/exe, using argv[0]
+     at: get_executable_path (drivers/unix/os_unix.cpp:1136)
+Godot Engine v4.5.1.stable.official.f62fdbde1 - https://godotengine.org
+
+PASS VISUAL_J21DEF vue_disponible
+PASS VISUAL_J21DEF unite_amie_disponible
+PASS VISUAL_J21DEF modele_unite_existant
+PASS VISUAL_J21DEF rig_articule_proche
+PASS VISUAL_J21DEF articulation_epaule
+PASS VISUAL_J21DEF cycle_marche
+PASS VISUAL_J21DEF lod_simple
+PASS VISUAL_J21DEF lod_detail
+PASS VISUAL_J21DEF batiment_disponible
+PASS VISUAL_J21DEF batiment_rendu
+PASS VISUAL_J21DEF detail_architectural
+PASS VISUAL_J21DEF impact_persistant
+PASS VISUAL_J21DEF fissures_sante_critique
+PASS VISUAL_J21DEF degat_retirable
+PASS VISUAL_J21DEF profil_economie
+PASS VISUAL_J21DEF profil_detail
+PASS VISUAL_J21DEF limite_rigs
+PASS VISUAL_J21DEF limite_batiments
+PASS VISUAL_J21DEF effets_bornes
+PASS VISUAL_J21DEF menu_qualite
+PASS VISUAL_J21DEF aide_tactile
+PASS VISUAL_J21DEF simulation_inalteree
+VISUAL_J21DEF_RESULT=PASS checks=22 fail=0

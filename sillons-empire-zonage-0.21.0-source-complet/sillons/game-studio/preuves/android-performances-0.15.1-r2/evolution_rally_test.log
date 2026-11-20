@@ -1,0 +1,23 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS R01 drapeau posé
+PASS formation réellement payée
+PASS R01 ordre dès la création
+PASS formation réellement payée
+PASS R02 contrats anciens conservés et nouvelle escouade
+PASS R03 groupe invalide refusé atomiquement
+PASS R03 NaN refusé
+PASS R03 eau refusée
+PASS formation réellement payée
+PASS R06 cible mobile enregistrée
+PASS R06 cible détruite : repli local
+PASS R03 une seule alerte par renfort
+PASS R01 ouvriers conservés dans l'économie
+PASS R04 contrat et révision restaurés
+PASS R04 continuation complète identique
+PASS R05 plan de composition partagé
+PASS R05 deux réservations et aucune troisième recrue
+PASS R05 cible respectée sur deux producteurs
+PASS R06 ordres successifs validés
+PASS R06 escorte inexistante refusée
+EVOLUTION_RALLY_RESULT checks=20 failures=0

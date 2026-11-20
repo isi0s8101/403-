@@ -1,0 +1,62 @@
+[
+  {
+    "mode": "menu",
+    "image": "menu.png",
+    "renderer": "Godot 4.7.2 / OpenGL / Mesa llvmpipe",
+    "resolution": [
+      1280,
+      600
+    ],
+    "status": "PASS"
+  },
+  {
+    "mode": "building",
+    "image": "building.png",
+    "renderer": "Godot 4.7.2 / OpenGL / Mesa llvmpipe",
+    "resolution": [
+      1280,
+      600
+    ],
+    "status": "PASS"
+  },
+  {
+    "mode": "buildings",
+    "image": "buildings.png",
+    "renderer": "Godot 4.7.2 / OpenGL / Mesa llvmpipe",
+    "resolution": [
+      1280,
+      600
+    ],
+    "status": "PASS"
+  },
+  {
+    "mode": "orbit",
+    "image": "orbit.png",
+    "renderer": "Godot 4.7.2 / OpenGL / Mesa llvmpipe",
+    "resolution": [
+      1280,
+      600
+    ],
+    "status": "PASS"
+  },
+  {
+    "mode": "system",
+    "image": "system.png",
+    "renderer": "Godot 4.7.2 / OpenGL / Mesa llvmpipe",
+    "resolution": [
+      1280,
+      600
+    ],
+    "status": "PASS"
+  },
+  {
+    "mode": "galaxy",
+    "image": "galaxy.png",
+    "renderer": "Godot 4.7.2 / OpenGL / Mesa llvmpipe",
+    "resolution": [
+      1280,
+      600
+    ],
+    "status": "PASS"
+  }
+]

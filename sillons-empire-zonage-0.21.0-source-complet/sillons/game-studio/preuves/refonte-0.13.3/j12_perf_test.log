@@ -1,0 +1,7 @@
+Godot Engine v4.7.1.stable.official.a13da4feb - https://godotengine.org
+
+PASS surcharge soutenue : LOD visuel réduit
+PASS rafraîchissement des marqueurs espacé
+PASS récupération visuelle après stabilisation
+PASS governor sans effet sur simulation
+J12_PERF_RESULT=PASS failures=0

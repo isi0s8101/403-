@@ -1,0 +1,32 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS hauteurs strictement continues N/S et E/O avec couture de longitude
+PASS région de départ continentale identifiée
+PASS gestionnaire planétaire installé
+PASS régions procédurales actives
+PASS centre joueur préservé
+PASS centre IA préservé
+PASS ressources régionales présentes
+PASS comptoirs neutres présents pour le passage à l'âge II
+PASS âge III adapte à la géographie procédurale sans fausses rivières
+PASS aller-retour atlas et coordonnées
+PASS ordre de passage vide refusé
+PASS au moins une frontière terrestre accessible
+PASS franchissement ordonné via une frontière praticable
+PASS sauvegarde d'une unité en traversée et reprise du ticket
+PASS la caméra suit la première unité franchissant la frontière
+PASS unité absente de la région d'origine après traversée
+PASS unité présente dans la région adjacente
+PASS PV et ravitaillement conservés
+PASS identité permanente de l'unité attribuée
+PASS population transférée sans duplication
+PASS combat/économie de la région quittée continuent hors écran
+PASS restauration de campagne multi-région
+PASS état complet identique après restauration
+PASS régions modifiées et visitées persistées
+PASS retour au secteur de départ
+PASS bâtiments persistants après retour
+PASS coordonnées de sauvegarde falsifiées refusées
+PASS empreinte région initiale disponible
+PASS mode historique J1–J8 inchangé
+J9_REGIONS_RESULT=PASS checks=29 failures=0

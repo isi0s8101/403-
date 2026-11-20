@@ -1,0 +1,97 @@
+{
+  "name": "R02 — Gisement épuisé, pénurie lisible puis reprise",
+  "description": "Recette 2b : épuiser les baies proches. Les ouvriers cherchent un autre gisement exploré ; sans gisement connu, pénurie signalée et réaffectation au bois ; après exploration, retour à la nourriture.",
+  "seed": 1202,
+  "ticks": 1400,
+  "teams": [
+    {
+      "priorities": {
+        "food": 3,
+        "wood": 1,
+        "ore": 0
+      }
+    },
+    {}
+  ],
+  "orders": [
+    {
+      "tick": 205,
+      "cmd": {
+        "t": "deplete_kind",
+        "kind": "baies",
+        "near": [
+          14,
+          82
+        ],
+        "radius": 12
+      }
+    },
+    {
+      "tick": 700,
+      "cmd": {
+        "t": "lab_reveal",
+        "team": 0
+      }
+    }
+  ],
+  "asserts": [
+    {
+      "tick": 190,
+      "check": "task_count",
+      "task": "food",
+      "op": ">=",
+      "value": 3,
+      "label": "avant épuisement : majorité à la nourriture"
+    },
+    {
+      "tick": 320,
+      "check": "event",
+      "type": "epuise",
+      "team": 0,
+      "label": "gisement épuisé signalé"
+    },
+    {
+      "tick": 420,
+      "check": "event",
+      "type": "penurie",
+      "team": 0,
+      "contains": "nourriture",
+      "label": "pénurie de nourriture explicite (aucun gisement accessible)"
+    },
+    {
+      "tick": 420,
+      "check": "task_count",
+      "task": "wood",
+      "op": "==",
+      "value": 5,
+      "label": "ouvriers réaffectés au bois pendant la pénurie"
+    },
+    {
+      "tick": 820,
+      "check": "event",
+      "type": "penurie_fin",
+      "team": 0,
+      "contains": "nourriture",
+      "label": "fin de pénurie après exploration"
+    },
+    {
+      "tick": 820,
+      "check": "task_count",
+      "task": "food",
+      "op": ">=",
+      "value": 3,
+      "label": "retour à la nourriture (baies éloignées)"
+    },
+    {
+      "tick": 1390,
+      "check": "stat",
+      "stat": "units_trained",
+      "op": ">=",
+      "value": 0,
+      "label": "fin de scénario"
+    }
+  ],
+  "rules": {
+    "max_age": 3
+  }
+}

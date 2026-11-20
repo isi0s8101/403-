@@ -1,0 +1,26 @@
+[
+  {
+    "case": "compiled-diagnostic",
+    "exit": 0,
+    "errors": [],
+    "platform": "Linux headless",
+    "input": "compiled assets extracted from final APK",
+    "android_native_runtime": "NOT_RUN"
+  },
+  {
+    "case": "compiled-interface",
+    "exit": 0,
+    "errors": [],
+    "platform": "Linux headless",
+    "input": "compiled assets extracted from final APK",
+    "android_native_runtime": "NOT_RUN"
+  },
+  {
+    "case": "compiled-orbit",
+    "exit": 0,
+    "errors": [],
+    "platform": "Linux headless",
+    "input": "compiled assets extracted from final APK",
+    "android_native_runtime": "NOT_RUN"
+  }
+]

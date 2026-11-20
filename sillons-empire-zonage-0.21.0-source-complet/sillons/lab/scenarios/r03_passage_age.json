@@ -1,0 +1,113 @@
+{
+  "name": "R03 — Passage d'âge : ressources seules, objectif seul, les deux",
+  "description": "Recette 3. Objectif provisoire : découvrir un comptoir neutre (règle de recette configurable, non approuvée).",
+  "seed": 1301,
+  "ticks": 520,
+  "orders": [
+    {
+      "tick": 10,
+      "cmd": {
+        "t": "lab_res",
+        "team": 0,
+        "res": {
+          "food": 1000,
+          "wood": 1000
+        }
+      }
+    },
+    {
+      "tick": 12,
+      "cmd": {
+        "t": "age_up",
+        "team": 0
+      },
+      "expect": false,
+      "reason_contains": "objectif",
+      "label": "ressources seules : refus, objectif manquant affiché"
+    },
+    {
+      "tick": 20,
+      "cmd": {
+        "t": "lab_res",
+        "team": 0,
+        "res": {
+          "food": 0,
+          "wood": 0
+        }
+      }
+    },
+    {
+      "tick": 20,
+      "cmd": {
+        "t": "lab_spawn",
+        "team": 0,
+        "unit": "eclaireur",
+        "pos": [
+          8,
+          25
+        ]
+      }
+    },
+    {
+      "tick": 40,
+      "cmd": {
+        "t": "age_up",
+        "team": 0
+      },
+      "expect": false,
+      "reason_contains": "manque",
+      "label": "objectif seul : refus, ressources manquantes chiffrées"
+    },
+    {
+      "tick": 50,
+      "cmd": {
+        "t": "lab_res",
+        "team": 0,
+        "res": {
+          "food": 1000,
+          "wood": 1000
+        }
+      }
+    },
+    {
+      "tick": 52,
+      "cmd": {
+        "t": "age_up",
+        "team": 0
+      },
+      "expect": true,
+      "label": "ressources + objectif : passage lancé"
+    }
+  ],
+  "asserts": [
+    {
+      "tick": 30,
+      "check": "event",
+      "type": "comptoir",
+      "team": 0,
+      "label": "comptoir neutre découvert par l'éclaireur"
+    },
+    {
+      "tick": 200,
+      "check": "age",
+      "value": 1,
+      "label": "âge I pendant le passage"
+    },
+    {
+      "tick": 420,
+      "check": "age",
+      "value": 2,
+      "label": "âge II atteint après la durée de passage"
+    },
+    {
+      "tick": 420,
+      "check": "age",
+      "team": 1,
+      "value": 1,
+      "label": "l'adversaire reste indépendant (âge I)"
+    }
+  ],
+  "rules": {
+    "max_age": 3
+  }
+}

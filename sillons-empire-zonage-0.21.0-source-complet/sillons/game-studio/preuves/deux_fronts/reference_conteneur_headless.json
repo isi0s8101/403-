@@ -1,0 +1,5704 @@
+{
+  "appareil": "GenericDevice",
+  "bascules": [
+    {
+      "cpu_ms": 5.49,
+      "level": 40,
+      "t": 10.0,
+      "tick": [
+        100,
+        100
+      ],
+      "to_front": 1
+    },
+    {
+      "cpu_ms": 2.8,
+      "level": 40,
+      "t": 20.0,
+      "tick": [
+        200,
+        200
+      ],
+      "to_front": 0
+    },
+    {
+      "cpu_ms": 5.11,
+      "level": 40,
+      "t": 30.0,
+      "tick": [
+        300,
+        300
+      ],
+      "to_front": 1
+    },
+    {
+      "cpu_ms": 10.43,
+      "level": 100,
+      "t": 10.0,
+      "tick": [
+        100,
+        100
+      ],
+      "to_front": 1
+    },
+    {
+      "cpu_ms": 8.06,
+      "level": 100,
+      "t": 20.0,
+      "tick": [
+        200,
+        200
+      ],
+      "to_front": 0
+    },
+    {
+      "cpu_ms": 18.73,
+      "level": 100,
+      "t": 30.0,
+      "tick": [
+        300,
+        300
+      ],
+      "to_front": 1
+    },
+    {
+      "cpu_ms": 24.66,
+      "level": 200,
+      "t": 10.0,
+      "tick": [
+        100,
+        100
+      ],
+      "to_front": 1
+    },
+    {
+      "cpu_ms": 10.37,
+      "level": 200,
+      "t": 20.0,
+      "tick": [
+        200,
+        200
+      ],
+      "to_front": 0
+    },
+    {
+      "cpu_ms": 28.59,
+      "level": 200,
+      "t": 30.0,
+      "tick": [
+        300,
+        300
+      ],
+      "to_front": 1
+    },
+    {
+      "cpu_ms": 35.59,
+      "level": 400,
+      "t": 10.01,
+      "tick": [
+        100,
+        100
+      ],
+      "to_front": 1
+    },
+    {
+      "cpu_ms": 28.58,
+      "level": 400,
+      "t": 20.01,
+      "tick": [
+        200,
+        200
+      ],
+      "to_front": 0
+    },
+    {
+      "cpu_ms": 64.18,
+      "level": 400,
+      "t": 30.01,
+      "tick": [
+        300,
+        300
+      ],
+      "to_front": 1
+    }
+  ],
+  "capteur_thermique": "illisible",
+  "coeurs": 4,
+  "date": "2026-11-09T17-36-55",
+  "echantillons": [
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 0,
+      "image_ms_max": 276.5,
+      "ips": 96,
+      "level": 40,
+      "memoire_mo": 35.3,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        false,
+        false
+      ],
+      "sim_ms_max": [
+        26.64,
+        6.03
+      ],
+      "sim_ms_moy": [
+        5.27,
+        2.33
+      ],
+      "t": 1.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        39,
+        40
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 0,
+      "image_ms_max": 9.7,
+      "ips": 144,
+      "level": 40,
+      "memoire_mo": 35.6,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        false,
+        false
+      ],
+      "sim_ms_max": [
+        6.35,
+        3.43
+      ],
+      "sim_ms_moy": [
+        2.16,
+        1.75
+      ],
+      "t": 2.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        38,
+        40
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 0,
+      "image_ms_max": 7.4,
+      "ips": 145,
+      "level": 40,
+      "memoire_mo": 35.5,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        false,
+        false
+      ],
+      "sim_ms_max": [
+        5.52,
+        3.19
+      ],
+      "sim_ms_moy": [
+        2.03,
+        1.49
+      ],
+      "t": 3.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        38,
+        40
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 0,
+      "image_ms_max": 7.4,
+      "ips": 145,
+      "level": 40,
+      "memoire_mo": 35.5,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        false,
+        false
+      ],
+      "sim_ms_max": [
+        5.37,
+        3.14
+      ],
+      "sim_ms_moy": [
+        2.27,
+        1.68
+      ],
+      "t": 4.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        38,
+        40
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 0,
+      "image_ms_max": 8.6,
+      "ips": 144,
+      "level": 40,
+      "memoire_mo": 35.5,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        false,
+        false
+      ],
+      "sim_ms_max": [
+        21.73,
+        3.9
+      ],
+      "sim_ms_moy": [
+        3.86,
+        1.59
+      ],
+      "t": 5.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        38,
+        40
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 0,
+      "image_ms_max": 7.4,
+      "ips": 144,
+      "level": 40,
+      "memoire_mo": 35.5,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        false,
+        false
+      ],
+      "sim_ms_max": [
+        8.43,
+        4.76
+      ],
+      "sim_ms_moy": [
+        2.67,
+        1.78
+      ],
+      "t": 6.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        38,
+        40
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 0,
+      "image_ms_max": 7.4,
+      "ips": 145,
+      "level": 40,
+      "memoire_mo": 35.5,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        false,
+        false
+      ],
+      "sim_ms_max": [
+        6.16,
+        3.47
+      ],
+      "sim_ms_moy": [
+        2.18,
+        1.4
+      ],
+      "t": 7.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        38,
+        38
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 0,
+      "image_ms_max": 7.4,
+      "ips": 145,
+      "level": 40,
+      "memoire_mo": 35.5,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        false,
+        false
+      ],
+      "sim_ms_max": [
+        6.48,
+        3.06
+      ],
+      "sim_ms_moy": [
+        2.68,
+        1.35
+      ],
+      "t": 8.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        38,
+        38
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 0,
+      "image_ms_max": 10.2,
+      "ips": 144,
+      "level": 40,
+      "memoire_mo": 35.5,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        false,
+        false
+      ],
+      "sim_ms_max": [
+        25.0,
+        4.41
+      ],
+      "sim_ms_moy": [
+        4.35,
+        1.53
+      ],
+      "t": 9.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        38,
+        37
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 0,
+      "image_ms_max": 7.4,
+      "ips": 144,
+      "level": 40,
+      "memoire_mo": 35.5,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        false,
+        false
+      ],
+      "sim_ms_max": [
+        6.88,
+        4.5
+      ],
+      "sim_ms_moy": [
+        2.53,
+        1.59
+      ],
+      "t": 10.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        38,
+        36
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": true,
+      "front_affiche": 1,
+      "image_ms_max": 6.9,
+      "ips": 145,
+      "level": 40,
+      "memoire_mo": 37.5,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        false,
+        false
+      ],
+      "sim_ms_max": [
+        6.93,
+        3.91
+      ],
+      "sim_ms_moy": [
+        2.4,
+        1.3
+      ],
+      "t": 11.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        38,
+        33
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 1,
+      "image_ms_max": 6.9,
+      "ips": 145,
+      "level": 40,
+      "memoire_mo": 37.2,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        false,
+        false
+      ],
+      "sim_ms_max": [
+        7.44,
+        2.89
+      ],
+      "sim_ms_moy": [
+        2.34,
+        1.07
+      ],
+      "t": 12.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        38,
+        32
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 1,
+      "image_ms_max": 10.9,
+      "ips": 144,
+      "level": 40,
+      "memoire_mo": 37.0,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        false,
+        false
+      ],
+      "sim_ms_max": [
+        29.06,
+        3.98
+      ],
+      "sim_ms_moy": [
+        4.81,
+        1.26
+      ],
+      "t": 13.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        38,
+        32
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 1,
+      "image_ms_max": 9.7,
+      "ips": 143,
+      "level": 40,
+      "memoire_mo": 37.2,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        false,
+        false
+      ],
+      "sim_ms_max": [
+        7.89,
+        2.74
+      ],
+      "sim_ms_moy": [
+        2.42,
+        1.08
+      ],
+      "t": 14.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        38,
+        31
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 1,
+      "image_ms_max": 6.9,
+      "ips": 145,
+      "level": 40,
+      "memoire_mo": 37.1,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        false,
+        false
+      ],
+      "sim_ms_max": [
+        11.56,
+        2.47
+      ],
+      "sim_ms_moy": [
+        2.9,
+        1.15
+      ],
+      "t": 15.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        38,
+        29
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 1,
+      "image_ms_max": 9.4,
+      "ips": 145,
+      "level": 40,
+      "memoire_mo": 37.1,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        false,
+        false
+      ],
+      "sim_ms_max": [
+        8.43,
+        3.77
+      ],
+      "sim_ms_moy": [
+        2.89,
+        1.31
+      ],
+      "t": 16.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        38,
+        28
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 1,
+      "image_ms_max": 10.9,
+      "ips": 143,
+      "level": 40,
+      "memoire_mo": 37.1,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        false,
+        false
+      ],
+      "sim_ms_max": [
+        27.26,
+        3.3
+      ],
+      "sim_ms_moy": [
+        4.68,
+        1.19
+      ],
+      "t": 17.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        38,
+        27
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 1,
+      "image_ms_max": 7.4,
+      "ips": 145,
+      "level": 40,
+      "memoire_mo": 37.0,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        false,
+        false
+      ],
+      "sim_ms_max": [
+        7.46,
+        2.56
+      ],
+      "sim_ms_moy": [
+        2.32,
+        0.99
+      ],
+      "t": 18.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        38,
+        27
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 1,
+      "image_ms_max": 6.9,
+      "ips": 145,
+      "level": 40,
+      "memoire_mo": 37.0,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        false,
+        false
+      ],
+      "sim_ms_max": [
+        7.39,
+        3.75
+      ],
+      "sim_ms_moy": [
+        2.63,
+        1.21
+      ],
+      "t": 19.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        38,
+        27
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 1,
+      "image_ms_max": 9.4,
+      "ips": 145,
+      "level": 40,
+      "memoire_mo": 36.9,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        false,
+        false
+      ],
+      "sim_ms_max": [
+        10.87,
+        3.88
+      ],
+      "sim_ms_moy": [
+        3.01,
+        1.27
+      ],
+      "t": 20.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        38,
+        27
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": true,
+      "front_affiche": 0,
+      "image_ms_max": 10.9,
+      "ips": 143,
+      "level": 40,
+      "memoire_mo": 37.1,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        false,
+        false
+      ],
+      "sim_ms_max": [
+        25.62,
+        3.68
+      ],
+      "sim_ms_moy": [
+        4.51,
+        1.3
+      ],
+      "t": 21.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        38,
+        27
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 0,
+      "image_ms_max": 7.4,
+      "ips": 145,
+      "level": 40,
+      "memoire_mo": 37.1,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        false,
+        false
+      ],
+      "sim_ms_max": [
+        7.55,
+        2.55
+      ],
+      "sim_ms_moy": [
+        2.46,
+        1.34
+      ],
+      "t": 22.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        38,
+        27
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 0,
+      "image_ms_max": 6.9,
+      "ips": 145,
+      "level": 40,
+      "memoire_mo": 37.1,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        false,
+        false
+      ],
+      "sim_ms_max": [
+        7.1,
+        2.79
+      ],
+      "sim_ms_moy": [
+        2.28,
+        1.09
+      ],
+      "t": 23.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        38,
+        26
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 0,
+      "image_ms_max": 6.9,
+      "ips": 145,
+      "level": 40,
+      "memoire_mo": 37.2,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        false,
+        false
+      ],
+      "sim_ms_max": [
+        7.68,
+        2.54
+      ],
+      "sim_ms_moy": [
+        2.42,
+        1.05
+      ],
+      "t": 24.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        38,
+        25
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 0,
+      "image_ms_max": 8.5,
+      "ips": 145,
+      "level": 40,
+      "memoire_mo": 37.4,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        false,
+        false
+      ],
+      "sim_ms_max": [
+        13.05,
+        2.98
+      ],
+      "sim_ms_moy": [
+        2.86,
+        1.06
+      ],
+      "t": 25.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        38,
+        25
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 0,
+      "image_ms_max": 8.1,
+      "ips": 144,
+      "level": 40,
+      "memoire_mo": 37.4,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        false,
+        false
+      ],
+      "sim_ms_max": [
+        6.75,
+        4.14
+      ],
+      "sim_ms_moy": [
+        2.42,
+        1.21
+      ],
+      "t": 26.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        38,
+        25
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 0,
+      "image_ms_max": 6.9,
+      "ips": 145,
+      "level": 40,
+      "memoire_mo": 37.5,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        false,
+        false
+      ],
+      "sim_ms_max": [
+        6.36,
+        2.53
+      ],
+      "sim_ms_moy": [
+        2.28,
+        1.05
+      ],
+      "t": 27.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        38,
+        24
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 0,
+      "image_ms_max": 6.9,
+      "ips": 145,
+      "level": 40,
+      "memoire_mo": 37.5,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        false,
+        false
+      ],
+      "sim_ms_max": [
+        6.22,
+        3.34
+      ],
+      "sim_ms_moy": [
+        2.19,
+        1.19
+      ],
+      "t": 28.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        38,
+        24
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 0,
+      "image_ms_max": 6.9,
+      "ips": 145,
+      "level": 40,
+      "memoire_mo": 37.5,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        false,
+        false
+      ],
+      "sim_ms_max": [
+        9.96,
+        2.49
+      ],
+      "sim_ms_moy": [
+        2.6,
+        1.04
+      ],
+      "t": 29.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        38,
+        24
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 0,
+      "image_ms_max": 6.9,
+      "ips": 145,
+      "level": 40,
+      "memoire_mo": 37.5,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        false,
+        false
+      ],
+      "sim_ms_max": [
+        6.46,
+        2.36
+      ],
+      "sim_ms_moy": [
+        2.58,
+        1.03
+      ],
+      "t": 30.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        38,
+        24
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": true,
+      "front_affiche": 1,
+      "image_ms_max": 6.9,
+      "ips": 145,
+      "level": 40,
+      "memoire_mo": 37.1,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        false,
+        false
+      ],
+      "sim_ms_max": [
+        5.5,
+        3.74
+      ],
+      "sim_ms_moy": [
+        2.39,
+        1.15
+      ],
+      "t": 31.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        38,
+        24
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 1,
+      "image_ms_max": 6.9,
+      "ips": 145,
+      "level": 40,
+      "memoire_mo": 37.1,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        false,
+        false
+      ],
+      "sim_ms_max": [
+        5.77,
+        2.74
+      ],
+      "sim_ms_moy": [
+        2.35,
+        1.2
+      ],
+      "t": 32.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        38,
+        24
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 1,
+      "image_ms_max": 6.9,
+      "ips": 145,
+      "level": 40,
+      "memoire_mo": 37.1,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        false,
+        false
+      ],
+      "sim_ms_max": [
+        7.88,
+        3.08
+      ],
+      "sim_ms_moy": [
+        2.53,
+        1.11
+      ],
+      "t": 33.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        38,
+        25
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 1,
+      "image_ms_max": 8.8,
+      "ips": 144,
+      "level": 40,
+      "memoire_mo": 37.2,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        false,
+        false
+      ],
+      "sim_ms_max": [
+        8.82,
+        4.08
+      ],
+      "sim_ms_moy": [
+        3.03,
+        1.5
+      ],
+      "t": 34.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        38,
+        25
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 1,
+      "image_ms_max": 6.9,
+      "ips": 145,
+      "level": 40,
+      "memoire_mo": 37.2,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        false,
+        false
+      ],
+      "sim_ms_max": [
+        8.87,
+        3.66
+      ],
+      "sim_ms_moy": [
+        3.58,
+        1.54
+      ],
+      "t": 35.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        37,
+        27
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 1,
+      "image_ms_max": 6.9,
+      "ips": 145,
+      "level": 40,
+      "memoire_mo": 37.2,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        false,
+        false
+      ],
+      "sim_ms_max": [
+        8.69,
+        6.01
+      ],
+      "sim_ms_moy": [
+        3.13,
+        1.79
+      ],
+      "t": 36.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        37,
+        27
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 1,
+      "image_ms_max": 9.1,
+      "ips": 145,
+      "level": 40,
+      "memoire_mo": 37.2,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        false,
+        false
+      ],
+      "sim_ms_max": [
+        6.91,
+        3.8
+      ],
+      "sim_ms_moy": [
+        2.59,
+        1.29
+      ],
+      "t": 37.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        37,
+        27
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 1,
+      "image_ms_max": 6.9,
+      "ips": 145,
+      "level": 40,
+      "memoire_mo": 37.3,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        false,
+        false
+      ],
+      "sim_ms_max": [
+        6.25,
+        2.72
+      ],
+      "sim_ms_moy": [
+        2.64,
+        1.37
+      ],
+      "t": 38.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        37,
+        28
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 1,
+      "image_ms_max": 6.9,
+      "ips": 145,
+      "level": 40,
+      "memoire_mo": 37.3,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        false,
+        false
+      ],
+      "sim_ms_max": [
+        5.4,
+        4.25
+      ],
+      "sim_ms_moy": [
+        2.35,
+        1.33
+      ],
+      "t": 39.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        37,
+        28
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 1,
+      "image_ms_max": 6.9,
+      "ips": 145,
+      "level": 40,
+      "memoire_mo": 37.3,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        false,
+        false
+      ],
+      "sim_ms_max": [
+        6.3,
+        4.32
+      ],
+      "sim_ms_moy": [
+        2.56,
+        1.64
+      ],
+      "t": 40.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        36,
+        28
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 0,
+      "image_ms_max": 139.0,
+      "ips": 111,
+      "level": 100,
+      "memoire_mo": 37.6,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        41.17,
+        12.2
+      ],
+      "sim_ms_moy": [
+        12.27,
+        6.53
+      ],
+      "t": 1.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        101,
+        102
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 0,
+      "image_ms_max": 14.8,
+      "ips": 142,
+      "level": 100,
+      "memoire_mo": 37.8,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        10.29,
+        7.29
+      ],
+      "sim_ms_moy": [
+        5.12,
+        4.21
+      ],
+      "t": 2.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        100,
+        102
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 0,
+      "image_ms_max": 7.4,
+      "ips": 142,
+      "level": 100,
+      "memoire_mo": 37.7,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        12.77,
+        9.96
+      ],
+      "sim_ms_moy": [
+        5.98,
+        5.39
+      ],
+      "t": 3.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        100,
+        102
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 0,
+      "image_ms_max": 10.9,
+      "ips": 141,
+      "level": 100,
+      "memoire_mo": 37.7,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        21.26,
+        10.53
+      ],
+      "sim_ms_moy": [
+        7.97,
+        5.0
+      ],
+      "t": 4.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        100,
+        102
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 0,
+      "image_ms_max": 30.7,
+      "ips": 139,
+      "level": 100,
+      "memoire_mo": 37.8,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        35.14,
+        11.74
+      ],
+      "sim_ms_moy": [
+        11.67,
+        5.04
+      ],
+      "t": 5.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        100,
+        102
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 0,
+      "image_ms_max": 33.2,
+      "ips": 135,
+      "level": 100,
+      "memoire_mo": 37.7,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        24.21,
+        11.24
+      ],
+      "sim_ms_moy": [
+        7.84,
+        5.55
+      ],
+      "t": 6.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        100,
+        100
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 0,
+      "image_ms_max": 8.9,
+      "ips": 143,
+      "level": 100,
+      "memoire_mo": 37.7,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        17.47,
+        7.0
+      ],
+      "sim_ms_moy": [
+        5.59,
+        3.48
+      ],
+      "t": 7.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        100,
+        96
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 0,
+      "image_ms_max": 9.2,
+      "ips": 142,
+      "level": 100,
+      "memoire_mo": 37.7,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        19.81,
+        6.86
+      ],
+      "sim_ms_moy": [
+        7.84,
+        3.67
+      ],
+      "t": 8.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        100,
+        94
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 0,
+      "image_ms_max": 29.0,
+      "ips": 141,
+      "level": 100,
+      "memoire_mo": 37.7,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        33.11,
+        7.06
+      ],
+      "sim_ms_moy": [
+        10.93,
+        3.19
+      ],
+      "t": 9.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        100,
+        88
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 0,
+      "image_ms_max": 28.1,
+      "ips": 135,
+      "level": 100,
+      "memoire_mo": 37.9,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        34.88,
+        5.91
+      ],
+      "sim_ms_moy": [
+        7.4,
+        2.79
+      ],
+      "t": 10.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        100,
+        86
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": true,
+      "front_affiche": 1,
+      "image_ms_max": 10.9,
+      "ips": 143,
+      "level": 100,
+      "memoire_mo": 41.6,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        29.15,
+        7.09
+      ],
+      "sim_ms_moy": [
+        7.4,
+        2.73
+      ],
+      "t": 11.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        100,
+        84
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 1,
+      "image_ms_max": 17.8,
+      "ips": 142,
+      "level": 100,
+      "memoire_mo": 41.8,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        27.36,
+        5.68
+      ],
+      "sim_ms_moy": [
+        7.11,
+        2.57
+      ],
+      "t": 12.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        100,
+        78
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 1,
+      "image_ms_max": 38.5,
+      "ips": 131,
+      "level": 100,
+      "memoire_mo": 41.5,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        51.55,
+        5.63
+      ],
+      "sim_ms_moy": [
+        15.34,
+        2.9
+      ],
+      "t": 13.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        100,
+        77
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 1,
+      "image_ms_max": 16.7,
+      "ips": 137,
+      "level": 100,
+      "memoire_mo": 41.6,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        40.65,
+        5.44
+      ],
+      "sim_ms_moy": [
+        10.33,
+        2.78
+      ],
+      "t": 14.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        100,
+        73
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 1,
+      "image_ms_max": 32.6,
+      "ips": 143,
+      "level": 100,
+      "memoire_mo": 41.4,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        29.19,
+        4.72
+      ],
+      "sim_ms_moy": [
+        7.28,
+        2.32
+      ],
+      "t": 15.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        100,
+        69
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 1,
+      "image_ms_max": 8.1,
+      "ips": 142,
+      "level": 100,
+      "memoire_mo": 41.4,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        13.01,
+        6.59
+      ],
+      "sim_ms_moy": [
+        6.58,
+        2.69
+      ],
+      "t": 16.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        100,
+        66
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 1,
+      "image_ms_max": 8.8,
+      "ips": 143,
+      "level": 100,
+      "memoire_mo": 41.0,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        15.69,
+        5.37
+      ],
+      "sim_ms_moy": [
+        7.62,
+        2.11
+      ],
+      "t": 17.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        100,
+        64
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 1,
+      "image_ms_max": 10.9,
+      "ips": 142,
+      "level": 100,
+      "memoire_mo": 41.3,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        14.36,
+        7.47
+      ],
+      "sim_ms_moy": [
+        6.73,
+        2.85
+      ],
+      "t": 18.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        100,
+        60
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 1,
+      "image_ms_max": 7.9,
+      "ips": 143,
+      "level": 100,
+      "memoire_mo": 40.9,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        14.14,
+        6.85
+      ],
+      "sim_ms_moy": [
+        6.08,
+        2.25
+      ],
+      "t": 19.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        100,
+        58
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 1,
+      "image_ms_max": 7.4,
+      "ips": 144,
+      "level": 100,
+      "memoire_mo": 40.6,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        12.41,
+        6.44
+      ],
+      "sim_ms_moy": [
+        6.09,
+        2.26
+      ],
+      "t": 20.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        100,
+        57
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": true,
+      "front_affiche": 0,
+      "image_ms_max": 9.1,
+      "ips": 142,
+      "level": 100,
+      "memoire_mo": 40.6,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        13.08,
+        11.06
+      ],
+      "sim_ms_moy": [
+        6.37,
+        2.75
+      ],
+      "t": 21.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        100,
+        53
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 0,
+      "image_ms_max": 7.9,
+      "ips": 144,
+      "level": 100,
+      "memoire_mo": 40.6,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        16.69,
+        3.84
+      ],
+      "sim_ms_moy": [
+        5.21,
+        1.91
+      ],
+      "t": 22.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        100,
+        51
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 0,
+      "image_ms_max": 7.4,
+      "ips": 143,
+      "level": 100,
+      "memoire_mo": 40.8,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        16.77,
+        5.61
+      ],
+      "sim_ms_moy": [
+        6.12,
+        2.21
+      ],
+      "t": 23.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        100,
+        48
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 0,
+      "image_ms_max": 9.5,
+      "ips": 143,
+      "level": 100,
+      "memoire_mo": 40.7,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        15.75,
+        6.59
+      ],
+      "sim_ms_moy": [
+        7.2,
+        2.54
+      ],
+      "t": 24.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        100,
+        45
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 0,
+      "image_ms_max": 8.0,
+      "ips": 144,
+      "level": 100,
+      "memoire_mo": 41.0,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        11.95,
+        3.52
+      ],
+      "sim_ms_moy": [
+        5.01,
+        1.44
+      ],
+      "t": 25.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        99,
+        44
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 0,
+      "image_ms_max": 7.6,
+      "ips": 145,
+      "level": 100,
+      "memoire_mo": 41.0,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        11.97,
+        4.67
+      ],
+      "sim_ms_moy": [
+        5.51,
+        1.63
+      ],
+      "t": 26.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        99,
+        42
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 0,
+      "image_ms_max": 9.7,
+      "ips": 143,
+      "level": 100,
+      "memoire_mo": 41.3,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        14.9,
+        4.71
+      ],
+      "sim_ms_moy": [
+        5.98,
+        1.65
+      ],
+      "t": 27.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        99,
+        40
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 0,
+      "image_ms_max": 9.7,
+      "ips": 144,
+      "level": 100,
+      "memoire_mo": 42.3,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        11.37,
+        5.19
+      ],
+      "sim_ms_moy": [
+        5.0,
+        1.66
+      ],
+      "t": 28.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        98,
+        39
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 0,
+      "image_ms_max": 8.8,
+      "ips": 143,
+      "level": 100,
+      "memoire_mo": 42.6,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        15.47,
+        3.38
+      ],
+      "sim_ms_moy": [
+        4.83,
+        1.48
+      ],
+      "t": 29.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        96,
+        35
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 0,
+      "image_ms_max": 6.9,
+      "ips": 145,
+      "level": 100,
+      "memoire_mo": 42.7,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        9.94,
+        3.32
+      ],
+      "sim_ms_moy": [
+        4.44,
+        1.32
+      ],
+      "t": 30.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        92,
+        35
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": true,
+      "front_affiche": 1,
+      "image_ms_max": 8.3,
+      "ips": 144,
+      "level": 100,
+      "memoire_mo": 42.3,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        15.02,
+        3.96
+      ],
+      "sim_ms_moy": [
+        5.04,
+        1.38
+      ],
+      "t": 31.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        90,
+        32
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 1,
+      "image_ms_max": 7.7,
+      "ips": 144,
+      "level": 100,
+      "memoire_mo": 42.0,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        11.31,
+        10.7
+      ],
+      "sim_ms_moy": [
+        5.56,
+        2.19
+      ],
+      "t": 32.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        86,
+        31
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 1,
+      "image_ms_max": 7.4,
+      "ips": 144,
+      "level": 100,
+      "memoire_mo": 41.8,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        14.85,
+        2.52
+      ],
+      "sim_ms_moy": [
+        5.28,
+        1.24
+      ],
+      "t": 33.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        82,
+        30
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 1,
+      "image_ms_max": 7.4,
+      "ips": 145,
+      "level": 100,
+      "memoire_mo": 41.8,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        9.92,
+        4.8
+      ],
+      "sim_ms_moy": [
+        4.35,
+        1.31
+      ],
+      "t": 34.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        80,
+        29
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 1,
+      "image_ms_max": 9.1,
+      "ips": 145,
+      "level": 100,
+      "memoire_mo": 42.0,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        8.47,
+        4.01
+      ],
+      "sim_ms_moy": [
+        4.39,
+        1.18
+      ],
+      "t": 35.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        75,
+        28
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 1,
+      "image_ms_max": 8.8,
+      "ips": 144,
+      "level": 100,
+      "memoire_mo": 41.9,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        10.55,
+        3.82
+      ],
+      "sim_ms_moy": [
+        3.85,
+        1.18
+      ],
+      "t": 36.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        72,
+        27
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 1,
+      "image_ms_max": 6.9,
+      "ips": 145,
+      "level": 100,
+      "memoire_mo": 41.8,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        7.33,
+        3.13
+      ],
+      "sim_ms_moy": [
+        3.22,
+        0.98
+      ],
+      "t": 37.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        68,
+        26
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 1,
+      "image_ms_max": 8.5,
+      "ips": 145,
+      "level": 100,
+      "memoire_mo": 42.0,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        10.4,
+        4.32
+      ],
+      "sim_ms_moy": [
+        4.36,
+        1.36
+      ],
+      "t": 38.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        64,
+        24
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 1,
+      "image_ms_max": 6.9,
+      "ips": 145,
+      "level": 100,
+      "memoire_mo": 41.8,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        6.55,
+        2.15
+      ],
+      "sim_ms_moy": [
+        3.02,
+        0.9
+      ],
+      "t": 39.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        62,
+        23
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 1,
+      "image_ms_max": 6.9,
+      "ips": 145,
+      "level": 100,
+      "memoire_mo": 41.7,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        6.66,
+        2.25
+      ],
+      "sim_ms_moy": [
+        2.95,
+        0.92
+      ],
+      "t": 40.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        59,
+        23
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 0,
+      "image_ms_max": 168.4,
+      "ips": 91,
+      "level": 200,
+      "memoire_mo": 41.5,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        52.47,
+        23.78
+      ],
+      "sim_ms_moy": [
+        19.38,
+        12.56
+      ],
+      "t": 1.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        200,
+        200
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 0,
+      "image_ms_max": 36.6,
+      "ips": 121,
+      "level": 200,
+      "memoire_mo": 41.7,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        50.22,
+        17.84
+      ],
+      "sim_ms_moy": [
+        16.92,
+        10.42
+      ],
+      "t": 2.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        199,
+        200
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 0,
+      "image_ms_max": 56.0,
+      "ips": 125,
+      "level": 200,
+      "memoire_mo": 41.5,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        25.34,
+        25.99
+      ],
+      "sim_ms_moy": [
+        11.93,
+        12.44
+      ],
+      "t": 3.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        199,
+        200
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 0,
+      "image_ms_max": 58.1,
+      "ips": 122,
+      "level": 200,
+      "memoire_mo": 41.7,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        48.95,
+        18.11
+      ],
+      "sim_ms_moy": [
+        18.18,
+        10.71
+      ],
+      "t": 4.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        199,
+        200
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 0,
+      "image_ms_max": 33.3,
+      "ips": 103,
+      "level": 200,
+      "memoire_mo": 41.8,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        47.07,
+        16.45
+      ],
+      "sim_ms_moy": [
+        30.53,
+        10.75
+      ],
+      "t": 5.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        199,
+        199
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 0,
+      "image_ms_max": 59.6,
+      "ips": 103,
+      "level": 200,
+      "memoire_mo": 41.6,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        44.29,
+        17.3
+      ],
+      "sim_ms_moy": [
+        28.52,
+        11.08
+      ],
+      "t": 6.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        199,
+        196
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 0,
+      "image_ms_max": 35.3,
+      "ips": 121,
+      "level": 200,
+      "memoire_mo": 41.6,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        35.19,
+        20.86
+      ],
+      "sim_ms_moy": [
+        17.66,
+        10.37
+      ],
+      "t": 7.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        199,
+        191
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 0,
+      "image_ms_max": 35.5,
+      "ips": 130,
+      "level": 200,
+      "memoire_mo": 41.9,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        36.88,
+        14.06
+      ],
+      "sim_ms_moy": [
+        13.56,
+        8.77
+      ],
+      "t": 8.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        199,
+        186
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 0,
+      "image_ms_max": 30.4,
+      "ips": 131,
+      "level": 200,
+      "memoire_mo": 41.9,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        38.47,
+        13.86
+      ],
+      "sim_ms_moy": [
+        13.67,
+        8.05
+      ],
+      "t": 9.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        199,
+        179
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 0,
+      "image_ms_max": 92.0,
+      "ips": 104,
+      "level": 200,
+      "memoire_mo": 41.8,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        71.7,
+        19.75
+      ],
+      "sim_ms_moy": [
+        29.51,
+        9.08
+      ],
+      "t": 10.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        199,
+        173
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": true,
+      "front_affiche": 1,
+      "image_ms_max": 32.5,
+      "ips": 129,
+      "level": 200,
+      "memoire_mo": 49.3,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        36.52,
+        13.73
+      ],
+      "sim_ms_moy": [
+        14.77,
+        6.75
+      ],
+      "t": 11.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        199,
+        168
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 1,
+      "image_ms_max": 39.0,
+      "ips": 130,
+      "level": 200,
+      "memoire_mo": 49.5,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        41.22,
+        12.43
+      ],
+      "sim_ms_moy": [
+        14.77,
+        6.38
+      ],
+      "t": 12.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        199,
+        159
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 1,
+      "image_ms_max": 33.8,
+      "ips": 124,
+      "level": 200,
+      "memoire_mo": 49.1,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        36.95,
+        12.63
+      ],
+      "sim_ms_moy": [
+        18.62,
+        6.21
+      ],
+      "t": 13.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        199,
+        152
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 1,
+      "image_ms_max": 16.0,
+      "ips": 130,
+      "level": 200,
+      "memoire_mo": 48.5,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        27.09,
+        15.88
+      ],
+      "sim_ms_moy": [
+        14.03,
+        6.61
+      ],
+      "t": 14.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        199,
+        145
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 1,
+      "image_ms_max": 8.5,
+      "ips": 138,
+      "level": 200,
+      "memoire_mo": 48.1,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        18.36,
+        9.59
+      ],
+      "sim_ms_moy": [
+        11.23,
+        5.05
+      ],
+      "t": 15.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        199,
+        141
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 1,
+      "image_ms_max": 10.9,
+      "ips": 138,
+      "level": 200,
+      "memoire_mo": 48.6,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        20.18,
+        10.92
+      ],
+      "sim_ms_moy": [
+        11.45,
+        5.19
+      ],
+      "t": 16.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        199,
+        130
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 1,
+      "image_ms_max": 24.7,
+      "ips": 134,
+      "level": 200,
+      "memoire_mo": 47.5,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        22.71,
+        16.64
+      ],
+      "sim_ms_moy": [
+        11.76,
+        5.35
+      ],
+      "t": 17.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        199,
+        127
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 1,
+      "image_ms_max": 17.8,
+      "ips": 138,
+      "level": 200,
+      "memoire_mo": 47.9,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        32.87,
+        9.71
+      ],
+      "sim_ms_moy": [
+        12.11,
+        4.91
+      ],
+      "t": 18.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        199,
+        119
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 1,
+      "image_ms_max": 10.1,
+      "ips": 137,
+      "level": 200,
+      "memoire_mo": 47.3,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        19.67,
+        8.73
+      ],
+      "sim_ms_moy": [
+        10.62,
+        4.37
+      ],
+      "t": 19.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        199,
+        114
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 1,
+      "image_ms_max": 17.8,
+      "ips": 135,
+      "level": 200,
+      "memoire_mo": 47.1,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        27.26,
+        12.4
+      ],
+      "sim_ms_moy": [
+        13.28,
+        4.34
+      ],
+      "t": 20.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        199,
+        110
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": true,
+      "front_affiche": 0,
+      "image_ms_max": 54.7,
+      "ips": 133,
+      "level": 200,
+      "memoire_mo": 48.8,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        29.89,
+        15.01
+      ],
+      "sim_ms_moy": [
+        13.4,
+        4.76
+      ],
+      "t": 21.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        199,
+        101
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 0,
+      "image_ms_max": 13.0,
+      "ips": 137,
+      "level": 200,
+      "memoire_mo": 49.9,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        22.59,
+        10.33
+      ],
+      "sim_ms_moy": [
+        10.63,
+        3.89
+      ],
+      "t": 22.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        199,
+        98
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 0,
+      "image_ms_max": 8.3,
+      "ips": 141,
+      "level": 200,
+      "memoire_mo": 50.5,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        15.98,
+        7.85
+      ],
+      "sim_ms_moy": [
+        9.09,
+        3.41
+      ],
+      "t": 23.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        198,
+        94
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 0,
+      "image_ms_max": 10.9,
+      "ips": 138,
+      "level": 200,
+      "memoire_mo": 51.0,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        23.71,
+        7.31
+      ],
+      "sim_ms_moy": [
+        10.39,
+        3.13
+      ],
+      "t": 24.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        193,
+        90
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 0,
+      "image_ms_max": 7.4,
+      "ips": 140,
+      "level": 200,
+      "memoire_mo": 51.0,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        18.64,
+        6.31
+      ],
+      "sim_ms_moy": [
+        9.67,
+        3.07
+      ],
+      "t": 25.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        190,
+        84
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 0,
+      "image_ms_max": 8.9,
+      "ips": 140,
+      "level": 200,
+      "memoire_mo": 51.2,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        17.15,
+        7.02
+      ],
+      "sim_ms_moy": [
+        10.81,
+        3.07
+      ],
+      "t": 26.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        184,
+        79
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 0,
+      "image_ms_max": 9.7,
+      "ips": 138,
+      "level": 200,
+      "memoire_mo": 50.3,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        17.8,
+        14.42
+      ],
+      "sim_ms_moy": [
+        9.96,
+        3.59
+      ],
+      "t": 27.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        180,
+        76
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 0,
+      "image_ms_max": 8.0,
+      "ips": 142,
+      "level": 200,
+      "memoire_mo": 50.7,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        19.89,
+        5.26
+      ],
+      "sim_ms_moy": [
+        9.48,
+        2.42
+      ],
+      "t": 28.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        173,
+        72
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 0,
+      "image_ms_max": 7.8,
+      "ips": 141,
+      "level": 200,
+      "memoire_mo": 50.0,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        16.49,
+        5.11
+      ],
+      "sim_ms_moy": [
+        8.35,
+        2.37
+      ],
+      "t": 29.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        170,
+        67
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 0,
+      "image_ms_max": 7.9,
+      "ips": 142,
+      "level": 200,
+      "memoire_mo": 50.8,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        15.09,
+        6.94
+      ],
+      "sim_ms_moy": [
+        8.59,
+        2.44
+      ],
+      "t": 30.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        164,
+        66
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": true,
+      "front_affiche": 1,
+      "image_ms_max": 15.6,
+      "ips": 138,
+      "level": 200,
+      "memoire_mo": 48.9,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        16.7,
+        6.26
+      ],
+      "sim_ms_moy": [
+        10.28,
+        2.75
+      ],
+      "t": 31.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        159,
+        61
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 1,
+      "image_ms_max": 9.7,
+      "ips": 141,
+      "level": 200,
+      "memoire_mo": 48.6,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        21.76,
+        7.29
+      ],
+      "sim_ms_moy": [
+        9.05,
+        2.26
+      ],
+      "t": 32.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        155,
+        58
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 1,
+      "image_ms_max": 9.1,
+      "ips": 143,
+      "level": 200,
+      "memoire_mo": 48.8,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        14.01,
+        4.42
+      ],
+      "sim_ms_moy": [
+        8.63,
+        2.02
+      ],
+      "t": 33.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        147,
+        53
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 1,
+      "image_ms_max": 10.9,
+      "ips": 140,
+      "level": 200,
+      "memoire_mo": 48.4,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        23.76,
+        6.73
+      ],
+      "sim_ms_moy": [
+        10.27,
+        2.28
+      ],
+      "t": 34.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        143,
+        53
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 1,
+      "image_ms_max": 9.8,
+      "ips": 145,
+      "level": 200,
+      "memoire_mo": 48.9,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        11.84,
+        3.84
+      ],
+      "sim_ms_moy": [
+        7.31,
+        1.87
+      ],
+      "t": 35.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        137,
+        49
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 1,
+      "image_ms_max": 9.4,
+      "ips": 144,
+      "level": 200,
+      "memoire_mo": 48.4,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        12.88,
+        4.92
+      ],
+      "sim_ms_moy": [
+        7.35,
+        1.72
+      ],
+      "t": 36.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        133,
+        46
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 1,
+      "image_ms_max": 9.8,
+      "ips": 143,
+      "level": 200,
+      "memoire_mo": 48.4,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        14.79,
+        3.96
+      ],
+      "sim_ms_moy": [
+        7.05,
+        1.61
+      ],
+      "t": 37.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        123,
+        43
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 1,
+      "image_ms_max": 7.6,
+      "ips": 143,
+      "level": 200,
+      "memoire_mo": 48.4,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        14.14,
+        5.7
+      ],
+      "sim_ms_moy": [
+        6.37,
+        1.65
+      ],
+      "t": 38.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        116,
+        41
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 1,
+      "image_ms_max": 6.9,
+      "ips": 145,
+      "level": 200,
+      "memoire_mo": 48.3,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        9.57,
+        3.13
+      ],
+      "sim_ms_moy": [
+        5.83,
+        1.32
+      ],
+      "t": 39.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        111,
+        40
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 1,
+      "image_ms_max": 8.9,
+      "ips": 145,
+      "level": 200,
+      "memoire_mo": 48.4,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        12.09,
+        4.79
+      ],
+      "sim_ms_moy": [
+        6.18,
+        1.59
+      ],
+      "t": 40.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        106,
+        38
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 0,
+      "image_ms_max": 197.7,
+      "ips": 48,
+      "level": 400,
+      "memoire_mo": 48.3,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        69.94,
+        43.93
+      ],
+      "sim_ms_moy": [
+        26.13,
+        27.45
+      ],
+      "t": 1.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        401,
+        400
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 0,
+      "image_ms_max": 74.0,
+      "ips": 78,
+      "level": 400,
+      "memoire_mo": 48.6,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        52.03,
+        39.14
+      ],
+      "sim_ms_moy": [
+        30.77,
+        28.14
+      ],
+      "t": 2.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        400,
+        400
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 0,
+      "image_ms_max": 108.0,
+      "ips": 44,
+      "level": 400,
+      "memoire_mo": 48.6,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        84.61,
+        37.92
+      ],
+      "sim_ms_moy": [
+        46.9,
+        30.17
+      ],
+      "t": 3.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        400,
+        400
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 0,
+      "image_ms_max": 74.3,
+      "ips": 46,
+      "level": 400,
+      "memoire_mo": 49.6,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        60.42,
+        41.83
+      ],
+      "sim_ms_moy": [
+        47.48,
+        29.07
+      ],
+      "t": 4.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        400,
+        400
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 0,
+      "image_ms_max": 102.9,
+      "ips": 31,
+      "level": 400,
+      "memoire_mo": 49.6,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        72.36,
+        41.54
+      ],
+      "sim_ms_moy": [
+        53.31,
+        31.91
+      ],
+      "t": 5.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        400,
+        399
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 0,
+      "image_ms_max": 93.0,
+      "ips": 49,
+      "level": 400,
+      "memoire_mo": 49.5,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        62.25,
+        45.14
+      ],
+      "sim_ms_moy": [
+        47.28,
+        27.57
+      ],
+      "t": 6.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        400,
+        397
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 0,
+      "image_ms_max": 70.2,
+      "ips": 50,
+      "level": 400,
+      "memoire_mo": 49.3,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        62.75,
+        36.31
+      ],
+      "sim_ms_moy": [
+        47.88,
+        29.48
+      ],
+      "t": 7.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        400,
+        390
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 0,
+      "image_ms_max": 75.0,
+      "ips": 45,
+      "level": 400,
+      "memoire_mo": 49.5,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        65.41,
+        44.7
+      ],
+      "sim_ms_moy": [
+        48.29,
+        27.43
+      ],
+      "t": 8.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        400,
+        383
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 0,
+      "image_ms_max": 74.6,
+      "ips": 84,
+      "level": 400,
+      "memoire_mo": 49.9,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        60.3,
+        41.38
+      ],
+      "sim_ms_moy": [
+        25.39,
+        25.44
+      ],
+      "t": 9.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        400,
+        372
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 0,
+      "image_ms_max": 66.1,
+      "ips": 99,
+      "level": 400,
+      "memoire_mo": 49.0,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        31.44,
+        31.31
+      ],
+      "sim_ms_moy": [
+        19.79,
+        21.96
+      ],
+      "t": 10.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        400,
+        364
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": true,
+      "front_affiche": 1,
+      "image_ms_max": 72.4,
+      "ips": 86,
+      "level": 400,
+      "memoire_mo": 64.9,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        33.8,
+        39.62
+      ],
+      "sim_ms_moy": [
+        21.02,
+        21.94
+      ],
+      "t": 11.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        400,
+        352
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 1,
+      "image_ms_max": 59.0,
+      "ips": 98,
+      "level": 400,
+      "memoire_mo": 65.1,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        31.56,
+        31.56
+      ],
+      "sim_ms_moy": [
+        21.01,
+        20.26
+      ],
+      "t": 12.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        400,
+        340
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 1,
+      "image_ms_max": 72.5,
+      "ips": 96,
+      "level": 400,
+      "memoire_mo": 64.4,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        38.5,
+        35.8
+      ],
+      "sim_ms_moy": [
+        22.58,
+        18.05
+      ],
+      "t": 13.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        400,
+        330
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 1,
+      "image_ms_max": 69.3,
+      "ips": 98,
+      "level": 400,
+      "memoire_mo": 64.1,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        41.42,
+        31.74
+      ],
+      "sim_ms_moy": [
+        21.58,
+        18.2
+      ],
+      "t": 14.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        400,
+        316
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 1,
+      "image_ms_max": 66.0,
+      "ips": 93,
+      "level": 400,
+      "memoire_mo": 63.6,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        48.17,
+        27.63
+      ],
+      "sim_ms_moy": [
+        24.08,
+        18.4
+      ],
+      "t": 15.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        400,
+        302
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 1,
+      "image_ms_max": 34.7,
+      "ips": 99,
+      "level": 400,
+      "memoire_mo": 62.9,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        48.23,
+        24.87
+      ],
+      "sim_ms_moy": [
+        25.83,
+        15.81
+      ],
+      "t": 16.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        400,
+        287
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 1,
+      "image_ms_max": 69.4,
+      "ips": 99,
+      "level": 400,
+      "memoire_mo": 62.5,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        51.87,
+        27.47
+      ],
+      "sim_ms_moy": [
+        23.94,
+        14.08
+      ],
+      "t": 17.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        400,
+        273
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 1,
+      "image_ms_max": 55.0,
+      "ips": 106,
+      "level": 400,
+      "memoire_mo": 61.7,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        37.03,
+        20.42
+      ],
+      "sim_ms_moy": [
+        21.21,
+        12.76
+      ],
+      "t": 18.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        400,
+        262
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 1,
+      "image_ms_max": 32.5,
+      "ips": 111,
+      "level": 400,
+      "memoire_mo": 61.9,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        37.46,
+        19.4
+      ],
+      "sim_ms_moy": [
+        21.13,
+        12.76
+      ],
+      "t": 19.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        400,
+        248
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 1,
+      "image_ms_max": 34.7,
+      "ips": 116,
+      "level": 400,
+      "memoire_mo": 61.4,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        31.14,
+        19.61
+      ],
+      "sim_ms_moy": [
+        18.45,
+        10.95
+      ],
+      "t": 20.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        399,
+        236
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": true,
+      "front_affiche": 0,
+      "image_ms_max": 74.1,
+      "ips": 100,
+      "level": 400,
+      "memoire_mo": 68.6,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        51.95,
+        23.79
+      ],
+      "sim_ms_moy": [
+        21.61,
+        11.7
+      ],
+      "t": 21.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        397,
+        226
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 0,
+      "image_ms_max": 31.3,
+      "ips": 118,
+      "level": 400,
+      "memoire_mo": 68.2,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        33.4,
+        17.09
+      ],
+      "sim_ms_moy": [
+        17.56,
+        9.45
+      ],
+      "t": 22.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        395,
+        215
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 0,
+      "image_ms_max": 32.7,
+      "ips": 117,
+      "level": 400,
+      "memoire_mo": 69.6,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        33.57,
+        15.93
+      ],
+      "sim_ms_moy": [
+        18.1,
+        9.15
+      ],
+      "t": 23.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        392,
+        205
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 0,
+      "image_ms_max": 38.0,
+      "ips": 109,
+      "level": 400,
+      "memoire_mo": 69.5,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        49.65,
+        13.46
+      ],
+      "sim_ms_moy": [
+        20.87,
+        9.04
+      ],
+      "t": 24.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        389,
+        194
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 0,
+      "image_ms_max": 21.6,
+      "ips": 114,
+      "level": 400,
+      "memoire_mo": 69.4,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        35.09,
+        14.03
+      ],
+      "sim_ms_moy": [
+        21.27,
+        8.05
+      ],
+      "t": 25.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        382,
+        181
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 0,
+      "image_ms_max": 62.7,
+      "ips": 112,
+      "level": 400,
+      "memoire_mo": 69.8,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        48.85,
+        18.9
+      ],
+      "sim_ms_moy": [
+        23.57,
+        7.24
+      ],
+      "t": 26.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        375,
+        174
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 0,
+      "image_ms_max": 32.3,
+      "ips": 113,
+      "level": 400,
+      "memoire_mo": 69.3,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        33.84,
+        12.3
+      ],
+      "sim_ms_moy": [
+        23.37,
+        6.81
+      ],
+      "t": 27.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        368,
+        164
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 0,
+      "image_ms_max": 35.1,
+      "ips": 110,
+      "level": 400,
+      "memoire_mo": 69.1,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        57.27,
+        12.03
+      ],
+      "sim_ms_moy": [
+        23.96,
+        6.14
+      ],
+      "t": 28.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        362,
+        156
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 0,
+      "image_ms_max": 64.6,
+      "ips": 108,
+      "level": 400,
+      "memoire_mo": 69.5,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        48.2,
+        11.1
+      ],
+      "sim_ms_moy": [
+        25.29,
+        6.04
+      ],
+      "t": 29.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        352,
+        148
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 0,
+      "image_ms_max": 31.0,
+      "ips": 112,
+      "level": 400,
+      "memoire_mo": 68.2,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        46.96,
+        14.48
+      ],
+      "sim_ms_moy": [
+        23.51,
+        6.35
+      ],
+      "t": 30.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        346,
+        141
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": true,
+      "front_affiche": 1,
+      "image_ms_max": 71.4,
+      "ips": 107,
+      "level": 400,
+      "memoire_mo": 63.3,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        35.85,
+        10.92
+      ],
+      "sim_ms_moy": [
+        23.82,
+        5.44
+      ],
+      "t": 31.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        338,
+        134
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 1,
+      "image_ms_max": 18.1,
+      "ips": 126,
+      "level": 400,
+      "memoire_mo": 63.0,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        32.62,
+        10.23
+      ],
+      "sim_ms_moy": [
+        20.65,
+        4.63
+      ],
+      "t": 32.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        328,
+        124
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 1,
+      "image_ms_max": 71.0,
+      "ips": 113,
+      "level": 400,
+      "memoire_mo": 63.2,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        51.4,
+        14.83
+      ],
+      "sim_ms_moy": [
+        26.7,
+        5.4
+      ],
+      "t": 33.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        316,
+        115
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 1,
+      "image_ms_max": 35.0,
+      "ips": 117,
+      "level": 400,
+      "memoire_mo": 62.7,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        49.79,
+        8.47
+      ],
+      "sim_ms_moy": [
+        26.01,
+        4.59
+      ],
+      "t": 34.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        309,
+        109
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 1,
+      "image_ms_max": 28.0,
+      "ips": 123,
+      "level": 400,
+      "memoire_mo": 62.6,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        33.19,
+        8.45
+      ],
+      "sim_ms_moy": [
+        21.93,
+        4.21
+      ],
+      "t": 35.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        296,
+        103
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 1,
+      "image_ms_max": 24.1,
+      "ips": 124,
+      "level": 400,
+      "memoire_mo": 62.6,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        32.93,
+        10.12
+      ],
+      "sim_ms_moy": [
+        21.97,
+        4.03
+      ],
+      "t": 36.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        285,
+        95
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 1,
+      "image_ms_max": 24.6,
+      "ips": 123,
+      "level": 400,
+      "memoire_mo": 62.1,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        44.29,
+        8.11
+      ],
+      "sim_ms_moy": [
+        22.85,
+        3.56
+      ],
+      "t": 37.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        278,
+        91
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 1,
+      "image_ms_max": 25.7,
+      "ips": 126,
+      "level": 400,
+      "memoire_mo": 62.1,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        29.24,
+        11.27
+      ],
+      "sim_ms_moy": [
+        20.23,
+        3.59
+      ],
+      "t": 38.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        263,
+        86
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 1,
+      "image_ms_max": 27.3,
+      "ips": 123,
+      "level": 400,
+      "memoire_mo": 62.0,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        40.86,
+        9.23
+      ],
+      "sim_ms_moy": [
+        21.43,
+        3.53
+      ],
+      "t": 39.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        250,
+        81
+      ]
+    },
+    {
+      "appels_dessin_max": 0,
+      "bascule": false,
+      "front_affiche": 1,
+      "image_ms_max": 12.5,
+      "ips": 132,
+      "level": 400,
+      "memoire_mo": 61.6,
+      "memoire_video_mo": 0.0,
+      "rendu_cpu_ms_max": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_gpu_ms_max": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "siege": [
+        true,
+        false
+      ],
+      "sim_ms_max": [
+        29.14,
+        6.73
+      ],
+      "sim_ms_moy": [
+        18.42,
+        2.8
+      ],
+      "t": 40.0,
+      "temperature_c": -1.0,
+      "ticks": 10,
+      "ticks_perdus": 0,
+      "unites": [
+        235,
+        75
+      ]
+    }
+  ],
+  "ecran": "(0, 0)",
+  "os": "Linux 24.04",
+  "processeur": "Intel(R) Xeon(R) Processor @ 2.10GHz",
+  "rendu": " / ",
+  "resume": [
+    {
+      "construction_ms": 154.1,
+      "front0_sim_ms_moy": 2.85,
+      "front0_sim_ms_pic": 29.06,
+      "front0_sim_ms_pic_siege": 0.0,
+      "front1_sim_ms_moy": 1.34,
+      "front1_sim_ms_pic": 6.03,
+      "front1_sim_ms_pic_siege": 0.0,
+      "image_ms_pic_bascule": 10.9,
+      "image_ms_pic_hors_bascule": 276.5,
+      "ips_min": 96,
+      "ips_moy": 143.4,
+      "level": 40,
+      "memoire_mo_pic": 37.5,
+      "memoire_video_mo_pic": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_cpu_ms_pic": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "rendu_gpu_ms_pic": 0.0,
+      "secondes": 40,
+      "temperature_c_max": -1.0,
+      "ticks_perdus": 0,
+      "unites_depart": [
+        39,
+        40
+      ],
+      "unites_fin": [
+        36,
+        28
+      ]
+    },
+    {
+      "construction_ms": 139.3,
+      "front0_sim_ms_moy": 6.52,
+      "front0_sim_ms_pic": 51.55,
+      "front0_sim_ms_pic_siege": 51.55,
+      "front1_sim_ms_moy": 2.54,
+      "front1_sim_ms_pic": 12.2,
+      "front1_sim_ms_pic_siege": 0.0,
+      "image_ms_pic_bascule": 10.9,
+      "image_ms_pic_hors_bascule": 139.0,
+      "ips_min": 111,
+      "ips_moy": 141.6,
+      "level": 100,
+      "memoire_mo_pic": 42.7,
+      "memoire_video_mo_pic": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_cpu_ms_pic": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "rendu_gpu_ms_pic": 0.0,
+      "secondes": 40,
+      "temperature_c_max": -1.0,
+      "ticks_perdus": 0,
+      "unites_depart": [
+        101,
+        102
+      ],
+      "unites_fin": [
+        59,
+        23
+      ]
+    },
+    {
+      "construction_ms": 158.5,
+      "front0_sim_ms_moy": 12.78,
+      "front0_sim_ms_pic": 71.7,
+      "front0_sim_ms_pic_siege": 71.7,
+      "front1_sim_ms_moy": 5.27,
+      "front1_sim_ms_pic": 25.99,
+      "front1_sim_ms_pic_siege": 0.0,
+      "image_ms_pic_bascule": 54.7,
+      "image_ms_pic_hors_bascule": 168.4,
+      "ips_min": 91,
+      "ips_moy": 132.6,
+      "level": 200,
+      "memoire_mo_pic": 51.2,
+      "memoire_video_mo_pic": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_cpu_ms_pic": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "rendu_gpu_ms_pic": 0.0,
+      "secondes": 40,
+      "temperature_c_max": -1.0,
+      "ticks_perdus": 0,
+      "unites_depart": [
+        200,
+        200
+      ],
+      "unites_fin": [
+        106,
+        38
+      ]
+    },
+    {
+      "construction_ms": 194.3,
+      "front0_sim_ms_moy": 26.43,
+      "front0_sim_ms_pic": 84.61,
+      "front0_sim_ms_pic_siege": 84.61,
+      "front1_sim_ms_moy": 14.09,
+      "front1_sim_ms_pic": 45.14,
+      "front1_sim_ms_pic_siege": 0.0,
+      "image_ms_pic_bascule": 74.1,
+      "image_ms_pic_hors_bascule": 197.7,
+      "ips_min": 31,
+      "ips_moy": 97.6,
+      "level": 400,
+      "memoire_mo_pic": 69.8,
+      "memoire_video_mo_pic": 0.0,
+      "rendu_cpu_ms_moy": 0.0,
+      "rendu_cpu_ms_pic": 0.0,
+      "rendu_gpu_ms_moy": 0.0,
+      "rendu_gpu_ms_pic": 0.0,
+      "secondes": 40,
+      "temperature_c_max": -1.0,
+      "ticks_perdus": 0,
+      "unites_depart": [
+        401,
+        400
+      ],
+      "unites_fin": [
+        235,
+        75
+      ]
+    }
+  ],
+  "secondes_par_niveau": 40.0,
+  "test": "deux_fronts",
+  "tick_rate": 10,
+  "version": "0.2.0-j2"
+}

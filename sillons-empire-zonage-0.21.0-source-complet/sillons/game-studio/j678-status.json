@@ -1,0 +1,13 @@
+{
+  "project": "Sillons d'Empire",
+  "build": "0.8.0-j678-candidate",
+  "date": "2026-11-09",
+  "baseline": "sillons-empire-j345-0.5.0-source-complet.zip",
+  "milestones": ["J6-orbite", "J7-interplanetaire", "J8-interstellaire"],
+  "static_audit": {"result": "PASS", "checks_pass": 429, "checks_fail": 0, "historic_files_identical": 240},
+  "godot_import": "NOT_EXECUTED_ENGINE_UNAVAILABLE",
+  "godot_runtime_tests": "NOT_EXECUTED_ENGINE_UNAVAILABLE",
+  "android_export": "NOT_EXECUTED_ANDROID_TOOLCHAIN_UNAVAILABLE",
+  "galaxy_s25_ultra": "NOT_TESTED",
+  "release_status": "CANDIDATE_NOT_ANDROID_VALIDATED"
+}

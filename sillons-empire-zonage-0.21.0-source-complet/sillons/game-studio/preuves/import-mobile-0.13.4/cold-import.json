@@ -1,0 +1,12 @@
+{
+  "engine": "4.7.2.stable.official.ed1daf0bf",
+  "exit": 0,
+  "elapsed_seconds": 6.285,
+  "process_peak_rss_kib": 833416,
+  "fresh_cache": true,
+  "platform": "Linux x86_64 headless",
+  "android_device": "NOT_RUN",
+  "glb_import_jobs": 0,
+  "script_errors": 0,
+  "import_cache_files": 24
+}

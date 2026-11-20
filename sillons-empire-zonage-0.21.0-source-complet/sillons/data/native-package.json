@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "file": "assets_3d.pck",
+  "sha256": "6d602614eb2b0c87fe27ec3b6e2536a235dc7fc38833fbb9345086e4f8f11197",
+  "bytes": 33604468,
+  "scenes": 2400,
+  "images": 174,
+  "models": 800,
+  "source_manifest_sha256": "b638ff68eb8891e5fc1870ac17a55127681b0867a98a0696b45f379297ac362f",
+  "engine": "4.7.2-stable (official)"
+}

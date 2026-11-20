@@ -1,0 +1,45 @@
+#!/usr/bin/env python3
+"""Vérifie les câblages du J9 complet. Ne prétend pas compiler Godot."""
+import pathlib, re, sys
+ROOT=pathlib.Path(__file__).resolve().parents[1]
+checks=[]
+def chk(ok,msg):
+    checks.append((bool(ok),msg)); print(('PASS ' if ok else 'FAIL ')+msg)
+def file(path): return (ROOT/path).read_text(encoding='utf8')
+required=['procgen/planet_regions.gd','procgen/planet_generator.gd','sim/star_campaign.gd',
+ 'sim/campaign_save.gd','sim/sim_world.gd','views/planet_hud.gd','game/game.gd',
+ 'lab/j9_regions_test.gd','tools/verify-j9-complete.sh']
+for path in required: chk((ROOT/path).is_file(),f'présence {path}')
+r=file('procgen/planet_regions.gd'); gen=file('procgen/planet_generator.gd')
+for expr,msg in [
+ ('func order_cross','ordre de frontière'),('w.find_path','passage physiquement accessible'),
+ ('unit.pos.distance_to','transfert seulement au bord'),('source.transfer_out_unit','transfert sans mort'),
+ ('destination.spawn_unit','unité recréée dans la région destination'),
+ ('planet_uid','identité permanente'),('func step_background','régions hors écran simulées'),
+ ('func snapshot','régions sérialisées'),('func restore','régions restaurées'),
+ ('func _prune_empty','régions vierges sans surcoût permanent')]: chk(expr in r,msg)
+for expr,msg in [
+ ('region_cell_ll','coordonnées globales sur la planète'),
+ ('region_elevation','heightmap globale'),('sphere_direction','continuité sphérique'),
+ ('func generate_region','terrain par région')]: chk(expr in gen,msg)
+chk('planet_regions.step_background(self)' in file('sim/star_campaign.gd'),'simulation régionale raccordée')
+chk('planet_regions.worlds_in_play()' in file('sim/star_campaign.gd'),'défaite tient compte des autres régions')
+chk('"planet_regions":' in file('sim/campaign_save.gd'),'sauvegarde multi-région')
+chk('PlanetRegions.restore' in file('sim/campaign_save.gd'),'validation des données restaurées')
+chk('func _build_region_navigation' in file('game/game.gd'),'HUD tactile de navigation')
+chk('func open_planet_region' in file('game/game.gd'),'navigation depuis le globe')
+chk('func _refresh_region_world' in file('game/game.gd'),'actualisation des scènes lors du voyage')
+chk('return clampf(_generator.region_elevation' in file('streaming/terrain_chunk_streamer.gd'),'hauteurs continues des chunks')
+chk(any(tag in file('project.godot') for tag in ['0.9.1-j9-completion-candidate','0.10.0-j10-candidate', '0.11.0-j11-candidate', '0.12.3-j12-orbital-candidate', '0.16.0-civilisation-candidate', '0.17.0-interface-candidate', '0.18.0-ville-candidate', '0.18.1-ville-candidate', '0.19.0-zonage-candidate', '0.20.0-zonage-candidate']),'version explicitement candidate')
+chk(int(file('export_presets.cfg').split('version/code=')[1].splitlines()[0]) >= 91,'code Android augmenté')
+chk('J9_REGIONS_RESULT' in file('lab/j9_regions_test.gd'),'scénario Godot avec PASS/FAIL prévu')
+chk('godot' in file('tools/verify-j9-complete.sh'),'contrôle runtime demandé après audit statique')
+# Sanity on new scripts: formatting, conflict markers, resources.
+for path in ['procgen/planet_regions.gd','procgen/planet_generator.gd','lab/j9_regions_test.gd']:
+    s=file(path)
+    chk(not re.search(r'^(<<<<<<<|=======|>>>>>>>)',s,re.M),f'aucun marqueur de conflit {path}')
+    chk(not any(line.startswith('    ') for line in s.splitlines()),f'indentation cohérente {path}')
+    chk(s.count('(')>=s.count(')') and s.count('{')==s.count('}'),f'délimiteurs cohérents {path}')
+fail=[m for ok,m in checks if not ok]
+print(f'J9_COMPLETE_STATIC={"PASS" if not fail else "FAIL"} checks={len(checks)} failures={len(fail)}')
+sys.exit(1 if fail else 0)

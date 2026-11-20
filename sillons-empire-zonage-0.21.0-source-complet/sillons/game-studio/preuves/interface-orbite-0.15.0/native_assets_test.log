@@ -1,0 +1,12 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS catalogue natif monté : 800 modèles
+PASS aucun dossier GLB dans le projet jouable
+PASS 2400 scènes prêtes et 174 images
+PASS 2400 scènes intègres dans le paquet
+PASS aucun lien vers un cache .godot externe
+PASS 174 images RGBA8 avec mipmaps et empreinte correcte
+PASS jeep de la capture chargée en natif
+PASS jeep instanciée sans import GLB
+PASS matériau PBR préservé
+NATIVE_ASSETS_RESULT=PASS checks=9 failures=0

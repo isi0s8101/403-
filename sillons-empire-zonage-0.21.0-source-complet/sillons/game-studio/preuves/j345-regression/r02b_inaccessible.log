@@ -1,0 +1,10 @@
+=== Scénario R02b — Gisement visible mais inaccessible (îlot du lac) — graine 1203 ===
+Le minerai de l'îlot central est exploré mais inaccessible à pied. Une fois le minerai accessible épuisé, aucun ouvrier n'est envoyé sur l'îlot et la pénurie de minerai est signalée.
+[t=   0.0s] ORDRE {"t":"lab_reveal","team":0.0} -> OK
+[t=   0.0s] LABO épuisement de 8 gisement(s) minerai
+[t=   0.0s] EVT penurie camp 0 : Aucun gisement de minerai accessible : ouvriers réaffectés
+[t=   0.0s] EVT penurie camp 1 : Aucun gisement de minerai accessible : ouvriers réaffectés
+[t=  12.0s] PASS pénurie de minerai signalée malgré l'îlot visible — événement penurie trouvé
+[t=  60.0s] PASS aucun ouvrier affecté à l'îlot inaccessible — ouvriers affectés au gisement = 0
+[t=  60.0s] PASS aucun ouvrier bloqué en tâche minerai — ouvriers en tâche ore = 0 (== 0.0)
+[t=  70.0s] FIN — 3/3 assertions PASS — empreinte 86542539433ba5dc

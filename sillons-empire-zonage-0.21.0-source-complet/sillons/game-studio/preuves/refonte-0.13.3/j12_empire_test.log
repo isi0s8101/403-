@@ -1,0 +1,37 @@
+Godot Engine v4.7.1.stable.official.a13da4feb - https://godotengine.org
+
+PASS J9/J10 : atlas conservé et trois ancres historiques
+PASS J11 : galaxie déterministe
+PASS J12 : capital initial dans Sol
+PASS J12 : stocks locaux sans copie sur Proxima
+PASS corridor multi-sauts trouvé
+PASS chantier orbital Sol posé
+PASS monde du système g09
+PASS monde généré à la demande : g09
+PASS centre réel dans g09
+PASS relais orbital intermédiaire dans g09
+PASS monde du système g02
+PASS monde généré à la demande : g02
+PASS centre réel dans g02
+PASS liaison réelle multi-sauts avec relais
+PASS requête négative rejetée sans débit
+PASS quantité excessive rejetée sans débit
+PASS fret réel lancé après contrôle des relais
+PASS débit minerai unique au départ
+PASS aucune téléportation de cargaison
+PASS sauvegarde J12 en transit et reprise exacte
+PASS sauvegarde fret avec ETA falsifié refusée
+PASS ressources livrées après plusieurs trajets
+PASS fret déterministe après restauration
+PASS deuxième fret envoyé
+PASS fret en attente si relais détruit
+PASS reconstruction du relais
+PASS fret repart après remise en service du relais
+PASS délégation défense Sol
+PASS objectif défensif réellement appliqué
+PASS ordre sur système inexistant rejeté
+PASS approvisionnement autonome assigné
+PASS défense désactivable
+PASS persistance des stocks, relais, directives
+PASS migration d'une sauvegarde J11 sans duplication
+J12_EMPIRE_RESULT=PASS checks=34 failures=0

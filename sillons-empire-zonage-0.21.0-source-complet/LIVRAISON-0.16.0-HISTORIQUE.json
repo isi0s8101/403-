@@ -1,0 +1,39 @@
+{
+ "product": "Sillons d'Empire",
+ "version": "0.16.0-civilisation-candidate",
+ "status": "candidate",
+ "baseline_version": "0.15.1-android-performances-r2-candidate",
+ "baseline_archive_sha256": "c4c25119aff929a0271508878ce593d56582fc791e2fd358511c4a4ee3f061b3",
+ "engine": "4.7.2.stable.official.ed1daf0bf",
+ "entrypoint": "sillons/project.godot",
+ "guide": "sillons/README-CIVILISATION-0.16.0.md",
+ "audit": "AUDIT-0.15.1-R2.md",
+ "apk": null,
+ "source_scenarios": 52,
+ "source_result": "voir sillons/game-studio/VALIDATION-CIVILISATION-0.16.0.md",
+ "android_native": "NOT_RUN",
+ "galaxy_s25_ultra": "NOT_RUN",
+ "android_fps": null,
+ "android_memory": null,
+ "android_thermal": null,
+ "simulation_changes_declared": [
+  "sim/sim_world.gd",
+  "sim/modern_systems.gd",
+  "sim/age_progression.gd",
+  "sim/rules.gd",
+  "sim/j13_rules.gd",
+  "sim/planet_campaign.gd",
+  "sim/star_campaign.gd",
+  "sim/ai_controller.gd"
+ ],
+ "new_files": [
+  "sim/civ_rules.gd",
+  "sim/civ_evolution.gd",
+  "sim/civ_ai.gd",
+  "interface/civ_panel.gd",
+  "lab/civ_evolution_test.gd",
+  "lab/civ_ui_test.gd",
+  "tools/update-manifest-j13.py",
+  "README-CIVILISATION-0.16.0.md"
+ ]
+}

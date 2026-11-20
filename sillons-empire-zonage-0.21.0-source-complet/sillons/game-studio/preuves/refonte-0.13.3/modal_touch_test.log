@@ -1,0 +1,7 @@
+Godot Engine v4.7.1.stable.official.a13da4feb - https://godotengine.org
+
+PASS bouton aide accessible
+PASS toucher ferme l'aide et restaure le menu
+PASS bouton reprendre accessible
+PASS reprise sans panneau ni doigt bloqué
+MODAL_TOUCH_RESULT=PASS checks=4 failures=0

@@ -1,0 +1,63 @@
+#!/usr/bin/env python3
+"""Contrôles structurels 0.8.1 : ne remplace jamais Godot/GPU/Android."""
+import ast
+import hashlib
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+checks = 0
+fails = 0
+
+def check(ok, label):
+    global checks, fails
+    checks += 1
+    fails += int(not ok)
+    print(('PASS ' if ok else 'FAIL ') + label)
+
+def src(name):
+    path = ROOT/name
+    check(path.is_file(), f'fichier {name}')
+    return path.read_text(encoding='utf-8') if path.exists() else ''
+
+main = src('game/main_menu.gd')
+game = src('game/game.gd')
+hud = src('game/hud.gd')
+conf = src('game/game_config.gd')
+screen = src('game/recette_screen.gd')
+suite = src('lab/recette_suite.gd')
+speed_test = src('lab/speed_ui_test.gd')
+cli = src('lab/recette_integrale_test.gd')
+scene = src('game/recette_screen.tscn')
+verify = src('tools/verify-recette.sh')
+export = src('tools/export-android-recette.sh')
+check('func _recipe()' in main and 'recette_screen.tscn' in main and ('RECETTE INTÉGRALE' in main or ('Vérifications intégrales' in main and 'func _build_laboratory()' in main)), 'accès recette depuis le menu et le laboratoire')
+check('GameConfig.next_speed' in hud and 'speed_btn.text' in hud, 'bouton de vitesse actif en partie')
+check(all(k in conf for k in ['0.5', '1.0', '2.0', '4.0', '8.0']), 'vitesses programmées')
+check('MAX_SIM_STEPS_PER_FRAME := 12' in game and 'delta * speed' in game, 'pas fixes accélérés et plafonnés')
+check('Engine.time_scale' not in game and 'Engine.time_scale' not in hud, 'UI et caméra non accélérées globalement')
+check('manual' in screen and 'NOT_TESTED' in screen and any(tag in screen for tag in ['recette-j1-j8-', 'recette-j1-j12-']), 'contrôles manuels distincts + rapport')
+check('CampaignSave.save(_campaign, SAVE_PATH)' in suite and 'sillons-recette-temporary.save' in suite, 'fichier de sauvegarde de test isolé')
+check('LabScenario.list_scenarios()' in suite and 'check_determinism' in suite, 'laboratoires historiques et déterminisme')
+check(all(k in suite for k in ['_run_modern_checks', 'launch_satellite', 'scan(', 'dispatch(', 'meeting._tick_flights()', 'CampaignSave.load_campaign']), 'mécaniques et sauvegardes J3–J8 exécutées')
+check('RECETTE_AUTO_RESULT=' in cli and 'SPEED_UI' in speed_test, 'point d’entrée CLI et test vitesse réel')
+check('verify-j678.sh' in verify and 'recette_integrale_test.gd' in verify and 'speed_ui_test.gd' in verify, 'banc historique + nouveaux tests')
+check('verify-recette.sh' in export and '0.8.2.apk' in export, 'export Android conditionné aux tests')
+check('recette_screen.gd' in scene, 'scène Godot reliée')
+check('version/code=' in src('export_presets.cfg') and int(src('export_presets.cfg').split('version/code=')[1].splitlines()[0]) >= 82, 'code Android >= 82')
+check(any(v in src('project.godot') for v in ['0.8.2-correctifs-candidate', '0.9.0-j9-candidate', '0.9.1-j9-completion-candidate', '0.10.0-j10-candidate', '0.11.0-j11-candidate', '0.12.3-j12-orbital-candidate', '0.14.0-evolutions-candidate']), 'version projet 0.8.2 ou J9 compatible')
+scenarios = list((ROOT/'lab/scenarios').glob('*.json'))
+check(len(scenarios) >= 20, f'{len(scenarios)} scénarios d’origine présents')
+for path in scenarios:
+    try:
+        doc = json.loads(path.read_text(encoding='utf-8'))
+        ok = isinstance(doc, dict) and len(doc.get('asserts', [])) > 0
+    except (ValueError, UnicodeDecodeError):
+        ok = False
+    check(ok, f'scénario valide {path.name}')
+for path in (ROOT/'lab',ROOT/'game',ROOT/'sim',ROOT/'tools'):
+    for f in path.rglob('*.gd'):
+        data=f.read_text(encoding='utf-8')
+        check('\x00' not in data and '\r' not in data, 'texte GDScript sain ' + str(f.relative_to(ROOT)))
+print(f'RECETTE_STATIC_RESULT={"PASS" if fails == 0 else "FAIL"} checks={checks} failures={fails}')
+raise SystemExit(0 if fails == 0 else 1)

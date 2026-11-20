@@ -1,0 +1,11 @@
+=== Scénario R05e — Minuteur de reconstruction (arbitrage D-07) — graine 1504 ===
+Le camp perd son centre en gardant ouvriers et ressources. Sans centre rebâti avant le délai, il est éliminé. Délai réduit à 20 s pour la recette (180 s en partie).
+[t=   1.0s] ORDRE {"id":249,"t":"lab_kill","team":1.0} -> OK
+[t=   1.0s] EVT detruit camp 1 : Bâtiment détruit : Centre de commandement
+[t=   1.5s] EVT sans_centre camp 1 : Adversaire n'a plus de centre : 20 s pour en rebâtir un
+[t=   3.0s] PASS délai de reconstruction annoncé — événement sans_centre trouvé
+[t=  15.0s] PASS avant le délai : toujours en jeu (moyens présents) — camp 1 éliminé = false ; capacité : ouvrier + ressources suffisantes
+[t=  22.5s] EVT elimine camp 1 : Adversaire éliminé : plus de centre et aucun centre rebâti en 20 s
+[t=  22.5s] EVT fin camp 0 : Victoire : Joueur
+[t=  26.0s] PASS délai écoulé sans centre : éliminé — camp 1 éliminé = true ; capacité : aucun centre rebâti en 20 s
+[t=  26.0s] FIN — 3/3 assertions PASS — empreinte 44099cd37dbb4043

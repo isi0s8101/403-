@@ -1,0 +1,158 @@
+{
+  "resultats": [
+    {
+      "bascules": 15,
+      "detail": "1500+1500 empreintes identiques, journaux identiques, 33+31 unités identiques ; empreintes finales a3fcaf254ac927d7 / 0c0bc5958d5aeb1c ; suites d'ordres identiques (542 + 389 ordres)",
+      "duree_ms": [
+        6550,
+        8107
+      ],
+      "empreinte_finale": [
+        "a3fcaf254ac927d7454ace0612c4aff6f6913dbf32869cc3d448575673fce0f8",
+        "0c0bc5958d5aeb1cb783589ac5734982ebc77bebc056e283e7c8d983e7bf7eff"
+      ],
+      "empreinte_finale_variante": [
+        "a3fcaf254ac927d7454ace0612c4aff6f6913dbf32869cc3d448575673fce0f8",
+        "0c0bc5958d5aeb1cb783589ac5734982ebc77bebc056e283e7c8d983e7bf7eff"
+      ],
+      "empreinte_ordres": [
+        "e81bf221a41f849a367023391feaa3a16d46d680423927424ab3494cd4afe39d",
+        "5936ee1fb443c938a70554a71cb52b2a22b777fd13a57d8c3342efab4af56248"
+      ],
+      "evenements": [
+        "c21613fd2006261e12be5ce4f261592b82a05b4da53c7e0bd6097314867c4db4",
+        "d0f80b33084fb0d4ddec093e39f8477edd245e6ec6bd197921f31101203d408a"
+      ],
+      "niveau": 100,
+      "ok": true,
+      "ordres": [
+        542,
+        389
+      ],
+      "ticks": 1500,
+      "unites_fin": [
+        33,
+        31
+      ],
+      "variante": "B"
+    },
+    {
+      "bascules": 40,
+      "detail": "1500+1500 empreintes identiques, journaux identiques, 33+31 unités identiques ; empreintes finales a3fcaf254ac927d7 / 0c0bc5958d5aeb1c ; suites d'ordres identiques (542 + 389 ordres)",
+      "duree_ms": [
+        6550,
+        8522
+      ],
+      "empreinte_finale": [
+        "a3fcaf254ac927d7454ace0612c4aff6f6913dbf32869cc3d448575673fce0f8",
+        "0c0bc5958d5aeb1cb783589ac5734982ebc77bebc056e283e7c8d983e7bf7eff"
+      ],
+      "empreinte_finale_variante": [
+        "a3fcaf254ac927d7454ace0612c4aff6f6913dbf32869cc3d448575673fce0f8",
+        "0c0bc5958d5aeb1cb783589ac5734982ebc77bebc056e283e7c8d983e7bf7eff"
+      ],
+      "empreinte_ordres": [
+        "e81bf221a41f849a367023391feaa3a16d46d680423927424ab3494cd4afe39d",
+        "5936ee1fb443c938a70554a71cb52b2a22b777fd13a57d8c3342efab4af56248"
+      ],
+      "evenements": [
+        "c21613fd2006261e12be5ce4f261592b82a05b4da53c7e0bd6097314867c4db4",
+        "d0f80b33084fb0d4ddec093e39f8477edd245e6ec6bd197921f31101203d408a"
+      ],
+      "niveau": 100,
+      "ok": true,
+      "ordres": [
+        542,
+        389
+      ],
+      "ticks": 1500,
+      "unites_fin": [
+        33,
+        31
+      ],
+      "variante": "C"
+    },
+    {
+      "bascules": 3,
+      "detail": "300+300 empreintes identiques, journaux identiques, 290+142 unités identiques ; empreintes finales a7b69ad77521651b / 4f4405d5f1506891 ; suites d'ordres identiques (1400 + 482 ordres)",
+      "duree_ms": [
+        18967,
+        19881
+      ],
+      "empreinte_finale": [
+        "a7b69ad77521651b4e817d12b6af0b850b85f94bd96000ae1283700e517f52b7",
+        "4f4405d5f1506891ef3568471eb660d67f73a886bfb00a9b90afb8ab4f046224"
+      ],
+      "empreinte_finale_variante": [
+        "a7b69ad77521651b4e817d12b6af0b850b85f94bd96000ae1283700e517f52b7",
+        "4f4405d5f1506891ef3568471eb660d67f73a886bfb00a9b90afb8ab4f046224"
+      ],
+      "empreinte_ordres": [
+        "803f51f72db9a056c5ed8f3c34d363fd6cc80cef3b127e122e30009043699886",
+        "0a34a8da146eda0ea2f2b82aaa428f2039091270180347d8f404cdb8e2d7ab98"
+      ],
+      "evenements": [
+        "ace6190aa577687212be9f5a351a0202d10cff7e1e20a42e04d99ca9fc90c805",
+        "63e4baff8f43f0219266a8c57c6af4658f42c49e44078e53d5ff5748db6cb6bd"
+      ],
+      "niveau": 400,
+      "ok": true,
+      "ordres": [
+        1400,
+        482
+      ],
+      "ticks": 300,
+      "unites_fin": [
+        290,
+        142
+      ],
+      "variante": "B"
+    },
+    {
+      "bascules": 8,
+      "detail": "300+300 empreintes identiques, journaux identiques, 290+142 unités identiques ; empreintes finales a7b69ad77521651b / 4f4405d5f1506891 ; suites d'ordres identiques (1400 + 482 ordres)",
+      "duree_ms": [
+        18967,
+        20386
+      ],
+      "empreinte_finale": [
+        "a7b69ad77521651b4e817d12b6af0b850b85f94bd96000ae1283700e517f52b7",
+        "4f4405d5f1506891ef3568471eb660d67f73a886bfb00a9b90afb8ab4f046224"
+      ],
+      "empreinte_finale_variante": [
+        "a7b69ad77521651b4e817d12b6af0b850b85f94bd96000ae1283700e517f52b7",
+        "4f4405d5f1506891ef3568471eb660d67f73a886bfb00a9b90afb8ab4f046224"
+      ],
+      "empreinte_ordres": [
+        "803f51f72db9a056c5ed8f3c34d363fd6cc80cef3b127e122e30009043699886",
+        "0a34a8da146eda0ea2f2b82aaa428f2039091270180347d8f404cdb8e2d7ab98"
+      ],
+      "evenements": [
+        "ace6190aa577687212be9f5a351a0202d10cff7e1e20a42e04d99ca9fc90c805",
+        "63e4baff8f43f0219266a8c57c6af4658f42c49e44078e53d5ff5748db6cb6bd"
+      ],
+      "niveau": 400,
+      "ok": true,
+      "ordres": [
+        1400,
+        482
+      ],
+      "ticks": 300,
+      "unites_fin": [
+        290,
+        142
+      ],
+      "variante": "C"
+    },
+    {
+      "detail": "front A : divergence au tick 300 ; front A : suites d'ordres différentes ; front A : journaux d'événements différents ; front A : 29 unités à l'état différent",
+      "niveau": 100,
+      "ok": true,
+      "ticks": 600,
+      "variante": "contrôle négatif"
+    }
+  ],
+  "statut": "PASS",
+  "test": "invariance_deux_fronts",
+  "version": "0.13.3-j13-candidate"
+}

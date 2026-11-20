@@ -1,0 +1,17 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS meme graine, memes reliefs et biomes
+PASS graines differentes
+PASS couture de longitude continue
+PASS index d'atlas periodique
+PASS 1000 graines x 5 echantillons : donnees finies et biome reconnu
+PASS carte tactique J9 reproductible
+PASS deux zones de depart praticables sur la planete
+PASS simulation de region planetaire active
+PASS bases de depart presentes
+PASS instantane tactique procedural conserve
+PASS coutures heightmap inter-chunks finies
+PASS activation de la planete J9
+PASS secteurs J6-J8 preserves
+PASS campagne J9 restaurable dans schema precedent
+J9_TEST_RESULT=PASS checks=14 failures=0

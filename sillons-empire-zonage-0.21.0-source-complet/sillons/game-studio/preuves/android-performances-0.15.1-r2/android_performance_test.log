@@ -1,0 +1,21 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS percentiles par rang
+PASS absence de mesure explicite
+PASS rapports confinés au dossier mesures
+PASS mesure absente distincte de zéro
+PASS charge reproductible : large
+PASS trois grandes cartes : large
+PASS simulation indépendante du rendu : large
+PASS mondes hors écran actifs : large
+PASS charge reproductible : fronts
+PASS trois grandes cartes : fronts
+PASS 360 soldats répartis sur trois mondes
+PASS simulation indépendante du rendu : fronts
+PASS mondes hors écran actifs : fronts
+PASS charge reproductible : orbit
+PASS trois grandes cartes : orbit
+PASS 120 vaisseaux physiques valides
+PASS simulation indépendante du rendu : orbit
+PASS mondes hors écran actifs : orbit
+ANDROID_PERFORMANCE_RESULT checks=18 failures=0 DEVICE=NOT_RUN

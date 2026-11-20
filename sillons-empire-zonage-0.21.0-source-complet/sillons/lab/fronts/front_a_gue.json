@@ -1,0 +1,20 @@
+{
+  "name": "Front A — Siège du gué sud-est",
+  "description": "Test technique deux fronts. Le camp 0 tient le gué sud-est par une ligne de palissades et un fort ; le camp 1 (IA) l'assiège avec de l'artillerie. Charge réglable.",
+  "seed": 3101,
+  "ticks": 6000,
+  "stop_on_game_over": false,
+  "teams": [{"ai": true, "age": 3, "attack_threshold": 999, "trade_attack_threshold": 999, "res": {"food": 800, "wood": 800, "ore": 600}},
+            {"ai": true, "age": 3, "opening": "assaut", "attack_threshold": 6, "res": {"food": 800, "wood": 800, "ore": 800}}],
+  "setup": [
+    {"t": "lab_block_ford", "team": 0, "ford": 1},
+    {"t": "lab_building", "team": 0, "type": "fort", "cell": [64, 70], "complete": true},
+    {"t": "spawn_group", "team": 0, "unit": "lancier", "count": 10, "pos": [60, 78], "scalable": true, "cols": 0},
+    {"t": "spawn_group", "team": 0, "unit": "tireur", "count": 8, "pos": [58, 84], "scalable": true, "cols": 0},
+    {"t": "spawn_group", "team": 1, "unit": "canon", "count": 3, "pos": [76, 60], "scalable": true, "cols": 0},
+    {"t": "spawn_group", "team": 1, "unit": "lancier", "count": 10, "pos": [80, 62], "scalable": true, "cols": 0},
+    {"t": "spawn_group", "team": 1, "unit": "cavalier", "count": 6, "pos": [84, 58], "scalable": true, "cols": 0},
+    {"t": "lab_spawn", "team": 1, "unit": "eclaireur", "pos": [66, 74]}
+  ],
+  "asserts": []
+}

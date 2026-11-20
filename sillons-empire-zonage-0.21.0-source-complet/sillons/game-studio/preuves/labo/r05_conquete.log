@@ -1,0 +1,17 @@
+=== Scénario R05 — Conquête : dernier centre détruit, constructeur capable, puis défaite — graine 1501 ===
+Recette 5. Règle provisoire batisseur_et_moyens : un ouvrier vivant et (stock suffisant, fondation de centre ou dépôt).
+[t=   1.0s] ORDRE {"id":203,"t":"lab_kill","team":1.0} -> OK
+[t=   1.0s] EVT detruit camp 1 : Bâtiment détruit : Centre de commandement
+[t=   5.0s] PASS centre détruit, ouvrier + ressources : camp toujours en jeu — camp 1 éliminé = false ; capacité : ouvrier + ressources suffisantes
+[t=   5.0s] PASS la partie continue — fin de partie = false, vainqueur -1, t=5s
+[t=   6.0s] ORDRE {"t":"lab_kill_type","team":1.0,"unit":"ouvrier"} -> OK
+[t=   6.0s] EVT mort camp 1 : Unité perdue : Ouvrier
+[t=   6.0s] EVT mort camp 1 : Unité perdue : Ouvrier
+[t=   6.0s] EVT mort camp 1 : Unité perdue : Ouvrier
+[t=   6.0s] EVT mort camp 1 : Unité perdue : Ouvrier
+[t=   6.0s] EVT mort camp 1 : Unité perdue : Ouvrier
+[t=   6.5s] EVT elimine camp 1 : Adversaire éliminé : plus de centre et aucun ouvrier bâtisseur
+[t=   6.5s] EVT fin camp 0 : Victoire : Joueur
+[t=   9.0s] PASS plus aucun bâtisseur : camp éliminé (l'éclaireur seul ne suffit pas) — camp 1 éliminé = true ; capacité : aucun ouvrier bâtisseur
+[t=   9.0s] PASS victoire du joueur — vainqueur = 0
+[t=   9.0s] FIN — 4/4 assertions PASS — empreinte 0b063eea7cca0147

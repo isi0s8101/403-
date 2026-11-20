@@ -1,0 +1,8 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+EVOLUTION_PROGRESS 0 ages=[1, 1] civ=13,13 units=6 stock={ "food": 199.952, "wood": 155.0, "ore": 70.0 }
+EVOLUTION_PROGRESS 2000 ages=[1, 1] civ=56,56 units=14 stock={ "food": 367.92125000001, "wood": 388.020999999998, "ore": 262.5604 }
+EVOLUTION_PROGRESS 4000 ages=[2, 2] civ=56,56 units=29 stock={ "food": 389.424075340282, "wood": 107.856621124261, "ore": 274.2134 }
+EVOLUTION_PROGRESS 6000 ages=[3, 3] civ=56,56 units=42 stock={ "food": 316.307353315529, "wood": 137.947165458668, "ore": 243.131000000149 }
+EVOLUTION_PROGRESS 8000 ages=[3, 4] civ=56,56 units=44 stock={ "food": 935.771108687535, "wood": 942.075437263472, "ore": 1106.06343871322 }
+EVOLUTION_PROGRESSION_RESULT fair=true ages=[4, 4] ticks=8653

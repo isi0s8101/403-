@@ -1,0 +1,46 @@
+{
+  "apk": "sillons-empire-test-0.15.1-r2-arm64.apk",
+  "sha256": "ad0afdc249864bd7313f4d520a6f87240443ba945db2b1a59056ec5da9dd9613",
+  "bytes": 134881056,
+  "godot": "4.7.2.stable.official.ed1daf0bf",
+  "build_tools": "36.0.0",
+  "package": "fr.sillons.empire.recette.r2",
+  "signature_verified": true,
+  "zipalign_16k": true,
+  "manifest_validated": true,
+  "launcher_alias": true,
+  "manifest_corrections": [
+    "restored distinct androidx-startup authority",
+    "typed uses-feature required=false",
+    "typed uses-feature version=1",
+    "mapped android:version resource ID",
+    "typed uses-feature required=false",
+    "typed uses-feature version=0x401000"
+  ],
+  "device_validation": "NOT_RUN",
+  "native_libraries": [
+    {
+      "path": "lib/arm64-v8a/libc++_shared.so",
+      "elf_load_alignments": [
+        16384,
+        16384,
+        16384
+      ],
+      "compressed": true
+    },
+    {
+      "path": "lib/arm64-v8a/libgodot_android.so",
+      "elf_load_alignments": [
+        16384,
+        16384,
+        16384
+      ],
+      "compressed": true
+    }
+  ],
+  "unaltered_non_manifest_entries": 1592,
+  "manifest_fix_idempotent": true,
+  "wrong_package_rejected": true,
+  "only_arm64": true,
+  "both_graphics_packs_match_source": true
+}

@@ -1,0 +1,18 @@
+Laboratoire Sillons d'Empire — Godot 4.4.1-stable (official) — 2026-11-09T16:33:44
+PASS r01_priorites                      7/7 assertions PASS — empreinte c3106ba01af949b9 — 900 ticks en 409 ms
+PASS r02_epuisement                     7/7 assertions PASS — empreinte 71889ea90b55adda — 1400 ticks en 746 ms
+PASS r02b_inaccessible                  3/3 assertions PASS — empreinte a092beae529ff37b — 700 ticks en 295 ms
+PASS r03_passage_age                    7/7 assertions PASS — empreinte fec9548d0a854ed6 — 520 ticks en 241 ms
+PASS r03b_ia_passage                    3/3 assertions PASS — empreinte 88d9f3e7db974459 — 9000 ticks en 9898 ms
+PASS r04_delegation                     16/16 assertions PASS — empreinte d1e1569e73ceed8e — 420 ticks en 358 ms
+PASS r05_conquete                       4/4 assertions PASS — empreinte 0b063eea7cca0147 — 90 ticks en 36 ms
+PASS r05b_sans_moyens                   1/1 assertions PASS — empreinte 3c88dd0eba0636a4 — 40 ticks en 21 ms
+PASS r05c_regle_batisseur_seul          1/1 assertions PASS — empreinte c23edd142c17f56a — 120 ticks en 58 ms
+PASS r05d_reconstruction                3/3 assertions PASS — empreinte 7a067ba24fb5223e — 700 ticks en 306 ms
+PASS r06_ia_reevaluation                5/5 assertions PASS — empreinte 07155a5ab90ef2da — 2400 ticks en 5141 ms
+PASS r06b_ia_passage_bloque             2/2 assertions PASS — empreinte 21f7520ae545180e — 1500 ticks en 1584 ms
+PASS r07_ouverture_commerce             3/3 assertions PASS — empreinte ad4cedd205cda204 — 8400 ticks en 28838 ms
+PASS r08_ouverture_assaut               2/2 assertions PASS — empreinte 97a2259d468880ef — 8400 ticks en 11914 ms
+PASS r09_determinisme                   2/2 assertions PASS — empreinte de1a90c9a6e0d910 — 3000 ticks en 5992 ms
+PASS r10_partie_complete                1/1 assertions PASS — empreinte eb179432da36e494 — 30000 ticks en 55083 ms
+RÉSULTAT GLOBAL : PASS

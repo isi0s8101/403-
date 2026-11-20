@@ -1,0 +1,19 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS sauvegarde avec un vaisseau en mouvement
+PASS refus propre d'une sauvegarde altérée : position
+PASS refus propre d'une sauvegarde altérée : pv
+PASS refus propre d'une sauvegarde altérée : type
+PASS refus propre d'une sauvegarde altérée : chemin
+PASS refus propre d'une sauvegarde altérée : ordre
+PASS refus propre d'une sauvegarde altérée : inventaire
+PASS refus propre d'une sauvegarde altérée : identifiant
+PASS refus propre d'une sauvegarde altérée : ralliement
+PASS refus propre d'une sauvegarde altérée : dictionnaire
+PASS migration 0.14 sans ajout de vaisseaux
+PASS âge VII local : la flotte importée reste pilotable
+PASS âge VII local : aucune production orbitale anticipée
+PASS âge VII local : le vaisseau peut repartir
+PASS dégâts et niveaux de la flotte en transit sauvegardés
+PASS intégrité des vaisseaux en transit vérifiée
+ORBIT_SAVE_RESULT checks=16 failures=0

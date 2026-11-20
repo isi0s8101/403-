@@ -1,0 +1,151 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS native art pack mounted
+PASS 57 authored assets
+PASS self contained and intact bld_centre_a01
+PASS instanced bld_centre_a01
+PASS self contained and intact bld_maison_a01
+PASS instanced bld_maison_a01
+PASS self contained and intact bld_caserne_a01
+PASS instanced bld_caserne_a01
+PASS self contained and intact bld_entrepot_a01
+PASS instanced bld_entrepot_a01
+PASS self contained and intact bld_atelier_a01
+PASS instanced bld_atelier_a01
+PASS self contained and intact bld_marche_a01
+PASS instanced bld_marche_a01
+PASS self contained and intact bld_usine_a01
+PASS instanced bld_usine_a01
+PASS self contained and intact bld_academie_a01
+PASS instanced bld_academie_a01
+PASS self contained and intact bld_depot_a01
+PASS instanced bld_depot_a01
+PASS self contained and intact bld_fort_a01
+PASS instanced bld_fort_a01
+PASS self contained and intact bld_palissade_a01
+PASS instanced bld_palissade_a01
+PASS self contained and intact bld_centre_a03
+PASS instanced bld_centre_a03
+PASS self contained and intact bld_maison_a03
+PASS instanced bld_maison_a03
+PASS self contained and intact bld_caserne_a03
+PASS instanced bld_caserne_a03
+PASS self contained and intact bld_entrepot_a03
+PASS instanced bld_entrepot_a03
+PASS self contained and intact bld_atelier_a03
+PASS instanced bld_atelier_a03
+PASS self contained and intact bld_marche_a03
+PASS instanced bld_marche_a03
+PASS self contained and intact bld_usine_a03
+PASS instanced bld_usine_a03
+PASS self contained and intact bld_academie_a03
+PASS instanced bld_academie_a03
+PASS self contained and intact bld_depot_a03
+PASS instanced bld_depot_a03
+PASS self contained and intact bld_fort_a03
+PASS instanced bld_fort_a03
+PASS self contained and intact bld_palissade_a03
+PASS instanced bld_palissade_a03
+PASS self contained and intact bld_centre_a06
+PASS instanced bld_centre_a06
+PASS self contained and intact bld_maison_a06
+PASS instanced bld_maison_a06
+PASS self contained and intact bld_caserne_a06
+PASS instanced bld_caserne_a06
+PASS self contained and intact bld_entrepot_a06
+PASS instanced bld_entrepot_a06
+PASS self contained and intact bld_atelier_a06
+PASS instanced bld_atelier_a06
+PASS self contained and intact bld_marche_a06
+PASS instanced bld_marche_a06
+PASS self contained and intact bld_usine_a06
+PASS instanced bld_usine_a06
+PASS self contained and intact bld_academie_a06
+PASS instanced bld_academie_a06
+PASS self contained and intact bld_depot_a06
+PASS instanced bld_depot_a06
+PASS self contained and intact bld_fort_a06
+PASS instanced bld_fort_a06
+PASS self contained and intact bld_palissade_a06
+PASS instanced bld_palissade_a06
+PASS self contained and intact bld_centre_a10
+PASS instanced bld_centre_a10
+PASS self contained and intact bld_maison_a10
+PASS instanced bld_maison_a10
+PASS self contained and intact bld_caserne_a10
+PASS instanced bld_caserne_a10
+PASS self contained and intact bld_entrepot_a10
+PASS instanced bld_entrepot_a10
+PASS self contained and intact bld_atelier_a10
+PASS instanced bld_atelier_a10
+PASS self contained and intact bld_marche_a10
+PASS instanced bld_marche_a10
+PASS self contained and intact bld_usine_a10
+PASS instanced bld_usine_a10
+PASS self contained and intact bld_academie_a10
+PASS instanced bld_academie_a10
+PASS self contained and intact bld_depot_a10
+PASS instanced bld_depot_a10
+PASS self contained and intact bld_fort_a10
+PASS instanced bld_fort_a10
+PASS self contained and intact bld_palissade_a10
+PASS instanced bld_palissade_a10
+PASS self contained and intact oak_3
+PASS instanced oak_3
+PASS self contained and intact oak_11
+PASS instanced oak_11
+PASS self contained and intact oak_21
+PASS instanced oak_21
+PASS self contained and intact berry_bush
+PASS instanced berry_bush
+PASS self contained and intact boulder_4
+PASS instanced boulder_4
+PASS self contained and intact boulder_9
+PASS instanced boulder_9
+PASS self contained and intact boulder_17
+PASS instanced boulder_17
+PASS self contained and intact human_ouvrier
+PASS instanced human_ouvrier
+PASS self contained and intact human_colon
+PASS instanced human_colon
+PASS self contained and intact human_lancier
+PASS instanced human_lancier
+PASS self contained and intact human_tireur
+PASS instanced human_tireur
+PASS self contained and intact human_fusilier
+PASS instanced human_fusilier
+PASS self contained and intact human_grenadier
+PASS instanced human_grenadier
+PASS photographic PBR grass:albedo
+PASS photographic PBR grass:normal
+PASS photographic PBR grass:orm
+PASS photographic PBR soil:albedo
+PASS photographic PBR soil:normal
+PASS photographic PBR soil:orm
+PASS photographic PBR stone:albedo
+PASS photographic PBR stone:normal
+PASS photographic PBR stone:orm
+PASS photographic PBR sand:albedo
+PASS photographic PBR sand:normal
+PASS photographic PBR sand:orm
+PASS photographic PBR wall:albedo
+PASS photographic PBR wall:normal
+PASS photographic PBR wall:orm
+PASS photographic PBR roof:albedo
+PASS photographic PBR roof:normal
+PASS photographic PBR roof:orm
+PASS photographic PBR wood:albedo
+PASS photographic PBR wood:normal
+PASS photographic PBR wood:orm
+PASS photographic PBR bark:albedo
+PASS photographic PBR bark:normal
+PASS photographic PBR bark:orm
+PASS near figure uses new authored geometry
+PASS near human has animation player
+PASS animation idle
+PASS animation walk
+PASS animation work
+PASS animation attack
+PASS visual pass never changes simulation
+PASS unseen resource instances not submitted
+REALISM_VISUAL_RESULT=PASS checks=148 failures=0

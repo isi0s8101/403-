@@ -1,0 +1,11 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS démarrage tactile d'une recette
+PASS recette à vitesse ×1
+PASS ordres et sauvegardes de partie inaccessibles
+PASS arrière-plan suspendu
+ANDROID_PERF_REPORT {"elapsed_s":0.049888,"final_counts":{"dimension":256,"ground_units":12,"orbital_ships":0,"world_ticks":{"aurore":5,"nemesis":5,"val":5},"worlds":3},"fps_mean":60.1347017318794,"frame":{"count":3,"max_ms":16.676,"p50_ms":16.638,"p95_ms":16.676,"p99_ms":16.676},"frames_above_33_33_ms":0,"interruptions":1,"metadata":{"adaptive":true,"cores":9,"cpu":"AMD EPYC 9V74 80-Core Processor","debug_build":true,"device":"GenericDevice","dimension":256,"display_driver":"headless","frame_note":"Intervalles muraux des images ; préparation du rendu exclue, bascules incluses.","godot":"4.7.2-stable (official)","gpu":"","ground_units":12,"headless":true,"hud":"diagnostic overlay; game panels hidden","memory_note":"RSS du processus si lisible ; PSS via ADB. Mémoire Godot et vidéo distinctes.","orbital_ships":0,"os":"Linux","os_version":"13","quality":1,"renderer":"mobile","requested_s":60.0,"scenario":"large","seed":15101,"startup_cpu_ms":1721.122,"supply_chain":false,"target_fps":60,"thermal_reason":"Relevé externe Android requis : dumpsys thermalservice.","thermal_status":null,"tick_rate":10,"utc":"2026-11-15T01:13:43","version":"0.15.1-android-performances-r2-candidate","warmup_s":5.0,"window":"(0, 0)","world_ticks":{"aurore":4,"nemesis":4,"val":4},"worlds":3},"rss_peak_mib":null,"schema":1,"seconds":[],"sim_ticks_per_s":20.0449005772931,"switches":0,"tick":{"count":1,"max_ms":0.694,"p50_ms":0.694,"p95_ms":0.694,"p99_ms":0.694}}
+PASS interruption pendant préparation conservée
+PASS rapport sans écrasement de sauvegarde
+PASS retour menu et préférences rétablies
+ANDROID_PERFORMANCE_UI_RESULT checks=7 failures=0 DEVICE=NOT_RUN

@@ -1,0 +1,9 @@
+{
+  "schema": 1,
+  "file": "realism_models.pck",
+  "sha256": "f752b4c857d94d45545f79797ac556b2031cf0d9113df511ce0d756be0f18574",
+  "bytes": 4206144,
+  "models": 57,
+  "engine": "4.7.2.stable.official.ed1daf0bf",
+  "source": "art-source/models/manifest.json"
+}

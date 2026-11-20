@@ -1,0 +1,438 @@
+[
+  {
+    "name": "age_progression_test",
+    "exit": 0,
+    "errors": [],
+    "seconds": 1.167,
+    "summary": [
+      "AGE_TREE_RESULT=PASS checks=17 fails=0"
+    ]
+  },
+  {
+    "name": "android_performance_test",
+    "exit": 0,
+    "errors": [],
+    "seconds": 4.18,
+    "summary": [
+      "ANDROID_PERFORMANCE_RESULT checks=18 failures=0 DEVICE=NOT_RUN"
+    ]
+  },
+  {
+    "name": "android_performance_ui_test",
+    "exit": 0,
+    "errors": [],
+    "seconds": 3.577,
+    "summary": [
+      "ANDROID_PERFORMANCE_UI_RESULT checks=7 failures=0 DEVICE=NOT_RUN"
+    ]
+  },
+  {
+    "name": "assets_3d_test",
+    "exit": 0,
+    "errors": [],
+    "seconds": 1.871,
+    "summary": [
+      "ASSETS_GODOT_RESULT=PASS assets=800/800 fichiers=2400/2400"
+    ]
+  },
+  {
+    "name": "evolution_campaign_test",
+    "exit": 0,
+    "errors": [],
+    "seconds": 4.075,
+    "summary": [
+      "EVOLUTION_RESULT failures=0"
+    ]
+  },
+  {
+    "name": "evolution_diplomacy_test",
+    "exit": 0,
+    "errors": [],
+    "seconds": 0.817,
+    "summary": [
+      "EVOLUTION_DIPLOMACY_RESULT checks=22 failures=0"
+    ]
+  },
+  {
+    "name": "evolution_logistics_test",
+    "exit": 0,
+    "errors": [],
+    "seconds": 0.77,
+    "summary": [
+      "EVOLUTION_LOGISTICS_RESULT checks=11 failures=0"
+    ]
+  },
+  {
+    "name": "evolution_politics_test",
+    "exit": 0,
+    "errors": [],
+    "seconds": 1.669,
+    "summary": [
+      "EVOLUTION_POLITICS_RESULT checks=24 failures=0"
+    ]
+  },
+  {
+    "name": "evolution_progression_test",
+    "exit": 0,
+    "errors": [],
+    "seconds": 25.671,
+    "summary": [
+      "EVOLUTION_PROGRESSION_RESULT fair=true ages=[4, 4] ticks=8653"
+    ]
+  },
+  {
+    "name": "evolution_rally_test",
+    "exit": 0,
+    "errors": [],
+    "seconds": 0.77,
+    "summary": [
+      "EVOLUTION_RALLY_RESULT checks=20 failures=0"
+    ]
+  },
+  {
+    "name": "evolution_ui_test",
+    "exit": 0,
+    "errors": [],
+    "seconds": 4.079,
+    "summary": [
+      "EVOLUTION_UI_RESULT checks=9 failures=0"
+    ]
+  },
+  {
+    "name": "fronts_test",
+    "exit": 0,
+    "errors": [],
+    "seconds": 125.476,
+    "summary": [
+      "RÉSULTAT GLOBAL : PASS"
+    ]
+  },
+  {
+    "name": "interface_interaction_test",
+    "exit": 0,
+    "errors": [],
+    "seconds": 2.777,
+    "summary": [
+      "INTERFACE_INTERACTION_RESULT checks=24 failures=0"
+    ]
+  },
+  {
+    "name": "interface_menu_test",
+    "exit": 0,
+    "errors": [],
+    "seconds": 1.468,
+    "summary": [
+      "INTERFACE_MENU_RESULT checks=10 failures=0"
+    ]
+  },
+  {
+    "name": "interface_portraits_test",
+    "exit": 0,
+    "errors": [],
+    "seconds": 0.916,
+    "summary": [
+      "PORTRAITS_RESULT checks=405 missing=[]"
+    ]
+  },
+  {
+    "name": "j10_systems_test",
+    "exit": 0,
+    "errors": [],
+    "seconds": 1.267,
+    "summary": [
+      "J10_SYSTEMS_RESULT=PASS checks=24 failures=0"
+    ]
+  },
+  {
+    "name": "j10_ui_test",
+    "exit": 0,
+    "errors": [],
+    "seconds": 3.375,
+    "summary": [
+      "J10_UI_RESULT=PASS globe=true orbit=true system=true choice=true land=true return=true"
+    ]
+  },
+  {
+    "name": "j11_galaxy_test",
+    "exit": 0,
+    "errors": [],
+    "seconds": 2.771,
+    "summary": [
+      "J11_GALAXY_RESULT=PASS checks=32 failures=0"
+    ]
+  },
+  {
+    "name": "j11_ui_test",
+    "exit": 0,
+    "errors": [],
+    "seconds": 2.771,
+    "summary": [
+      "J11_UI_RESULT=PASS planet=true orbit=true system=true galaxy=true zoom=true return=true"
+    ]
+  },
+  {
+    "name": "j12_empire_test",
+    "exit": 0,
+    "errors": [],
+    "seconds": 1.219,
+    "summary": [
+      "J12_EMPIRE_RESULT=PASS checks=34 failures=0"
+    ]
+  },
+  {
+    "name": "j12_orbital_shipyard_test",
+    "exit": 0,
+    "errors": [],
+    "seconds": 0.766,
+    "summary": [
+      "ORBITAL_J12_3=PASS assertions=23 failures=0"
+    ]
+  },
+  {
+    "name": "j12_perf_test",
+    "exit": 0,
+    "errors": [],
+    "seconds": 0.567,
+    "summary": [
+      "J12_PERF_RESULT=PASS failures=0"
+    ]
+  },
+  {
+    "name": "j13_colony_test",
+    "exit": 0,
+    "errors": [],
+    "seconds": 26.506,
+    "summary": [
+      "J13_COLONY_RESULT=PASS checks=128 failures=0"
+    ]
+  },
+  {
+    "name": "j13_globe_test",
+    "exit": 0,
+    "errors": [],
+    "seconds": 3.074,
+    "summary": [
+      "J13_GLOBE_RESULT=PASS districts=7 modeles=15"
+    ]
+  },
+  {
+    "name": "j13_supply_test",
+    "exit": 0,
+    "errors": [],
+    "seconds": 19.424,
+    "summary": [
+      "J13_SUPPLY_RESULT=PASS checks=22 failures=0"
+    ]
+  },
+  {
+    "name": "j13_ui_test",
+    "exit": 0,
+    "errors": [],
+    "seconds": 2.971,
+    "summary": [
+      "J13_UI_RESULT=PASS shown=true built=true refused=true ratio=true governor=true"
+    ]
+  },
+  {
+    "name": "j9_planet_test",
+    "exit": 0,
+    "errors": [],
+    "seconds": 0.817,
+    "summary": [
+      "J9_TEST_RESULT=PASS checks=14 failures=0"
+    ]
+  },
+  {
+    "name": "j9_regions_test",
+    "exit": 0,
+    "errors": [],
+    "seconds": 1.017,
+    "summary": [
+      "J9_REGIONS_RESULT=PASS checks=29 failures=0"
+    ]
+  },
+  {
+    "name": "modal_touch_test",
+    "exit": 0,
+    "errors": [],
+    "seconds": 2.521,
+    "summary": [
+      "MODAL_TOUCH_RESULT=PASS checks=4 failures=0"
+    ]
+  },
+  {
+    "name": "modern_ai_test",
+    "exit": 0,
+    "errors": [],
+    "seconds": 10.343,
+    "summary": []
+  },
+  {
+    "name": "modern_catalog_test",
+    "exit": 0,
+    "errors": [],
+    "seconds": 2.172,
+    "summary": []
+  },
+  {
+    "name": "modern_sandbox_test",
+    "exit": 0,
+    "errors": [],
+    "seconds": 2.623,
+    "summary": []
+  },
+  {
+    "name": "modern_test",
+    "exit": 0,
+    "errors": [],
+    "seconds": 2.675,
+    "summary": []
+  },
+  {
+    "name": "modern_ui_test",
+    "exit": 0,
+    "errors": [],
+    "seconds": 2.673,
+    "summary": []
+  },
+  {
+    "name": "native_assets_test",
+    "exit": 0,
+    "errors": [],
+    "seconds": 0.616,
+    "summary": [
+      "NATIVE_ASSETS_RESULT=PASS checks=9 failures=0"
+    ]
+  },
+  {
+    "name": "orbit_save_test",
+    "exit": 0,
+    "errors": [],
+    "seconds": 1.369,
+    "summary": [
+      "ORBIT_SAVE_RESULT checks=16 failures=0"
+    ]
+  },
+  {
+    "name": "orbit_tactical_test",
+    "exit": 0,
+    "errors": [],
+    "seconds": 1.87,
+    "summary": [
+      "ORBIT_TACTICAL_RESULT checks=20 failures=0"
+    ]
+  },
+  {
+    "name": "realism_visual_test",
+    "exit": 0,
+    "errors": [],
+    "seconds": 2.521,
+    "summary": [
+      "REALISM_VISUAL_RESULT=PASS checks=148 failures=0"
+    ]
+  },
+  {
+    "name": "recette_integrale_test",
+    "exit": 0,
+    "errors": [],
+    "seconds": 111.396,
+    "summary": [
+      "RECETTE_AUTO_RESULT=PASS checks=202 fails=0 ticks=83859"
+    ]
+  },
+  {
+    "name": "refonte_visual_test",
+    "exit": 0,
+    "errors": [],
+    "seconds": 2.423,
+    "summary": [
+      "REFONTE_VISUAL_RESULT=PASS checks=140 failures=0"
+    ]
+  },
+  {
+    "name": "speed_ui_test",
+    "exit": 0,
+    "errors": [],
+    "seconds": 2.12,
+    "summary": []
+  },
+  {
+    "name": "strategic_test",
+    "exit": 0,
+    "errors": [],
+    "seconds": 1.769,
+    "summary": [
+      "STRATEGIC_RESULT=PASS checks=41 fail=0"
+    ]
+  },
+  {
+    "name": "strategic_ui_test",
+    "exit": 0,
+    "errors": [],
+    "seconds": 2.423,
+    "summary": []
+  },
+  {
+    "name": "touch_test",
+    "exit": 0,
+    "errors": [],
+    "seconds": 2.021,
+    "summary": [
+      "RÉSULTAT TACTILE : PASS"
+    ]
+  },
+  {
+    "name": "ui_j21_test",
+    "exit": 0,
+    "errors": [],
+    "seconds": 2.019,
+    "summary": [
+      "UI_J21_RESULT 15/15 PASS"
+    ]
+  },
+  {
+    "name": "view_technology_test",
+    "exit": 0,
+    "errors": [],
+    "seconds": 0.215,
+    "summary": [
+      "VIEW_TECH_RESULT=PASS checks=13 fails=0"
+    ]
+  },
+  {
+    "name": "visual_j21c_test",
+    "exit": 0,
+    "errors": [],
+    "seconds": 2.12,
+    "summary": [
+      "VISUAL_J21C_RESULT 15/15 PASS ; 1 SKIP"
+    ]
+  },
+  {
+    "name": "visual_j21def_test",
+    "exit": 0,
+    "errors": [],
+    "seconds": 2.172,
+    "summary": [
+      "VISUAL_J21DEF_RESULT=PASS checks=21 fail=0"
+    ]
+  },
+  {
+    "name": "evolution_performance_test",
+    "exit": 0,
+    "errors": [],
+    "seconds": 3.829,
+    "summary": [
+      "EVOLUTION_PERFORMANCE_RESULT failures=0 ANDROID=NOT_RUN"
+    ]
+  },
+  {
+    "name": "orbit_performance_test",
+    "exit": 0,
+    "errors": [],
+    "seconds": 1.118,
+    "summary": [
+      "ORBIT_PERFORMANCE_RESULT valid=true ANDROID=NOT_RUN"
+    ]
+  }
+]

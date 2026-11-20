@@ -1,0 +1,16 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS Terrain libre âge I
+PASS Atlas interdit avant âge II
+PASS Âge X seul ne débloque rien
+PASS Atlas après cartographie
+PASS Orbite sans recherche refusée
+PASS Orbite recherchée
+PASS Système verrouillé avant navigation interplanétaire
+PASS Système débloqué âge IX
+PASS Galaxie refusée sans filière X
+PASS Navigation stellaire toujours requise
+PASS Galaxie débloquée avec filière complète
+PASS Arbre incomplet interdit
+PASS Niveau invalide refusé
+VIEW_TECH_RESULT=PASS checks=13 fails=0

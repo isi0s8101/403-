@@ -1,0 +1,16 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS M01 dimensions 256
+PASS M01 aucun adversaire principal sur Val
+PASS M01 civilisation adverse active
+PASS M02 origines et connaissances propres
+PASS S01 sauvegarde V2 acceptée
+PASS S01 hash initial identique
+PASS S01 continuation déterministe
+PASS M05 brouillard compact identique à la référence dense
+PASS M04 simulation observée et hors écran identique
+PASS S01 écriture atomique V2
+PASS S01 fichier et SHA restaurés
+PASS S01 backup V2 conservé
+PASS S02 fichier corrompu : reprise du backup V2
+EVOLUTION_RESULT failures=0

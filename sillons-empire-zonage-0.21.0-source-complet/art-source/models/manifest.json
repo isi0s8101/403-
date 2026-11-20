@@ -1,0 +1,464 @@
+{
+  "schema": 1,
+  "authored_for": "Sillons d’Empire 0.13.5",
+  "generator": "Blender 4.3.2",
+  "geometry_license": "Original project geometry",
+  "models": [
+    {
+      "id": "bld_centre_a01",
+      "category": "building",
+      "family": "centre",
+      "age": 1,
+      "file": "bld_centre_a01.glb",
+      "triangles": 1680
+    },
+    {
+      "id": "bld_maison_a01",
+      "category": "building",
+      "family": "maison",
+      "age": 1,
+      "file": "bld_maison_a01.glb",
+      "triangles": 1584
+    },
+    {
+      "id": "bld_caserne_a01",
+      "category": "building",
+      "family": "caserne",
+      "age": 1,
+      "file": "bld_caserne_a01.glb",
+      "triangles": 1578
+    },
+    {
+      "id": "bld_entrepot_a01",
+      "category": "building",
+      "family": "entrepot",
+      "age": 1,
+      "file": "bld_entrepot_a01.glb",
+      "triangles": 2308
+    },
+    {
+      "id": "bld_atelier_a01",
+      "category": "building",
+      "family": "atelier",
+      "age": 1,
+      "file": "bld_atelier_a01.glb",
+      "triangles": 2176
+    },
+    {
+      "id": "bld_marche_a01",
+      "category": "building",
+      "family": "marche",
+      "age": 1,
+      "file": "bld_marche_a01.glb",
+      "triangles": 1736
+    },
+    {
+      "id": "bld_usine_a01",
+      "category": "building",
+      "family": "usine",
+      "age": 1,
+      "file": "bld_usine_a01.glb",
+      "triangles": 2176
+    },
+    {
+      "id": "bld_academie_a01",
+      "category": "building",
+      "family": "academie",
+      "age": 1,
+      "file": "bld_academie_a01.glb",
+      "triangles": 1476
+    },
+    {
+      "id": "bld_depot_a01",
+      "category": "building",
+      "family": "depot",
+      "age": 1,
+      "file": "bld_depot_a01.glb",
+      "triangles": 2308
+    },
+    {
+      "id": "bld_fort_a01",
+      "category": "building",
+      "family": "fort",
+      "age": 1,
+      "file": "bld_fort_a01.glb",
+      "triangles": 1678
+    },
+    {
+      "id": "bld_palissade_a01",
+      "category": "building",
+      "family": "palissade",
+      "age": 1,
+      "file": "bld_palissade_a01.glb",
+      "triangles": 628
+    },
+    {
+      "id": "bld_centre_a03",
+      "category": "building",
+      "family": "centre",
+      "age": 3,
+      "file": "bld_centre_a03.glb",
+      "triangles": 2340
+    },
+    {
+      "id": "bld_maison_a03",
+      "category": "building",
+      "family": "maison",
+      "age": 3,
+      "file": "bld_maison_a03.glb",
+      "triangles": 2244
+    },
+    {
+      "id": "bld_caserne_a03",
+      "category": "building",
+      "family": "caserne",
+      "age": 3,
+      "file": "bld_caserne_a03.glb",
+      "triangles": 2238
+    },
+    {
+      "id": "bld_entrepot_a03",
+      "category": "building",
+      "family": "entrepot",
+      "age": 3,
+      "file": "bld_entrepot_a03.glb",
+      "triangles": 2348
+    },
+    {
+      "id": "bld_atelier_a03",
+      "category": "building",
+      "family": "atelier",
+      "age": 3,
+      "file": "bld_atelier_a03.glb",
+      "triangles": 2216
+    },
+    {
+      "id": "bld_marche_a03",
+      "category": "building",
+      "family": "marche",
+      "age": 3,
+      "file": "bld_marche_a03.glb",
+      "triangles": 1736
+    },
+    {
+      "id": "bld_usine_a03",
+      "category": "building",
+      "family": "usine",
+      "age": 3,
+      "file": "bld_usine_a03.glb",
+      "triangles": 2836
+    },
+    {
+      "id": "bld_academie_a03",
+      "category": "building",
+      "family": "academie",
+      "age": 3,
+      "file": "bld_academie_a03.glb",
+      "triangles": 2136
+    },
+    {
+      "id": "bld_depot_a03",
+      "category": "building",
+      "family": "depot",
+      "age": 3,
+      "file": "bld_depot_a03.glb",
+      "triangles": 2348
+    },
+    {
+      "id": "bld_fort_a03",
+      "category": "building",
+      "family": "fort",
+      "age": 3,
+      "file": "bld_fort_a03.glb",
+      "triangles": 1678
+    },
+    {
+      "id": "bld_palissade_a03",
+      "category": "building",
+      "family": "palissade",
+      "age": 3,
+      "file": "bld_palissade_a03.glb",
+      "triangles": 628
+    },
+    {
+      "id": "bld_centre_a06",
+      "category": "building",
+      "family": "centre",
+      "age": 6,
+      "file": "bld_centre_a06.glb",
+      "triangles": 2152
+    },
+    {
+      "id": "bld_maison_a06",
+      "category": "building",
+      "family": "maison",
+      "age": 6,
+      "file": "bld_maison_a06.glb",
+      "triangles": 2056
+    },
+    {
+      "id": "bld_caserne_a06",
+      "category": "building",
+      "family": "caserne",
+      "age": 6,
+      "file": "bld_caserne_a06.glb",
+      "triangles": 2050
+    },
+    {
+      "id": "bld_entrepot_a06",
+      "category": "building",
+      "family": "entrepot",
+      "age": 6,
+      "file": "bld_entrepot_a06.glb",
+      "triangles": 2160
+    },
+    {
+      "id": "bld_atelier_a06",
+      "category": "building",
+      "family": "atelier",
+      "age": 6,
+      "file": "bld_atelier_a06.glb",
+      "triangles": 2028
+    },
+    {
+      "id": "bld_marche_a06",
+      "category": "building",
+      "family": "marche",
+      "age": 6,
+      "file": "bld_marche_a06.glb",
+      "triangles": 1736
+    },
+    {
+      "id": "bld_usine_a06",
+      "category": "building",
+      "family": "usine",
+      "age": 6,
+      "file": "bld_usine_a06.glb",
+      "triangles": 2648
+    },
+    {
+      "id": "bld_academie_a06",
+      "category": "building",
+      "family": "academie",
+      "age": 6,
+      "file": "bld_academie_a06.glb",
+      "triangles": 1948
+    },
+    {
+      "id": "bld_depot_a06",
+      "category": "building",
+      "family": "depot",
+      "age": 6,
+      "file": "bld_depot_a06.glb",
+      "triangles": 2160
+    },
+    {
+      "id": "bld_fort_a06",
+      "category": "building",
+      "family": "fort",
+      "age": 6,
+      "file": "bld_fort_a06.glb",
+      "triangles": 1678
+    },
+    {
+      "id": "bld_palissade_a06",
+      "category": "building",
+      "family": "palissade",
+      "age": 6,
+      "file": "bld_palissade_a06.glb",
+      "triangles": 628
+    },
+    {
+      "id": "bld_centre_a10",
+      "category": "building",
+      "family": "centre",
+      "age": 10,
+      "file": "bld_centre_a10.glb",
+      "triangles": 2822
+    },
+    {
+      "id": "bld_maison_a10",
+      "category": "building",
+      "family": "maison",
+      "age": 10,
+      "file": "bld_maison_a10.glb",
+      "triangles": 2208
+    },
+    {
+      "id": "bld_caserne_a10",
+      "category": "building",
+      "family": "caserne",
+      "age": 10,
+      "file": "bld_caserne_a10.glb",
+      "triangles": 2202
+    },
+    {
+      "id": "bld_entrepot_a10",
+      "category": "building",
+      "family": "entrepot",
+      "age": 10,
+      "file": "bld_entrepot_a10.glb",
+      "triangles": 2932
+    },
+    {
+      "id": "bld_atelier_a10",
+      "category": "building",
+      "family": "atelier",
+      "age": 10,
+      "file": "bld_atelier_a10.glb",
+      "triangles": 2800
+    },
+    {
+      "id": "bld_marche_a10",
+      "category": "building",
+      "family": "marche",
+      "age": 10,
+      "file": "bld_marche_a10.glb",
+      "triangles": 1736
+    },
+    {
+      "id": "bld_usine_a10",
+      "category": "building",
+      "family": "usine",
+      "age": 10,
+      "file": "bld_usine_a10.glb",
+      "triangles": 2800
+    },
+    {
+      "id": "bld_academie_a10",
+      "category": "building",
+      "family": "academie",
+      "age": 10,
+      "file": "bld_academie_a10.glb",
+      "triangles": 2100
+    },
+    {
+      "id": "bld_depot_a10",
+      "category": "building",
+      "family": "depot",
+      "age": 10,
+      "file": "bld_depot_a10.glb",
+      "triangles": 2932
+    },
+    {
+      "id": "bld_fort_a10",
+      "category": "building",
+      "family": "fort",
+      "age": 10,
+      "file": "bld_fort_a10.glb",
+      "triangles": 1678
+    },
+    {
+      "id": "bld_palissade_a10",
+      "category": "building",
+      "family": "palissade",
+      "age": 10,
+      "file": "bld_palissade_a10.glb",
+      "triangles": 628
+    },
+    {
+      "id": "oak_3",
+      "category": "resource",
+      "family": "tree",
+      "age": 1,
+      "file": "oak_3.glb",
+      "triangles": 9732
+    },
+    {
+      "id": "oak_11",
+      "category": "resource",
+      "family": "tree",
+      "age": 1,
+      "file": "oak_11.glb",
+      "triangles": 9732
+    },
+    {
+      "id": "oak_21",
+      "category": "resource",
+      "family": "tree",
+      "age": 1,
+      "file": "oak_21.glb",
+      "triangles": 9732
+    },
+    {
+      "id": "berry_bush",
+      "category": "resource",
+      "family": "berries",
+      "age": 1,
+      "file": "berry_bush.glb",
+      "triangles": 11232
+    },
+    {
+      "id": "boulder_4",
+      "category": "resource",
+      "family": "ore",
+      "age": 1,
+      "file": "boulder_4.glb",
+      "triangles": 80
+    },
+    {
+      "id": "boulder_9",
+      "category": "resource",
+      "family": "ore",
+      "age": 1,
+      "file": "boulder_9.glb",
+      "triangles": 80
+    },
+    {
+      "id": "boulder_17",
+      "category": "resource",
+      "family": "ore",
+      "age": 1,
+      "file": "boulder_17.glb",
+      "triangles": 80
+    },
+    {
+      "id": "human_ouvrier",
+      "category": "unit",
+      "family": "ouvrier",
+      "age": 1,
+      "file": "human_ouvrier.glb",
+      "triangles": 3128
+    },
+    {
+      "id": "human_colon",
+      "category": "unit",
+      "family": "colon",
+      "age": 1,
+      "file": "human_colon.glb",
+      "triangles": 3012
+    },
+    {
+      "id": "human_lancier",
+      "category": "unit",
+      "family": "lancier",
+      "age": 1,
+      "file": "human_lancier.glb",
+      "triangles": 3568
+    },
+    {
+      "id": "human_tireur",
+      "category": "unit",
+      "family": "tireur",
+      "age": 1,
+      "file": "human_tireur.glb",
+      "triangles": 3228
+    },
+    {
+      "id": "human_fusilier",
+      "category": "unit",
+      "family": "fusilier",
+      "age": 1,
+      "file": "human_fusilier.glb",
+      "triangles": 3556
+    },
+    {
+      "id": "human_grenadier",
+      "category": "unit",
+      "family": "grenadier",
+      "age": 1,
+      "file": "human_grenadier.glb",
+      "triangles": 3556
+    }
+  ]
+}

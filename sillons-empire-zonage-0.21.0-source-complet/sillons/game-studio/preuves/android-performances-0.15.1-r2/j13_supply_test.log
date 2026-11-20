@@ -1,0 +1,27 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS sans chaîne d'approvisionnement : règles 0.13.0 inchangées
+PASS chaîne activée : premiers habitants du monde fondateur
+PASS une recrue formée quitte la population (1 habitant)
+PASS sans habitants : aucune troupe, aucun débit
+PASS sans habitants : pas d'ouvrier ni de colon non plus
+PASS zone d'habitation (maisons) construite
+PASS les logements font grandir la réserve de recrues (56 habitants)
+PASS fusilier sans alliage refusé (industrie : manque 4 alliage)
+PASS fusilier équipé : alliage consommé une fois
+PASS char sans carburant refusé (industrie : manque 4 carburant)
+PASS char autorisé avec alliage et carburant
+PASS bâtiments anciens libres, bâtiments industriels en béton
+PASS usine sans béton refusée
+PASS usine bâtie : béton consommé une fois
+PASS réglage et état conservés par la sauvegarde
+PASS partie 0.12.3 migrée : anciennes règles conservées
+  camp 0 : âge 2, habitants 136, districts zonés 5, soldats 0, formés -1, crédits 1304
+PASS IA camp 0 : zones construites par l'intendant
+PASS IA camp 0 : armée levée malgré la chaîne d'approvisionnement
+PASS IA camp 0 : comptes équilibrés
+  camp 1 : âge 2, habitants 304, districts zonés 14, soldats 12, formés -1, crédits 460
+PASS IA camp 1 : zones construites par l'intendant
+PASS IA camp 1 : armée levée malgré la chaîne d'approvisionnement
+PASS IA camp 1 : comptes équilibrés
+J13_SUPPLY_RESULT=PASS checks=22 failures=0

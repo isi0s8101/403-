@@ -1,0 +1,431 @@
+PASS fichier requis project.godot
+PASS fichier requis export_presets.cfg
+PASS fichier requis README-J678.md
+PASS fichier requis sim/star_campaign.gd
+PASS fichier requis sim/campaign_save.gd
+PASS fichier requis sim/rules.gd
+PASS fichier requis sim/sim_world.gd
+PASS fichier requis sim/save_game.gd
+PASS fichier requis game/game.gd
+PASS fichier requis game/main_menu.gd
+PASS fichier requis game/hud.gd
+PASS fichier requis game/strategic_hud.gd
+PASS fichier requis lab/strategic_test.gd
+PASS fichier requis lab/strategic_ui_test.gd
+PASS fichier requis game-studio/J678-validation.md
+PASS fichier requis tools/verify-j678.sh
+PASS encodage/fin de ligne sim/campaign_save.gd
+PASS indentation principale sim/campaign_save.gd
+PASS classe nommée sim/campaign_save.gd
+PASS fonctions non dupliquées sim/campaign_save.gd
+PASS signatures alignées sim/campaign_save.gd
+PASS encodage/fin de ligne sim/ai_controller.gd
+PASS indentation principale sim/ai_controller.gd
+PASS fonctions non dupliquées sim/ai_controller.gd
+PASS signatures alignées sim/ai_controller.gd
+PASS encodage/fin de ligne sim/star_campaign.gd
+PASS indentation principale sim/star_campaign.gd
+PASS classe nommée sim/star_campaign.gd
+PASS fonctions non dupliquées sim/star_campaign.gd
+PASS signatures alignées sim/star_campaign.gd
+PASS encodage/fin de ligne sim/save_game.gd
+PASS indentation principale sim/save_game.gd
+PASS fonctions non dupliquées sim/save_game.gd
+PASS signatures alignées sim/save_game.gd
+PASS encodage/fin de ligne sim/sim_world.gd
+PASS indentation principale sim/sim_world.gd
+PASS fonctions non dupliquées sim/sim_world.gd
+PASS signatures alignées sim/sim_world.gd
+PASS encodage/fin de ligne sim/sim_map.gd
+PASS indentation principale sim/sim_map.gd
+PASS fonctions non dupliquées sim/sim_map.gd
+PASS signatures alignées sim/sim_map.gd
+PASS encodage/fin de ligne sim/rules.gd
+PASS indentation principale sim/rules.gd
+PASS fonctions non dupliquées sim/rules.gd
+PASS signatures alignées sim/rules.gd
+PASS encodage/fin de ligne sim/modern_systems.gd
+PASS indentation principale sim/modern_systems.gd
+PASS fonctions non dupliquées sim/modern_systems.gd
+PASS signatures alignées sim/modern_systems.gd
+PASS encodage/fin de ligne game/witness.gd
+PASS indentation principale game/witness.gd
+PASS fonctions non dupliquées game/witness.gd
+PASS signatures alignées game/witness.gd
+PASS encodage/fin de ligne game/game.gd
+PASS indentation principale game/game.gd
+PASS fonctions non dupliquées game/game.gd
+PASS signatures alignées game/game.gd
+PASS encodage/fin de ligne game/unit_visual.gd
+PASS indentation principale game/unit_visual.gd
+PASS fonctions non dupliquées game/unit_visual.gd
+PASS signatures alignées game/unit_visual.gd
+PASS encodage/fin de ligne game/building_visual.gd
+PASS indentation principale game/building_visual.gd
+PASS fonctions non dupliquées game/building_visual.gd
+PASS signatures alignées game/building_visual.gd
+PASS encodage/fin de ligne game/modern_visual.gd
+PASS indentation principale game/modern_visual.gd
+PASS fonctions non dupliquées game/modern_visual.gd
+PASS signatures alignées game/modern_visual.gd
+PASS encodage/fin de ligne game/hud.gd
+PASS indentation principale game/hud.gd
+PASS fonctions non dupliquées game/hud.gd
+PASS signatures alignées game/hud.gd
+PASS encodage/fin de ligne game/strategic_hud.gd
+PASS indentation principale game/strategic_hud.gd
+PASS classe nommée game/strategic_hud.gd
+PASS fonctions non dupliquées game/strategic_hud.gd
+PASS signatures alignées game/strategic_hud.gd
+PASS encodage/fin de ligne game/main_menu.gd
+PASS indentation principale game/main_menu.gd
+PASS fonctions non dupliquées game/main_menu.gd
+PASS signatures alignées game/main_menu.gd
+PASS encodage/fin de ligne game/assets.gd
+PASS indentation principale game/assets.gd
+PASS fonctions non dupliquées game/assets.gd
+PASS signatures alignées game/assets.gd
+PASS encodage/fin de ligne game/game_config.gd
+PASS indentation principale game/game_config.gd
+PASS fonctions non dupliquées game/game_config.gd
+PASS signatures alignées game/game_config.gd
+PASS encodage/fin de ligne game/world_view.gd
+PASS indentation principale game/world_view.gd
+PASS fonctions non dupliquées game/world_view.gd
+PASS signatures alignées game/world_view.gd
+PASS encodage/fin de ligne game/fronts.gd
+PASS indentation principale game/fronts.gd
+PASS fonctions non dupliquées game/fronts.gd
+PASS signatures alignées game/fronts.gd
+PASS encodage/fin de ligne lab/strategic_test.gd
+PASS indentation principale lab/strategic_test.gd
+PASS fonctions non dupliquées lab/strategic_test.gd
+PASS signatures alignées lab/strategic_test.gd
+PASS encodage/fin de ligne lab/fronts_test.gd
+PASS indentation principale lab/fronts_test.gd
+PASS fonctions non dupliquées lab/fronts_test.gd
+PASS signatures alignées lab/fronts_test.gd
+PASS encodage/fin de ligne lab/modern_sandbox_test.gd
+PASS indentation principale lab/modern_sandbox_test.gd
+PASS fonctions non dupliquées lab/modern_sandbox_test.gd
+PASS signatures alignées lab/modern_sandbox_test.gd
+PASS encodage/fin de ligne lab/visual_j21def_test.gd
+PASS indentation principale lab/visual_j21def_test.gd
+PASS fonctions non dupliquées lab/visual_j21def_test.gd
+PASS signatures alignées lab/visual_j21def_test.gd
+PASS encodage/fin de ligne lab/modern_catalog_test.gd
+PASS indentation principale lab/modern_catalog_test.gd
+PASS fonctions non dupliquées lab/modern_catalog_test.gd
+PASS signatures alignées lab/modern_catalog_test.gd
+PASS encodage/fin de ligne lab/lab_scenario.gd
+PASS indentation principale lab/lab_scenario.gd
+PASS fonctions non dupliquées lab/lab_scenario.gd
+PASS signatures alignées lab/lab_scenario.gd
+PASS encodage/fin de ligne lab/modern_ui_test.gd
+PASS indentation principale lab/modern_ui_test.gd
+PASS fonctions non dupliquées lab/modern_ui_test.gd
+PASS signatures alignées lab/modern_ui_test.gd
+PASS encodage/fin de ligne lab/touch_test.gd
+PASS indentation principale lab/touch_test.gd
+PASS fonctions non dupliquées lab/touch_test.gd
+PASS signatures alignées lab/touch_test.gd
+PASS encodage/fin de ligne lab/ui_j21_test.gd
+PASS indentation principale lab/ui_j21_test.gd
+PASS fonctions non dupliquées lab/ui_j21_test.gd
+PASS signatures alignées lab/ui_j21_test.gd
+PASS encodage/fin de ligne lab/modern_ai_test.gd
+PASS indentation principale lab/modern_ai_test.gd
+PASS fonctions non dupliquées lab/modern_ai_test.gd
+PASS signatures alignées lab/modern_ai_test.gd
+PASS encodage/fin de ligne lab/compare_settings.gd
+PASS indentation principale lab/compare_settings.gd
+PASS fonctions non dupliquées lab/compare_settings.gd
+PASS signatures alignées lab/compare_settings.gd
+PASS encodage/fin de ligne lab/visual_j21c_test.gd
+PASS indentation principale lab/visual_j21c_test.gd
+PASS fonctions non dupliquées lab/visual_j21c_test.gd
+PASS signatures alignées lab/visual_j21c_test.gd
+PASS encodage/fin de ligne lab/theater.gd
+PASS indentation principale lab/theater.gd
+PASS fonctions non dupliquées lab/theater.gd
+PASS signatures alignées lab/theater.gd
+PASS encodage/fin de ligne lab/strategic_ui_test.gd
+PASS indentation principale lab/strategic_ui_test.gd
+PASS fonctions non dupliquées lab/strategic_ui_test.gd
+PASS signatures alignées lab/strategic_ui_test.gd
+PASS encodage/fin de ligne lab/lab_runner.gd
+PASS indentation principale lab/lab_runner.gd
+PASS fonctions non dupliquées lab/lab_runner.gd
+PASS signatures alignées lab/lab_runner.gd
+PASS encodage/fin de ligne lab/modern_test.gd
+PASS indentation principale lab/modern_test.gd
+PASS fonctions non dupliquées lab/modern_test.gd
+PASS signatures alignées lab/modern_test.gd
+PASS encodage/fin de ligne tools/multimesh_probe.gd
+PASS indentation principale tools/multimesh_probe.gd
+PASS fonctions non dupliquées tools/multimesh_probe.gd
+PASS signatures alignées tools/multimesh_probe.gd
+PASS encodage/fin de ligne tools/capture.gd
+PASS indentation principale tools/capture.gd
+PASS fonctions non dupliquées tools/capture.gd
+PASS signatures alignées tools/capture.gd
+PASS ensemble GDScript préservé (38 scripts)
+PASS dix âges historiques et futurs
+PASS catalogue orbital et interstellaire
+PASS trois secteurs différents
+PASS mécanique J6-J8 et victoire globale
+PASS toutes les planètes continuent de simuler
+PASS interception sur copie d'index stable
+PASS ressources et technologies communes
+PASS sauvegarde multi-cartes vérifiée par empreinte
+PASS désérialisation sans instanciation d'objets
+PASS moteur et bascule de vue raccordés
+PASS balayage et gestes UI raccordés
+PASS commandes tactiles orbitales
+PASS tests de non-régression J6-J8
+PASS laboratoires J1–J5 conservés
+PASS configuration Godot disponible
+PASS archive J345 d'origine CRC correct
+PASS source J345 non modifiée README-J345.md
+PASS source J345 non modifiée icon.svg
+PASS source J345 non modifiée icon.svg.import
+PASS source J345 non modifiée .nomedia
+PASS source J345 non modifiée tools/capture.gd
+PASS source J345 non modifiée tools/capture.gd.uid
+PASS source J345 non modifiée tools/generate_j21c_textures.py
+PASS source J345 non modifiée tools/multimesh_probe.gd
+PASS source J345 non modifiée tools/verify-j345.sh
+PASS source J345 non modifiée tools/multimesh_probe.gd.uid
+PASS source J345 non modifiée game/assets.gd.uid
+PASS source J345 non modifiée game/building_visual.gd
+PASS source J345 non modifiée game/building_visual.gd.uid
+PASS source J345 non modifiée game/fronts.gd
+PASS source J345 non modifiée game/fronts.gd.uid
+PASS source J345 non modifiée game/fronts.tscn
+PASS source J345 non modifiée game/game.gd.uid
+PASS source J345 non modifiée game/game.tscn
+PASS source J345 non modifiée game/game_config.gd.uid
+PASS source J345 non modifiée game/hud.gd.uid
+PASS source J345 non modifiée game/main_menu.gd.uid
+PASS source J345 non modifiée game/main_menu.tscn
+PASS source J345 non modifiée game/modern_visual.gd.uid
+PASS source J345 non modifiée game/unit_visual.gd
+PASS source J345 non modifiée game/unit_visual.gd.uid
+PASS source J345 non modifiée game/witness.gd
+PASS source J345 non modifiée game/witness.gd.uid
+PASS source J345 non modifiée game/witness.tscn
+PASS source J345 non modifiée game/world_view.gd
+PASS source J345 non modifiée game/world_view.gd.uid
+PASS source J345 non modifiée sim/ai_controller.gd.uid
+PASS source J345 non modifiée sim/modern_systems.gd.uid
+PASS source J345 non modifiée sim/rules.gd.uid
+PASS source J345 non modifiée sim/save_game.gd.uid
+PASS source J345 non modifiée sim/sim_map.gd
+PASS source J345 non modifiée sim/sim_map.gd.uid
+PASS source J345 non modifiée sim/sim_world.gd.uid
+PASS source J345 non modifiée game/textures/grass_pbr.png
+PASS source J345 non modifiée game/textures/grass_pbr.png.import
+PASS source J345 non modifiée game/textures/rock_pbr.png
+PASS source J345 non modifiée game/textures/rock_pbr.png.import
+PASS source J345 non modifiée game/textures/sand_pbr.png
+PASS source J345 non modifiée game/textures/sand_pbr.png.import
+PASS source J345 non modifiée game/textures/soil_pbr.png
+PASS source J345 non modifiée game/textures/soil_pbr.png.import
+PASS source J345 non modifiée game/textures/terrain_normal.png
+PASS source J345 non modifiée game/textures/terrain_normal.png.import
+PASS source J345 non modifiée lab/compare_settings.gd
+PASS source J345 non modifiée lab/compare_settings.gd.uid
+PASS source J345 non modifiée lab/fronts_test.gd
+PASS source J345 non modifiée lab/fronts_test.gd.uid
+PASS source J345 non modifiée lab/lab_runner.gd
+PASS source J345 non modifiée lab/lab_runner.gd.uid
+PASS source J345 non modifiée lab/lab_scenario.gd
+PASS source J345 non modifiée lab/lab_scenario.gd.uid
+PASS source J345 non modifiée lab/modern_ai_test.gd
+PASS source J345 non modifiée lab/modern_catalog_test.gd
+PASS source J345 non modifiée lab/modern_sandbox_test.gd
+PASS source J345 non modifiée lab/modern_test.gd
+PASS source J345 non modifiée lab/modern_ui_test.gd
+PASS source J345 non modifiée lab/theater.gd
+PASS source J345 non modifiée lab/theater.gd.uid
+PASS source J345 non modifiée lab/touch_test.gd
+PASS source J345 non modifiée lab/touch_test.gd.uid
+PASS source J345 non modifiée lab/ui_j21_test.gd
+PASS source J345 non modifiée lab/ui_j21_test.gd.uid
+PASS source J345 non modifiée lab/visual_j21c_test.gd
+PASS source J345 non modifiée lab/visual_j21c_test.gd.uid
+PASS source J345 non modifiée lab/visual_j21def_test.gd
+PASS source J345 non modifiée lab/visual_j21def_test.gd.uid
+PASS source J345 non modifiée lab/modern_catalog_test.gd.uid
+PASS source J345 non modifiée lab/modern_ai_test.gd.uid
+PASS source J345 non modifiée lab/modern_sandbox_test.gd.uid
+PASS source J345 non modifiée lab/modern_test.gd.uid
+PASS source J345 non modifiée lab/modern_ui_test.gd.uid
+PASS source J345 non modifiée lab/fronts/front_a_gue.json
+PASS source J345 non modifiée lab/fronts/front_b_plaine.json
+PASS source J345 non modifiée game-studio/J21-mobile-ui.md
+PASS source J345 non modifiée game-studio/J21C-terrain-pbr-eclairage.md
+PASS source J345 non modifiée game-studio/J21DEF-unites-batiments-tactile.md
+PASS source J345 non modifiée game-studio/J345-validation.md
+PASS source J345 non modifiée game-studio/README.md
+PASS source J345 non modifiée game-studio/assets-licences.md
+PASS source J345 non modifiée game-studio/baseline.md
+PASS source J345 non modifiée game-studio/changelog.md
+PASS source J345 non modifiée game-studio/decisions.md
+PASS source J345 non modifiée game-studio/fiches-design.md
+PASS source J345 non modifiée game-studio/j2-sim.sha256
+PASS source J345 non modifiée game-studio/manifest-j21def.sha256
+PASS source J345 non modifiée game-studio/manifest-j345.sha256
+PASS source J345 non modifiée game-studio/mesures-rendu.md
+PASS source J345 non modifiée game-studio/ouvertures.md
+PASS source J345 non modifiée game-studio/problemes.md
+PASS source J345 non modifiée game-studio/recette.md
+PASS source J345 non modifiée game-studio/resultats-android.md
+PASS source J345 non modifiée game-studio/resultats.md
+PASS source J345 non modifiée game-studio/validation-j21.md
+PASS source J345 non modifiée game-studio/validation-j21c.md
+PASS source J345 non modifiée game-studio/validation-j21def.md
+PASS source J345 non modifiée game-studio/verify_j21_static.py
+PASS source J345 non modifiée game-studio/verify_j21c_static.py
+PASS source J345 non modifiée game-studio/verify_j21def_static.py
+PASS source J345 non modifiée lab/scenarios/r01_priorites.json
+PASS source J345 non modifiée lab/scenarios/r02_epuisement.json
+PASS source J345 non modifiée lab/scenarios/r02b_inaccessible.json
+PASS source J345 non modifiée lab/scenarios/r03_passage_age.json
+PASS source J345 non modifiée lab/scenarios/r03b_ia_passage.json
+PASS source J345 non modifiée lab/scenarios/r04_delegation.json
+PASS source J345 non modifiée lab/scenarios/r05_conquete.json
+PASS source J345 non modifiée lab/scenarios/r05b_sans_moyens.json
+PASS source J345 non modifiée lab/scenarios/r05c_regle_batisseur_seul.json
+PASS source J345 non modifiée lab/scenarios/r05d_reconstruction.json
+PASS source J345 non modifiée lab/scenarios/r05e_minuteur.json
+PASS source J345 non modifiée lab/scenarios/r06_ia_reevaluation.json
+PASS source J345 non modifiée lab/scenarios/r06b_ia_passage_bloque.json
+PASS source J345 non modifiée lab/scenarios/r07_ouverture_commerce.json
+PASS source J345 non modifiée lab/scenarios/r08_ouverture_assaut.json
+PASS source J345 non modifiée lab/scenarios/r09_determinisme.json
+PASS source J345 non modifiée lab/scenarios/r10_partie_complete.json
+PASS source J345 non modifiée lab/scenarios/r11_fort_passage.json
+PASS source J345 non modifiée lab/scenarios/r12_siege.json
+PASS source J345 non modifiée lab/scenarios/r13_route_alternative.json
+PASS source J345 non modifiée lab/scenarios/r14_passage_age3.json
+PASS source J345 non modifiée lab/scenarios/r15_delegation_acces.json
+PASS source J345 non modifiée lab/scenarios/r16_artillerie.json
+PASS source J345 non modifiée game-studio/preuves-j21c/execution-status.txt
+PASS source J345 non modifiée game-studio/preuves-j21c/source-manifest.sha256
+PASS source J345 non modifiée game-studio/preuves-j21c/static-check.txt
+PASS source J345 non modifiée game-studio/preuves-j21def/static-j21.log
+PASS source J345 non modifiée game-studio/preuves-j21def/static-j21c.log
+PASS source J345 non modifiée game-studio/preuves-j21def/static-j21def.log
+PASS source J345 non modifiée game-studio/preuves-j21/static-check.txt
+PASS source J345 non modifiée game-studio/preuves/apksigner-verify-j2.txt
+PASS source J345 non modifiée game-studio/preuves/apksigner-verify.txt
+PASS source J345 non modifiée game-studio/preuves/comparaison_reglages.txt
+PASS source J345 non modifiée game-studio/preuves/tactile.txt
+PASS source J345 non modifiée game-studio/preuves/tactile_j2.txt
+PASS source J345 non modifiée game-studio/preuves/deux_fronts/README.md
+PASS source J345 non modifiée game-studio/preuves/deux_fronts/invariance.json
+PASS source J345 non modifiée game-studio/preuves/deux_fronts/invariance.txt
+PASS source J345 non modifiée game-studio/preuves/deux_fronts/ordres_front_A_niveau100_1500ticks.json
+PASS source J345 non modifiée game-studio/preuves/deux_fronts/ordres_front_A_niveau100_300ticks.json
+PASS source J345 non modifiée game-studio/preuves/deux_fronts/ordres_front_B_niveau100_1500ticks.json
+PASS source J345 non modifiée game-studio/preuves/deux_fronts/ordres_front_B_niveau100_300ticks.json
+PASS source J345 non modifiée game-studio/preuves/deux_fronts/reference_conteneur_headless.json
+PASS source J345 non modifiée game-studio/preuves/captures_j2/01-fort-palissades-r11.png
+PASS source J345 non modifiée game-studio/preuves/captures_j2/01-fort-palissades-r11.png.import
+PASS source J345 non modifiée game-studio/preuves/captures_j2/02-canon-batterie.png
+PASS source J345 non modifiée game-studio/preuves/captures_j2/02-canon-batterie.png.import
+PASS source J345 non modifiée game-studio/preuves/captures_j2/03-siege-r12.png
+PASS source J345 non modifiée game-studio/preuves/captures_j2/03-siege-r12.png.import
+PASS source J345 non modifiée game-studio/preuves/captures_j2/04-hud-age3.png
+PASS source J345 non modifiée game-studio/preuves/captures_j2/04-hud-age3.png.import
+PASS source J345 non modifiée game-studio/preuves/captures/01-depart.png
+PASS source J345 non modifiée game-studio/preuves/captures/01-depart.png.import
+PASS source J345 non modifiée game-studio/preuves/captures/02-delegation-labo.png
+PASS source J345 non modifiée game-studio/preuves/captures/02-delegation-labo.png.import
+PASS source J345 non modifiée game-studio/preuves/captures/03-ia-contre-ia-10min.png
+PASS source J345 non modifiée game-studio/preuves/captures/03-ia-contre-ia-10min.png.import
+PASS source J345 non modifiée game-studio/preuves/captures/04-zone-temoin.png
+PASS source J345 non modifiée game-studio/preuves/captures/04-zone-temoin.png.import
+PASS source J345 non modifiée game-studio/preuves/j345/catalog.log
+PASS source J345 non modifiée game-studio/preuves/j345/clean-import.log
+PASS source J345 non modifiée game-studio/preuves/j345/fronts.log
+PASS source J345 non modifiée game-studio/preuves/j345/modern-ai.log
+PASS source J345 non modifiée game-studio/preuves/j345/modern-ui.log
+PASS source J345 non modifiée game-studio/preuves/j345/modern.log
+PASS source J345 non modifiée game-studio/preuves/j345/multimesh-probe.log
+PASS source J345 non modifiée game-studio/preuves/j345/sandbox.log
+PASS source J345 non modifiée game-studio/preuves/j345/source-diff.json
+PASS source J345 non modifiée game-studio/preuves/j345/touch_test.log
+PASS source J345 non modifiée game-studio/preuves/j345/ui_j21_test.log
+PASS source J345 non modifiée game-studio/preuves/j345/visual.log
+PASS source J345 non modifiée game-studio/preuves/j345/visual_j21c_test.log
+PASS source J345 non modifiée game-studio/preuves/j345-regression/r01_priorites.log
+PASS source J345 non modifiée game-studio/preuves/j345-regression/r02_epuisement.log
+PASS source J345 non modifiée game-studio/preuves/j345-regression/r02b_inaccessible.log
+PASS source J345 non modifiée game-studio/preuves/j345-regression/r03_passage_age.log
+PASS source J345 non modifiée game-studio/preuves/j345-regression/r03b_ia_passage.log
+PASS source J345 non modifiée game-studio/preuves/j345-regression/r04_delegation.log
+PASS source J345 non modifiée game-studio/preuves/j345-regression/r05_conquete.log
+PASS source J345 non modifiée game-studio/preuves/j345-regression/r05b_sans_moyens.log
+PASS source J345 non modifiée game-studio/preuves/j345-regression/r05c_regle_batisseur_seul.log
+PASS source J345 non modifiée game-studio/preuves/j345-regression/r05d_reconstruction.log
+PASS source J345 non modifiée game-studio/preuves/j345-regression/r05e_minuteur.log
+PASS source J345 non modifiée game-studio/preuves/j345-regression/r06_ia_reevaluation.log
+PASS source J345 non modifiée game-studio/preuves/j345-regression/r06b_ia_passage_bloque.log
+PASS source J345 non modifiée game-studio/preuves/j345-regression/r07_ouverture_commerce.log
+PASS source J345 non modifiée game-studio/preuves/j345-regression/r08_ouverture_assaut.log
+PASS source J345 non modifiée game-studio/preuves/j345-regression/r09_determinisme.log
+PASS source J345 non modifiée game-studio/preuves/j345-regression/r10_partie_complete.log
+PASS source J345 non modifiée game-studio/preuves/j345-regression/r11_fort_passage.log
+PASS source J345 non modifiée game-studio/preuves/j345-regression/r12_siege.log
+PASS source J345 non modifiée game-studio/preuves/j345-regression/r13_route_alternative.log
+PASS source J345 non modifiée game-studio/preuves/j345-regression/r14_passage_age3.log
+PASS source J345 non modifiée game-studio/preuves/j345-regression/r15_delegation_acces.log
+PASS source J345 non modifiée game-studio/preuves/j345-regression/r16_artillerie.log
+PASS source J345 non modifiée game-studio/preuves/j345-regression/resume.txt
+PASS source J345 non modifiée game-studio/preuves/labo/r01_priorites.log
+PASS source J345 non modifiée game-studio/preuves/labo/r02_epuisement.log
+PASS source J345 non modifiée game-studio/preuves/labo/r02b_inaccessible.log
+PASS source J345 non modifiée game-studio/preuves/labo/r03_passage_age.log
+PASS source J345 non modifiée game-studio/preuves/labo/r03b_ia_passage.log
+PASS source J345 non modifiée game-studio/preuves/labo/r04_delegation.log
+PASS source J345 non modifiée game-studio/preuves/labo/r05_conquete.log
+PASS source J345 non modifiée game-studio/preuves/labo/r05b_sans_moyens.log
+PASS source J345 non modifiée game-studio/preuves/labo/r05c_regle_batisseur_seul.log
+PASS source J345 non modifiée game-studio/preuves/labo/r05d_reconstruction.log
+PASS source J345 non modifiée game-studio/preuves/labo/r06_ia_reevaluation.log
+PASS source J345 non modifiée game-studio/preuves/labo/r06b_ia_passage_bloque.log
+PASS source J345 non modifiée game-studio/preuves/labo/r07_ouverture_commerce.log
+PASS source J345 non modifiée game-studio/preuves/labo/r08_ouverture_assaut.log
+PASS source J345 non modifiée game-studio/preuves/labo/r09_determinisme.log
+PASS source J345 non modifiée game-studio/preuves/labo/r10_partie_complete.log
+PASS source J345 non modifiée game-studio/preuves/labo/resume.txt
+PASS source J345 non modifiée game-studio/preuves/labo/sortie_console.txt
+PASS source J345 non modifiée game-studio/preuves/labo_j2/r01_priorites.log
+PASS source J345 non modifiée game-studio/preuves/labo_j2/r02_epuisement.log
+PASS source J345 non modifiée game-studio/preuves/labo_j2/r02b_inaccessible.log
+PASS source J345 non modifiée game-studio/preuves/labo_j2/r03_passage_age.log
+PASS source J345 non modifiée game-studio/preuves/labo_j2/r03b_ia_passage.log
+PASS source J345 non modifiée game-studio/preuves/labo_j2/r04_delegation.log
+PASS source J345 non modifiée game-studio/preuves/labo_j2/r05_conquete.log
+PASS source J345 non modifiée game-studio/preuves/labo_j2/r05b_sans_moyens.log
+PASS source J345 non modifiée game-studio/preuves/labo_j2/r05c_regle_batisseur_seul.log
+PASS source J345 non modifiée game-studio/preuves/labo_j2/r05d_reconstruction.log
+PASS source J345 non modifiée game-studio/preuves/labo_j2/r05e_minuteur.log
+PASS source J345 non modifiée game-studio/preuves/labo_j2/r06_ia_reevaluation.log
+PASS source J345 non modifiée game-studio/preuves/labo_j2/r06b_ia_passage_bloque.log
+PASS source J345 non modifiée game-studio/preuves/labo_j2/r07_ouverture_commerce.log
+PASS source J345 non modifiée game-studio/preuves/labo_j2/r08_ouverture_assaut.log
+PASS source J345 non modifiée game-studio/preuves/labo_j2/r09_determinisme.log
+PASS source J345 non modifiée game-studio/preuves/labo_j2/r10_partie_complete.log
+PASS source J345 non modifiée game-studio/preuves/labo_j2/r11_fort_passage.log
+PASS source J345 non modifiée game-studio/preuves/labo_j2/r12_siege.log
+PASS source J345 non modifiée game-studio/preuves/labo_j2/r13_route_alternative.log
+PASS source J345 non modifiée game-studio/preuves/labo_j2/r14_passage_age3.log
+PASS source J345 non modifiée game-studio/preuves/labo_j2/r15_delegation_acces.log
+PASS source J345 non modifiée game-studio/preuves/labo_j2/r16_artillerie.log
+PASS source J345 non modifiée game-studio/preuves/labo_j2/resume.txt
+PASS fichiers historiques préservés (240)
+J678_STATIC_RESULT=PASS PASS=429 FAIL=0
+GODOT_COMPILE=NOT_EXECUTED  ANDROID_EXPORT=NOT_EXECUTED  DEVICE_TEST=NOT_EXECUTED

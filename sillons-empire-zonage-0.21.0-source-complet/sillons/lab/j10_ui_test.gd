@@ -1,0 +1,41 @@
+extends SceneTree
+## Scène J10 : vérification des niveaux de zoom et des commandes mobiles.
+var frames: int = 0
+var done: bool = false
+
+func _initialize() -> void:
+	GameConfig.mode = "planet_j9"
+	GameConfig.seed_value = 1102026
+	change_scene_to_file("res://game/game.tscn")
+
+func _process(_delta: float) -> bool:
+	frames += 1
+	if frames < 12 or done:
+		return false
+	done = true
+	var game = current_scene
+	game.paused = true
+	game.campaign.ages[0] = 10
+	for key in ViewTechnology.RESEARCH_ORDER:
+		game.campaign.technologies[0][key] = true # Fixture de recette, pas un déblocage joueur.
+	game.campaign._sync_all()
+	game.enter_planet_overview()
+	var globe_ok: bool = game.planet_mode and game.planet_globe != null
+	game.enter_space_overview("orbit")
+	var orbit_ok: bool = not game.planet_mode and game.space_mode == "orbit" and game.orbit_view != null and game.orbit_hud != null
+	game.enter_space_overview("system")
+	var system_ok: bool = game.space_mode == "system" and game.space_view.markers.size() >= 2
+	game.space_selected = "sol_p0"
+	game.enter_space_overview("orbit")
+	var selected_ok: bool = game.space_mode == "orbit" and game.orbit_hud != null
+	game.land_on_space_selection()
+	var land_ok: bool = game.space_mode == "" and game.campaign.active == "sol_p0" and game.world == game.campaign.current()
+	game.enter_planet_overview()
+	game.enter_space_overview("system")
+	game.leave_space_overview(true)
+	var returned_ok: bool = game.space_mode == "" and game.hud.visible and game.view.visible
+	var ok: bool = globe_ok and orbit_ok and system_ok and selected_ok and land_ok and returned_ok
+	print("J10_UI_RESULT=%s globe=%s orbit=%s system=%s choice=%s land=%s return=%s" % [
+		"PASS" if ok else "FAIL", globe_ok, orbit_ok, system_ok, selected_ok, land_ok, returned_ok])
+	quit(0 if ok else 1)
+	return false

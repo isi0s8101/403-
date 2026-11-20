@@ -1,0 +1,205 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS [J1-J8] Dix âges disponibles
+PASS [J12.2] Trois styles de troupes par producteur
+PASS [J12.2] Une amélioration requiert l'âge supérieur
+PASS [J12.2] Évolution des bâtiments active
+PASS [J3-J5] Industrie, voie ferrée et radar
+PASS [J3-J5] Unités mécanisées et numériques
+PASS [J6-J8] Unités et bâtiments spatiaux
+PASS [J1-J2] Banc d'essai historique retrouvé (23 scénarios)
+PASS [J1-J2] r01_priorites.json : départ : ouvriers répartis (nourriture)
+PASS [J1-J2] r01_priorites.json : bois priorité 3 seule : 5 ouvriers au bois
+PASS [J1-J2] r01_priorites.json : événement de réaffectation émis
+PASS [J1-J2] r01_priorites.json : bois collecté (contrôle de cohérence)
+PASS [J1-J2] r01_priorites.json : le bois augmente pendant la priorité bois
+PASS [J1-J2] r01_priorites.json : nourriture priorité 3 seule : 5 ouvriers à la nourriture
+PASS [J1-J2] r01_priorites.json : la nourriture augmente ensuite
+PASS [J1-J2] Scénario avec assertions : r01_priorites.json
+PASS [J1-J2] r02_epuisement.json : avant épuisement : majorité à la nourriture
+PASS [J1-J2] r02_epuisement.json : gisement épuisé signalé
+PASS [J1-J2] r02_epuisement.json : pénurie de nourriture explicite (aucun gisement accessible)
+PASS [J1-J2] r02_epuisement.json : ouvriers réaffectés au bois pendant la pénurie
+PASS [J1-J2] r02_epuisement.json : fin de pénurie après exploration
+PASS [J1-J2] r02_epuisement.json : retour à la nourriture (baies éloignées)
+PASS [J1-J2] r02_epuisement.json : fin de scénario
+PASS [J1-J2] Scénario avec assertions : r02_epuisement.json
+PASS [J1-J2] r02b_inaccessible.json : pénurie de minerai signalée malgré l'îlot visible
+PASS [J1-J2] r02b_inaccessible.json : aucun ouvrier affecté à l'îlot inaccessible
+PASS [J1-J2] r02b_inaccessible.json : aucun ouvrier bloqué en tâche minerai
+PASS [J1-J2] Scénario avec assertions : r02b_inaccessible.json
+PASS [J1-J2] r03_passage_age.json : ressources seules : refus, objectif manquant affiché
+PASS [J1-J2] r03_passage_age.json : comptoir neutre découvert par l'éclaireur
+PASS [J1-J2] r03_passage_age.json : objectif seul : refus, ressources manquantes chiffrées
+PASS [J1-J2] r03_passage_age.json : ressources + objectif : passage lancé
+PASS [J1-J2] r03_passage_age.json : âge I pendant le passage
+PASS [J1-J2] r03_passage_age.json : âge II atteint après la durée de passage
+PASS [J1-J2] r03_passage_age.json : l'adversaire reste indépendant (âge I)
+PASS [J1-J2] Scénario avec assertions : r03_passage_age.json
+PASS [J1-J2] r03b_ia_passage.json : l'IA découvre un comptoir par exploration
+PASS [J1-J2] r03b_ia_passage.json : IA à l'âge II
+PASS [J1-J2] r03b_ia_passage.json : joueur toujours à l'âge I
+PASS [J1-J2] Scénario avec assertions : r03b_ia_passage.json
+PASS [J1-J2] r04_delegation.json : délégation acceptée
+PASS [J1-J2] r04_delegation.json : 3 escouades sur des postes distincts (réserve + 2 postes)
+PASS [J1-J2] r04_delegation.json : reprise en main d'une unité
+PASS [J1-J2] r04_delegation.json : ordre direct à l'unité
+PASS [J1-J2] r04_delegation.json : menace dans le secteur : interception
+PASS [J1-J2] r04_delegation.json : une réserve reste au centre du secteur
+PASS [J1-J2] r04_delegation.json : l'unité reprise exécute l'ordre direct malgré la menace
+PASS [J1-J2] r04_delegation.json : l'unité est hors délégation
+PASS [J1-J2] r04_delegation.json : ordre direct à une escouade
+PASS [J1-J2] r04_delegation.json : escouade sous ordre direct exclue de la délégation
+PASS [J1-J2] r04_delegation.json : rôle affiché : ordre direct
+PASS [J1-J2] r04_delegation.json : escouade rendue à l'armée
+PASS [J1-J2] r04_delegation.json : unité rendue à son escouade
+PASS [J1-J2] r04_delegation.json : escouade revenue sous délégation
+PASS [J1-J2] r04_delegation.json : unité revenue sous contrôle d'escouade
+PASS [J1-J2] r04_delegation.json : menace éliminée : postes redistribués
+PASS [J1-J2] Scénario avec assertions : r04_delegation.json
+PASS [J1-J2] r05_conquete.json : centre détruit, ouvrier + ressources : camp toujours en jeu
+PASS [J1-J2] r05_conquete.json : la partie continue
+PASS [J1-J2] r05_conquete.json : plus aucun bâtisseur : camp éliminé (l'éclaireur seul ne suffit pas)
+PASS [J1-J2] r05_conquete.json : victoire du joueur
+PASS [J1-J2] Scénario avec assertions : r05_conquete.json
+PASS [J1-J2] r05b_sans_moyens.json : ouvrier sans moyens : éliminé (règle provisoire)
+PASS [J1-J2] Scénario avec assertions : r05b_sans_moyens.json
+PASS [J1-J2] r05c_regle_batisseur_seul.json : variante : l'ouvrier maintient le camp en jeu
+PASS [J1-J2] Scénario avec assertions : r05c_regle_batisseur_seul.json
+PASS [J1-J2] r05d_reconstruction.json : fondation d'un nouveau centre
+PASS [J1-J2] r05d_reconstruction.json : fondation + ouvriers : en jeu
+PASS [J1-J2] r05d_reconstruction.json : nouveau centre achevé
+PASS [J1-J2] Scénario avec assertions : r05d_reconstruction.json
+PASS [J1-J2] r05e_minuteur.json : délai de reconstruction annoncé
+PASS [J1-J2] r05e_minuteur.json : avant le délai : toujours en jeu (moyens présents)
+PASS [J1-J2] r05e_minuteur.json : délai écoulé sans centre : éliminé
+PASS [J1-J2] Scénario avec assertions : r05e_minuteur.json
+PASS [J1-J2] r06_ia_reevaluation.json : l'IA lance une attaque
+PASS [J1-J2] r06_ia_reevaluation.json : cible issue de sa mémoire (centre vu par l'éclaireur)
+PASS [J1-J2] r06_ia_reevaluation.json : cause d'abandon exposée (pertes)
+PASS [J1-J2] r06_ia_reevaluation.json : réévaluation de l'objectif après l'échec
+PASS [J1-J2] r06_ia_reevaluation.json : la défense tient
+PASS [J1-J2] Scénario avec assertions : r06_ia_reevaluation.json
+PASS [J1-J2] r06b_ia_passage_bloque.json : abandon pour passage bloqué exposé
+PASS [J1-J2] r06b_ia_passage_bloque.json : réévaluation : nouvelle cible / exploration
+PASS [J1-J2] Scénario avec assertions : r06b_ia_passage_bloque.json
+PASS [J1-J2] r07_ouverture_commerce.json : relais marchand établi
+PASS [J1-J2] r07_ouverture_commerce.json : revenu commercial significatif
+PASS [J1-J2] r07_ouverture_commerce.json : commerce : revenu cumulé supérieur à l'assaut tardif
+PASS [J1-J2] Scénario avec assertions : r07_ouverture_commerce.json
+PASS [J1-J2] r08_ouverture_assaut.json : assaut : plus de pertes infligées que subies
+PASS [J1-J2] r08_ouverture_assaut.json : au moins un bâtiment du camp commerce détruit
+PASS [J1-J2] Scénario avec assertions : r08_ouverture_assaut.json
+PASS [J1-J2] Déterminisme double exécution : r09_determinisme.json
+PASS [J1-J2] r09_determinisme.json : économie active
+PASS [J1-J2] Scénario avec assertions : r09_determinisme.json
+PASS [J1-J2] r10_partie_complete.json : la partie se termine par une conquête
+PASS [J1-J2] Scénario avec assertions : r10_partie_complete.json
+PASS [J1-J2] r11_fort_passage.json : l'IA attaque
+PASS [J1-J2] r11_fort_passage.json : l'IA identifie la palissade qui ferme le gué
+PASS [J1-J2] r11_fort_passage.json : attaque repoussée : réévaluation
+PASS [J1-J2] r11_fort_passage.json : fort nord-ouest debout
+PASS [J1-J2] r11_fort_passage.json : fort sud-est debout
+PASS [J1-J2] r11_fort_passage.json : aucune unité ennemie n'a franchi la rivière
+PASS [J1-J2] Scénario avec assertions : r11_fort_passage.json
+PASS [J1-J2] r12_siege.json : l'IA lance un siège sur la structure qui bloque
+PASS [J1-J2] r12_siege.json : palissade détruite par le siège
+PASS [J1-J2] r12_siege.json : passage ouvert détecté
+PASS [J1-J2] r12_siege.json : des unités franchissent le gué rouvert
+PASS [J1-J2] Scénario avec assertions : r12_siege.json
+PASS [J1-J2] r13_route_alternative.json : route alternative annoncée (détour chiffré)
+PASS [J1-J2] r13_route_alternative.json : pas de siège inutile
+PASS [J1-J2] r13_route_alternative.json : l'IA franchit par l'autre gué
+PASS [J1-J2] r13_route_alternative.json : cible atteinte et détruite
+PASS [J1-J2] Scénario avec assertions : r13_route_alternative.json
+PASS [J1-J2] r14_passage_age3.json : canon indisponible avant l'âge III
+PASS [J1-J2] r14_passage_age3.json : ressources seules : refus, objectif affiché
+PASS [J1-J2] r14_passage_age3.json : objectif seul : refus, manques chiffrés
+PASS [J1-J2] r14_passage_age3.json : ressources + objectif : passage lancé
+PASS [J1-J2] r14_passage_age3.json : âge II pendant le passage
+PASS [J1-J2] r14_passage_age3.json : âge III atteint
+PASS [J1-J2] r14_passage_age3.json : adversaire indépendant
+PASS [J1-J2] Scénario avec assertions : r14_passage_age3.json
+PASS [J1-J2] r15_delegation_acces.json : délégation acceptée
+PASS [J1-J2] r15_delegation_acces.json : postes atteints par un autre accès (détour signalé)
+PASS [J1-J2] r15_delegation_acces.json : l'armée a franchi par le gué praticable
+PASS [J1-J2] r15_delegation_acces.json : le secteur est tenu
+PASS [J1-J2] Scénario avec assertions : r15_delegation_acces.json
+PASS [J1-J2] r16_artillerie.json : mise en batterie visible avant le tir
+PASS [J1-J2] r16_artillerie.json : aucun tir avant la fin de la mise en batterie
+PASS [J1-J2] r16_artillerie.json : premier tir : 210 dégâts sur la structure
+PASS [J1-J2] r16_artillerie.json : ennemi sous la portée minimale : le canon recule
+PASS [J1-J2] Scénario avec assertions : r16_artillerie.json
+PASS [J3] Usine bâtie, âge VIII
+PASS [J3] Recherche industrielle lancée
+PASS [J3] Double recherche bloquée
+PASS [J4] Production char acceptée
+PASS [J4] Filtrage air-sol / anti-aérien
+PASS [J5] Brouillage opérationnel
+PASS [J5] Contre-mesures électroniques
+PASS [J5] Fin brouillage après destruction
+PASS [J5] Missile refusé dans brouillard
+PASS [J5] Missile lancé vers zone révélée
+PASS [J5] Recharge de missile appliquée
+PASS [Options de vitesse] Cycle de vitesse ×2.0
+PASS [Options de vitesse] Cycle de vitesse ×4.0
+PASS [Options de vitesse] Cycle de vitesse ×8.0
+PASS [Options de vitesse] Cycle de vitesse ×0.5
+PASS [Options de vitesse] Cycle de vitesse ×1.0
+PASS [J7] Trois planètes persistantes
+PASS [J7] Planète verrouillée avant IX
+PASS [J6-J8] Âges IX/X débloquent leurs secteurs
+PASS [J6] Spatioport déployable
+PASS [J6] Satellite sur port ennemi refusé
+PASS [J6] Satellite opérationnel
+PASS [J6] Recharge satellite appliquée
+PASS [J6] Scan orbital vers Aurore
+PASS [J6] Brouillard temporairement révélé
+PASS [J6] Scan malformé rejeté
+PASS [J8] Interstellaire interdit avant X
+PASS [J7] Convoi explicite sans troupes non sélectionnées
+PASS [J7] Troupe non sélectionnée reste au sol
+PASS [J7] Double fondation refusée tant que première en vol
+PASS [J7] Aucun double prélèvement de fondation
+PASS [J7] Unités retirées du secteur source
+PASS [J7] Aucune perte fictive à l'embarquement
+PASS [J7] Vol en temps simulé, non instantané
+PASS [J7] Snapshot campagne déterministe
+PASS [J7] Même état après reprise et 162 ticks
+PASS [J7] Colonie fondée sur Aurore
+PASS [J7] Ouvrier débarqué sur Aurore
+PASS [J6] Scan expiré mais exploration mémorisée
+PASS [J8] Ère interstellaire débloquée
+PASS [J8] Chantier interstellaire fondé
+PASS [J8] Départ interstellaire depuis Aurore
+PASS [J8] Colonie fondée dans autre système
+PASS [J7-J8] Simulation simultanée des trois planètes
+PASS [J8] Bascule interdite au camp non autorisé
+PASS [J8] Navigation multicarte opérationnelle
+PASS [Sauvegarde] Convoi sans état du vaisseau refusé
+PASS [Sauvegarde] Cargaison sans ravitaillement refusée
+PASS [Sauvegarde] Ratio infini refusé
+PASS [Sauvegarde] Version inconnue rejetée
+PASS [Sauvegarde] Sauvegarde dédiée recette
+PASS [Sauvegarde] Lecture disque campagne identique
+PASS [Sauvegarde] Rotation du backup réussi
+PASS [Sauvegarde] Principal altéré refusé sans backup
+PASS [Sauvegarde] Secours SHA-256 restauré
+PASS [J8] Pas d'interception juste après départ
+PASS [J8] Deux rencontres calculées sur trajectoire
+PASS [J7] Alerte planète hors écran agrégée
+PASS [J7] Convoi retient sa cargaison si population pleine
+PASS [J7] Débarquement après libération de capacité
+PASS [J7] Deux camps IA éligibles expansion
+PASS [J7] Camp 0 piloté par IA lance sa colonisation
+PASS [J11] Galaxie connectée avec routes
+PASS [J11] Génération déterministe
+PASS [J9] Atlas planétaire disponible
+PASS [J10-J11] Cartes stellaires et galaxie
+PASS [J12] Sol : trésor initial conservé
+PASS [J12] Stocks indépendants sur Proxima
+PASS [J12] Fret sans colonie et port refusé
+PASS [J12] Directive surveiller
+PASS [J12] Directive sur étoile inconnue refusée
+PASS [J12] Sauvegarde complète J9–J12
+RECETTE_AUTO_RESULT=PASS checks=202 fails=0 ticks=83859

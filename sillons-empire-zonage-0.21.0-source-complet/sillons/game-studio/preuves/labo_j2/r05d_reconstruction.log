@@ -1,0 +1,13 @@
+=== Scénario R05d — Reconstruction effective du centre — graine 1503 ===
+Le camp perd son centre, reconstruit avec ses ouvriers et reste en jeu.
+[t=   1.0s] ORDRE {"id":226,"t":"lab_kill","team":0.0} -> OK
+[t=   1.0s] EVT detruit camp 0 : Bâtiment détruit : Centre de commandement
+[t=   1.5s] EVT sans_centre camp 0 : Joueur n'a plus de centre : 180 s pour en rebâtir un
+[t=   2.0s] ORDRE {"cell":[16.0,74.0],"t":"build","team":0.0,"type":"centre"} -> OK
+[t=   2.0s] PASS fondation d'un nouveau centre — attendu OK, obtenu OK 
+[t=   2.0s] EVT fondation camp 0 : Fondation : Centre de commandement
+[t=   2.0s] EVT reaffectation camp 0 : Réaffectation : 1 ouvrier(s) minerai → nourriture
+[t=   6.0s] PASS fondation + ouvriers : en jeu — camp 0 éliminé = false ; capacité : ouvrier + fondation de centre
+[t=  25.2s] EVT acheve camp 0 : Construction terminée : Centre de commandement
+[t=  69.0s] PASS nouveau centre achevé — centre = 1 (== 1.0)
+[t=  70.0s] FIN — 3/3 assertions PASS — empreinte 7a067ba24fb5223e

@@ -1,0 +1,23 @@
+{
+  "version": "0.8.2-correctifs-candidate",
+  "source": "0.8.1",
+  "corrective_fixes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "static_validation": "PASS (203+94+56=353 structural checks; NOT Godot compilation)",
+  "godot_compilation": "NOT_RUN",
+  "headless_regression": "NOT_RUN",
+  "android_export": "NOT_RUN",
+  "physical_s25_ultra": "NOT_RUN",
+  "note": "P2-12 cannot be marked corrected before Godot compilation, Android export and device checks."
+}

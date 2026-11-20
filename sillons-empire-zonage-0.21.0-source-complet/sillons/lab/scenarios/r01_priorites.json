@@ -1,0 +1,124 @@
+{
+  "name": "R01 — Priorités de ressources et réaffectation",
+  "description": "Recette 2a : changer une priorité et constater la réaffectation automatique des ouvriers.",
+  "seed": 1201,
+  "standard_start": true,
+  "ticks": 900,
+  "teams": [
+    {
+      "priorities": {
+        "food": 2,
+        "wood": 2,
+        "ore": 1
+      }
+    },
+    {}
+  ],
+  "orders": [
+    {
+      "tick": 30,
+      "cmd": {
+        "t": "set_priority",
+        "team": 0,
+        "res": "food",
+        "value": 0
+      }
+    },
+    {
+      "tick": 30,
+      "cmd": {
+        "t": "set_priority",
+        "team": 0,
+        "res": "ore",
+        "value": 0
+      }
+    },
+    {
+      "tick": 30,
+      "cmd": {
+        "t": "set_priority",
+        "team": 0,
+        "res": "wood",
+        "value": 3
+      }
+    },
+    {
+      "tick": 400,
+      "cmd": {
+        "t": "set_priority",
+        "team": 0,
+        "res": "wood",
+        "value": 0
+      }
+    },
+    {
+      "tick": 400,
+      "cmd": {
+        "t": "set_priority",
+        "team": 0,
+        "res": "food",
+        "value": 3
+      }
+    }
+  ],
+  "asserts": [
+    {
+      "tick": 25,
+      "check": "task_count",
+      "task": "food",
+      "op": ">=",
+      "value": 1,
+      "label": "départ : ouvriers répartis (nourriture)"
+    },
+    {
+      "tick": 60,
+      "check": "task_count",
+      "task": "wood",
+      "op": "==",
+      "value": 5,
+      "label": "bois priorité 3 seule : 5 ouvriers au bois"
+    },
+    {
+      "tick": 60,
+      "check": "event",
+      "type": "reaffectation",
+      "team": 0,
+      "label": "événement de réaffectation émis"
+    },
+    {
+      "tick": 390,
+      "check": "stat",
+      "stat": "spent",
+      "op": ">=",
+      "value": 0,
+      "label": "bois collecté (contrôle de cohérence)"
+    },
+    {
+      "tick": 390,
+      "check": "res",
+      "res": "wood",
+      "op": ">",
+      "value": 260,
+      "label": "le bois augmente pendant la priorité bois"
+    },
+    {
+      "tick": 430,
+      "check": "task_count",
+      "task": "food",
+      "op": "==",
+      "value": 5,
+      "label": "nourriture priorité 3 seule : 5 ouvriers à la nourriture"
+    },
+    {
+      "tick": 890,
+      "check": "res",
+      "res": "food",
+      "op": ">",
+      "value": 260,
+      "label": "la nourriture augmente ensuite"
+    }
+  ],
+  "rules": {
+    "max_age": 3
+  }
+}

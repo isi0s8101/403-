@@ -1,0 +1,232 @@
+{
+  "name": "R04 — Défense déléguée, ordre direct et retour de la main",
+  "description": "Recette 4 : l'armée répartit trois escouades sur un secteur ; une menace déclenche l'interception ; un ordre direct sur une unité puis sur une escouade reprend la priorité ; rendre la main restaure la délégation.",
+  "seed": 1401,
+  "ticks": 420,
+  "setup": [
+    {
+      "t": "spawn_group",
+      "team": 0,
+      "unit": "lancier",
+      "count": 6,
+      "pos": [
+        22,
+        72
+      ],
+      "as": "a1"
+    },
+    {
+      "t": "spawn_group",
+      "team": 0,
+      "unit": "lancier",
+      "count": 6,
+      "pos": [
+        26,
+        72
+      ],
+      "as": "a2"
+    },
+    {
+      "t": "spawn_group",
+      "team": 0,
+      "unit": "lancier",
+      "count": 6,
+      "pos": [
+        22,
+        76
+      ],
+      "as": "a3"
+    },
+    {
+      "t": "ref_squad_of",
+      "unit": "$a1",
+      "as": "s1"
+    },
+    {
+      "t": "ref_squad_of",
+      "unit": "$a2",
+      "as": "s2"
+    }
+  ],
+  "orders": [
+    {
+      "tick": 5,
+      "cmd": {
+        "t": "army_defend",
+        "team": 0,
+        "pos": [
+          24,
+          68
+        ],
+        "radius": 12
+      },
+      "expect": true,
+      "label": "délégation acceptée"
+    },
+    {
+      "tick": 70,
+      "cmd": {
+        "t": "spawn_group",
+        "team": 1,
+        "unit": "lancier",
+        "count": 4,
+        "pos": [
+          31,
+          60
+        ],
+        "new_squad": true
+      }
+    },
+    {
+      "tick": 85,
+      "cmd": {
+        "t": "take_unit",
+        "team": 0,
+        "unit": "$a1"
+      },
+      "expect": true,
+      "label": "reprise en main d'une unité"
+    },
+    {
+      "tick": 86,
+      "cmd": {
+        "t": "move",
+        "team": 0,
+        "units": [
+          "$a1"
+        ],
+        "pos": [
+          14,
+          76
+        ]
+      },
+      "expect": true,
+      "label": "ordre direct à l'unité"
+    },
+    {
+      "tick": 150,
+      "cmd": {
+        "t": "move",
+        "team": 0,
+        "squad": "$s2",
+        "pos": [
+          20,
+          78
+        ]
+      },
+      "expect": true,
+      "label": "ordre direct à une escouade"
+    },
+    {
+      "tick": 300,
+      "cmd": {
+        "t": "release_squad",
+        "team": 0,
+        "squad": "$s2"
+      },
+      "expect": true,
+      "label": "escouade rendue à l'armée"
+    },
+    {
+      "tick": 305,
+      "cmd": {
+        "t": "release_unit",
+        "team": 0,
+        "unit": "$a1"
+      },
+      "expect": true,
+      "label": "unité rendue à son escouade"
+    }
+  ],
+  "asserts": [
+    {
+      "tick": 60,
+      "check": "squad_roles",
+      "team": 0,
+      "min": 3,
+      "distinct": true,
+      "contains": "Réserve",
+      "label": "3 escouades sur des postes distincts (réserve + 2 postes)"
+    },
+    {
+      "tick": 95,
+      "check": "squad_roles",
+      "team": 0,
+      "min": 2,
+      "distinct": false,
+      "contains": "Interception",
+      "label": "menace dans le secteur : interception"
+    },
+    {
+      "tick": 95,
+      "check": "squad_roles",
+      "team": 0,
+      "min": 2,
+      "distinct": false,
+      "contains": "Réserve",
+      "label": "une réserve reste au centre du secteur"
+    },
+    {
+      "tick": 140,
+      "check": "unit_near",
+      "unit": "$a1",
+      "pos": [
+        14,
+        76
+      ],
+      "dist": 1.5,
+      "label": "l'unité reprise exécute l'ordre direct malgré la menace"
+    },
+    {
+      "tick": 140,
+      "check": "unit_field",
+      "unit": "$a1",
+      "field": "direct",
+      "value": "true",
+      "label": "l'unité est hors délégation"
+    },
+    {
+      "tick": 200,
+      "check": "squad_field",
+      "squad": "$s2",
+      "field": "direct",
+      "value": "true",
+      "label": "escouade sous ordre direct exclue de la délégation"
+    },
+    {
+      "tick": 200,
+      "check": "squad_field",
+      "squad": "$s2",
+      "field": "army_role",
+      "value": "Ordre direct",
+      "label": "rôle affiché : ordre direct"
+    },
+    {
+      "tick": 330,
+      "check": "squad_field",
+      "squad": "$s2",
+      "field": "direct",
+      "value": "false",
+      "label": "escouade revenue sous délégation"
+    },
+    {
+      "tick": 330,
+      "check": "unit_field",
+      "unit": "$a1",
+      "field": "direct",
+      "value": "false",
+      "label": "unité revenue sous contrôle d'escouade"
+    },
+    {
+      "tick": 410,
+      "check": "squad_roles",
+      "team": 0,
+      "min": 3,
+      "distinct": true,
+      "label": "menace éliminée : postes redistribués"
+    }
+  ],
+  "rules": {
+    "max_age": 3
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "name": "R03b — L'IA passe à l'âge II de façon indépendante",
+  "description": "Recette 3 (IA) : l'IA explore, découvre un comptoir avec ses propres informations, collecte et passe à l'âge II pendant que le joueur reste à l'âge I.",
+  "seed": 1302,
+  "ticks": 9000,
+  "stop_on_game_over": false,
+  "teams": [
+    {
+      "priorities": {
+        "food": 0,
+        "wood": 0,
+        "ore": 0
+      }
+    },
+    {
+      "ai": true,
+      "attack_threshold": 99,
+      "trade_attack_threshold": 99
+    }
+  ],
+  "asserts": [
+    {
+      "tick": 9000,
+      "check": "event",
+      "type": "comptoir",
+      "team": 1,
+      "label": "l'IA découvre un comptoir par exploration"
+    },
+    {
+      "tick": 9000,
+      "check": "age",
+      "team": 1,
+      "value": 2,
+      "label": "IA à l'âge II"
+    },
+    {
+      "tick": 9000,
+      "check": "age",
+      "team": 0,
+      "value": 1,
+      "label": "joueur toujours à l'âge I"
+    }
+  ],
+  "rules": {
+    "max_age": 3
+  }
+}

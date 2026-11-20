@@ -1,0 +1,38 @@
+{
+  "name": "R05b — Cas limite : ouvrier sans ressources ni dépôt",
+  "description": "Cas ambigu soumis à arbitrage (D-07). Règle provisoire batisseur_et_moyens : élimination.",
+  "seed": 1502,
+  "ticks": 120,
+  "teams": [
+    {},
+    {
+      "res": {
+        "food": 0,
+        "wood": 0,
+        "ore": 0
+      }
+    }
+  ],
+  "orders": [
+    {
+      "tick": 10,
+      "cmd": {
+        "t": "lab_kill",
+        "team": 1,
+        "id": "$cc1"
+      }
+    }
+  ],
+  "asserts": [
+    {
+      "tick": 40,
+      "check": "eliminated",
+      "team": 1,
+      "value": true,
+      "label": "ouvrier sans moyens : éliminé (règle provisoire)"
+    }
+  ],
+  "rules": {
+    "max_age": 3
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "platform": "Linux",
+  "renderer": "OpenGL Compatibility / Mesa llvmpipe software",
+  "resolution": "1280x600",
+  "purpose": "UI layout only, not Android performance"
+}

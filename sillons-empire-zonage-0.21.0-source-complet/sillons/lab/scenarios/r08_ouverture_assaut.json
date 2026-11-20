@@ -1,0 +1,52 @@
+{
+  "name": "R08 — Situation favorable à l'assaut précoce",
+  "description": "IA assaut précoce (camp 1, seuil 8) contre IA commerce sans armée d'attaque (camp 0). L'assaut frappe pendant que l'investissement commercial n'est pas rentabilisé : pertes infligées supérieures, investissement exposé détruit. Âge maximal fixé à II pour isoler la situation de l'âge II (sans fortifications de l'âge III).",
+  "seed": 1801,
+  "ticks": 8400,
+  "stop_on_game_over": false,
+  "teams": [
+    {
+      "ai": true,
+      "age": 2,
+      "opening": "commerce",
+      "trade_attack_threshold": 99,
+      "res": {
+        "food": 400,
+        "wood": 500,
+        "ore": 200
+      }
+    },
+    {
+      "ai": true,
+      "age": 2,
+      "opening": "assaut",
+      "attack_threshold": 8,
+      "res": {
+        "food": 400,
+        "wood": 500,
+        "ore": 200
+      }
+    }
+  ],
+  "asserts": [
+    {
+      "tick": 8400,
+      "check": "stat_vs",
+      "team": 1,
+      "other": 0,
+      "stat": "kills",
+      "op": ">",
+      "label": "assaut : plus de pertes infligées que subies"
+    },
+    {
+      "tick": 8400,
+      "check": "event",
+      "type": "detruit",
+      "team": 0,
+      "label": "au moins un bâtiment du camp commerce détruit"
+    }
+  ],
+  "rules": {
+    "max_age": 2
+  }
+}
